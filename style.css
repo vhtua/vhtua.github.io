@@ -1,0 +1,169 @@
+
+body {
+  
+  background-color: #ff6666;
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+
+
+/*
+body {
+  background-image: url('backgr2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 980px;
+  padding-right: 10px;
+  padding-left:  10px;
+
+}
+*/
+
+
+#Header {
+    font-size: 4rem;
+    color: white; 
+    text-align: center; 
+    font-family: sans-serif;
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+#Ins {
+  color: white;
+  text-align: center;
+}
+
+.Overview {
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+/*
+a:link {
+    background-color: white;
+}
+
+a:hover {
+   background: darkcyan;
+   color: #ff6666;
+}
+*/
+
+.audio_player {
+  align-items: center;
+}
+
+#song-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.lyrics {
+   color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 30px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+    padding: 12px 20px;
+}
+
+/* thanh navigation */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+/* đường dẫn bên trong navigation */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* thành phần dropdown */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* nút dropdown */
+.dropdown .nut_dropdown {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+/* thêm màu background khi nút dropdown khi hover */
+.navbar a:hover, .dropdown:hover .nut_dropdown {
+  background-color: rgba(255, 99, 71, 1);
+}
+/* Ẩn nội dung dropdown*/
+.noidung_dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* thiết lập style cho đường dẫn bên trong dropdown */
+.noidung_dropdown a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* chọn background cho đường dẫn bên trong dropdown khi hover*/
+.noidung_dropdown a:hover {
+  background-color: #ddd;
+}
+/* Hiển thị nội dung dropdown khi được hover */
+.dropdown:hover .noidung_dropdown {
+  display: block;
+}
+
+.masonry {
+  column-gap: 1rem;
+  column-fill: balance-all;
+  column-count: 2;
+  margin: auto;
+  max-width: 1200px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
