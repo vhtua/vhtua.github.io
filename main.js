@@ -52,7 +52,7 @@ function oah() {
     }
   } else {
     if (y == 'crying secretly' || y == 'crying secretly.' || x == 'Crying secretly') {
-      text = "(2) is correct";
+      text = "(1) is wrong, (2) is correct";
     } else {
       text = "(1) & (2) are wrong";
     }
@@ -82,7 +82,7 @@ function s2002() {
     }
   } else {
     if (y == 'holding each other' || y == 'holding each other.' || y == 'Holding each other') {
-      text = "(2) is correct";
+      text = "(1) is wrong, (2) is correct";
     } else {
       text = "(1) & (2) are wrong";
     }
@@ -98,7 +98,7 @@ function showanswer4() {
 
 
 
-// Do you want to build a snow man come out
+// Do you want to build a snow man
 
 function buildasnowman() {
   let x = document.getElementById("str5").value;
@@ -113,7 +113,7 @@ function buildasnowman() {
     }
   } else {
     if (y == 'best buddies' || y == 'Best buddies') {
-      text = "(2) is correct";
+      text = "(1) is wrong, (2) is correct";
     } else {
       text = "(1) & (2) are wrong";
     }
@@ -125,4 +125,34 @@ function buildasnowman() {
 
 function showanswer5() {
   document.getElementById("song5").innerHTML = "(1) come out (2) best buddies"
+}
+
+
+// Rude
+
+function rude() {
+  let x = document.getElementById("str6").value;
+  let y = document.getElementById("str6.2").value;
+
+  let text;
+  if (x == 'get your blessing' || x == 'Get your blessing') {
+    if (y == 'marry her anyway' || y == 'Marry her anyway') {
+      text = "(1) & (2) are correct";
+    } else {
+      text = "(1) is correct, (2) is wrong";
+    }
+  } else {
+    if (y == 'marry her anyway' || y == 'Marry her anyway') {
+      text = "(1) is wrong, (2) is correct";
+    } else {
+      text = "(1) & (2) are wrong";
+    }
+    
+  }
+  document.getElementById("song6").innerHTML = text;
+
+}
+
+function showanswer6() {
+  document.getElementById("song6").innerHTML = "(1) get your blessing (2) marry her anyway"
 }
