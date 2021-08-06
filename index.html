@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="iconv2.png">
     <script src="main.js"></script>
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
@@ -12,9 +13,7 @@
 <body>
     <h1 id="Header">Listening Training</h1>
     
-    <p class="Overview">
-        Hello everyone, feel free when you are here. In this website, you can focus on your listening skills and also have a rest as well :)). Hope you like it! If you have any question, don't hesitate to ask me via my<a href="https://www.facebook.com/tuananh020402/" target="_blank" rel="noopener noreferrer"> Facebook.</a>
-    </p>
+
 
 
     <div class="navbar">               
@@ -22,7 +21,7 @@
       
       <div class="dropdown">
         <button class="nut_dropdown">
-          Category <i class="fa fa-caret-down"></i>
+          Categories <i class="fa fa-caret-down"></i>
         </button>
         <div class="noidung_dropdown">
           <a href="#">Pop</a>
@@ -47,6 +46,12 @@
       <a href="#about">About</a>
     </div>
 
+    <p class="Overview">
+      Hello everyone, feel free when you are here. In this website, you can focus on your listening skills and also have a rest as well :)). Hope you like it! If you have any question, don't hesitate to ask me via my<a href="https://www.facebook.com/tuananh020402/" target="_blank" rel="noopener noreferrer"> Facebook.</a>
+  </p>
+
+  <hr>
+
 
     <!-- At my worst-->
 
@@ -65,11 +70,13 @@
       Oh, oh, don't you worry, I'll be there (1)____________
 
     </p>
-    <input id="str">
+    <input id="str" placeholder="(1)">
     <button type="button" onclick="atMyWorst()">Submit</button>
+    <button type="button" onclick="showanswer1()">Show answer</button>
     <p id="song"></p>
   </div>
 
+<hr>
 
   <!-- Photograph -->
 
@@ -86,14 +93,41 @@
       I swear it will get easier                <br>
       Remember that with every piece of ya      <br>
     </p>
-    <input id="str2">
+    <input id="str2" placeholder="(1)">
     <button type="button" onclick="photograph()">Submit</button>
+    <button type="button" onclick="showanswer2()">Show answer</button>
     <p id="song2"></p>
+  </div>
+
+  <hr>
+
+  <!--Oah-->
+  
+  <h2 id="song-title">Oah</h2>
+
+  <div align="center">
+    <audio controls>
+      <source src="audio/Oah.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    <p class="lyrics">
+      Don't throw away                            <br>
+      Of what's (1)____________                   <br>
+      I once believed you would save my soul      <br>
+      But if you saw me now (2)____________       <br>
+      Would you hold my hand and never let it go? <br>
+    </p>
+    <input id="str3" placeholder="(1)">
+    <input id="str3.2" placeholder="(2)">
+    <button type="button" onclick="oah()">Submit</button>
+    <button type="button" onclick="showanswer3()">Show answer</button>
+    <p id="song3"></p>
   </div>
 
 
 
 <!--FB comment plugins-->
+<h1 style="color: #333;"> Facebook Comments </h1>
 
   <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="kgOFjciC"></script>
