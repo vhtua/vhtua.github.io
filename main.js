@@ -65,3 +65,33 @@ function oah() {
 function showanswer3() {
   document.getElementById("song3").innerHTML = "(1) left to me (2) crying secretly"
 }
+
+
+// 2002
+
+function s2002() {
+  let x = document.getElementById("str4").value;
+  let y = document.getElementById("str4.2").value;
+
+  let text;
+  if (x == 'more than lovers' || x == 'more than lovers.') {
+    if (y == 'holding each other' || y == 'holding each other.') {
+      text = "(1) & (2) are correct";
+    } else {
+      text = "(1) is correct, (2) is wrong";
+    }
+  } else {
+    if (y == 'holding each other' || y == 'holding each other.') {
+      text = "(2) is correct";
+    } else {
+      text = "(1) & (2) are wrong";
+    }
+    
+  }
+  document.getElementById("song4").innerHTML = text;
+
+}
+
+function showanswer4() {
+  document.getElementById("song4").innerHTML = "(1) more than lovers (2) holding each other"
+}

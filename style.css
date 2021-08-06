@@ -144,6 +144,7 @@ button:hover {
 /* thêm màu background khi nút dropdown khi hover */
 .navbar a:hover, .dropdown:hover .nut_dropdown {
   background-color: #1abc9c;
+  border-radius: 4px;
 }
 /* Ẩn nội dung dropdown*/
 .noidung_dropdown {
