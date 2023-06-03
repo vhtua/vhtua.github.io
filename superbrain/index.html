@@ -6,112 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/fish.png">
-    
-    <script src="main.js"></script>
+    <link rel="icon" href="assets/img/smart-human.png">
+
     <!-- <link rel="stylesheet" href="main.css"> -->
 
-    <title>Tuna Github Repo</title>
+    <title>Super Brain</title>
 </head>
 
-<body onload="myFunction()" style="margin:0;">
-    
-    <div id="loader"></div>
+<body>
+    <h1 class="Web_title"> Super Brain </h1>
 
-    <div style="display:none;" id="myDiv" class="animate-bottom">
-        <h1 class="Web_title"> Super Brain </h1>
+    <!-- navigation menu bar -->
+    <div class="navbar">               
+        <a href="../">◄ Tuna Home</a>
 
-        <!-- navigation menu bar -->
-        <div class="navbar">               
-            <a href="../">Tuna Home</a>
-    
-            <a href="">Skills List</a>
-            
-    
-        </div>
-    
-        <!-- Web description -->
-        <p class="Web_description">
-            Hi, Tuna here! You can freely visit this website and enjoy. If you love my work, you could donate for me, ahihi :>
-        </p>
-    
-        <hr>
-    
-        <h2 class="" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Our main categories</h2>
-    
-        <!-- Super brain -->
-        <div class="row">
-            <a href="superbrain/" target="_blank">
-                <div class="column1">
-                    <img src="assets/img/smart-human.png" alt="" style="width: 50%;">
-                    <h2>Super Brain</h2>
-                    <!-- <p>Some text..</p> -->
-                </div>
-            </a>
-    
-    
-            <div class="column2">
-                <h2>Super Brain is the most interesting part of our website</h2>
-                <p>It contains so many great games that enhance all your logical skills and your IQ as well. </p>
-            </div>
-        </div>
-    
-        <br>
-    
-        <!-- Fun Listening -->
-        <div class="row">
-            <a href="listening/" target="_blank">
-                <div class="column1">
-                    <img src="assets/img/musical-note.png" alt="" style="width: 50%;">
-                    <h2>Fun Listening</h2>
-                    <!-- <p>Some text..</p> -->
-                </div>
-            </a>
-    
-    
-            <div class="column2">
-                <h2>Practice your English Listening skills with Fun Listening</h2>
-                <p>With a lot of popular and great English songs, you can enjoy while studying. Just listening the lyrics and then fills in the blank.</p>
-            </div>
-        </div>
-    
-        <br>
-    
-        <div class="row">
-            <a href="" target="_blank">
-                <div class="column1">
-                    <img src="assets/img/vgulogosquare.png" alt="" style="width: 50%;">
-                    <h2>Study at VGU</h2>
-                    <!-- <p>Some text..</p> -->
-                </div>
-            </a>
-    
-    
-            <div class="column2">
-                <h2>Studying is not einfach hier</h2>
-                <p>How you can survive at VGU.</p>
-            </div>
-        </div>
-    
-        <hr>
+        <a href=""> Skills </a>
+
+        <a href=""> How to play </a>
         
-        <h2 id="about" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">About me</h2>
         
-        <p>
-            TunaCSE2020 <br>
-            
-        </p>
-    
-        <hr>
-    
-        <h2>The progress of completing this website</h2>
-        <div class="meter animate">
-            <span style="width: 30%"><span></span></span>
+
+    </div>
+
+    <!-- Web description -->
+    <p class="Web_description">
+        Choose your games. Enhance your brain.
+    </p>
+
+    <hr>
+
+    <h2 class="" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Game List</h2>
+
+    <!-- Super brain -->
+    <div class="row">
+        <a href="games/numberPuzzleGame/">
+            <div class="column1">
+                <img src="assets/img/number-blocks.png" alt="" style="width: 50%;">
+                <h2>Number Puzzle</h2>
+                <!-- <p>Some text..</p> -->
+            </div>
+        </a>
+
+
+        <div class="column2">
+            <h2>Number Puzzle Game</h2>
+            <p>This game mainly focuses on all your basic abilities. So it is quiet easy. Your goal is to restore the order of all the un-ordered number blocks inside the table. </p>
+
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Skills Stats</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="assets/img/numberPuzzleGameChart.png" alt="" style="">
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+    <br>
+
+
+    <br>
+
+    <!-- Fun Listening -->
+    <div class="row">
+        <a href="listening/" target="_blank">
+            <div class="column1">
+                <img src="assets/img/musical-note.png" alt="" style="width: 50%;">
+                <h2>Fun Listening</h2>
+                <!-- <p>Some text..</p> -->
+            </div>
+        </a>
+
+
+        <div class="column2">
+            <h2>Modal Example</h2>
+
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Skills Stats</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="assets/img/numberPuzzleGameChart.png" alt="" style="">
+                </div>
+
+            </div>
+        
         </div>
     </div>
 
+
+    <br>
+    <hr>
     
+    <h2 id="about" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">About me</h2>
     
+    <p>
+        TunaCSE2020 <br>
+
+    </p>
+
+    <hr>
+    <h4>version 1.0 Date: 03.06.2023</h4>
+
+    <!-- External Javascript -->
+    <script src="main.js"></script>
 </body>
 
 </html>
