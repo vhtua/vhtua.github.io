@@ -10,11 +10,24 @@ body {
 .Web_title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 4rem;
     color: white;
     text-align: center;
     
-    padding: 18px;
+    padding: 45px;
+    background-color: coral;
+    border-radius: 15px;
+}
+
+.Web_description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+
+    margin: 50px;
+
+    padding: 20px;
     background-color: coral;
     border-radius: 10px;
 }
@@ -23,6 +36,7 @@ body {
     overflow: hidden;   
     background-color: #333;
     font-family: Arial;
+    border-radius: 4px;
 }
 
 .navbar a {
@@ -32,4 +46,55 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown_button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropdown_button {
+    background-color: coral;
+    border-radius: 4px;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* chọn background cho đường dẫn bên trong dropdown khi hover*/
+.dropdown_content a:hover {
+    background-color: coral;
+}
+
+
+/* Hiển thị nội dung dropdown khi được hover */
+.dropdown:hover .dropdown_content {
+    display: block;
 }
