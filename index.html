@@ -38,7 +38,14 @@
 
         <a href="">About me</a>
 
-        <div><a href="" onclick="btnChrome_onclick()">Full Screen</a></div>
+        <a href="" onclick="btnChrome_onclick()">Full Screen</a>
+        
+        <script>
+            function btnChrome_onclick() {
+                document.documentElement.webkitRequestFullScreen();
+            }
+
+        </script>
         
 
     </div>
