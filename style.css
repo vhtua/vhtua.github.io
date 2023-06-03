@@ -98,3 +98,41 @@ body {
 .dropdown:hover .dropdown_content {
     display: block;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(253, 182, 156);
+    border-radius: 10px;
+
+    /* center items in a div */
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
+.column1 h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.column2 h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
