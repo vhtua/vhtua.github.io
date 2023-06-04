@@ -120,6 +120,10 @@ h2 {
     text-align: center;
 }
 
+.column1:hover {
+  opacity: 70%;
+}
+
 .column2 {
     float: left;
     width: 70%;
