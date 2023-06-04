@@ -104,8 +104,8 @@ class State {
   }
 
   static start() {
-    return new State(specificGrid(), 0, 0, "playing");
-    // return new State(getRandomGrid(), 0, 0, "playing"); 
+    //return new State(specificGrid(), 0, 0, "playing");
+    return new State(getRandomGrid(), 0, 0, "playing"); 
   }
 }
 
