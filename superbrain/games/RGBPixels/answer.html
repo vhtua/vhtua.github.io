@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>RGB Pixels Answer</title>
+</head>
+<body>
+
+    <h1>RGB Pixels Practice Answer</h1>
+
+    <hr>
+
+    <div id="gallerywrapper">
+	    <div id="gallery">
+		    <div id="pic1">
+			    <img src="assets/img/wrong1.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic10">&lt;</a>
+			    <a class="next" href="#pic2">&gt;</a>
+			    <h3>Pic 1</h3>
+			    <!-- <p>Text of image 1.</p> -->
+		    </div>
+
+            <div id="pic2">
+			    <img src="assets/img/wrong2.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic1">&lt;</a>
+			    <a class="next" href="#pic3">&gt;</a>
+			    <h3>Pic 2</h3>
+		    </div>
+
+            <div id="pic3">
+			    <img src="assets/img/wrong3.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic2">&lt;</a>
+			    <a class="next" href="#pic4">&gt;</a>
+			    <h3>Pic 3</h3>
+		    </div>
+
+            <div id="pic4">
+			    <img src="assets/img/wrong4.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic3">&lt;</a>
+			    <a class="next" href="#pic5">&gt;</a>
+			    <h3>Pic 4</h3>
+		    </div>
+
+            <div id="pic5">
+			    <img src="assets/img/wrong5.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic4">&lt;</a>
+			    <a class="next" href="#pic6">&gt;</a>
+			    <h3>Pic 5</h3>
+		    </div>
+
+            <div id="pic6">
+			    <img src="assets/img/wrong6.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic5">&lt;</a>
+			    <a class="next" href="#pic7">&gt;</a>
+			    <h3>Pic 6</h3>
+		    </div>
+
+            <div id="pic7">
+			    <img src="assets/img/wrong7.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic6">&lt;</a>
+			    <a class="next" href="#pic8">&gt;</a>
+			    <h3>Pic 7</h3>
+		    </div>
+
+            <div id="pic8">
+			    <img src="assets/img/wrong8.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic7">&lt;</a>
+			    <a class="next" href="#pic9">&gt;</a>
+			    <h3>Pic 8</h3>
+		    </div>
+
+            <div id="pic9">
+			    <img src="assets/img/wrong9.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic8">&lt;</a>
+			    <a class="next" href="#pic10">&gt;</a>
+			    <h3>Pic 9</h3>
+		    </div>
+
+            <div id="pic10">
+			    <img src="assets/img/correct.png" height="350" width="350" alt="Image 1">
+			    <a class="previous" href="#pic9">&lt;</a>
+			    <a class="next" href="#pic1">&gt;</a>
+			    <h3>Pic 10</h3>
+		    </div>
+            
+
+		   
+	    </div>
+	</div>
+
+    <style>
+        button {
+            padding: 10px;
+
+        }
+
+        button:hover {
+            opacity: 60%;
+        }
+    </style>
+
+
+    <div class="center2">
+        <p>Enter the number of the corresponding pic. <br>E.g:  If your answer is pic 7, type 7 and then 'Submit'</p>
+    </div>
+
+    <div class="center2">
+        <input id="str" placeholder="Type your answer" style="text-align: center; background-color: aquamarine; padding: 10px; border-radius: 5px;">
+    </div>
+
+    <br>
+
+    <div class="center2">
+        <button type="button" onclick="checkAnswer()">Submit</button>
+    </div>
+
+    <div class="center2">
+        <p id="answer"></p>
+    </div>
+    
+    <hr>
+
+    <!-- Javascript -->
+    <script src="assets/scripts/main.js"></script>
+    
+</body>
+</html>

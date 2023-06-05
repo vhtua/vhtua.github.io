@@ -1,7 +1,29 @@
-@import url("assets/gallery.css");
+@import url("assets/css/gallery.css");
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    
+    padding: 45px;
+    background-color: rgb(77, 96, 204);
+    border-radius: 15px;
 }
 
 .column1 {
@@ -44,4 +66,31 @@
     content: "";
     display: table;
     clear: both;
+}
+
+#answer_button {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#answer_button:hover {
+    opacity: 70%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
