@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Viewer</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image-container img {
+      width: 300px;
+      height: auto;
+      margin: 5px;
+      /*transform: scale(1.5);*/
+    }
+
+    .image-number {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .navigation-buttons {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <h1>Image Viewer</h1>
+  <div class="image-container"></div>
+  <div class="image-number"></div>
+
+  <div class="center2">
+    <button id="previousBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+
+
+
+
+  <script>
+    // Define the directory where your images are located
+    const imageDirectory = './assets/img';
+
+    // Get the container element for displaying the images
+    const imageContainer = document.querySelector('.image-container');
+    const imageNumberContainer = document.querySelector('.image-number');
+
+    // Get the buttons for navigation
+    const previousBtn = document.getElementById('previousBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    // Fetch the image files from the directory
+    fetchImages();
+
+    function fetchImages() {
+      const totalImages = 80;
+
+      // Display the first image initially
+      displayImage(0);
+
+      // Add event listeners to the navigation buttons
+      previousBtn.addEventListener('click', showPreviousImage);
+      nextBtn.addEventListener('click', showNextImage);
+
+      function displayImage(index) {
+        // Clear the image container
+        imageContainer.innerHTML = '';
+
+        // Create a new image element
+        const img = document.createElement('img');
+        img.src = `${imageDirectory}/image${index}.png`;
+
+        // Append the image to the container
+        imageContainer.appendChild(img);
+
+        // Display the image number
+        imageNumberContainer.textContent = `Pic ${index + 1} of ${totalImages}`;
+
+        // Enable/disable navigation buttons based on the current image index
+        previousBtn.disabled = (index === 0);
+        nextBtn.disabled = (index === totalImages - 1);
+      }
+
+      function showPreviousImage() {
+        const currentImageIndex = getCurrentImageIndex();
+        if (currentImageIndex > 0) {
+          displayImage(currentImageIndex - 1);
+        }
+      }
+
+      function showNextImage() {
+        const currentImageIndex = getCurrentImageIndex();
+        if (currentImageIndex < totalImages - 1) {
+          displayImage(currentImageIndex + 1);
+        }
+      }
+
+      function getCurrentImageIndex() {
+        const imgElement = imageContainer.querySelector('img');
+        const currentImageSrc = imgElement.src;
+        const currentImageIndex = parseInt(currentImageSrc.substring(currentImageSrc.lastIndexOf('image') + 5, currentImageSrc.lastIndexOf('.png')));
+        return currentImageIndex;
+      }
+    }
+  </script>
+</body>
+</html>
