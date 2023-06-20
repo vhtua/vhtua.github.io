@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Image Viewer</title>
+  <title>Super QR Answer</title>
   <style>
     body {
       display: flex;
@@ -34,10 +34,22 @@
     .navigation-buttons {
       margin-top: 10px;
     }
+
+    button {
+        background-color: aqua;
+        border-radius: 10%;
+        padding: 10px;
+        margin: 2px;
+    }
+
   </style>
+
+  
+
 </head>
 <body>
-    <h1>Image Viewer</h1>
+    <!-- <h1>Image Viewer</h1> -->
+    <h2>Type your answer (pic number) on the field below</h2>
   <div class="image-container"></div>
   <div class="image-number"></div>
 
@@ -46,6 +58,19 @@
     <button id="nextBtn">Next</button>
   </div>
 
+  <h2> Enter your answer</h2>
+
+  <form id="myForm">
+    <input type="text" id="input1" placeholder="Input 1"><br>
+    <input type="text" id="input2" placeholder="Input 2"><br>
+    <input type="text" id="input3" placeholder="Input 3"><br>
+    <input type="text" id="input4" placeholder="Input 4"><br>
+    <input type="text" id="input5" placeholder="Input 5"><br>
+    <button type="button" onclick="checkInputs()">Check Inputs</button>
+  </form>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
 
 
 
