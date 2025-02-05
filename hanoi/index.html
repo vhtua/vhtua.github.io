@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nơi chúng ta đi</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="map-heading"><h1>Chúng mình đã đi những đâu rùi nhỉ? 🤗 Cùng xem lại nhé!</h1></div>
+    <div id="map"></div>
+    <div id="info" class="info-box">
+        <button class="close-btn" onclick="closeInfoBox()">&times;</button>
+        <div id="info-content"></div>
+    </div>
+    
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script type="text/javascript" src="map_data.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([21.0285, 105.8544], 7);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Marker data
+
+        // Create markers
+        locations.forEach(location => {
+            var marker = L.marker([location.lat, location.lng]).addTo(map).bindPopup(location.name);
+
+            marker.on('mouseover',function(ev) {
+                ev.target.openPopup();
+            });
+
+            marker.on('click',function(ev) {
+                ev.target.openPopup();
+            });
+
+            marker.on('click', function() {
+                var infoBox = document.getElementById('info');
+                var infoContent = document.getElementById('info-content');
+                infoContent.innerHTML = `<h2>${location.name}</h2>
+                                        <a href="${location.ggmaps}" target="_blank"><p>🌏Google Maps</p></a>
+                                        <p>📅 ${location.date}<p>
+                                        <p>${location.desc}</p>
+                                        <img class="modal-img" src="${location.img}" width="100%">`;
+                infoBox.style.display = 'block';
+            });
+        });
+
+        // Close info box function
+        function closeInfoBox() {
+            document.getElementById('info').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

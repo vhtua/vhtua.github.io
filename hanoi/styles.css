@@ -1,0 +1,50 @@
+#map { 
+    height: 500px; 
+    width: 100%; 
+    position: relative; 
+}
+
+.info-box {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    z-index: 1000;
+}
+
+.modal-img {
+    border-radius: 10px;
+    
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
