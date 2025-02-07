@@ -86,15 +86,74 @@ var locations =
     },
 
     {
-        lat: 21.04143631118294, 
-        lng: 105.76520343043093,
-        ggmaps: "https://maps.app.goo.gl/TWau74WnjTs31V149",
-        date: "22:00 10/12/2024",
-        name: "58/3 Trần Bình 🏠",
-        img: "img/20241210-comngon.jpg",
-        desc: "Nay mình tập văn nghệ YEP tại công ty muộn mới về. Về nhà được hỏi là có muốn ăn cơm không, tấc nhiên là có roài. Thế là sau đó được cho 1 bát cơm thế này nè, ahihi."
+        lat: 21.042473047044417, 
+        lng: 105.76566211622475,
+        ggmaps: "https://maps.app.goo.gl/P1dgoKHSh78w7hnn8",
+        date: "19:10 15/12/2024",
+        name: "Nhà sách Bảo Anh Hồ Tùng Mậu 📚",
+        img: "",
+        desc: "Chúng mình vào đây để mua những đồ dùng cần thiết cho con bé chuẩn bị quà Giáng Sinh tại công ty. Ở đây chúng mềnh chọn giấy gấp quà, lơ các kiểu. Nhưng việc quan trọng nhất chính là phải tìm được cái hộp quà đủ to để có thể chứa nổi cái món quà gấu bông 50cm của con bé. Không may là ở đây không có hộp hay bìa các tông nào đủ to để có thể gói cả. Thế nhưng ảo giác thế nào, sau đó tụi mình có đi thêm 1 quán nữa để mua bánh mì và các đồ linh tinh, gặp được chị nhân viên tốt bụng có cho con bé 1 chiếc hộp ngon lành."
     },
 
+    {
+        lat: 21.040909651522725, 
+        lng: 105.7648709513546,
+        ggmaps: "https://maps.app.goo.gl/Y4g4CGywQTTfq4DY8?g_st=ac",
+        date: "18:30-19:25 15/12/2024",
+        name: "Siêu thị Thành Đô 🛒",
+        img: "",
+        desc: "Sau khi chọn xong hộp quà cho con bé chuẩn bị dịp Giáng Sinh ở công ty, tụi mình vào đây để ngắm và mua 1 số đồ cần thiết. Ở đây thì tụi mình có thấy 1 dàn gấu bông trông cũm được được, Hoa thử nhấc 1 con gấu bông to đúng lên và cả 2 chơi trò đoán giá. Cuối cùng thì kết quả là hòa do cả 2 đứa đều đoán giá chênh 25k, khác nhau là 1 đứa đoán chênh trên và 1 đứa đoán chênh dưới. Sau đó mình được đề xuất mua 3 lọ nhỏ để đựng gia vị lấu ăn. Chúng mình xuống lại tầng 1 siêu thị và Hoa có mua 1 số đồ ăn cho bữa sáng như bánh mì với sữa. Sau cùng thì mình chọn cho con bé túi quýt trông có vẻ ngon."
+    },
+    
+    {
+        lat: 21.041459562173223, 
+        lng: 105.76519133595134,
+        ggmaps: "https://maps.app.goo.gl/3WFDpJjD41ojaAVn9",
+        date: "12:50 17/12/2024",
+        name: "304 Hồ Tùng Mậu 🏠",
+        img: "",
+        desc: "Mình tới đây với nhiệm vụ là giữ hộp quà Giáng Sinh to tổ chảng và ngồi sau xe của con bé để đi đến công ty. Đúng thiệc là nhân viên chơi trội, hộp quà to thì thôi rồi, ai mà nhận được chắc cũng hài hước phải biếc."
+    },
+
+    {
+        lat: 21.00981706784473, 
+        lng: 105.85141048671433,
+        ggmaps: "https://maps.app.goo.gl/7R3mfw83q3vdgHJV7",
+        date: "20:26 21/01/2025",
+        name: "Quán Bánh Cuốn nhỏ Hai Bà Trưng 🍽️", 
+        img: "img/20250121-quanbanhcuon.jpg", 
+        desc: "Nay chúng mình có kèo hẹn đi ăn ròi bóc túi mù và lói phét các kiểu trước khi về quê ăn Tết. Mình mới chuyển địa điểm làm việc xa nơi cũ nên để con bé tới được đây khá là tốn sức và thời gian, trông tội thiệc. Bù lại thì tụi mình vào được quán bánh cuốn này, vừa ít bánh lại vừa đắt! Vâng, chuyện là như thế đó ạ, ăn không đủ no. Hai đứa còn cố ý trêu nhau bằng cách chọn bánh cuốn có nhân mà đối phương bị dị ứng mới chịu cơ, khá là hề hước. Sau đó thì vẫn là thủ tục như mọi khi đi ăn: lói phét." 
+    },
+
+    {
+        lat: 21.013069537191086, 
+        lng: 105.85657925578951,
+        ggmaps: "https://maps.app.goo.gl/zvycRJqTUmg6wmTd7",
+        date: "21:00 21/01/2025",
+        name: "Circle K Hai Bà Trưng 🥪", 
+        img: "", 
+        desc: "Ở đây thì khá là hài hước. Tụi mình vào đây kêu 1 hộp cơm cuộn, 2 phần sandwich, 2 ly nước, 1 bịch snack. Gọi xong thì 2 đứa lên tầng trên và bắt đầu mở lap ra xem mấy quả hình con bé được chụp ở YEP tại công ty. Công nhận là cũng hài hước và cười vải chưởng. Con bé cũng hơi tự ti về ngoại hình của bản thân xíu, cơ mà trong 1 loạt ảnh vẫn chọn ra được mấy bức có đẹp để về đăng instagram. Vừa ăn, vừa lói phét nhiều chuyện trên trời, dưới biển, trong công ty, ngoài công ty... Cuối cùng no quá nên là mình phải ăn hộ 1 nửa phần sandwich của con bé và để lại 1 bịch snack. Xem xong ảnh là tiết mục xé túi mù. Trần đời này chưa có ai mua túi mù mà đen vải chưởng như mềnh, không phải trùng với những con đã mua thì sẽ là những cặp đôi, ba trùng nhau ngay lúc xé luon. Xong xuôi chia mỗi đứa 1 nửa thì tụi mình xách dép đi về. Câu chuyện đến đây đã hết chưa? Rồi mà? Đoán xem!? Chiếc xe của con bé ở trước cửa Circle K - mặc dù đã khóa xích bánh xe rất cẩn thận nhưng vì 1 phút pay não gì đó mà chúng mình đã để cái chìa khóa xe còn cắm nguyên ở yên xe!!! Chỉ biết vừa cảm tạ các cụ vừa lấy xe đi về trong tâm trạng khá là buồn cười." 
+    },
+
+    {
+        lat: 20.990462281246913, 
+        lng: 105.84795212374432,
+        ggmaps: "https://maps.app.goo.gl/LJ7FTJumpRb3GssJ7",
+        date: "21:00 21/01/2025",
+        name: "Mía nướng vỉa hè Hai Bà Trưng 🍡", 
+        img: "img/20250125-mianuong.jpg", 
+        desc: "Mình đã làm bài thi training tại công ty thành công với số điểm cao. Mình có hẹn là sẽ đãi con bé ăn, trước đó con bé cũng share rất nhiều về quán vỉa hè mía nướng. Thế nên đây chính là địa điểm cuối ngày trời đông phù hợp nhất để ăn và cùng nhau lói phét. Mình cũng đã rất mong chờ hương vị mía nướng sẽ khác mía bình thường như thế nào, rùi là nó sẽ giòn tan các kiểu ra sao. Đúng là hi vong càng nhiều thì nếu mà thất vọng thì sẽ tụt tận xuống hố sâu luon. Hỡi ơi, mía nướng chính là mía bình thường và thêm 1 chút nóng thui ạ. Hếc, có thế thui á. Sau đó tụi mình có quyết định gọi thêm Nem Bùi, Cá Bò để ăn cùng (Trước đó tụi mình có mua nước ở Mixue rùi nên không gọi nước nữa). Và tấc nhiên, sau khi có đầy đủ đồ để nhắm cũng là lúc lói phét, các câu chuyện đi từ đời sống XH đến công việc, tình cảm các kiểu, rồi còn trap boi các thứ nữa... Nói xong cũng đến hơn 23h, quá là ác và chúng mình bắt đầu đi về." 
+    },
+
+    {
+        lat: 20.40094461357126, 
+        lng: 106.48796704634083,
+        ggmaps: "https://maps.app.goo.gl/V2MnkFFtmsp4cGE5A",
+        date: "15:14 27/01/2025",
+        name: "Shop bán chậu cây An Ninh 🪴", 
+        img: "", 
+        desc: "Chọn xong hoa thì cần có bình đựng, thế là Hoa dẫn mình đến chỗ này mua. Ở đây thì người bán họ bày hàng tỉ chậu cây, bình hoa ở trước hiên nhà cho khách hàng ngắm. Con bé có đề xuất là nên mua cái bình dạng đều đều chum mà con bé có xem được trên mạng ý. Điều quan trọng là nhà người bán cũng chỉ còn lại duy nhất 2 cái bình đó. Ban đầu chúng mình cũm oke sẽ mua 2 cái bình đó nhưng vẫn muốn ngắm thêm để có nhiều sự lựa chọn hơn. Nhưng sau đấy có 1 chị bước xuống từ ô tô xuống cầm trúng ngay cái bình tụi mình oke từ ban đầu và ngắm. Mình liền chạy lại túm lấy cái bình còn lại và cũm thật may mắn, chị ấy cũm không chọn cái kia nữa. Hình như là các cụ muốn chúng mình mua cái bình này rùi, nên là sau đó 2 đứa cùng mua và để trong xe mang về." 
+    },
 
     {
         id: 10000000,
@@ -104,7 +163,7 @@ var locations =
         date: "14:31 27/01/2025",
         name: "Chợ Hoa huyện Tiền Hải 🌻", 
         img: "img/20250127-hoathanhlieu.png", 
-        desc: "Sắp đến Tết rùi, cần phải đi mua gì đó cho gia đình chớ nhỉ. Ở đây mình biết được thêm các loại hoa mới, hoa thanh liễu, hoa phăng các kiểu luôn màa.<br>Cảm ơn nhìu lắmm. <br> Hình dưới là thành quả chúng ta chọn hoa nè." 
+        desc: "Sắp đến Tết rùi, cần phải đi mua gì đó cho gia đình chớ nhỉ. Con bé có đi chợ hoa nên rủ mình đi chợ hoa để chọn mua, mình thấy hợp lí phết. Ở đây mình biết được thêm các loại hoa mới, hoa thanh liễu, hoa phăng các kiểu luôn màa. Công nhận là cũm vui đếi. Là 2 con đỗ nghèo khỉ nên chúng mềnh mua cho mỗi đứa 1 bó rưỡi. Sau đó chúng mình nhờ 2 bác bán hàng gói nhờ hoa, rồi trên đường đi 2 đứa cùng bàn cách lói phét bố mẹ về giá của những bó hoa này." 
     }
 
 ];
