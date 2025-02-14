@@ -164,6 +164,18 @@ var locations =
         name: "Chợ Hoa huyện Tiền Hải 🌻", 
         img: "img/20250127-hoathanhlieu.png", 
         desc: "Sắp đến Tết rùi, cần phải đi mua gì đó cho gia đình chớ nhỉ. Con bé có đi chợ hoa nên rủ mình đi chợ hoa để chọn mua, mình thấy hợp lí phết. Ở đây mình biết được thêm các loại hoa mới, hoa thanh liễu, hoa phăng các kiểu luôn màa. Công nhận là cũm vui đếi. Là 2 con đỗ nghèo khỉ nên chúng mềnh mua cho mỗi đứa 1 bó rưỡi. Sau đó chúng mình nhờ 2 bác bán hàng gói nhờ hoa, rồi trên đường đi 2 đứa cùng bàn cách lói phét bố mẹ về giá của những bó hoa này." 
+    },
+
+    {
+        lat: 21.00709225052451, 
+        lng: 105.79583414303958,
+        ggmaps: "https://maps.app.goo.gl/mQWETGeQsUJpi73fA",
+        date: "13:30 09/02/2025",
+        name: "Vincom Center Trần Duy Hưng ", 
+        img: "img/20250209-nph.jpg", 
+        desc: "" 
     }
+
+    
 
 ];
