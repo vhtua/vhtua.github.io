@@ -35,11 +35,11 @@ var locations =
 
     {
         id: 4,
-        lat: 21.014974615145693, 
-        lng: 105.81223476216452,  
-        ggmaps: "https://maps.app.goo.gl/GQwmtFSB1DGFbrC58",
+        lat: 21.014981512799476, 
+        lng: 105.81217663385567,  
+        ggmaps: "https://maps.app.goo.gl/rCmpP7TYrNaW1qB99",
         date: "13:12-18:04 14/12/2024",
-        name: "Quán Coffee có mèo ngu ☕",
+        name: "Chim Xanh Cafe ☕",
         img: "img/20241214-quancoffeestudydate.jpg",
         desc: "Sau khi ăn xong bún vịt nướng, chúng mình đi tiếp tầm 7km đến quán cà phê này. Hoa nói là chỗ này thích hợp để chill, chụp ảnh các thứ và quan trọng nhất là để học. 🐥 Ừ đúng là để học thiệc, chúng mình sau khi nghịch ngợm chụp ảnh xong thì đứa bé này mới nhớ ra là cần support 1 thanh niên thi tiếng Anh. Rồi sau đó cả 2 đứa lao vào lòi mắt nhìn cái đề thằng bé chụp (chao ôi mắt toai) và support nó. Mình gáy là 1 IELTS và 1 TOEIC ở đây thì đúng là chúng mình sẽ công phá mọi đề!!! Và sau đó vì quá mệt mỏi nên chúng mình quyết định hỏi ChatGPT... <br>Sau cùng, mình giới thiệu cho Hoa về IELTS Listening và để cho đứa bé này tập trung làm bài (mãi mới đúng mục đích đến quán này)."
     },
