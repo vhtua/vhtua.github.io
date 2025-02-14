@@ -208,12 +208,33 @@ var locations =
     },
 
     {
+        lat: 21.03542252004358, 
+        lng: 105.79464199033617,
+        ggmaps: "https://maps.app.goo.gl/ZvvxRzTt4cmak1cy7",
+        date: "17:05 09/02/2025",
+        name: "Discovery Shopping Center Cầu Giấy 🏬", 
+        img: "", 
+        desc: "" 
+    },
+
+
+    {
         lat: 21.037794473943944, 
         lng: 105.79597823039968,
         ggmaps: "https://maps.app.goo.gl/duAXh8aDkjVk3X7Q7",
         date: "17:37 09/02/2025",
         name: "86 Chùa Hà 🛕", 
         img: "img/20250209-chuaha.jpg", 
+        desc: "" 
+    },
+
+    {
+        lat: 21.019756208316146, 
+        lng: 105.8093064637823,
+        ggmaps: "https://maps.app.goo.gl/gHLd2DxjZV14EFWk8",
+        date: "22:00 09/02/2025",
+        name: "Wang Wang Huỳnh Thúc Kháng", 
+        img: "", 
         desc: "" 
     },
 
