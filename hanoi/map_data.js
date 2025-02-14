@@ -116,6 +116,16 @@ var locations =
     },
 
     {
+        lat: 21.010924448282196, 
+        lng: 105.84968399681287,
+        ggmaps: "https://maps.app.goo.gl/JLWZgx94ciEsVZyL8",
+        date: "19:10 21/01/2025",
+        name: "Vincom Center Bà Triệu 🏬", 
+        img: "", 
+        desc: "" 
+    },
+
+    {
         lat: 21.00981706784473, 
         lng: 105.85141048671433,
         ggmaps: "https://maps.app.goo.gl/7R3mfw83q3vdgHJV7",
@@ -139,7 +149,7 @@ var locations =
         lat: 20.990462281246913, 
         lng: 105.84795212374432,
         ggmaps: "https://maps.app.goo.gl/LJ7FTJumpRb3GssJ7",
-        date: "21:00 21/01/2025",
+        date: "22:15 21/01/2025",
         name: "Mía nướng vỉa hè Hai Bà Trưng 🍡", 
         img: "img/20250125-mianuong.jpg", 
         desc: "Mình đã làm bài thi training tại công ty thành công với số điểm cao. Mình có hẹn là sẽ đãi con bé ăn, trước đó con bé cũng share rất nhiều về quán vỉa hè mía nướng. Thế nên đây chính là địa điểm cuối ngày trời đông phù hợp nhất để ăn và cùng nhau lói phét. Mình cũng đã rất mong chờ hương vị mía nướng sẽ khác mía bình thường như thế nào, rùi là nó sẽ giòn tan các kiểu ra sao. Đúng là hi vong càng nhiều thì nếu mà thất vọng thì sẽ tụt tận xuống hố sâu luon. Hỡi ơi, mía nướng chính là mía bình thường và thêm 1 chút nóng thui ạ. Hếc, có thế thui á. Sau đó tụi mình có quyết định gọi thêm Nem Bùi, Cá Bò để ăn cùng (Trước đó tụi mình có mua nước ở Mixue rùi nên không gọi nước nữa). Và tấc nhiên, sau khi có đầy đủ đồ để nhắm cũng là lúc lói phét, các câu chuyện đi từ đời sống XH đến công việc, tình cảm các kiểu, rồi còn trap boi các thứ nữa... Nói xong cũng đến hơn 23h, quá là ác và chúng mình bắt đầu đi về." 
@@ -166,6 +176,7 @@ var locations =
         desc: "Sắp đến Tết rùi, cần phải đi mua gì đó cho gia đình chớ nhỉ. Con bé có đi chợ hoa nên rủ mình đi chợ hoa để chọn mua, mình thấy hợp lí phết. Ở đây mình biết được thêm các loại hoa mới, hoa thanh liễu, hoa phăng các kiểu luôn màa. Công nhận là cũm vui đếi. Là 2 con đỗ nghèo khỉ nên chúng mềnh mua cho mỗi đứa 1 bó rưỡi. Sau đó chúng mình nhờ 2 bác bán hàng gói nhờ hoa, rồi trên đường đi 2 đứa cùng bàn cách lói phét bố mẹ về giá của những bó hoa này." 
     },
 
+    // need to write desc
     {
         lat: 21.00709225052451, 
         lng: 105.79583414303958,
@@ -174,8 +185,37 @@ var locations =
         name: "Vincom Center Trần Duy Hưng 🏬", 
         img: "img/20250209-nph.jpg", 
         desc: "" 
-    }
+    },
 
+    {
+        lat: 20.99160765032429, 
+        lng: 105.80518688192268,
+        ggmaps: "https://maps.app.goo.gl/ZXWtgUs7S4kdYs8v5",
+        date: "09/02/2025",
+        name: "Trung tâm thi bằng lái xe Thanh Xuân 🏍️", 
+        img: "", 
+        desc: "" 
+    },
+
+    {
+        lat: 20.972350853130703, 
+        lng: 105.80904638354771,
+        ggmaps: "https://maps.app.goo.gl/UTdCRirXourr7EeG7",
+        date: "09/02/2025",
+        name: "Phòng khám đa khoa Song Linh 🏥", 
+        img: "img/20250209-clinic.jpg", 
+        desc: "" 
+    },
+
+    {
+        lat: 21.037794473943944, 
+        lng: 105.79597823039968,
+        ggmaps: "https://maps.app.goo.gl/duAXh8aDkjVk3X7Q7",
+        date: "17:37 09/02/2025",
+        name: "86 Chùa Hà 🛕", 
+        img: "img/20250209-chuaha.jpg", 
+        desc: "" 
+    },
 
 
 ];
