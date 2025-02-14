@@ -171,11 +171,11 @@ var locations =
         lng: 105.79583414303958,
         ggmaps: "https://maps.app.goo.gl/mQWETGeQsUJpi73fA",
         date: "13:30 09/02/2025",
-        name: "Vincom Center Trần Duy Hưng ", 
+        name: "Vincom Center Trần Duy Hưng 🏬", 
         img: "img/20250209-nph.jpg", 
         desc: "" 
     }
 
-    
+
 
 ];
