@@ -106,6 +106,16 @@ var locations =
     },
     
     {
+        lat: 21.022076583096776, 
+        lng: 105.7897583844776,
+        ggmaps: "https://maps.app.goo.gl/hNuRdLyf4L5hzzzUA",
+        date: "17/12/2025",
+        name: "Vinacomin Tower 🏬",
+        img: "",
+        desc: "Lúc công ty mình chuyển "
+    }, 
+
+    {
         lat: 21.041459562173223, 
         lng: 105.76519133595134,
         ggmaps: "https://maps.app.goo.gl/3WFDpJjD41ojaAVn9",
@@ -116,20 +126,31 @@ var locations =
     },
 
     {
+        lat: 21.031280246338017, 
+        lng: 105.7827901918205,
+        ggmaps: "https://maps.app.goo.gl/2z1YHxMbyZ7J3rnt6",
+        date: "13:04 17/12/2024",
+        name: "Công ty CP Công nghệ và Truyền thông Dagoras 🏬",
+        img: "",
+        desc: ""
+    },
+
+
+    {
         lat: 21.022084205549472, 
         lng: 105.79215519895178,
         ggmaps: "https://maps.app.goo.gl/DUfLgHNFWEmSLpjf9",
-        date: "12:50 17/12/2024",
+        date: "12:08 13/01/2025",
         name: "Quán Bún Đậu Đức Minh 🥗",
         img: "",
-        desc: ""
+        desc: "Lúc công ty mình chuyển "
     }, 
 
     {
         lat: 20.988207551919675, 
         lng: 105.86382074906962,
         ggmaps: "https://maps.app.goo.gl/U8aUyDknPVMsTnPAA",
-        date: "15/01/2025",
+        date: "19:45 15/01/2025",
         name: "Cầu \"Đồng\" (Mấc Dại) 🌉",
         img: "",
         desc: ""
