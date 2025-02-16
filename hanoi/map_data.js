@@ -132,7 +132,7 @@ var locations =
         date: "13:04 17/12/2024",
         name: "Công ty CP Công nghệ và Truyền thông Dagoras 🏬",
         img: "",
-        desc: ""
+        desc: "Và cuối cùng thì Hoa cũng thành công chở mình tới công ty nơi con bé làm. Cái hộp quà giáng sinh mình ôm đằng sau phải 1 lần nữa mình nói là to tổ chảng thậc. Trên đường đi đến công ty không một lúc nào là mình không trêu con bé về cái hộp quà chất chơi người dơi này. Đến nơi thì mình đứng dưới chỗ sân của tòa nhà, giữ hộp quà và đợi con bé đi cất xe máy xuống hầm. Có mấy anh chị đi qua nhìn mình cũng hài hước ghê gớm lắm. Sau đó mình trao trả món quà bự chảng này lại cho con bé, con bé cảm ơn gấc nhiều, ròi mình bắt Be đi về. Hôm đó mình mới biết là 2 công ty gần sát nhau đến thế. (Spoil là sau này đi onsite thì lại xa tít rùi, quá là sầu)."
     },
 
 
@@ -143,7 +143,7 @@ var locations =
         date: "12:08 13/01/2025",
         name: "Quán Bún Đậu Đức Minh 🥗",
         img: "",
-        desc: "Lúc công ty mình chuyển "
+        desc: ""
     }, 
 
     {
