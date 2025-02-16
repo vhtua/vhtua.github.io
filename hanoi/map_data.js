@@ -243,9 +243,9 @@ var locations =
         lat: 20.99160765032429, 
         lng: 105.80518688192268,
         ggmaps: "https://maps.app.goo.gl/ZXWtgUs7S4kdYs8v5",
-        date: "09/02/2025",
+        date: "14:52 09/02/2025",
         name: "Trung tâm thi bằng lái xe Thanh Xuân 🏍️", 
-        img: "", 
+        img: "img/20250209-trungtamblx.jpg", 
         desc: "" 
     },
 
@@ -253,7 +253,7 @@ var locations =
         lat: 20.972350853130703, 
         lng: 105.80904638354771,
         ggmaps: "https://maps.app.goo.gl/UTdCRirXourr7EeG7",
-        date: "09/02/2025",
+        date: "15:35 09/02/2025",
         name: "Phòng khám đa khoa Song Linh 🏥", 
         img: "img/20250209-clinic.jpg", 
         desc: "" 
@@ -263,9 +263,9 @@ var locations =
         lat: 21.05216336377414, 
         lng: 105.81277711866485,
         ggmaps: "https://maps.app.goo.gl/NM5mtFsaGUnYrSjHA",
-        date: "09/02/2025",
+        date: "17:05 09/02/2025",
         name: "Hồ Tây 🌉", 
-        img: "", 
+        img: "img/20250209-hotay.jpg", 
         desc: "" 
     },
 
@@ -273,9 +273,9 @@ var locations =
         lat: 21.03542252004358, 
         lng: 105.79464199033617,
         ggmaps: "https://maps.app.goo.gl/ZvvxRzTt4cmak1cy7",
-        date: "17:05 09/02/2025",
+        date: "17:20 09/02/2025",
         name: "Discovery Shopping Center Cầu Giấy 🏬", 
-        img: "", 
+        img: "img/20250209-movieticket.jpg", 
         desc: "" 
     },
 
@@ -306,7 +306,7 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/MKbetXeWMMV4Ykdo7",
         date: "20:02 14/02/2025",
         name: "Nem Nướng Nha Trang O Nguyễn 🍡", 
-        img: "", 
+        img: "img/20250214-nemnuong.jpg", 
         desc: "" 
     },
 
@@ -359,7 +359,7 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/Le2Wun95FW3N8A15A",
         date: "18:35 15/02/2025",
         name: "Bánh Mì Chảo Cô Nụ 🥖", 
-        img: "", 
+        img: "img/20250215-banhmichao.jpg", 
         desc: "" 
     },
 
@@ -370,7 +370,7 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/16PW9NKqStbnMRxH6",
         date: "19:24 15/02/2025",
         name: "GG Coffee Board Game 🎲", 
-        img: "", 
+        img: "img/20250215-ggcafe.jpg", 
         desc: "" 
     },
 
