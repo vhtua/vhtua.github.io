@@ -126,6 +126,36 @@ var locations =
     }, 
 
     {
+        lat: 20.988207551919675, 
+        lng: 105.86382074906962,
+        ggmaps: "https://maps.app.goo.gl/U8aUyDknPVMsTnPAA",
+        date: "15/01/2025",
+        name: "Cầu \"Đồng\" (Mấc Dại) 🌉",
+        img: "",
+        desc: ""
+    }, 
+
+    { 
+        lat: 20.988631610008028, 
+        lng: 105.87525273460425,
+        ggmaps: "https://maps.app.goo.gl/9E98j9YX9Crin1Qo7",
+        date: "20:15 15/01/2025",
+        name: "65 Ngách 90 Ngõ 179 Vĩnh Hưng 🏠",
+        img: "",
+        desc: ""
+    }, 
+
+    {
+        lat: 20.990462281246913, 
+        lng: 105.84795212374432,
+        ggmaps: "https://maps.app.goo.gl/LJ7FTJumpRb3GssJ7",
+        date: "22:15 15/01/2025",
+        name: "Mía nướng vỉa hè Hai Bà Trưng 🍡", 
+        img: "img/20250125-mianuong.jpg", 
+        desc: "Mình đã làm bài thi training tại công ty thành công với số điểm cao. Mình có hẹn là sẽ đãi con bé ăn, trước đó con bé cũng share rất nhiều về quán vỉa hè mía nướng. Thế nên đây chính là địa điểm cuối ngày trời đông phù hợp nhất để ăn và cùng nhau lói phét. Mình cũng đã rất mong chờ hương vị mía nướng sẽ khác mía bình thường như thế nào, rùi là nó sẽ giòn tan các kiểu ra sao. Đúng là hi vong càng nhiều thì nếu mà thất vọng thì sẽ tụt tận xuống hố sâu luon. Hỡi ơi, mía nướng chính là mía bình thường và thêm 1 chút nóng thui ạ. Hếc, có thế thui á. Sau đó tụi mình có quyết định gọi thêm Nem Bùi, Cá Bò để ăn cùng (Trước đó tụi mình có mua nước ở Mixue rùi nên không gọi nước nữa). Và tấc nhiên, sau khi có đầy đủ đồ để nhắm cũng là lúc lói phét, các câu chuyện đi từ đời sống XH đến công việc, tình cảm các kiểu, rồi còn trap boi các thứ nữa... Nói xong cũng đến hơn 23h, quá là ác và chúng mình bắt đầu đi về." 
+    },
+
+    {
         lat: 21.010924448282196, 
         lng: 105.84968399681287,
         ggmaps: "https://maps.app.goo.gl/JLWZgx94ciEsVZyL8",
@@ -155,15 +185,6 @@ var locations =
         desc: "Ở đây thì khá là hài hước. Tụi mình vào đây kêu 1 hộp cơm cuộn, 2 phần sandwich, 2 ly nước, 1 bịch snack. Gọi xong thì 2 đứa lên tầng trên và bắt đầu mở lap ra xem mấy quả hình con bé được chụp ở YEP tại công ty. Công nhận là cũng hài hước và cười vải chưởng. Con bé cũng hơi tự ti về ngoại hình của bản thân xíu, cơ mà trong 1 loạt ảnh vẫn chọn ra được mấy bức có đẹp để về đăng instagram. Vừa ăn, vừa lói phét nhiều chuyện trên trời, dưới biển, trong công ty, ngoài công ty... Cuối cùng no quá nên là mình phải ăn hộ 1 nửa phần sandwich của con bé và để lại 1 bịch snack. Xem xong ảnh là tiết mục xé túi mù. Trần đời này chưa có ai mua túi mù mà đen vải chưởng như mềnh, không phải trùng với những con đã mua thì sẽ là những cặp đôi, ba trùng nhau ngay lúc xé luon. Xong xuôi chia mỗi đứa 1 nửa thì tụi mình xách dép đi về. Câu chuyện đến đây đã hết chưa? Rồi mà? Đoán xem!? Chiếc xe của con bé ở trước cửa Circle K - mặc dù đã khóa xích bánh xe rất cẩn thận nhưng vì 1 phút pay não gì đó mà chúng mình đã để cái chìa khóa xe còn cắm nguyên ở yên xe!!! Chỉ biết vừa cảm tạ các cụ vừa lấy xe đi về trong tâm trạng khá là buồn cười." 
     },
 
-    {
-        lat: 20.990462281246913, 
-        lng: 105.84795212374432,
-        ggmaps: "https://maps.app.goo.gl/LJ7FTJumpRb3GssJ7",
-        date: "22:15 21/01/2025",
-        name: "Mía nướng vỉa hè Hai Bà Trưng 🍡", 
-        img: "img/20250125-mianuong.jpg", 
-        desc: "Mình đã làm bài thi training tại công ty thành công với số điểm cao. Mình có hẹn là sẽ đãi con bé ăn, trước đó con bé cũng share rất nhiều về quán vỉa hè mía nướng. Thế nên đây chính là địa điểm cuối ngày trời đông phù hợp nhất để ăn và cùng nhau lói phét. Mình cũng đã rất mong chờ hương vị mía nướng sẽ khác mía bình thường như thế nào, rùi là nó sẽ giòn tan các kiểu ra sao. Đúng là hi vong càng nhiều thì nếu mà thất vọng thì sẽ tụt tận xuống hố sâu luon. Hỡi ơi, mía nướng chính là mía bình thường và thêm 1 chút nóng thui ạ. Hếc, có thế thui á. Sau đó tụi mình có quyết định gọi thêm Nem Bùi, Cá Bò để ăn cùng (Trước đó tụi mình có mua nước ở Mixue rùi nên không gọi nước nữa). Và tấc nhiên, sau khi có đầy đủ đồ để nhắm cũng là lúc lói phét, các câu chuyện đi từ đời sống XH đến công việc, tình cảm các kiểu, rồi còn trap boi các thứ nữa... Nói xong cũng đến hơn 23h, quá là ác và chúng mình bắt đầu đi về." 
-    },
 
     {
         lat: 20.40094461357126, 
@@ -253,7 +274,7 @@ var locations =
         lng: 105.78970627246956,
         ggmaps: "https://maps.app.goo.gl/4QY7hppeEd8KUKpJ6",
         date: "10:45 15/02/2025",
-        name: "Công Viên Văn Quán - Hà Đông", 
+        name: "Công Viên Văn Quán - Hà Đông ⛲", 
         img: "", 
         desc: "" 
     },
