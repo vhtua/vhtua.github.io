@@ -55,20 +55,6 @@
     text-align: left;
 }
 
-/* chọn background cho đường dẫn bên trong dropdown khi hover*/
-.dropdown_content a:hover {
-    background-color: coral;
-}
-
-
-/* Hiển thị nội dung dropdown khi được hover */
-.dropdown:hover .dropdown_content {
-    display: block;
-}
-
-* {
-    box-sizing: border-box;
-} */
 
 
 /* Content  */
