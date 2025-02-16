@@ -109,9 +109,9 @@ var locations =
         lat: 21.022076583096776, 
         lng: 105.7897583844776,
         ggmaps: "https://maps.app.goo.gl/hNuRdLyf4L5hzzzUA",
-        date: "17/12/2025",
+        date: "12/2024",
         name: "Vinacomin Tower 🏬",
-        img: "",
+        img: "img/2024122x-vinacomin.jpg",
         desc: "Lúc công ty mình chuyển "
     }, 
 
@@ -182,7 +182,7 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/JLWZgx94ciEsVZyL8",
         date: "19:10 21/01/2025",
         name: "Vincom Center Bà Triệu 🏬", 
-        img: "", 
+        img: "img/20250121-vincombatrieu.jpg", 
         desc: "" 
     },
 
