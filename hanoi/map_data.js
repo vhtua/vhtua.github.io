@@ -233,10 +233,20 @@ var locations =
         lng: 105.8093064637823,
         ggmaps: "https://maps.app.goo.gl/gHLd2DxjZV14EFWk8",
         date: "22:00 09/02/2025",
-        name: "Wang Wang Huỳnh Thúc Kháng", 
+        name: "Wang Wang Huỳnh Thúc Kháng 🍲", 
         img: "", 
         desc: "" 
     },
 
+
+    {
+        lat: 20.992820199306653, 
+        lng: 105.83231094005288,
+        ggmaps: "https://maps.app.goo.gl/Bb1LLSSWH1win1jH7",
+        date: "13:09 15/02/2025",
+        name: "Phở Bò X5 - Lê Trọng Tấn 🐃", 
+        img: "", 
+        desc: "" 
+    },
 
 ];
