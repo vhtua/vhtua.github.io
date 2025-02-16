@@ -270,6 +270,27 @@ var locations =
     },
 
     {
+        lat: 20.999221939058497, 
+        lng: 105.84204095441257,
+        ggmaps: "https://maps.app.goo.gl/MKbetXeWMMV4Ykdo7",
+        date: "20:02 14/02/2025",
+        name: "Nem Nướng Nha Trang O Nguyễn 🍡", 
+        img: "", 
+        desc: "" 
+    },
+
+    {
+        lat: 21.029292678603053, 
+        lng: 105.77652420097276,
+        ggmaps: "https://maps.app.goo.gl/SxdzJoSvUTQa1xuR8",
+        date: "21:56 14/02/2025",
+        name: "Circle K Nguyễn Hoàng 🥪", 
+        img: "", 
+        desc: "" 
+    },
+
+
+    {
         lat: 20.975760412879932, 
         lng: 105.78970627246956,
         ggmaps: "https://maps.app.goo.gl/4QY7hppeEd8KUKpJ6",
