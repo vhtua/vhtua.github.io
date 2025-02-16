@@ -260,6 +260,16 @@ var locations =
     },
 
     {
+        lat: 21.05216336377414, 
+        lng: 105.81277711866485,
+        ggmaps: "https://maps.app.goo.gl/NM5mtFsaGUnYrSjHA",
+        date: "09/02/2025",
+        name: "Hồ Tây 🌉", 
+        img: "", 
+        desc: "" 
+    },
+
+    {
         lat: 21.03542252004358, 
         lng: 105.79464199033617,
         ggmaps: "https://maps.app.goo.gl/ZvvxRzTt4cmak1cy7",
@@ -317,7 +327,7 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/4QY7hppeEd8KUKpJ6",
         date: "10:45 15/02/2025",
         name: "Công Viên Văn Quán - Hà Đông ⛲", 
-        img: "", 
+        img: "img/20250215-laixea1.jpg", 
         desc: "" 
     },
 
@@ -338,7 +348,7 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/LoVS7uHbRtfy9Q859",
         date: "13:42 15/02/2025",
         name: "Mộc Miên Cafe ☕", 
-        img: "", 
+        img: "img/20250215-nphmakeup.jpg", 
         desc: "" 
     },
 
