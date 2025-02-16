@@ -116,6 +116,16 @@ var locations =
     },
 
     {
+        lat: 21.022084205549472, 
+        lng: 105.79215519895178,
+        ggmaps: "https://maps.app.goo.gl/DUfLgHNFWEmSLpjf9",
+        date: "12:50 17/12/2024",
+        name: "Quán Bún Đậu Đức Minh 🥗",
+        img: "",
+        desc: ""
+    }, 
+
+    {
         lat: 21.010924448282196, 
         lng: 105.84968399681287,
         ggmaps: "https://maps.app.goo.gl/JLWZgx94ciEsVZyL8",
@@ -238,6 +248,15 @@ var locations =
         desc: "" 
     },
 
+    {
+        lat: 20.975760412879932, 
+        lng: 105.78970627246956,
+        ggmaps: "https://maps.app.goo.gl/4QY7hppeEd8KUKpJ6",
+        date: "10:45 15/02/2025",
+        name: "Công Viên Văn Quán - Hà Đông", 
+        img: "", 
+        desc: "" 
+    },
 
     {
         lat: 20.992820199306653, 
@@ -245,8 +264,42 @@ var locations =
         ggmaps: "https://maps.app.goo.gl/Bb1LLSSWH1win1jH7",
         date: "13:09 15/02/2025",
         name: "Phở Bò X5 - Lê Trọng Tấn 🐃", 
+        img: "img/20250215-phobox5.jpg", 
+        desc: "" 
+    },
+
+
+    {
+        lat: 20.994730596086864, 
+        lng: 105.84087080550043,
+        ggmaps: "https://maps.app.goo.gl/LoVS7uHbRtfy9Q859",
+        date: "13:42 15/02/2025",
+        name: "Mộc Miên Cafe ☕", 
         img: "", 
         desc: "" 
     },
+
+
+    {
+        lat: 21.00046030379264, 
+        lng: 105.84717363917342,
+        ggmaps: "https://maps.app.goo.gl/Le2Wun95FW3N8A15A",
+        date: "18:35 15/02/2025",
+        name: "Bánh Mì Chảo Cô Nụ 🥖", 
+        img: "", 
+        desc: "" 
+    },
+
+
+    {
+        lat: 21.00177436094201, 
+        lng: 105.85376392103936,
+        ggmaps: "https://maps.app.goo.gl/16PW9NKqStbnMRxH6",
+        date: "19:24 15/02/2025",
+        name: "GG Coffee Board Game 🎲", 
+        img: "", 
+        desc: "" 
+    },
+
 
 ];
