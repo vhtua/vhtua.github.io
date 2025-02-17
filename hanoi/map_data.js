@@ -348,7 +348,7 @@ var locations =
         date: "13:42 15/02/2025",
         name: "Mộc Miên Cafe ☕", 
         img: "img/20250215-nphmakeup.jpg", 
-        desc: "" 
+        desc: "Con bé tra được quán cà phê này trên Threads và chúng mình quyết định tới đây để HỌC, chụp ảnh và lói phét với những anh em. Ngay từ những bước chân đầu đến tới quán, chúng mình đã đi lố lên tầng 3 và thấy có cái gì đó sai sai. Nhìn các phòng không giống quán cà phê cho lắm - có giường, có bàn ghế, có cả nhà vệ sinh, tủ quần áo. Hmmmmmmmm. Ừ đúng roài đó, đúng những gì mình nghĩ ròi đó. Đó chính là phòng trọ có người ở. Hai đứa khi phát hiện ra thì cong cả đuôi nhảy tót xuống tầng 2. Anh chủ cũng cười cười bảo quán chỉ có 2 tầng thôi. Hơi quê. Anh chủ có đưa menu và 2 đứa mình chọn uống Matcha Latte. Con bé bảo ăn phở bò trộn trôi hết son rùi nên là bắt đầu lấy thỏi son và tận dụng cái gương của quán để trang điểm lại. Sau đó mình có chụp mấy tấm hình con bé nghịch với mèo của quán. Xong xuôi thì 2 đứa lôi bài Tarot của quán ra coi những chuyện về công việc và cuộc sống. Khúc này khá là hài hước, nào là có nên nhảy việc không, có nên ở lại không, cuộc sống sẽ ra sao. Đúng là những câu chuyện lo lắng đầu đời của những bạn trẻ chập chững trên con đường trưởng thành." 
     },
 
 
