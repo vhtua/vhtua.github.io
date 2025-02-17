@@ -153,7 +153,7 @@ var locations =
         date: "19:45 15/01/2025",
         name: "Cầu \"Đồng\" (Mấc Dại) 🌉",
         img: "",
-        desc: "Trên hành trình vác chiếc máy ảnh nhỏ của Hoa đi sửa chữa"
+        desc: "Trên hành trình vác chiếc máy ảnh nhỏ của Hoa đi sửa chữa thì chúng mình có đi qua cây cầu này. Trời đã tối thui rùi mà còn có đứa dẫn đường cực kì \"uy tín\" đằng sau thì còn gì bằng. Vừa đi qua cây cầu thì con bé bắt đầu tủm tỉm cười hỏi mình là có biếc tên cái cầu vừa đi qua không. Rồi thì bảo cái cầu này là cầu mất dại. Mình vừa chở con bé vừa hoang mang kiểu \"Hẻ?\". Trong đầu cũng nghĩ đến 1 số từ nhưng mà cũng không thể đoán ra là nó lại thế này. Thế là vừa đi xe vừa được quả cười hớ hớ. Lúc đi về thì 2 đứa lại gặp cây cầu này một lần nữa mới thậc sự hài hước."
     }, 
 
     { 
