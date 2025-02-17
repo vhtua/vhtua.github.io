@@ -163,7 +163,7 @@ var locations =
         date: "20:15 15/01/2025",
         name: "65 Ngách 90 Ngõ 179 Vĩnh Hưng 🏠",
         img: "",
-        desc: ""
+        desc: "Sau khi vượt qua 7749 cung đường và các ngõ hẹp để đến được nơi sửa máy ảnh cho con bé thì 2 đứa cuối cùng cũng đã tới được nơi. Nhưng mà vấn đề đối với chúng mình thì nó sẽ không bao giờ hết, bao giờ nó cũng sẽ đẻ ra mấy tình huống hài hước. Và vâng lần này cũng như thía. Cái quan trọng là khi chúng mình tới thì ở đó là một cái nhà xưởng kiểu in ấn giấy tờ đã đóng cửa, bên trong còn có ánh đèn. Mình có nghi ngờ bảo chắc là không phải rùi. Nhưng mà sau đó cả 2 đứa vẫn ngó qua khe cửa và gọi ơi ới chủ nhà. Sau đó thì Hoa lôi điện thoại ra gọi cho anh chủ quán sửa máy ảnh còn mình tiếp tục gọi ơi ới chủ nhà xưởng. Sau gần chục cuộc gọi không được thì cuối cùng anh sửa máy ảnh cũng nghe máy con bé và bảo sẽ mở cửa ra ngay. Ố ye, thế là oke roài nhỉ? Không, làm gì dễ thế!! Cánh cửa cuốn của căn nhà đối diện cái xưởng giấy từ từ kêu cạch cạch. Vâng, nơi bọn mình cần tới là căn nhà đối diện chứ không phải cái nhà xưởng giấy này. Quê thì thoi ròi, giả sử mà chủ nhà xưởng kia có nhà chắc họ luộc cả 2 đứa mất thoi."
     }, 
 
     {
