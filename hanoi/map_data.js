@@ -228,7 +228,6 @@ var locations =
         desc: "Sắp đến Tết rùi, cần phải đi mua gì đó cho gia đình chớ nhỉ. Con bé có đi chợ hoa nên rủ mình đi chợ hoa để chọn mua, mình thấy hợp lí phết. Ở đây mình biết được thêm các loại hoa mới, hoa thanh liễu, hoa phăng các kiểu luôn màa. Công nhận là cũm vui đếi. Là 2 con đỗ nghèo khỉ nên chúng mềnh mua cho mỗi đứa 1 bó rưỡi. Sau đó chúng mình nhờ 2 bác bán hàng gói nhờ hoa, rồi trên đường đi 2 đứa cùng bàn cách lói phét bố mẹ về giá của những bó hoa này." 
     },
 
-    // need to write desc
     {
         lat: 21.00709225052451, 
         lng: 105.79583414303958,
@@ -236,7 +235,7 @@ var locations =
         date: "13:30 09/02/2025",
         name: "Vincom Center Trần Duy Hưng 🏬", 
         img: "img/20250209-nph.jpg", 
-        desc: "" 
+        desc: "Hôm nay mình với Hoa, Hương, Hiền cùng rủ nhau đi tráy phố. Địa điểm đầu tiên mà chúng mình tới là chỗ này. Quan trọng là những chú khỉ nghèo nên chúng mình nói chung là đi xung quanh để chụp ảnh và bàn về plan đi chơi của hôm nay là chủ yếu. Hương thì tìm Mixue ở tầng trên để mua nước uống. Hiền thì đứng cạnh chồng của chị ấy (trong màn hình tivi) nhờ Hoa chụp ảnh. Còn mình thì chụp lại khoảnh khắc của mọi người. Sau đó thì có 1 cuộc tranh luận bùng lổ khi mà mấy đứa tìm rạp xem phim rẻ nhất có thể. Mình thì chi muốn có rạp xem và giá ổn là được rùi. Nhưng không, mấy đứa dù cho là 10k hay 30k cũng được coi là 1 sự giảm giá đáng kể. Thế là mình đứng ra ngoài cho mấy đứa lựa luôn." 
     },
 
     {
