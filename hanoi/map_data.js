@@ -328,7 +328,7 @@ var locations =
         date: "10:45 15/02/2025",
         name: "Công Viên Văn Quán - Hà Đông ⛲", 
         img: "img/20250215-laixea1.jpg", 
-        desc: "" 
+        desc: "Sau khi liên hệ nhận được lịch học thực hành xe máy thì mình sẽ dự định sẽ đi bus tới đây lúc 10h30 sáng (tức là mình cần xuất phát từ nhà tầm 9h). Nhưng sau đó Hoa bảo sẽ qua đón mình rùi cùng hẹn đi chơi với mọi người luôn. Ừ, mình nghe thấy rất hợp lí nên đã đồng ý. Sáng hôm nay, mình đã dậy sớm từ 8:30 để chuẩn bị xong xuôi hết mọi thứ, cuối cùng là chỉ việc đợi con bé thui. Thời gian cứ trôi nhưng mình vẫn bình tĩnh vì mình đã tính tới nước con bé sẽ dậy rất muộn ròi. Nhưng sau đó khi mà 10:30 coan bé vẫn chưa tỉnh là mình thấy hơi có điềm nên đã nhắn con bé và bắt Be để đi. Con bé cứ rối rít xin lỗi. Mình thì thấy không sao vì dù gì thì cuối tuần nên được nghỉ ngơi. Mà con bé phải dậy sớm để mình có xe đi tới đó thì mệt lắm. Đến nơi test trình lái xe số thì tay lái của mềnh vẫn còn rất trộm vía, hihi. Manifest là sẽ nhận được thành công bằng lái xe A1, mong các cụ phù hộ con. Mình tập xong lúc 12:15 thì con bé đã đến nơi đón mình roài. Sau đó 2 đứa với 2 cái bụng đói chưa ăn gì suốt từ sáng đi xung quanh tìm quán ăn." 
     },
 
     {
@@ -338,7 +338,7 @@ var locations =
         date: "13:09 15/02/2025",
         name: "Phở Bò X5 - Lê Trọng Tấn 🐃", 
         img: "img/20250215-phobox5.jpg", 
-        desc: "" 
+        desc: "Chúng mình đã đi vòng vòng, từ đường lớn tới đường nhỏ, từ hẻm tới đường ray, rồi lại quay lại. Lói chung là rất loằng ngoằng để tìm quán lót dạ. Câu chuyện thì 2 đứa đã không ăn gì từ sáng cho tới giờ ròi. Càng ngày tụi mình càng khó kiếm đồ ăn. Lúc nào Hoa cầm điện thoại mình thì đều hỏi \"Ăn gì đây nhỉ?\". Bruhhh, một ngàn câu hỏi công nghệ, kinh tế cũng không thể khó bằng câu này. Lần nào mình cũm chỉ nghĩ đến được cơm, bún, phở. Hếc. Ròi sau đó con bé còn tra Google Maps mấy quán ăn gần đây, kĩ tính tới nỗi quán được đánh giá 4.3 sao còn bảo không ngon nữa chớ. Tra được quán Mixi Sà Bì Chưởng thì cách xa quá, hơn 4,7km. Với 2 cái bụng đã đói quặn thì mình vẫn cứ đi tiếp. Trên đường đi, con bé nhìn thấy nhanh được quán này, thế là 2 đứa cùng vào gọi Phở trộn bò. Món này rất là ngon luôn, đặc biệt là khi đổ nước dùng vào cho nó thành phở - không còn phở trộn nữa. Trong lúc đó thì mình với tính cách thảo mai đã giải quyết được vấn đề về nhân tố bí ẩn giúp cho chuyến đi chơi ngày hôm nay của con bé sẽ được thoải mái nhất." 
     },
 
 
