@@ -183,7 +183,7 @@ var locations =
         date: "19:10 21/01/2025",
         name: "Vincom Center Bà Triệu 🏬", 
         img: "img/20250121-vincombatrieu.jpg", 
-        desc: "" 
+        desc: "Trước đó chúng mình đã có cái hẹn là phải gặp để lói phét và xé túi mù các kiểu trước khi về quê ăn Tết. Đây cũng là thời điểm những ngày đầu mình đi làm onsite xa chỗ làm cũ, khá là sầu. Nhưng mà Hoa bảo đã hẹn là sẽ đến, con bé đi xa tít từ chỗ công ty con bé đến chỗ này cũng hơn 10km. Mình thì đứng đợi ở dưới sảnh. Lúc con bé đến nơi thì 2 đứa bắt đầu đi tìm cây xăng gần nhất vì xe cũng không còn nhiều xăng nữa. Mình lấy điện thoại ra tra google maps với cú pháp \"Gas gần nhất\". Như chúng ta đã biết, những cuộc đi chơi của 2 đứa mà không có khúc tấu hài thì nó sẽ không đúng lắm. Và vâng, đây chính là lúc câu chuyện đó bắt đầu. Hoa cầm điện thoại mình và cứ luôn thắc mắc bảo sao cây xăng lại ở trong ngõ thế này nhỉ. Mình thì bảo không sao đâu, cứ đi theo thui. Ừ, thì đi đến tận nơi mới biết đó là nhà bán Gas bếp đó ông nhõi, chứ có phải GAS STATION đâu!! Vừa quê vừa quay xe ra tìm lại chỗ cây xăng. Con bé đằng sau thì cười ành ạch. Đã quê ròi mà cứ cười, ác lắm." 
     },
 
     {
