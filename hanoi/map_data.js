@@ -255,7 +255,7 @@ var locations =
         date: "15:35 09/02/2025",
         name: "Phòng khám đa khoa Song Linh 🏥", 
         img: "img/20250209-clinic.jpg", 
-        desc: "Mình đi vào phòng khám với số đăng kí khám cực kì vjppro trên tay mà chỗ đăng kí lái xe cấp cho - 999. Vừa đọc số vừa thấy lể."
+        desc: "Mình đi vào phòng khám với số đăng kí khám cực kì vjppro trên tay mà chỗ đăng kí lái xe cấp cho - 999. Vừa đọc số vừa thấy lể. Tưởng được ưu tiên khám qua phát là xong luôn thì ai dè ai cũng có số vjppro. Thế là lại ngậm ngùi đợi tới lượt đi khám từng phòng. Hôm nay mình muốn đi chơi với mọi người chứ không phải đi khám!! Ở ngoài 3 đứa đợi mình nên đã ngồi vào 1 quán vỉa hè ăn bánh mì, xúc xích các kiểu."
     },
 
     {
@@ -265,7 +265,7 @@ var locations =
         date: "17:05 09/02/2025",
         name: "Hồ Tây 🌉", 
         img: "img/20250209-hotay.jpg", 
-        desc: "" 
+        desc: "Trên đường đi tráy phố tới photobooth thì chúng mình " 
     },
 
     {
@@ -370,7 +370,7 @@ var locations =
         date: "19:24 15/02/2025",
         name: "GG Coffee Board Game 🎲", 
         img: "img/20250215-ggcafe.jpg", 
-        desc: "" 
+        desc: "Đúng là thánh nhân đãi kẻ khù khờ. Với cái chiến thuật nhiều lỗ hổng nhưng mà sự may mắn là yếu tố chính, con bé đã khiến cho mình bankrupt ngay đầu tiên. Quá là láo và bất công. Mình đã tính toán mua rất nhiều đất nhưng vẫn thua đứa số đỏ hơn - ít đất nhưng nhiều nhà. Cuộc chơi hôm nay có sự tham gia của cả Thái và Hoàng, mọi người đều rất vui vẻ cười ằng ặc. Sau cùng thì Hoàng cũng ra đi theo mình. Thái thì chịu thua vì con bé đã quá giàu ròi, chơi thêm chỉ có khóc. Con bé thì nhìn đắc thắng lắm, khẳng định là nếu ăn tiền thì ngon ròi. Mình rất thích bầu không khí mà chúng ta đã cùng tạo nên. Hi vọng là chúng ta sẽ luôn trân trọng từng khoảnh khắc như thế này." 
     },
 
 
