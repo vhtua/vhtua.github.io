@@ -255,7 +255,7 @@ var locations =
         date: "15:35 09/02/2025",
         name: "Phòng khám đa khoa Song Linh 🏥", 
         img: "img/20250209-clinic.jpg", 
-        desc: "" 
+        desc: "Mình đi vào phòng khám với số đăng kí khám cực kì vjppro trên tay mà chỗ đăng kí lái xe cấp cho - 999. Vừa đọc số vừa thấy lể."
     },
 
     {
@@ -269,25 +269,25 @@ var locations =
     },
 
     {
-        lat: 21.03542252004358, 
-        lng: 105.79464199033617,
-        ggmaps: "https://maps.app.goo.gl/ZvvxRzTt4cmak1cy7",
-        date: "17:20 09/02/2025",
-        name: "Discovery Shopping Center Cầu Giấy 🏬", 
-        img: "img/20250209-movieticket.jpg", 
-        desc: "" 
-    },
-
-
-    {
         lat: 21.037794473943944, 
         lng: 105.79597823039968,
         ggmaps: "https://maps.app.goo.gl/duAXh8aDkjVk3X7Q7",
         date: "17:37 09/02/2025",
         name: "86 Chùa Hà 🛕", 
         img: "img/20250209-chuaha.jpg", 
+        desc: "Chỉ còn 5 phút nữa là đến giờ chiếu phim ở rạp mà chưa mua được đồ ăn. Quá xui cho 2 đứa là cái Lotte bên dưới tòa Discovery Shopping Center Cầu Giấy đã đóng cửa và chuyển đi nơi khác mất roài. Thế là plan lại bị chệch đi 1 nhịp. Mình và Hoa như 2 đứa thiêu thân chạy ra ngoài tìm quán bán bim bim, đồ ăn, bỏng ngô các kiểu. Nhưng hỡi ôi, đào đâu ra, xung quanh thì toàn là mấy cái tòa cao cao. Chúng mình quyết định chạy sâu vào ngõ thì vô tình đi vào chỗ Chùa Hà Cầu Duyên. Xung quanh toàn các cô các chú mời các bạn trẻ vào cúng, cầu duyên. Nhìn khá là nhộn nhịp cơ mà đồ ăn thì không thấy đâu. Ai đời lại mua được bỏng ngô với bim bim ở chỗ cầu Duyên đâu trời, huhu." 
+    },
+
+    {
+        lat: 21.03542252004358, 
+        lng: 105.79464199033617,
+        ggmaps: "https://maps.app.goo.gl/ZvvxRzTt4cmak1cy7",
+        date: "17:50 09/02/2025",
+        name: "Discovery Shopping Center Cầu Giấy 🏬", 
+        img: "img/20250209-movieticket.jpg", 
         desc: "" 
     },
+
 
     {
         lat: 21.019756208316146, 
