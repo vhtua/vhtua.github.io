@@ -313,10 +313,10 @@ var locations =
         lat: 21.029292678603053, 
         lng: 105.77652420097276,
         ggmaps: "https://maps.app.goo.gl/SxdzJoSvUTQa1xuR8",
-        date: "21:56 14/02/2025",
+        date: "21:56 - 0:00 14/02/2025",
         name: "Circle K Nguyễn Hoàng 🥪", 
         img: "", 
-        desc: "" 
+        desc: "Ngày Valentine nhưng 2 đứa con FA vào đây để nghiêm túc học hành. Quá là nghiêm túc. Vâng đoạn nghiêm túc chắc chỉ có 30 phút cuối ngày thui. Đây chính là kỉ lục lần đầu tiên mình đi về nhà muộn như thế này. Sau khi ăn xong nem cuộn, chúng mình tới đây mua nước, bim bim và 1 gói que cay. Con bé gọi trà olong còn mình gọi trà vải. Và vâng, lại phải nhấn mạnh một lần nữa, khi 2 đứa đi cùng nhau thì thể nào cũng có chuyện tấu hài. Câu chuyện hôm nay là khi uống hết xong cả 2 cốc thì chúng mình mới biết cả 2 đã uống lộn cốc. Ban đầu con bé còn không dám tin, mở điện thoại ra tra xong mới chấp nhận sự thật và chỉ biếc khóc. 2 đúa vừa uống nước vừa bắt đầu nói chuyện. Con bé nói về nơi làm việc, về những áp lực công việc và những thứ khó hiểu cần giải thích. Mình cũm chỉ biết động viên là hãy cố gắng lên và tập trung phát triển bản thân. Sau đó thì mình được biết một trong những kỉ niệm buồn nhất trong lòng con bé. Thực ra là mình có biết từ trước rùi nhưng khi được chứng kiến trục tiếp những hình ảnh đó cũng không thể nào ngăn được sự bất ngờ và những cú sốc. Sau đó thì cả 2 bắt đầu gọi là học hành nghiêm túc đến tận khuya cơ. Lúc chúng mình quyết định đi về thì cũng trùng hợp là lúc nhân viên lên đuổi khách về. 2 đứa xách moong đi về và con bé còn chơi ác ở đoạn Cầu Giấy không giúp mình mà bắt mình tự nhớ đường về nữa chứ. Đúng là một ngày hài hước và vui, từ ăn uống, lói phét, buồn, tâm sự đến học hành đều có cả. Hi vọng là tương lai không lóc nhau sớm nhẻ." 
     },
 
 
