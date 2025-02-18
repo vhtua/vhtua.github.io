@@ -265,7 +265,7 @@ var locations =
         date: "17:05 09/02/2025",
         name: "Hồ Tây 🌉", 
         img: "img/20250209-hotay.jpg", 
-        desc: "Trên đường đi tráy phố tới photobooth thì chúng mình " 
+        desc: "Trên đường đi tráy phố tới photobooth thì chúng mình được đi xung quanh Hồ Tây một đoạn. Hoa có kể về thời ngày xưa của con bé - khi mà con bé tin rằng người đầu tiên con bé đi cùng đến Hồ Tây sẽ là tình yêu đích thực. Cơ mà hồi đó đi chơi bị lên xe buýt gì đó mà thành ra là đến Hồ Tây một mình nên con bé rất là dỗi. Sau đó thì con bé có cùng đám bạn đến đây chơi nhiều. Mà hiện tại thì vẫn cứ cay cú vì cái quả đi xe buýt một mình tới Hồ Tây. Mình thì cười hớ hớ, cũng kiểu an ủi là thoi có gì đâu. Cơ mà đây là lần đầu mình tới Hồ Tây. Ban đầu mình cứ nghĩ hồ thì chắc là nhỏ thui nhỉ, nhưng khi đi vòng quanh mới thấy là nó rộng thật ấy. Không chỉ rộng mà cảnh vật cũm đẹp nữa. Mọi người xung quanh cùng các hoạt động hàng quán khiến cho không khí xung quanh Hồ Tây trông cũng rất là nhộn nhịp nữa cơ." 
     },
 
     {
