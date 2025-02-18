@@ -359,7 +359,7 @@ var locations =
         date: "18:35 15/02/2025",
         name: "Bánh Mì Chảo Cô Nụ 🥖", 
         img: "img/20250215-banhmichao.jpg", 
-        desc: "" 
+        desc: "Chúng mình rời Mộc Miên Cafe và đến đây để nạp lại năng lượng. Mình phải công nhận là bánh mì chảo ở đây khá là ngon. Và vẫn như mọi khi đi ăn, con bé quên mang theo cái cặp tóc. Khi quên thì con bé toàn phải 1 tay giữ tóc lúc ăn. Nhìn tội lắm, đúng là làm con gái thậc vất vả. Mình biết trước nên đã thủ sẵn mấy cái dây thun trong ví. Đến lúc thì xòe ra cho con bé dùng." 
     },
 
 
