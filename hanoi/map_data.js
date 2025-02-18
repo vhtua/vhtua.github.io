@@ -296,7 +296,7 @@ var locations =
         date: "22:00 09/02/2025",
         name: "Wang Wang Huỳnh Thúc Kháng 🍲", 
         img: "", 
-        desc: "" 
+        desc: "Xem phim xong thì bộ 4 chúng mình tới đây để ăn tối. Ở đây chúng mình thoải mái lấy đồ ăn và thực sự là đồ ăn ổn áp phết. Đây cũng là địa điểm cuối ngày giúp chúng mình ngồi lại và có nhiều thời gian để nói chuyện cũng như lói phét với nhau hơn. Ròi cũng đến lúc mình chia sẻ một số câu chuyện của bản thân và một số điều nhắc nhở tới mấy đứa. Có những điều mình lói mà mấy đứa coi là bùng lổ show bít, nói chung là cũng đáng sợ và hài hước. Rồi đến câu chuyện của con bé. Chắc chắn là nghe rất sầu, sầu đến nỗi tức quá con bé vô tình làm cho kim chi dính lên chiếc váy trắng. Rồi hoảng quá 2 đứa lấy ngay giấy ăn lau hì hục luon cơ mà. Có những chuyện chúng ta đã trải qua, dù đó là vui hay buồn thì cũng đã là 1 phần kí ức của mỗi người. Điều quan trọng là hãy luôn cố gắng nhìn về những điều tích cực và tiến lên phía trước nhé." 
     },
 
     {
