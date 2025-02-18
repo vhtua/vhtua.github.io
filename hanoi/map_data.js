@@ -112,7 +112,7 @@ var locations =
         date: "12/2024",
         name: "Vinacomin Tower 🏬",
         img: "img/2024122x-vinacomin.jpg",
-        desc: "Lúc công ty mình chuyển "
+        desc: "Đây là tòa nhà văn phòng mới của công ty mình. Những ngày đầu mình giúp các anh chị dọn dẹp chuyển đồ từ văn phòng cũ khá là vất vả. Ngoài ra mình còn phải ở lại tập văn nghệ nữa. Nên là có những hôm hơn 22h mới về tới nhà, mệt như con cá đuối luon. Nhưng mà công ty mình cũng vô tình rất gần với công ty con bé, khá là ảo ma uchiha. Thế là có những buổi con bé ở dưới sảnh công ty đợi mình, đơn giản là hẹn chở mình về hoặc là cuối tuần thì sẽ đi tráy phố chút ròi lói phét. Những lúc như thế vui thật. Dù cho có lạc đường, xi nhan trái rẽ phải hay là đi ngược chiều thì vẫn sẽ là những kỉ niệm quý giá và hài hước."
     }, 
 
     {
@@ -269,9 +269,9 @@ var locations =
     },
 
     {
-        lat: 21.037794473943944, 
-        lng: 105.79597823039968,
-        ggmaps: "https://maps.app.goo.gl/duAXh8aDkjVk3X7Q7",
+        lat: 21.036773054164936, 
+        lng: 105.79489959506405,
+        ggmaps: "https://maps.app.goo.gl/KHc5VWV13SMkERbd6",
         date: "17:37 09/02/2025",
         name: "86 Chùa Hà 🛕", 
         img: "img/20250209-chuaha.jpg", 
@@ -306,7 +306,7 @@ var locations =
         date: "20:02 14/02/2025",
         name: "Nem Nướng Nha Trang O Nguyễn 🍡", 
         img: "img/20250214-nemnuong.jpg", 
-        desc: "" 
+        desc: "Nơi những câu chuyện được hé lộ và thực sự bùng lổ. Cũng phải gọi là khá lâu rồi khi chúng mình mới có dịp ngồi lại và nói chuyện với nhau như thế này. Những mẩu chuyện vui, buồn đều được mỗi đứa chia sẻ với nhau" 
     },
 
     {
