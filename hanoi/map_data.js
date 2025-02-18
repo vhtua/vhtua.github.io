@@ -245,7 +245,7 @@ var locations =
         date: "14:52 09/02/2025",
         name: "Trung tâm thi bằng lái xe Thanh Xuân 🏍️", 
         img: "img/20250209-trungtamblx.jpg", 
-        desc: "" 
+        desc: "Sau khi chốt xong kế hoạch đi xem phim ma vào buổi tối thì chúng mình đi tới đây để mình đăng kí hồ sơ thi lái xe. Ngại quá, già gần này tuổi ròi mà giờ mới có thời gian để đi thi bằng lái. Đến nơi thì mình vào ngồi bàn chuyện nộp hồ sơ với chị chủ. Trong lúc đó thì bên ngoài mấy đứa đang nô đùa khắp cái hẻm - chụp ảnh, nghịch trend tiktok các kiểu." 
     },
 
     {
