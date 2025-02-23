@@ -47,11 +47,16 @@
             marker.on('click', function() {
                 var infoBox = document.getElementById('info');
                 var infoContent = document.getElementById('info-content');
-                infoContent.innerHTML = `<h2>${location.name}</h2>
-                                        <a href="${location.ggmaps}" target="_blank"><p>🌏Google Maps</p></a>
-                                        <p>📅 ${location.date}<p>
-                                        <p>${location.desc}</p>
-                                        <img class="modal-img" src="${location.img}" width="100%">`;
+                infoContent.innerHTML = `<h2 class="location-name">${location.name}</h2>
+                                        <a href="${location.ggmaps}" target="_blank"><p>🌏Google Maps</p></a>`;
+                location.detail.forEach(location_detail => {
+                    infoContent.innerHTML += `
+                                        <hr>
+                                        <p>📅 ${location_detail.date}<p>
+                                        <p>${location_detail.desc}</p>
+                                        <img class="modal-img" src="${location_detail.img}" width="100%">
+                                        `;
+                });
                 infoBox.style.display = 'block';
             });
         });
@@ -63,7 +68,7 @@
     </script>
 
     <div><p style="font-size: 12px; text-align: center;">100% coded by vhta, no ChatGPT, no templates, just me, you and the journey I treasure from the bottom of my heart 💖</p></div>
-    <div><p style="font-size: 12px; text-align: center;">Last Updated: 12:01 19/02/2025</p></div>
+    <div><p style="font-size: 12px; text-align: center;">Last Updated: 21:10 23/02/2025</p></div>
     <!-- <div class="updates-log"><button>Updates Log</button></div> -->
 </body>
 </html>
