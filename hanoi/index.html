@@ -11,64 +11,36 @@
 <body>
     <div class="map-heading"><h1>Chúng mình đã đi những đâu rùi nhỉ? 🤗 Cùng xem lại nhé!</h1></div>
     <div><p style="text-align: center;">📍 Phóng to và Click vào từng địa điểm để xem chi tiết nè </p></div>
-    <div id="map"></div>
+    
+    <!-- Main map -->
+    <div id="map">
+        <button id="updatesLogButton">Updates Log</button>
+    </div>
+    
+    <!-- Boxes -->
     <div id="info" class="info-box">
         <button class="close-btn" onclick="closeInfoBox()">&times;</button>
         <div id="info-content"></div>
     </div>
-    
 
+
+    <div id="updates-log" class="log-box">
+        <button class="close-btn" onclick="closeUpdatesLogBox()">&times;</button>
+        <div id="log-content"></div>
+    </div>
+    
+    <!-- Main leaflet framework for map tools -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-    <script type="text/javascript" src="map_data.js"></script>
-    <script>
-        // Initialize the map
-        var map = L.map('map').setView([21.0285, 105.8544], 9);
+    <!-- Import global variables -->
+    <script type="text/javascript" src="var/map_data.js"></script>
+    <script type="text/javascript" src="var/updates_log.js"></script>
+    
+    <!-- Import main logical functions -->
+    <script src="main.js"></script>
 
-        // Add OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Marker data
-
-        // Create markers
-        locations.forEach(location => {
-            var marker = L.marker([location.lat, location.lng]).addTo(map).bindPopup(location.name);
-
-            marker.on('mouseover',function(ev) {
-                ev.target.openPopup();
-            });
-
-            marker.on('click',function(ev) {
-                ev.target.openPopup();
-            });
-
-            marker.on('click', function() {
-                var infoBox = document.getElementById('info');
-                var infoContent = document.getElementById('info-content');
-                infoContent.innerHTML = `<h2 class="location-name">${location.name}</h2>
-                                        <a href="${location.ggmaps}" target="_blank"><p>🌏Google Maps</p></a>`;
-                location.detail.forEach(location_detail => {
-                    infoContent.innerHTML += `
-                                        <hr>
-                                        <p>📅 ${location_detail.date}<p>
-                                        <p>${location_detail.desc}</p>
-                                        <img class="modal-img" src="${location_detail.img}" width="100%">
-                                        `;
-                });
-                infoBox.style.display = 'block';
-            });
-        });
-
-        // Close info box function
-        function closeInfoBox() {
-            document.getElementById('info').style.display = 'none';
-        }
-    </script>
-
+    <!-- Footer -->
     <div><p style="font-size: 12px; text-align: center;">100% coded by vhta, no ChatGPT, no templates, just me, you and the journey I treasure from the bottom of my heart 💖</p></div>
-    <div><p style="font-size: 12px; text-align: center;">Last Updated: 21:10 23/02/2025</p></div>
-    <!-- <div class="updates-log"><button>Updates Log</button></div> -->
+    <div><p style="font-size: 12px; text-align: center;">Last Updated: 14:33 27/02/2025</p></div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-var locations = 
+var map_data = 
 [
     {
       "id": 1,
@@ -472,5 +472,19 @@ var locations =
           "desc": "Đúng là thánh nhân đãi kẻ khù khờ. Với cái chiến thuật nhiều lỗ hổng nhưng mà sự may mắn là yếu tố chính, con bé đã khiến cho mình bankrupt ngay đầu tiên. Quá là láo và bất công. Mình đã tính toán mua rất nhiều đất nhưng vẫn thua đứa số đỏ hơn - ít đất nhưng nhiều nhà. Cuộc chơi hôm nay có sự tham gia của cả Thái và Hoàng, mọi người đều rất vui vẻ cười ằng ặc. Sau cùng thì Hoàng cũng ra đi theo mình. Thái thì chịu thua vì con bé đã quá giàu ròi, chơi thêm chỉ có khóc. Con bé thì nhìn đắc thắng lắm, khẳng định là nếu ăn tiền thì ngon ròi. Mình rất thích bầu không khí mà chúng ta đã cùng tạo nên. Hi vọng là chúng ta sẽ luôn trân trọng từng khoảnh khắc như thế này."
         }
       ]
-    }
+    },
+    
+    {
+      "lat": 21.016199170467598, 
+      "lng": 105.81516243617071,
+      "ggmaps": "https://maps.app.goo.gl/SR2QKdjhw6gjWUfm6",
+      "name": "VPBank Hội Sở 89 Láng Hạ 🏦",
+      "detail": [
+        {
+          "date": "19:10 25/02/2025",
+          "img": "",
+          "desc": "Hôm nay mình ."
+        }
+      ]
+    },
   ]
