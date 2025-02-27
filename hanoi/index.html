@@ -7,14 +7,20 @@
     <link rel="icon" type="image/x-icon" href="img/destination.ico">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="styles.css">
+    <!-- Leaflet.markercluster CSS -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" /> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" /> -->
 </head>
 <body>
     <div class="map-heading"><h1>Chúng mình đã đi những đâu rùi nhỉ? 🤗 Cùng xem lại nhé!</h1></div>
     <div><p style="text-align: center;">📍 Phóng to và Click vào từng địa điểm để xem chi tiết nè </p></div>
+    <!-- <div id="marker-count" style="text-align: center; font-weight: bold; margin: 10px;">📍 Markers in View: 0</div> -->
+
     
     <!-- Main map -->
     <div id="map">
         <button id="updatesLogButton">Updates Log</button>
+        <button id="markerCountButton" class="marker-count-box">📍 Places in view: 0</button>
     </div>
     
     <!-- Boxes -->
@@ -28,13 +34,19 @@
         <button class="close-btn" onclick="closeUpdatesLogBox()">&times;</button>
         <div id="log-content"></div>
     </div>
-    
+    <!-- External JS -->
     <!-- Main leaflet framework for map tools -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Leaflet.markercluster JS -->
+    <!-- <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script> -->
+
+
+
 
     <!-- Import global variables -->
     <script type="text/javascript" src="var/map_data.js"></script>
     <script type="text/javascript" src="var/updates_log.js"></script>
+    <script type="text/javascript" src="var/type_color.js"></script>
     
     <!-- Import main logical functions -->
     <script src="main.js"></script>

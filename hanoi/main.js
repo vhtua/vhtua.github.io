@@ -12,11 +12,20 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+// L.tileLayer('https://tile.osm.ch/switzerland/{z}/{x}/{y}.png', {
+//     attribution: '&copy; <a href="https://osm.ch/">OSM Switzerland</a>',
+//     maxZoom: 18
+// }).addTo(map);
+
+// var markers = L.markerClusterGroup();
+
+
 // Marker data
 
 // Create markers
 map_data.forEach(location => {
     var marker = L.marker([location.lat, location.lng]).addTo(map).bindPopup(location.name);
+    marker._icon.classList.add(type_color[location.type]);
 
     marker.on('mouseover',function(ev) {
         ev.target.openPopup();
@@ -41,12 +50,37 @@ map_data.forEach(location => {
         });
         infoBox.style.display = 'block';
     });
+    // markers.addLayer(marker); // Add marker to cluster
 });
+
+// map.addLayer(markers);
 
 // Close info box function
 function closeInfoBox() {
     document.getElementById('info').style.display = 'none';
 }
+
+// Count markers
+function countMarkersInView() {
+    var bounds = map.getBounds();
+    var count = 0;
+
+    map_data.forEach(location => {
+        var latLng = L.latLng(location.lat, location.lng);
+        if (bounds.contains(latLng)) {
+            count++;
+        }
+    });
+
+    document.getElementById('markerCountButton').innerText = `📍 Markers in View: ${count}`;
+}
+
+// Update count on map move or zoom
+map.on('moveend', countMarkersInView);
+map.on('zoomend', countMarkersInView);
+
+
+
 
 
 //==================== Log functions ======================//

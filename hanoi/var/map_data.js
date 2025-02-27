@@ -1,7 +1,6 @@
 var map_data = 
 [
     {
-      "id": 1,
       "lat": 21.03160360296427,
       "lng": 105.81279591265658,
       "ggmaps": "https://maps.app.goo.gl/UtzSzmh1QsN3xC7f9",
@@ -15,11 +14,11 @@ var map_data =
       ]
     },
     {
-      "id": 2,
       "lat": 21.033546553526204,
       "lng": 105.77673667714092,
       "ggmaps": "https://maps.app.goo.gl/sH2wy4Bu52gVQxE77",
       "name": "58/3 Trần Bình 🏠",
+      "type": "home",
       "detail": [
         {
           "date": "22:00 10/12/2024",
@@ -29,7 +28,6 @@ var map_data =
       ]
     },
     {
-      "id": 3,
       "lat": 21.03453056879763,
       "lng": 105.782795321752,
       "ggmaps": "https://maps.app.goo.gl/4K8oWDU6dgKJcLwq7",
@@ -43,7 +41,6 @@ var map_data =
       ]
     },
     {
-      "id": 4,
       "lat": 21.014981512799476,
       "lng": 105.81217663385567,
       "ggmaps": "https://maps.app.goo.gl/rCmpP7TYrNaW1qB99",
@@ -152,6 +149,7 @@ var map_data =
       "lng": 105.76519133595134,
       "ggmaps": "https://maps.app.goo.gl/3WFDpJjD41ojaAVn9",
       "name": "304 Hồ Tùng Mậu 🏠",
+      "type": "home",
       "detail": [
         {
           "date": "12:50 17/12/2024",
@@ -473,6 +471,20 @@ var map_data =
         }
       ]
     },
+
+    {
+      "lat": 21.027574955132444, 
+      "lng": 105.79844445446575,
+      "ggmaps": "https://maps.app.goo.gl/txbfvX6sPnAbzDTN9",
+      "name": "Bánh mì xiên nướng 407 Nguyễn Khang 🥖",
+      "detail": [
+        {
+          "date": "14:42 23/02/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
     
     {
       "lat": 21.016199170467598, 
@@ -481,10 +493,42 @@ var map_data =
       "name": "VPBank Hội Sở 89 Láng Hạ 🏦",
       "detail": [
         {
-          "date": "19:10 25/02/2025",
+          "date": "19:03 25/02/2025",
           "img": "",
-          "desc": "Hôm nay mình ."
+          "desc": ""
         }
       ]
     },
+
+    {
+      "lat": 20.997181420013252, 
+      "lng": 105.80738871852749,
+      "ggmaps": "https://maps.app.goo.gl/p725Fe1Da3hbGXQf9",
+      "name": "Máy Ảnh Cũ Hà Nội 📸",
+      "detail": [
+        {
+          "date": "19:20 25/02/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.03881992123641, 
+      "lng": 105.7857392832081,
+      "ggmaps": "https://maps.app.goo.gl/2VF5eSLq7bhoA7nCA",
+      "name": "Quán chị Chíp 🥗",
+      "detail": [
+        {
+          "date": "21:09 25/02/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    
   ]
