@@ -9,7 +9,7 @@ var map = L.map('map').setView([21.0285, 105.8544], 9);
 
 // Add OpenStreetMap tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
+    attribution: '&copy; vhta'
 }).addTo(map);
 
 // L.tileLayer('https://tile.osm.ch/switzerland/{z}/{x}/{y}.png', {
@@ -72,7 +72,7 @@ function countMarkersInView() {
         }
     });
 
-    document.getElementById('markerCountButton').innerText = `📍 Markers in View: ${count}`;
+    document.getElementById('markerCountButton').innerText = `📍 Places in View: ${count}`;
 }
 
 // Update count on map move or zoom
