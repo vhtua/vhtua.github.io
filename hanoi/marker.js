@@ -18,11 +18,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // }).addTo(map);
 
 // var markers = L.markerClusterGroup();
-// ====== Add paths to the map
-var polyline = L.polyline(sample_path, {color: 'red', stroke: true, weight: 5}).addTo(map).bindPopup("This is a path");
-polyline.on('mouseover',function(ev) {
-    ev.target.openPopup();
-});
 
 // Marker data
 
@@ -82,8 +77,3 @@ function countMarkersInView() {
 // Update count on map move or zoom
 map.on('moveend', countMarkersInView);
 map.on('zoomend', countMarkersInView);
-
-
-
-
-

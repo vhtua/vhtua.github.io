@@ -393,6 +393,6 @@ console.log(transformedLocations);
 
 const fs = require('fs');
 
-fs.writeFileSync('locations.json', JSON.stringify(transformedLocations, null, 2), 'utf-8');
+fs.writeFileSync('out/locations.json', JSON.stringify(transformedLocations, null, 2), 'utf-8');
 
 console.log('Locations saved to locations.json');

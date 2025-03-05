@@ -1,7 +1,9 @@
 import xml.etree.ElementTree as ET
 
 # Path to the uploaded GPX file
-gpx_file_path = "route.gpx"
+gpx_file_path = "in/go_home_route.gpx"
+# Save to a text file
+output_file_path = "out/latlngs.js"
 
 # Parse the GPX file
 tree = ET.parse(gpx_file_path)
@@ -24,8 +26,7 @@ for rpt in root.findall(".//gpxx:rpt", namespaces):
 # Format as JavaScript variable
 js_content = f"var latlngs = {latlngs};"
 
-# Save to a text file
-output_file_path = "latlngs.js"
+
 with open(output_file_path, "w") as output_file:
     output_file.write(js_content)
 
