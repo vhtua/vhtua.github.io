@@ -171,6 +171,35 @@ var map_data =
         }
       ]
     },
+
+    {
+      "lat": 21.033203468702066, 
+      "lng": 105.80339250850766,
+      "ggmaps": "https://maps.app.goo.gl/WTVf3TkN9R5quMrZ8",
+      "name": "Xiên bẩn không nhân 🍟",
+      "detail": [
+        {
+          "date": "19:35 - 21:17 21/12/2024",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.04532575658488, 
+      "lng": 105.76232756945713,
+      "ggmaps": "https://maps.app.goo.gl/psbxrFbh7vwryuCG6",
+      "name": "Xiên bẩn buffet 49K 🍟",
+      "detail": [
+        {
+          "date": "19:15 - 21:36 09/01/2025",
+          "img": "img/20250109-xienban.jpg",
+          "desc": ""
+        }
+      ]
+    },
+
     {
       "lat": 21.022084205549472,
       "lng": 105.79215519895178,
@@ -275,6 +304,7 @@ var map_data =
         }
       ]
     },
+
     {
       "id": 10000000,
       "lat": 20.394980641181245,
@@ -289,6 +319,7 @@ var map_data =
         }
       ]
     },
+
     {
       "lat": 21.00709225052451,
       "lng": 105.79583414303958,
@@ -529,6 +560,33 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.00348348341348, 
+      "lng": 105.79332290363972,
+      "ggmaps": "https://maps.app.goo.gl/1N24U7jfqWqVXWLR9",
+      "name": "Twitter Beans Coffee Thăng Long Number 1 ☕",
+      "detail": [
+        {
+          "date": "18:40 28/02/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 20.39998722423212, 
+      "lng": 106.49580471710205,
+      "ggmaps": "https://maps.app.goo.gl/TqJU3srmCgKQ6R337",
+      "name": "Bến xe khách Tiền Hải 🚌",
+      "detail": [
+        {
+          "date": "23:01 28/02/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
 
     
   ]
