@@ -627,7 +627,7 @@ var map_data =
         {
           "date": "15:40 02/03/2025",
           "img": "",
-          "desc": ""
+          "desc": "đây là nội dung"
         }
       ]
     },
