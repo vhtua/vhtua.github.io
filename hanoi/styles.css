@@ -89,6 +89,7 @@ p {
     cursor: pointer;
     padding: 2px 5px;
     border-radius: 3px;
+    z-index: 5000;
 }
 
 
