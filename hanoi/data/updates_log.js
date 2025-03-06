@@ -1,6 +1,14 @@
 var updates_logs = 
 [
     {
+        date: "06/03/2025",
+        info:   `<ul>
+                    <li>Add 3 places.</li>
+                    <li>Fix minor bugs.</li>
+                </ul>`,
+    },
+
+    {
         date: "06/02/2025",
         info:   `<ul>
                     <li>Release the first version 1.0.0</li>

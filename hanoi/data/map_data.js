@@ -607,7 +607,7 @@ var map_data =
       "lat": 20.44405617609084, 
       "lng": 106.14512647727868,
       "ggmaps": "https://maps.app.goo.gl/xYQqufXgw94V6Ds59",
-      "name": "Bánh Xíu Páo Hành Phúc 🥮",
+      "name": "Bánh Xíu Páo Hạnh Phúc 🥮",
       "detail": [
         {
           "date": "15:48 02/03/2025",
