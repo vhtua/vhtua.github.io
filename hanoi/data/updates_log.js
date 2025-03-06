@@ -40,7 +40,7 @@ var updates_logs =
     {
         date: "05/03/2025",
         info:   `<ul>
-                    <li>Introduce new element: path</li>
+                    <li>Introduce new element: route path</li>
                     <li>Big updates to the system design structures of the web.</li>
                     <li>Add more places.</li>
                 </ul>`,
