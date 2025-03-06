@@ -540,7 +540,7 @@ var map_data =
         {
           "date": "19:20 25/02/2025",
           "img": "",
-          "desc": ""
+          "desc": "Vào một ngày mưa"
         }
       ]
     },
