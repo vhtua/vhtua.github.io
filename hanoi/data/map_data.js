@@ -611,8 +611,8 @@ var map_data =
       "detail": [
         {
           "date": "15:48 02/03/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250302-banhxiupao.jpg",
+          "desc": "Trên đường lên HN con bé hỏi mình là có biết bánh xíu páo không. Mình lần đầu nghe qua cũng ú ớ thấy lạ vì tên gọi của bánh khá là độc đáo và chưa biết bánh này bao giờ. Thế là con bé bảo đây là một loại bánh rất ngon ở Nam Định và tí nữa 2 đứa có thể mua ở dọc đường đi. Mình thấy quá là oke luôn, gì chứ ăn uống luôn là toẹt vời, hihi. Sau khi bỏ qua quá nhiều quán bán bánh xíu páo trên đường do con bé khẳng định là càng gần các khu nhà thì họ bán càng đắt thì mình quyết định dừng lại ở 1 quán khá là xa khu dân cư trên đường. Con bé xuống xe trước và định mua 10 cái bánh. Nhưng cô chủ bán hàng bảo chỉ còn 9 cái nên là con bé mua hết cả 9 cái bánh luon. Sau đó có 2 bạn tới cũng mua bánh xíu páo nhưng tiếc là có 2 đứa nào đó đã mua hết roài, quá là náo. Thế là 2 bạn ý đành phải ngậm ngùi ra về. Chúng mình thì lôi bánh nóng hổi ra khỏi túi và bắt đầu ngồi xuống ăn. Mình thấy bánh rất ngon, là sự kết hợp tuyệt vời của vỏ ngoài  bánh pía và nhân bên trong bánh trung thu nướng và bánh nghệ. Ăn xong mình gói túi bánh và cất vào ba lô. Chúng mỉnh lên xe, chào tạm biệt cô chủ hàng và tiếp tục hành trình lên HN."
         }
       ]
     },
