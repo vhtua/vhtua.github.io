@@ -653,5 +653,47 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.038574742667173, 
+      "lng": 105.76966182233718,
+      "ggmaps": "https://maps.app.goo.gl/ELFaV31766e7GAVcA",
+      "name": "Công viên Hồ Điều Hòa Mai Dịch ⛲",
+      "detail": [
+        {
+          "date": "22:48 14/03/2025",
+          "img": "img/20250314-congvienmaidich.jpg",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.034901056232286, 
+      "lng": 105.77286849607003,
+      "ggmaps": "https://maps.app.goo.gl/svPv1Fuqhw4VgrcNA",
+      "name": "Canh Cá Quỳnh Côi 🐟",
+      "detail": [
+        {
+          "date": "12:11 15/03/2025",
+          "img": "img/20250315-buncaqcoi.jpg",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.041330684172973, 
+      "lng": 105.83085122928773,
+      "ggmaps": "https://maps.app.goo.gl/WgrWQrZ8itWipB4B6",
+      "name": "Công viên Bách Thảo 🌲",
+      "detail": [
+        {
+          "date": "13:12 15/03/2025",
+          "img": "img/20250315-congvienbachthao.jpg",
+          "desc": ""
+        }
+      ]
+    },
     
   ]
