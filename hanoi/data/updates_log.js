@@ -53,4 +53,12 @@ var updates_logs =
                     <li>Add more places.</li>
                 </ul>`,
     },
+
+    {
+        date: "01/04/2025",
+        info:   `<ul>
+                    <li>Introduce new tag for markers: video</li>
+                    <li>Add more places.</li>
+                </ul>`
+    },
 ] 

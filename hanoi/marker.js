@@ -46,6 +46,14 @@ map_data.forEach(location => {
                                 <p>${location_detail.desc}</p>
                                 <img class="modal-img" src="${location_detail.img}" width="100%">
                                 `;
+            if (location_detail.video) {
+                infoContent.innerHTML +=    `
+                                        <video class="modal-video" width="100%" controls>
+                                            <source src="${location_detail.video}" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                            `;
+            }
         });
         infoBox.style.display = 'block';
     });

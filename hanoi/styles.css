@@ -32,6 +32,10 @@
     
 }
 
+.modal-video {
+    border-radius: 10px;
+}
+
 .location-name {
     text-align: center;
     background-color: bisque;

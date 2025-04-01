@@ -695,5 +695,21 @@ var map_data =
         }
       ]
     },
+
+
+    {
+      "lat": 21.06976774328496, 
+      "lng": 105.86356680092025,
+      "ggmaps": "https://maps.app.goo.gl/SBFcQcjKEnqQtdCr8",
+      "name": "Dimin Cake 🎂",
+      "detail": [
+        {
+          "date": "13:55 - 17:10 29/03/2025",
+          "img": "",
+          "video": "video/20250329-dimincake.mp4",
+          "desc": ""
+        }
+      ]
+    },
     
   ]
