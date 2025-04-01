@@ -698,6 +698,21 @@ var map_data =
 
 
     {
+      "lat": 21.035912130377906, 
+      "lng": 105.77611316041133,
+      "ggmaps": "https://maps.app.goo.gl/aSybHritcSJVLm4o7",
+      "name": "Nem nướng 37 ngõ 75 Hồ Tùng Mậu",
+      "detail": [
+        {
+          "date": "12:11 29/03/2025",
+          "img": "img/202520329-nemnuong.jpg",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
       "lat": 21.06976774328496, 
       "lng": 105.86356680092025,
       "ggmaps": "https://maps.app.goo.gl/SBFcQcjKEnqQtdCr8",
