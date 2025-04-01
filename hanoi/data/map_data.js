@@ -193,7 +193,7 @@ var map_data =
       "name": "Xiên bẩn buffet 49K 🍟",
       "detail": [
         {
-          "date": "22:32 14/03/2025",
+          "date": "21:30 14/03/2025",
           "img": "img/20250314-xienban.jpg",
           "desc": ""
         },
@@ -634,7 +634,21 @@ var map_data =
         {
           "date": "15:40 02/03/2025",
           "img": "",
-          "desc": "đây là nội dung"
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.038574742667173, 
+      "lng": 105.76966182233718,
+      "ggmaps": "https://maps.app.goo.gl/ELFaV31766e7GAVcA",
+      "name": "Công viên Hồ Điều Hòa Mai Dịch ⛲",
+      "detail": [
+        {
+          "date": "22:48 14/03/2025",
+          "img": "img/20250314-congvienmaidich.jpg",
+          "desc": ""
         }
       ]
     },
