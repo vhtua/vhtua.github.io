@@ -193,10 +193,17 @@ var map_data =
       "name": "Xiên bẩn buffet 49K 🍟",
       "detail": [
         {
+          "date": "22:32 14/03/2025",
+          "img": "img/20250314-xienban.jpg",
+          "desc": ""
+        },
+
+        {
           "date": "19:15 - 21:36 09/01/2025",
           "img": "img/20250109-xienban.jpg",
           "desc": ""
         }
+        
       ]
     },
 
