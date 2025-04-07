@@ -1,0 +1,67 @@
+/* Button */
+#updatesLogButton{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 135px;
+    left: 10px;
+    /* width: 100px; */
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    opacity: 0.8;
+    text-align: center;
+    z-index: 500;
+}
+
+#updatesLogButton:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Log Window */
+.log-box {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    z-index: 1000;
+}
+
+#updates-log {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    z-index: 1000;
+    max-height: 70%;
+    overflow-y: auto;
+}
+
+#log-content {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.updates-log-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 4px;
+    position: sticky;
+    top: 0;
+}

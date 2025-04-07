@@ -6,23 +6,52 @@
     <title>Nơi chúng ta đặt chân tới</title>
     <link rel="icon" type="image/x-icon" href="img/destination.ico">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/updates_log.css">
     <!-- Leaflet.markercluster CSS -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" /> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" /> -->
 </head>
 <body>
-    <div class="map-heading"><h1>Chúng mình đã đi những đâu rùi nhỉ? 🤗 Cùng xem lại nhé!</h1></div>
+    <div class="map-heading"><h1 id="map-heading-text">Chúng mình đã đi những đâu rùi nhỉ? 🤗 Cùng xem lại nhé!</h1></div>
     <div><p style="text-align: center;">📍 Phóng to và Click vào từng địa điểm để xem chi tiết nè </p></div>
+    <div class="filter-heading"><p id="filtered-date-heading" style="text-align: center;"></p></div>
     <!-- <div id="marker-count" style="text-align: center; font-weight: bold; margin: 10px;">📍 Markers in View: 0</div> -->
 
     
     <!-- Main map -->
     <div id="map">
-        <button id="updatesLogButton">Updates Log</button>
-        <button id="markerCountButton" class="marker-count-box">📍 Places in view: 0</button>
+        <button id="markerCountButton" class="marker-count-box" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">📍 Places in view: 0</button>
+        <button id="menu" class="menu" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">&#9776; Menu</button>
+        <button id="updatesLogButton" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Updates Log</button>
     </div>
+
+
+
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+          <span class="close-btn" id="closePopup">&times;</span>
     
+          <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">🗓️ Filter by Date</h3>
+          <label for="dateFrom" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">From:</label>
+          <input type="date" id="dateFrom">
+          <label for="dateTo" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">To:</label>
+          <input type="date" id="dateTo">
+          <div id="filtered-date-result"></div>
+          <button id="applyFilter">Apply Filter</button>
+          
+    
+          <hr style="margin: 20px 0;">
+    
+          <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">🔤 Change App Title</h3>
+          <div id="change-app-title-result"></div>
+          <button id="changeTitle">Change App Title</button>
+        </div>
+      </div>
+    
+
+
     <!-- Boxes -->
     <div id="info" class="info-box">
         <button class="close-btn" onclick="closeInfoBox()">&times;</button>
@@ -41,9 +70,11 @@
     <!-- <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script> -->
 
 
-
+    <!-- Import common functions -->
+    <script type="text/javascript" src="common/date_utils.js"></script>
 
     <!-- Import global variables -->
+    <script type="text/javascript" src="data/map_title.js"></script>
     <script type="text/javascript" src="data/map_data.js"></script>
     <script type="text/javascript" src="data/updates_log.js"></script>
     <script type="text/javascript" src="data/type_color.js"></script>
@@ -53,12 +84,13 @@
         <script type="text/javascript" src="data/path_data.js"></script>
     
     <!-- Import main logical functions -->
-    <script src="marker.js"></script>
-    <script src="path.js"></script>
+    <script src="marker_v2.js"></script>
+    <script src="path_v2.js"></script>
+    <script src="menu.js"></script>
     <script src="log.js"></script>
 
     <!-- Footer -->
     <div><p style="font-size: 12px; text-align: center;">100% coded by vhta, no ChatGPT, no templates, just me, you and the journey I treasure from the bottom of my heart 💖</p></div>
-    <div><p style="font-size: 12px; text-align: center;">Last Updated: 11:52 01/04/2025</p></div>
+    <div><p style="font-size: 12px; text-align: center;">Last Updated: 01:35 08/04/2025</p></div>
 </body>
 </html>

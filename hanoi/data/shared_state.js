@@ -1,0 +1,1 @@
+let currentNumberOfWindow = 0;

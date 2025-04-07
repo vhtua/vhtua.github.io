@@ -61,4 +61,12 @@ var updates_logs =
                     <li>Add more places.</li>
                 </ul>`
     },
+    {
+        date: "08/04/2025",
+        info:   `<ul>
+                    <li>Big update to v2.0.0</li>
+                    <li>Add menu box.</li>
+                    <li>Introduce Date Filter feature.</li>
+                </ul>`
+    },
 ] 
