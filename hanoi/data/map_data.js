@@ -125,10 +125,15 @@ var map_data =
       "name": "Siêu thị Thành Đô 🛒",
       "detail": [
         {
+          "date": "17:28-18:36 23/03/2025",
+          "img": "",
+          "desc": "Con bé hẹn mình vào siêu thị mua đồ ăn sáng, trái cây các thứ rồi sau đó là mang máy ảnh đi chụp phong cảnh. Cơ mà mình chỉ nhớ vế đầu là đi mua đồ. Còn máy ảnh thì quên luông. Vào tới nơi thì siêu thị đông người thật, chúng mình đi lại chọn hàng cũng khá khó khăn. Tổng kết thì hai đứa mua được 1 đống lốc sữa TH (đang định thử vị vệt quất mà mình quên không lấy lốc nào, thành ra con bé loot đậm), bánh mì, dưa hấu, xoài. Vâng, mua xong thì trời tối xừ rồi, chụp choẹt gì lúc 6 rưỡi tối. Thế là mình chở con bé về nhà cất đồ và mang tool đi gọt xoài ăn nghịch."
+        },
+        {
           "date": "18:30-19:25 15/12/2024",
           "img": "",
           "desc": "Sau khi chọn xong hộp quà cho con bé chuẩn bị dịp Giáng Sinh ở công ty, tụi mình vào đây để ngắm và mua 1 số đồ cần thiết. Ở đây thì tụi mình có thấy 1 dàn gấu bông trông cũm được được, Hoa thử nhấc 1 con gấu bông to đúng lên và cả 2 chơi trò đoán giá. Cuối cùng thì kết quả là hòa do cả 2 đứa đều đoán giá chênh 25k, khác nhau là 1 đứa đoán chênh trên và 1 đứa đoán chênh dưới. Sau đó mình được đề xuất mua 3 lọ nhỏ để đựng gia vị lấu ăn. Chúng mình xuống lại tầng 1 siêu thị và Hoa có mua 1 số đồ ăn cho bữa sáng như bánh mì với sữa. Sau cùng thì mình chọn cho con bé túi quýt trông có vẻ ngon."
-        }
+        },
       ]
     },
     {
@@ -634,20 +639,6 @@ var map_data =
         {
           "date": "15:40 02/03/2025",
           "img": "",
-          "desc": ""
-        }
-      ]
-    },
-
-    {
-      "lat": 21.038574742667173, 
-      "lng": 105.76966182233718,
-      "ggmaps": "https://maps.app.goo.gl/ELFaV31766e7GAVcA",
-      "name": "Công viên Hồ Điều Hòa Mai Dịch ⛲",
-      "detail": [
-        {
-          "date": "22:48 14/03/2025",
-          "img": "img/20250314-congvienmaidich.jpg",
           "desc": ""
         }
       ]
