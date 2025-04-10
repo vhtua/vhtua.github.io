@@ -10,11 +10,13 @@
 //     ev.target.openPopup();
 // });
 
+const pathsLayer = L.layerGroup().addTo(map);
 
 // Create paths
 function createPaths(data) {
+    pathsLayer.clearLayers();
     data.forEach(path => {
-        var polyline = L.polyline(path.var, {color: 'red', stroke: true, weight: 5}).addTo(map).bindPopup(path.name);
+        const polyline = L.polyline(path.var, {color: 'red', stroke: true, weight: 5}).addTo(map).bindPopup(path.name);
     
         // polyline.on('mouseover',function(ev) {
         //     ev.target.openPopup();
@@ -38,6 +40,7 @@ function createPaths(data) {
             });
             infoBox.style.display = 'block';
         });
+        polyline.addTo(pathsLayer);
     });
 }
 
@@ -49,6 +52,7 @@ function createPaths(data) {
 createPaths(path_data);
 
 function applyDateFilterPaths() {
+    // console.log("Update Paths");
     const fromDateInput = document.getElementById('dateFrom').value;
     const toDateInput = document.getElementById('dateTo').value;
 
@@ -66,35 +70,20 @@ function applyDateFilterPaths() {
 
     path_data.forEach(path => {
         const matchingDetails = path.detail.filter(detail => {
-            const dateMatch = detail.date.match(/\d{2}\/\d{2}\/\d{4}/);
-            if (!dateMatch) return false;
-    
-            const date = new Date(dateMatch[0].split('/').reverse().join('-')); // Convert to YYYY-MM-DD format
+            const date = parseDate(detail.date);
             return (!fromDate || date >= fromDate) && (!toDate || date <= toDate);
         });
-    
+        // console.log(matchingDetails);
+        
         if (matchingDetails.length > 0) {
-            const polyline = L.polyline(path.var, { color: 'red', weight: 5 })
-                .addTo(pathsLayer)
-                .bindPopup(path.name);
-    
-            polyline.on('click', () => {
-                const infoBox = document.getElementById('info');
-                const infoContent = document.getElementById('info-content');
-                infoContent.innerHTML = `<h2 class="location-name">${path.name}</h2>`;
-                matchingDetails.forEach(detail => {
-                    infoContent.innerHTML += `
-                        <hr>
-                        <p>📅 ${detail.date}</p>
-                        <p>${detail.desc}</p>
-                        <img class="modal-img" src="${detail.img}" width="100%">`;
-                });
-                infoBox.style.display = 'block';
-            });
-        }
+            filteredPathData.push({
+                ...path,
+                detail: matchingDetails
+            })
+        } 
     });
-    console.log("Updating later...");
-    // createPaths(filteredPathData);
+    createPaths(filteredPathData);
+
     document.getElementById('filtered-date-result').innerHTML = `<p style="color: green; font-size: 14px;">Successfully applied filter</p>`;
 }
 

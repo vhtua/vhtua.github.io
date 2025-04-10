@@ -76,6 +76,8 @@ function applyDateFilter() {
             const d = parseDate(detail.date);
             return d && d >= fromDate && d <= toDate;
         });
+        // console.log("====== marker"); ===> Debug
+        // console.log(matchingDetails);
 
         if (matchingDetails.length > 0) {
             filteredData.push({
