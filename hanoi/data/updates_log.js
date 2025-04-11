@@ -69,4 +69,13 @@ var updates_logs =
                     <li>Introduce Date Filter feature.</li>
                 </ul>`
     },
+    {
+        date: "11/04/2025",
+        info:   `<ul>
+                    <li>Add filter clearing feature.</li>
+                    <li>Introduce Music Player with synced lyrics.</li>
+                    <li>Add more places.</li>
+                    <li>Fix minor bugs.</li>
+                </ul>`
+    },
 ] 

@@ -25,5 +25,7 @@ audio.ontimeupdate = () => {
   const currentLyric = lyrics.find(
     l => currentTime >= l.start && currentTime <= l.end
   );
-  lyricsDiv.textContent = currentLyric ? currentLyric.text : "";
+  lyricsDiv.textContent = currentLyric && currentLyric.text.trim() !== ""
+    ? currentLyric.text
+    : " ♪ ";
 };
