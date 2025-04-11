@@ -124,3 +124,4 @@ function countMarkersInView() {
 // Hook into map events
 map.on('moveend', countMarkersInView);
 map.on('zoomend', countMarkersInView);
+

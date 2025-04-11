@@ -55,8 +55,11 @@ function applyDateFilterPaths() {
     // console.log("Update Paths");
     const fromDateInput = document.getElementById('dateFrom').value;
     const toDateInput = document.getElementById('dateTo').value;
-
-    if (!fromDateInput || !toDateInput) {
+    
+    if (!fromDateInput && !toDateInput) {
+        document.getElementById('filtered-date-result').innerHTML = `<p style="color: orange; font-size: 14px;">Filter reset</p>`;
+        return;
+    } else if (!fromDateInput || !toDateInput) {
         // alert("Please select both From and To dates.");
         document.getElementById('filtered-date-result').innerHTML = `<p style="color: red; font-size: 14px;">Invalid input date</p>`;
         return;

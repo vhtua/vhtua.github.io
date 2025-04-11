@@ -71,3 +71,17 @@
   cursor: pointer;
   margin-top: 5px;
 }
+
+
+/* Filtre button */
+/* #applyFilter {
+  background: green;
+} */
+
+#resetFilter {
+  background: red;
+}
+
+/* #changeTitle {
+  background: green;
+} */

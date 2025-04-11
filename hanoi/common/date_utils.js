@@ -18,4 +18,4 @@ function parseDate(dateStr) {
     const isoStr = `${date.split('/').reverse().join('-')}T${time}`;
     return new Date(isoStr);
 }
-  
+
