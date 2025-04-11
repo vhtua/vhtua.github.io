@@ -18,7 +18,7 @@ const parseSRT = (srt) => {
   });
 };
 
-const lyrics = parseSRT(lyrics_dungyeunuaemmetroi);
+const lyrics = parseSRT(lyrics_blue_yungkai);
 
 audio.ontimeupdate = () => {
   const currentTime = audio.currentTime;
