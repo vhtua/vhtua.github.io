@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/updates_log.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/lyrics.css">
     <!-- Leaflet.markercluster CSS -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" /> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" /> -->
@@ -17,12 +18,17 @@
 <body>
     <div class="map-heading"><h1 id="map-heading-text">Chúng mình đã đi những đâu rùi nhỉ? 🤗 Cùng xem lại nhé!</h1></div>
     <div>
-        <p style="text-align: center;">📍 Phóng to và Click vào từng địa điểm để xem chi tiết nè </p>
+        <p id="instruction-heading" style="text-align: center;">📍 Phóng to và Click vào từng địa điểm để xem chi tiết nè </p>
     </div>
     <div class="filter-heading"><p id="filtered-date-heading" style="text-align: center;"></p></div>
-    <button id="resetFilterHead" > <img src="img/sys/filter.png" alt="" style=" height: 20px;"> Reset</button>
+    <button class="navButton" id="resetFilterHead" title="Reset the current date filter"> <img src="img/sys/filter.png" alt="" style=" height: 20px;"> Reset</button>
+    <a href="https://www.facebook.com/tuananh020402/" target="_blank" title="About the author of this app"><button class="navButton" id="" > <img src="img/sys/ink-pen.png" alt="" style=" height: 20px;">  Author</button></a>
+    
+    <div id="lyrics"></div>
     <!-- <button class="button-89" role="button">Button 89</button> -->
     <!-- <div id="marker-count" style="text-align: center; font-weight: bold; margin: 10px;">📍 Markers in View: 0</div> -->
+    
+    
 
     
     <!-- Main map -->
@@ -53,6 +59,16 @@
           <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">🔤 Change App Title</h3>
           <div id="change-app-title-result"></div>
           <button id="changeTitle">Change App Title</button>
+
+          <hr style="margin: 20px 0;">
+    
+          <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">🎵 Playing music</h3>
+            <div id="audio-player" style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 10px;">
+                <audio id="audio" controls>
+                    <source src="audio/dungyeunuaemmetroi-min.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
         </div>
       </div>
     
@@ -88,16 +104,21 @@
         <script type="text/javascript" src="data/path/sample_path.js"></script>
         <script type="text/javascript" src="data/path/hometown_path.js"></script>
         <script type="text/javascript" src="data/path_data.js"></script>
+        <!-- Audio lyrics -->
+        <script type="text/javascript" src="lyrics/dungyeunuaemmetroi-min.js"></script>
+        <script src="audio_player.js"></script> <!-- Script for audio player -- must be under audio player controls -->
     
+
     <!-- Import main logical functions -->
     <script src="marker_v2.js"></script>
     <script src="path_v2.js"></script>
     <script src="menu.js"></script>
     <script src="log.js"></script>
     <script src="filter.js"></script>
+    
 
     <!-- Footer -->
     <div><p style="font-size: 12px; text-align: center;">100% coded by vhta, no ChatGPT, no templates, just me, you and the journey I treasure from the bottom of my heart 💖</p></div>
-    <div><p style="font-size: 12px; text-align: center;">Last Updated: 14:04 11/04/2025</p></div>
+    <div><p style="font-size: 12px; text-align: center;">Last Updated: 15:34 11/04/2025</p></div>
 </body>
 </html>
