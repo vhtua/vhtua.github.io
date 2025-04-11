@@ -651,6 +651,11 @@ var map_data =
       "name": "Công viên Hồ Điều Hòa Mai Dịch ⛲",
       "detail": [
         {
+          "date": "21:06 18/03/2025",
+          "img": "img/20250318-congvien.jpg",
+          "desc": ""
+        },
+        {
           "date": "22:48 14/03/2025",
           "img": "img/20250314-congvienmaidich.jpg",
           "desc": ""
@@ -682,6 +687,62 @@ var map_data =
         {
           "date": "13:12 15/03/2025",
           "img": "img/20250315-congvienbachthao.jpg",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.016963143173292, 
+      "lng": 105.84421142403248,
+      "ggmaps": "https://maps.app.goo.gl/dyFyBownWh5Y9sfx6",
+      "name": "Công viên Thống Nhất 🌲",
+      "detail": [
+        {
+          "date": "17:26 15/03/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.02881186566944, 
+      "lng": 105.8445749321424,
+      "ggmaps": "https://maps.app.goo.gl/K1q2Zu2ZVrELUzEU9",
+      "name": "Cháo Cá Đoan Xồm 🥣",
+      "detail": [
+        {
+          "date": "18:32 15/03/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.03133292902248, 
+      "lng": 105.81480808539864,
+      "ggmaps": "https://maps.app.goo.gl/YjWrswazKEhg3sXF9",
+      "name": "Vincom Center Metropolis 🏬",
+      "detail": [
+        {
+          "date": "19:13 15/03/2025",
+          "img": "img/20250315-cgvmetro.jpg",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.035851297489526, 
+      "lng": 105.77207855228251,
+      "ggmaps": "https://maps.app.goo.gl/rQATR3yWeLrz3tRs8",
+      "name": "Ngõ 5 Lê Đức Thọ, Mai Dịch 🛝",
+      "detail": [
+        {
+          "date": "21:06 23/03/2025",
+          "img": "",
           "desc": ""
         }
       ]
