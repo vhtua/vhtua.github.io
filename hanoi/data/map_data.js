@@ -23,7 +23,7 @@ var map_data =
         {
           "date": "17:50 22/02/2025",
           "img": "img/20250222-58tranbinh.jpg",
-          "desc": ""
+          "desc": "Nay mình có hẹn con bé qua lấy tinh chất giảm thâm mà mình đã săn hộ đơn shopee cho. Đồng thời mình cũng gói luôn hộp quà tặng con bé full combo kẹp tóc mà mình có tìm hiểu được. Thấy ăn uống tội quá, với lại thấy bảo bị loot mất cái kẹp tóc. Tính ra sau này mình thấy mấy cái dây, vòng kẹp tóc mình mua con bé dùng hợp phết chứ đùa. Xời quá là tuyệt hihi."
         },
         {
           "date": "22:00 10/12/2024",
@@ -132,7 +132,7 @@ var map_data =
         {
           "date": "18:15 - 19:05 13/04/2025",
           "img": "",
-          "desc": ""
+          "desc": "Và vâng, hôm nay hai đứa hẹn mua đồ ăn và đồ dùng ở đây. Con bé đã đến siêu thị từ trước và hẹn mình lên tầng 2. Bên dưới siêu thị Thành Đô này lúc nào cũng đông kín người thậc sự, mình sau khi làm mấy trò thủ thuật cất xe xong thì phi ngay vào bên trong siêu thị. Vào đây mình lên tầng 2 như con bé lói mà tìm mãi chả thấy người đâu, đi ngang dọc mãi nên mình phải tự vẽ chiến thuật để tìm được người. Sau tầm 5-6 phút gì đó mới tìm được ạ hê hê. Tiếp đó vào công việc chính, con bé đề xuất mua bàn chải đánh răng loại 2 cái cùng 1 vỉ cho rẻ. Nghe xuôi xuôi đấy nên mình mất kha khá thời gian phân tích, lói phét để tìm được loại phù hợp nhất. Ngốn hẳn hơn 10 phút cho vụ chọn bàn chải này, mình xí cái bàn chải đen còn con bé cho cái màu hồng. Xuống lại tầng 1, chúng mình phải lách qua dòng người đông khủng khiếp để mua bánh mì, sữa, nước tương các thứ. Thành quả là cũng mua được đồ như ý với giá cả hợp lí, hihi."
         },
         {
           "date": "17:28-18:36 23/03/2025",
@@ -196,7 +196,7 @@ var map_data =
         {
           "date": "19:35 - 21:17 21/12/2024",
           "img": "",
-          "desc": ""
+          "desc": "Được giới thiệu là quán xiên bẩn mà con bé hay qua ăn, mình đã tới đây để bắt đầu thưởng thức hương vị sem ra sao. Đến nơi thì mình có cảm nhận ban đầu là anh chủ quán cùng con chó khá là thân thiện. Hoa vào gắp đồ chiên ròi nhờ anh chủ chiên cho, mình lấy chai coca rồi chuẩn bị xuống bàn ăn. Lâu ròi mới được gặp nên là chúng mình cũng lói phét trên trời dưới bể nhiều cái. Sau đó thì là chuyên mục mình đặt tên cho những cục xiên để dễ nói chuyện với con bé. Không biếc sao mà con bé cứ cười ằng ặc nên mình cũng bị cười theo. Sau đó chúng mình khoe xem da đứa nào trắng hơn, Hoa lỡ miệng bảo là bình thường mạch máu của con bé nó không có màu đỏ như thế nên da sẽ không trắng trong buổi tối này. Mình được đà trêu dí luôn, con bé vừa kay vừa cười. Tối đấy chúng toi là những người cười to nhất cái quán xiên đó."
         }
       ]
     },
@@ -825,7 +825,7 @@ var map_data =
           "date": "13:55 - 17:10 29/03/2025",
           "img": "",
           "video": "video/20250329-dimincake.mp4",
-          "desc": ""
+          "desc": "Chặng đường để đến được chỗ làm bánh kem Dimin Cake khá là chông gai - 1 phần cũng là do mình nghịch ngu xí hihi. Shop ở tận vùng Đông Anh nên là chúng mình phải đi khá là xa. Qua được cây cầu mình liền quyết định rẽ sang bên đường để tránh đi bị hứng bụi từ xe tải. Và đó là quyết định đi vào lòng dirt. Chúng mình đi luông trên đường đê ạ, thui thì cũng là trải nghiệm nhỉ. Đi mãi không thấy nhà dân nào cũng hoảng, cuối cùng cũng tới nơi an toàn. Con cảm ơn các cụ tỉ lần. Vào trong quán thì chị nhân viên hướng dẫn chúng mình những bước đầu làm bánh như tách trứng, đổ các loại bột và khuấy lên. 2 đứa nghịch đủ trò, người ta đã nói khối lượng cho bột một đằng thì đây lại đổ một nẻo. Sau đó mình để bánh vào trong lò và đợi 30 phút. Vâng, tay chân 2 cái đứa này có bao giờ chịu ngồi yên, đâu phải tự nhiên tuổi ngựa. Mình lôi máy ảnh ra và bắt đầu chụp mấy tấm ròi đưa cho con bé đi loanh quanh chụp. Thế quái nào chụp được tầm 10 phút thì chị chủ quán đi xe tới, thấy 2 đứa đang chụp thì liền nhắc nhở nhân viên phải dọn đồ gọn gàng vào. 2 con báo lúc đó thấy hơi ngại nhưng biết sao được, sống ảo tiếp thoi. Chị chủ quán vào trong xem xét quán và bắt đầu làm bánh. Chụp choẹt xong thì chúng mình cũng vào nghiêm túc làm bánh. Hỡi ôi, này thì không nghe nhân viên người ta khuyên. Cái tội cho nhiều matcha rồi còn khuấy bánh mạnh tay nè, thành quả là miếng bánh khá khó để quét trơn kem. Mình và con bé đã gắng hết sức, còn nhờ đến sự trợ giúp của chị chủ nữa mà cũng chỉ cíu được phần nào. Báo thoi ròii. Ròi sau đó là màn thể hiện tốn nhiều chất xám, công sức và sự tập trung nhất - vẽ hình cho bánh. Chúng mình lựa mẫu là mặt mèo và chị chủ bảo sẽ khó vẽ đấy. Nhưng không, con bé quyết tâm nắn kem căn chỉnh ác triến lắm, vẽ vời phải gọi là chảy hết cả mồ hôi phao câu. Xong được 4 cái mặt mèo và 1 trái tim ở giữa thì 2 con ngựa bắt đầu ngựa, trang trí thêm hoa cành lá hẹ, chữ các kiểu. Khi tỉnh ra thì 2 đứa làm bánh ngốn 3 tiếng đồng hồ, trong khi những bạn đến sau người ta làm có 1 tiếng, 1 tiếng rưỡi đã xong rùi. Cơ mà đó là công sức cố gắng, khi chụp ảnh lên thì cái bánh đẹp lắm hihi. Cảm ơn nhiều nhé, đây không chỉ là một món quà sinh nhật mà còn là cả 1 trải nghiệm vô cùng ý nghĩa."
         }
       ]
     },
