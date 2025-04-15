@@ -53,17 +53,35 @@ function createMarkers(data) {
 }
 
 // Initial marker render (all)
-createMarkers(map_data);
+// Reading param first --> If not exist just show all places
+if (getUrlParam("dateFrom") != null && getUrlParam("dateTo") != null) {
+    const calendarFrom = document.getElementById('dateFrom');
+    const calendarTo = document.getElementById('dateTo');
+    calendarFrom.value = getUrlParam("dateFrom");
+    calendarTo.value = getUrlParam("dateTo");
+    applyDateFilter();
+} else {
+    createMarkers(map_data);
+}
+
 
 function applyDateFilter() {
     const fromDateInput = document.getElementById('dateFrom').value;
     const toDateInput = document.getElementById('dateTo').value;
+    // console.log(fromDateInput);
+    // console.log(toDateInput);
 
     if (!fromDateInput || !toDateInput) {
         // alert("Please select both From and To dates.");
         document.getElementById('filtered-date-result').innerHTML = `<p style="color: red; font-size: 14px;">Invalid input date</p>`;
         return;
     }
+
+    // Update URL with dateFrom and dateTo
+    const url = new URL(window.location);
+    url.searchParams.set('dateFrom', fromDateInput);
+    url.searchParams.set('dateTo', toDateInput);
+    history.replaceState(null, '', url);
 
     const fromDate = new Date(fromDateInput);
     const toDate = new Date(toDateInput);

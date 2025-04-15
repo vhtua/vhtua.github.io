@@ -49,7 +49,16 @@ function createPaths(data) {
 
 
 // Initial marker render (all)
-createPaths(path_data);
+
+if (getUrlParam("dateFrom") != null && getUrlParam("dateTo") != null) {
+    const calendarFrom = document.getElementById('dateFrom');
+    const calendarTo = document.getElementById('dateTo');
+    calendarFrom.value = getUrlParam("dateFrom");
+    calendarTo.value = getUrlParam("dateTo");
+    applyDateFilterPaths();
+} else {
+    createPaths(path_data);
+}
 
 function applyDateFilterPaths() {
     // console.log("Update Paths");

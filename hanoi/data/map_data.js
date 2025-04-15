@@ -810,6 +810,21 @@ var map_data =
     },
 
     {
+      "lat": 21.030268231059278, 
+      "lng": 105.823019420409,
+      "ggmaps": "https://maps.app.goo.gl/FubLagLGF6h5AcxAA",
+      "name": "Cafe Nhà Của Mậu 🍵",
+      "detail": [
+        {
+          "date": "19:11 29/03/2025",
+          "img": "img/20250329-cafenhacuamau.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
       "lat": 20.389067901747662, 
       "lng": 106.43477442190684,
       "ggmaps": "https://maps.app.goo.gl/eVRxTSK4v2CVNs2EA",

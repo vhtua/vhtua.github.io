@@ -9,6 +9,12 @@ document.getElementById('resetFilter').addEventListener('click', () => {
     const heading = document.getElementById('filtered-date-heading');
     if (heading) heading.innerText = '';
 
+    // Update URL: remove dateFrom and dateTo from the query string
+    const url = new URL(window.location);
+    url.searchParams.delete('dateFrom');
+    url.searchParams.delete('dateTo');
+    history.replaceState(null, '', url); // Update URL without reloading
+
     // Re-render all markers
     createMarkers(map_data);
     // Re-render all paths
@@ -26,6 +32,12 @@ document.getElementById('resetFilterHead').addEventListener('click', () => {
     // Remove the filtered heading text
     const heading = document.getElementById('filtered-date-heading');
     if (heading) heading.innerText = '';
+
+    // Update URL: remove dateFrom and dateTo from the query string
+    const url = new URL(window.location);
+    url.searchParams.delete('dateFrom');
+    url.searchParams.delete('dateTo');
+    history.replaceState(null, '', url); // Update URL without reloading
 
     // Re-render all markers
     createMarkers(map_data);
