@@ -809,7 +809,7 @@ var map_data =
         {
           "date": "12:11 29/03/2025",
           "img": "img/202520329-nemnuong.jpg",
-          "desc": ""
+          "desc": "Trong tour du lịch đi làm bánh sinh nhật sớm cho mình thì đây là địa điểm đầu tiên tụi mình plan tới để ăn uống tiếp sức. Nem nướng của quán khá là ngon, nước chấm thì okie hơn chỗ nào đó. Con bé ăn có tầm 5 cuốn ròi sau đó mình phải cố gắng ăn hết. Láo vô cùng!!!"
         }
       ]
     },
