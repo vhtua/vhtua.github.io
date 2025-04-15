@@ -21,6 +21,11 @@ var map_data =
       "type": "home",
       "detail": [
         {
+          "date": "17:50 22/02/2025",
+          "img": "img/20250222-58tranbinh.jpg",
+          "desc": ""
+        },
+        {
           "date": "22:00 10/12/2024",
           "img": "img/20241210-comngon.jpg",
           "desc": "Nay mình tập văn nghệ YEP tại công ty muộn mới về. Về nhà được hỏi là có muốn ăn cơm không, tấc nhiên là có roài. Thế là sau đó được cho 1 bát cơm thế này nè, ahihi."
@@ -772,7 +777,7 @@ var map_data =
       "detail": [
         {
           "date": "17:44 22/03/2025",
-          "img": "",
+          "img": "img/20250322-congviencaugiay.jpg",
           "video": "",
           "desc": ""
         }
@@ -788,7 +793,7 @@ var map_data =
         {
           "date": "21:06 23/03/2025",
           "img": "",
-          "video": "",
+          "video": "video/20250323-leductho.mp4",
           "desc": ""
         }
       ]
@@ -835,7 +840,7 @@ var map_data =
           "date": "19:11 29/03/2025",
           "img": "img/20250329-cafenhacuamau.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Trong tour đi làm bánh sinh nhật thì con bé có share cho mình biết trước địa điểm của quán cafe này trên tiktok. Đây là quán cafe có trang trí khá đẹp, chủ yếu để khách chụp ảnh sống ảo. Để đến được nơi thì cũm khó khăn xí, quán nằm cạnh 1 cái hẻm. Vào trong thì tụi mình bắt đầu order đồ uống. Và vângggggg, không có những tình huống dở khok dở cười thì không phải là chúng toi. Sau khi order xong thì 1 quả tin chấn động như sét đánh ngang tai với cái bụng đang cồn cào của mềnh - \"Quán em không cho phép mang đồ bên ngoài vào ăn trong quán ạ\". Ôiiiii khôngggg!!! Theo như plan là bọn mình sẽ ăn bánh sinh nhật ở đây cơ mèeeee. Cuối cùng thì mình để cái bụng qua 1 bên và đi cùng với \"thợ ảnh\" tương lai đi làm mấy shot chụp. Hoa cũng có khiếu chọn được góc cảnh phù hợp để chụp, còn mình thì... Đến mình cũng thấy bản thân toàn chọn góc chết để chụp. Thuii sẽ gắng trong tương lai, hehe."
         }
       ]
     },
@@ -850,7 +855,7 @@ var map_data =
           "date": "13:27 - 13:33 05/04/2025",
           "img": "",
           "video": "",
-          "desc": ""
+          "desc": "Trên đường đi về quê thì con bé có nhờ mình rút tiền mặt nên là chúng mình dừng lại ở đây vì có ATM. Cái moong của mình đã có thời gian để khôi phục, ui chài cũm đau đếi. Sau đó con bé có trêu trêu là rút 4 tỏi rưỡi về quê mua nhà ròi lấy chồng. Khá là hài hước. Mình có thẻ ngân hàng nhưng lâu ròi không dùng nên quên mất mã PIN nên phải lục lại đống note trong điện thoại mãi mới tìm thấy. Manifest sau lày lắm tiền, toàn tiền tỏi trong tài khoản."
         }
       ]
     },
