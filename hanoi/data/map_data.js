@@ -125,6 +125,11 @@ var map_data =
       "name": "Siêu thị Thành Đô 🛒",
       "detail": [
         {
+          "date": "18:15 - 19:05 13/04/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
           "date": "17:28-18:36 23/03/2025",
           "img": "",
           "desc": "Con bé hẹn mình vào siêu thị mua đồ ăn sáng, trái cây các thứ rồi sau đó là mang máy ảnh đi chụp phong cảnh. Cơ mà mình chỉ nhớ vế đầu là đi mua đồ. Còn máy ảnh thì quên luông. Vào tới nơi thì siêu thị đông người thật, chúng mình đi lại chọn hàng cũng khá khó khăn. Tổng kết thì hai đứa mua được 1 đống lốc sữa TH (đang định thử vị vệt quất mà mình quên không lấy lốc nào, thành ra con bé loot đậm), bánh mì, dưa hấu, xoài. Vâng, mua xong thì trời tối xừ rồi, chụp choẹt gì lúc 6 rưỡi tối. Thế là mình chở con bé về nhà cất đồ và mang tool đi gọt xoài ăn nghịch."
@@ -443,6 +448,26 @@ var map_data =
       "name": "Circle K Nguyễn Hoàng 🥪",
       "detail": [
         {
+          "date": "21:07 - 23:01 12/04/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "21:25 - 22:34 04/04/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "19:47 - 21:33 29/03/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "20:07 - 23:39 22/03/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
           "date": "21:56 - 0:00 14/02/2025",
           "img": "",
           "desc": "Ngày Valentine nhưng 2 đứa con FA vào đây để nghiêm túc học hành. Quá là nghiêm túc. Vâng đoạn nghiêm túc chắc chỉ có 30 phút cuối ngày thui. Đây chính là kỉ lục lần đầu tiên mình đi về nhà muộn như thế này. Sau khi ăn xong nem cuộn, chúng mình tới đây mua nước, bim bim và 1 gói que cay. Con bé gọi trà olong còn mình gọi trà vải. Và vâng, lại phải nhấn mạnh một lần nữa, khi 2 đứa đi cùng nhau thì thể nào cũng có chuyện tấu hài. Câu chuyện hôm nay là khi uống hết xong cả 2 cốc thì chúng mình mới biết cả 2 đã uống lộn cốc. Ban đầu con bé còn không dám tin, mở điện thoại ra tra xong mới chấp nhận sự thật và chỉ biếc khóc. 2 đúa vừa uống nước vừa bắt đầu nói chuyện. Con bé nói về nơi làm việc, về những áp lực công việc và những thứ khó hiểu cần giải thích. Mình cũm chỉ biết động viên là hãy cố gắng lên và tập trung phát triển bản thân. Sau đó thì mình được biết một trong những kỉ niệm buồn nhất trong lòng con bé. Thực ra là mình có biết từ trước rùi nhưng khi được chứng kiến trục tiếp những hình ảnh đó cũng không thể nào ngăn được sự bất ngờ và những cú sốc. Sau đó thì cả 2 bắt đầu gọi là học hành nghiêm túc đến tận khuya cơ. Lúc chúng mình quyết định đi về thì cũng trùng hợp là lúc nhân viên lên đuổi khách về. 2 đứa xách moong đi về và con bé còn chơi ác ở đoạn Cầu Giấy không giúp mình mà bắt mình tự nhớ đường về nữa chứ. Đúng là một ngày hài hước và vui, từ ăn uống, lói phét, buồn, tâm sự đến học hành đều có cả. Hi vọng là tương lai không lóc nhau sớm nhẻ."
@@ -592,6 +617,11 @@ var map_data =
       "ggmaps": "https://maps.app.goo.gl/PKqmnvKb414vt74j8",
       "name": "Quán Bún Bò Giò Heo Quang Sọt 🐖",
       "detail": [
+        {
+          "date": "09:31 - 10:14 05/04/2025",
+          "img": "",
+          "desc": ""
+        },
         {
           "date": "19:41 28/02/2025",
           "img": "",
@@ -774,6 +804,21 @@ var map_data =
           "date": "13:55 - 17:10 29/03/2025",
           "img": "",
           "video": "video/20250329-dimincake.mp4",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 20.389067901747662, 
+      "lng": 106.43477442190684,
+      "ggmaps": "https://maps.app.goo.gl/eVRxTSK4v2CVNs2EA",
+      "name": "ATM Vietinbank - PGD Kiến Xương 💵💳",
+      "detail": [
+        {
+          "date": "13:27 - 13:33 05/04/2025",
+          "img": "",
+          "video": "",
           "desc": ""
         }
       ]
