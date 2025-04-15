@@ -744,7 +744,7 @@ var map_data =
       "detail": [
         {
           "date": "18:32 15/03/2025",
-          "img": "",
+          "img": "img/20250315-chaoca.jpg",
           "desc": ""
         }
       ]
@@ -758,7 +758,22 @@ var map_data =
       "detail": [
         {
           "date": "19:13 15/03/2025",
-          "img": "img/20250315-cgvmetro.jpg",
+          "img": "img/20250315-cgvmetro.jpg", 
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.02822340918987, 
+      "lng": 105.79095518656725,
+      "ggmaps": "https://maps.app.goo.gl/3at9PsC7JGYsYana9",
+      "name": "Công Viên Cầu Giấy ⛲",
+      "detail": [
+        {
+          "date": "17:44 22/03/2025",
+          "img": "",
+          "video": "",
           "desc": ""
         }
       ]
@@ -773,6 +788,7 @@ var map_data =
         {
           "date": "21:06 23/03/2025",
           "img": "",
+          "video": "",
           "desc": ""
         }
       ]
