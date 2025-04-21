@@ -859,5 +859,100 @@ var map_data =
         }
       ]
     },
+
+
+    {
+      "lat": 21.046092126194377, 
+      "lng": 105.75048436815798,
+      "ggmaps": "https://maps.app.goo.gl/RxffTPhHDKfypUaA9",
+      "name": "Bún cá Thái Bình 🐟",
+      "detail": [
+        {
+          "date": "11:41 - 12:12 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.01741569669616, 
+      "lng": 105.80238239869668,
+      "ggmaps": "https://maps.app.goo.gl/xPsaQSUN5KD3FsvK6",
+      "name": "ULA Cafe Working Space 📖",
+      "detail": [
+        {
+          "date": "12:35 - 17:57 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.032528769697496, 
+      "lng": 105.85225579028368,
+      "ggmaps": "https://maps.app.goo.gl/oB1YPBG2jj8A2YdR8",
+      "name": "Mì Vằn Thắn Hàng Đào, Hoàn Kiếm 🍜",
+      "detail": [
+        {
+          "date": "18:55 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.026731748922778, 
+      "lng": 105.85141849427755,
+      "ggmaps": "https://maps.app.goo.gl/gnoM1PbAPEpxKDah9",
+      "name": "Báo Hà Nội Mới, Hoàn Kiếm 🪧",
+      "detail": [
+        {
+          "date": "19:30 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.02489179735329, 
+      "lng": 105.85475708634188,
+      "ggmaps": "https://maps.app.goo.gl/BhvNHgiPbYib8nAB8",
+      "name": "Kem Tràng Tiền, Hoàn Kiếm 🍧",
+      "detail": [
+        {
+          "date": "19:40 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.025146983648664, 
+      "lng": 105.85478059542312,
+      "ggmaps": "https://maps.app.goo.gl/Cv32zymao7uXyXq69",
+      "name": "Rạp Công Nhân Hoàn Kiếm 🎭",
+      "detail": [
+        {
+          "date": "19:50 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
     
   ]
