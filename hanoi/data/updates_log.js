@@ -78,4 +78,12 @@ var updates_logs =
                     <li>Fix minor bugs.</li>
                 </ul>`
     },
+
+    {
+        date: "23/04/2025",
+        info:   `<ul>
+                    <li>Update music player.</li>
+                    <li>Fix window box overlapped issues.</li>
+                </ul>`
+    },
 ] 

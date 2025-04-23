@@ -63,12 +63,15 @@
           <hr style="margin: 20px 0;">
     
           <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">🎵 Playing music</h3>
+            <p id="current-song" style="font-size: 12px;">Current song:</p>
             <div id="audio-player" style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 10px;">
                 <audio id="audio" controls>
                     <source src="audio/blue-jungkai.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
                 </audio>
+                
             </div>
+            <button onclick="playRandomSong()" style="margin-top: 10px;">🔀 Play Random</button>
         </div>
       </div>
     
@@ -93,6 +96,7 @@
 
 
     <!-- Import common functions -->
+    <script type="text/javascript" src="common/utils.js"></script>
     <script type="text/javascript" src="common/date_utils.js"></script>
     <script type="text/javascript" src="common/url.js"></script>
 
@@ -121,6 +125,6 @@
 
     <!-- Footer -->
     <div><p style="font-size: 12px; text-align: center;">100% coded by vhta, no ChatGPT, no templates, just me, you and the journey I treasure from the bottom of my heart 💖</p></div>
-    <div><p style="font-size: 12px; text-align: center;">Last Updated: 16:14 21/04/2025</p></div>
+    <div><p style="font-size: 12px; text-align: center;">Last Updated: 11:43 23/04/2025</p></div>
 </body>
 </html>
