@@ -1,6 +1,6 @@
-const song_title = ["Blue - Yungkai", "Đừng yêu nữa, em mệt rồi - Min"];
-const songs_list = ["blue-jungkai", "dungyeunuaemmetroi-min"];
-const lyrics_list = [lyrics_blue_yungkai, lyrics_dungyeunuaemmetroi];
+const song_title = ["Blue - Yungkai", "Đừng yêu nữa, em mệt rồi - Min", "Enchanted - Taylor Swift"];
+const songs_list = ["blue-jungkai", "dungyeunuaemmetroi-min", "enchanted-taylorswift"];
+const lyrics_list = [lyrics_blue_yungkai, lyrics_dungyeunuaemmetroi, lyrics_enchanted];
 let currentSongIndex = 0;
 
 // show current playing song
