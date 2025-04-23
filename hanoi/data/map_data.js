@@ -948,9 +948,9 @@ var map_data =
       "detail": [
         {
           "date": "19:50 19/04/2025",
-          "img": "",
+          "img": "img/20250419-rapcongnhan.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Sau khi mua kem que Tràng Tiền socola đậu phộng cho con bé ăn thì chúng mình đứng nhìn sang đối diện để xem kịch của rạp công nhân. Mặc dù trời có mưa nhỏ nhưng không khí cũng rất là thú vị khi những người xung quanh cũm xúm lại xem. Tóm tắt thì câu chuyện kể về 1 đôi vợ chồng nghèo. Vào 1 buổi tối khi hai vợ chồng đang trăn trở với nhau về cuộc sống thì bỗng dưng ngoài cửa có xuất hiện 3 ông tiên. Mỗi ông tiên biểu trưng cho 1 điều mà con người khao khát (tiền bạc, danh vọng, tình yêu). Vợ chồng có thể mời ông tiên tương ứng vào để ông ta ban phước điều mà vợ chồng muốn, nhưng chỉ được mời duy nhất 1 ông. Ban đầu vợ chọn tiền bạc, chồng chọn danh vọng. Sau 1 hồi bất đồng quan điểm, họ liền cùng nhau chọn thần tình yêu và mời ông ấy vào nhà. Thật kì diệu sau khi thần tình yêu vào nhà thì sau đó 2 ông thần tiền bạc và danh vọng cùng vào theo. Câu chuyện khyên mỗi chúng ta hãy thực sự yêu thương nhau, có tình yêu, cùng nhau cố gắng, ta sẽ đạt được mọi điều trong cuộc sống này."
         }
       ]
     },
