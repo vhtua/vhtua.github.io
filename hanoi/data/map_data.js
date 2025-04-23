@@ -954,5 +954,21 @@ var map_data =
         }
       ]
     },
+
+
+    {
+      "lat": 21.017123684824142, 
+      "lng": 105.76239193528535,
+      "ggmaps": "https://maps.app.goo.gl/vJYAq9L7EMFL99Vv6",
+      "name": "Trường Đua F1 Nam Từ Liêm 🏎️",
+      "detail": [
+        {
+          "date": "21:50 22/04/2025",
+          "img": "img/20250422-truongduaf1.jpg",
+          "video": "",
+          "desc": "Mình cùng con bé và Hiền tới đây để xem pháo hoa kỉ niệm ngày Giải Phóng. Chúng mình đã hẹn đi sớm, và tới nơi không nằm ngoài dự tính - số lượng người tham dự rất đông. Sau tầm 5 phút tách đoàn với nhau do phải nhường đường cho xe ô tô đi vào thì chúng mình thống nhất đi tới cuối đường để xem. Quả nhiên là các cụ tính, đi tới cuối đường này mới là view ngắm được trọn màn bắn pháo hoa. Không biếc là do lớn rồi hay sao mà cả 3 đứa ngắm được mấy phút đầu đã kiểu \"Chỉ có thế thui à!?\" Nhưng sau cùng thì được hòa chung không khí thống nhất cùng với mọi người rất là vui. Thế mới biết dân ta yêu nước như thế nào. Sau khi lói phét và trêu nhau 1 chút thì chúng mình cùng xách moong đi về."
+        }
+      ]
+    },
     
   ]
