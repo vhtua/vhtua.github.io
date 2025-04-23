@@ -261,5 +261,5 @@ waitin' on you
 
 59
 00:05:49,600 --> 00:05:58,600
-by RentAnAdviser.com
+Thank you so much for our journey.
 `
