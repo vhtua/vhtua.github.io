@@ -900,10 +900,10 @@ var map_data =
       "name": "Mì Vằn Thắn Hàng Đào, Hoàn Kiếm 🍜",
       "detail": [
         {
-          "date": "18:55 19/04/2025",
-          "img": "",
+          "date": "18:45 19/04/2025",
+          "img": "img/20250419-wonton.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Vẫn là những câu chuyện nên đi ăn gì mỗi khi đi tour. Lúc nào cũng phải vắt não ra để suy nghĩ căng thẳng. Con bé có tìm được thông tin quán mì vằn thắn này. Cả 2 đứa đều đồng ý vì chưa đứa nào từng ăn mì vằn thắn trước đây. Thế là chúng mình xách mông tới đó để được thưởng thức mĩ vị nhân gian. Quán nằm ở khu Hồ Hoàn Kiếm nên là khách đông nghẹt, tụi mình may mắn có chỗ ngồi đối diện một bác lớn tuổi. Sau đó thì là một trải nghiệm mì vằn thắn cũng oke và ngon."
         }
       ]
     },
