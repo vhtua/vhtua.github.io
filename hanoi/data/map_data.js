@@ -722,7 +722,7 @@ var map_data =
         {
           "date": "13:12 15/03/2025",
           "img": "img/20250315-congvienbachthao.jpg",
-          "desc": ""
+          "desc": "Đây là nơi đầu tiên trong plan mà mình đề ra để tới chụp ảnh, quay video sống ảo. Tới nơi thì mình ngay lập tức lôi máy ảnh ra chụp lại hồ nước, bầu trời và cây cối ngay gần để test. Còn con bé thì bắt đầu có trang điểm lại một chút. Đến lúc này mình mới biết con bé cũng đã chuẩn bị kĩ cho buổi này, bằng chứng cách phối đồ. Thứ làm mình ngạc nhiên nhất là chiếc váy ngắn, trông cute phết nhưng mà sao ko lói trước thía. Làm mình cứ tưởng là váy dài như bình thường rồi sau đấy thấy ngại ngại kiểu gì không dám nhìn thẳng lắm, ra nó là cái váy kiểu để che đi cái váy ngắn. Về sau thì do mình tấu hài nhiều cho đỡ ngại nên là cũng đỡ đỡ, cũng gọi là chụp và quay được kha khá. Thời tiết lúc chúng mình đến thì cứ dở dở ương ương kiểu gì ý, vừa mới mấy phút trước nắng tráy người thì sau đó lại bông dưng tối lại 1 chút và muốn mưa. Cũng đã cố làm cho mẫu ảnh cười ằng ặc để chụp nhưng chắc do buổi đầu chưa có kinh nghiệm nên chụp hơi phế, mong mẫu thông cảm nhé, hihi."
         }
       ]
     },
