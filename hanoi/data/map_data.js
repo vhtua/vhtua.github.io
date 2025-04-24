@@ -764,7 +764,7 @@ var map_data =
         {
           "date": "19:13 15/03/2025",
           "img": "img/20250315-cgvmetro.jpg", 
-          "desc": ""
+          "desc": "Sau bao nhiêu gian nan thì chúng mình cũng thành công tới rạp để xem Interstellar. Để có được vé cho buổi này thì mình cũng đã cố gắng nặn hết sức. Chao ôi, người ta săn vé đặt chỗ ác chiến thật chứ, không nhanh tay là khỏi xem. Chúng mình chọn nước và bỏng ngô mix vụ rùi ung dung vào rạp IMAX ngồi sem. Ôi trời, rạp to và trất lắm, mọi trải nghiệm từ hình ảnh, âm thanh, không khí đều rất tuyệt vời. Mặc dù mình là dân công nghệ, cũng có kiến thức và hứng thú với khoa học nhưng quả thật bộ phim làm rất tốt trong việc xây dựng cốt truyện. Nó khiến cho người xem xoắn lão trên từng cung đoạn. Đoạn cảm động cũng rất là cao trào. Phim rất hay đến nỗi mà xem xong thì chúng mình vẫn còn tranh luận về nội dung và cố gắng tìm cách diễn đạt để hiểu. Xem phim là hết ngày rùi nhỉ, giờ về thôi. Vâng, về thoi. \"Ấy khoan kia có phải Bình không?\" - con bé kéo tay mình và nói khi 2 đứa đang ở dưới hầm gửi xe. Mình quay mặt ngay sang để check, ô đúng Bình ròi, và còn bạn Thảo nữa kìa! Ảo ma uchiha, canada, combodia, lazada, africa... Sao mà có thể trùng hợp ác như vậy nhỉ, có bao nhiêu cái rạp ở HN, bao nhiêu mốc thời gian xem phim khác nhau, bao nhiêu ngày để chọn mà xem phim. Vậy mà các bạn lại chọn đúng được, quá ác quỷ. Sau đấy chúng mình bật stalk mode nhưng ngặt nghèo cái nỗi là điện thoại hết pin nên không chụp lại được gì cả. Kayy lỏ vô cùng. Sau đó cũng bị mất dấu 2 bạn nữa. Thế là chúng mình đi về và con bé đã vẽ ra một đống kịch bản để bắt đầu trêu Bình."
         }
       ]
     },
