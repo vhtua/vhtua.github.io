@@ -707,7 +707,7 @@ var map_data =
         {
           "date": "12:11 15/03/2025",
           "img": "img/20250315-buncaqcoi.jpg",
-          "desc": ""
+          "desc": "Bắt đầu buổi đi quay MV và chụp hình thì con bé có đề xuất mình tới quán ruột của con bé ở chỗ gần trọ mình. Ấy thế nào mà tới nơi thì quán dẹp tiệm luôn ròi, quá ác quỷ. Không còn cách nào khác, hai đứa liền lọc cọc đi tìm những quán ăn xung quanh. Ô kìa quán từ những con người đồng hương Thái Bình đây rùi, lại còn bún cá nữa chứ, quá tuyệt vời! À vâng, tuyệt vời thật đấy, hiểu tại sao quán được đánh giá có 3.2 sao liền. Chu choa các cụ ơi, trần đời đi ăn mà chưa bao giờ thấy cái bát bún cá mà chỉ có 3 miếng cá bé xíu hơn cả ngón út. Nên đổi tên thành bún rau cần nhé sốp. Sau đó mình có ý kiến là cá sao ít quá vậy thì họ cũng ậm ờ cho qua và không có động thái giải quyết gì cả. Haisss, ngại không dám nhận đồng hương luon mà. Lần sau mình nhớ né quán này ra nhéeee."
         }
       ]
     },
