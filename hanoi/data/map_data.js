@@ -750,7 +750,7 @@ var map_data =
         {
           "date": "18:32 15/03/2025",
           "img": "img/20250315-chaoca.jpg",
-          "desc": ""
+          "desc": "Sau 1 buổi đi quay video và chụp ảnh khá là lăng suất thì hai đứa dắt nhau tới đây để ăn tối. Lối vào quán khá là hẹp và chỗ ăn thì ở tầng 2. Đến nơi thì chúng mình gọi 2 phần cháo, và cũng đúng như kì vọng thì cháo ở đây vừa nhiều vừa ngon thiệc. Trong lúc ăn thì chúng mình cũng tranh thủ lói phét tí. Sau cùng thì no căng cả bụng nên là hai đứa cần 5 phút để nình tĩnh và bắt đầu nhấc moong xuống tầng đi sem phim cho kịp."
         }
       ]
     },
