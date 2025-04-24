@@ -455,7 +455,7 @@ var map_data =
         {
           "date": "21:07 - 23:01 12/04/2025",
           "img": "",
-          "desc": ""
+          "desc": "Vâng với lí do là tập trung học hành thì chúng mình lại hẹn gặp tại đây. Học thì cũng học đấy, được hẳn 10 phút cơ mà. Sau đấy thì con bé lướt toptop. Mình lại bày mấy trò ma giáo rủ chơi gêm. Thế là buổi hôm đó tráy vải chưởng, chúng toi đã chơi gêm gần 2 tiếng. Đó cũng là một phần của học tập mà nhỉ, hihi. Phải giải trí thì học mới vào được chớ."
         },
         {
           "date": "21:25 - 22:34 04/04/2025",
