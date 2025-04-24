@@ -465,7 +465,7 @@ var map_data =
         {
           "date": "19:47 - 21:33 29/03/2025",
           "img": "",
-          "desc": ""
+          "desc": "Sau khi kết thúc hành trình tại Nhà của Mậu mà không được ăn bánh kem thì chúng mình về lại tổ ấm Circle K Nguyễn Hoàng thân thương này để được ăn bánh kem và hóng drama anh Vi dút. Mình có mua cả cơm cuộn và cục hải sản gì ý, ăn no xong là hết sức để ăn được bánh kem luôn. cả 2 đúa cũng có cố gắng nhưng cũng không đáng kể, tổng kết là cũng ăn đc 3 miếng bánh kem. Bánh rất ngon, mình hơi lỡ tay nghịch dại cho nhiều bột matcha với khuấy quá mạnh tay nên nó hơi bị rỗ xí nhưng ăn vẫn còn ngon, hehe. Trong lúc đó thì tất nhiên là chúng mình mở tiktok lên và vào ngay livestream xem anh Vi dút thanh minh. Hỡi ôi, kì vọng càng nhiều thì thất vọng cũm càng nhèo. Anh ta chỉ nói được có 3 phút là bản thân không có liên quan gì hết và muốn chấm dứt ồn ào này, thế là hết livestream. Sau đó là sự thất vọng tràn trề của các con dân xem live."
         },
         {
           "date": "20:07 - 23:39 22/03/2025",
