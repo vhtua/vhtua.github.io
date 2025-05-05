@@ -88,7 +88,7 @@ var map_data =
       "lat": 21.007734177098854,
       "lng": 105.83258263524807,
       "ggmaps": "https://maps.app.goo.gl/oow2neKAcZH5ebsw9",
-      "name": "Nem nướng Nha Trang- Bún Đậu Mắm Tôm 🍽️",
+      "name": "Nem nướng Nha Trang- Bún Đậu Mắm Tôm 🍡",
       "detail": [
         {
           "date": "19:57 14/12/2024",
@@ -804,7 +804,7 @@ var map_data =
       "lat": 21.035912130377906, 
       "lng": 105.77611316041133,
       "ggmaps": "https://maps.app.goo.gl/aSybHritcSJVLm4o7",
-      "name": "Nem nướng 37 ngõ 75 Hồ Tùng Mậu",
+      "name": "Nem nướng 37 ngõ 75 Hồ Tùng Mậu 🍡",
       "detail": [
         {
           "date": "12:11 29/03/2025",
@@ -1008,4 +1008,22 @@ var map_data =
         }
       ]
     },
+
+
+    {
+      "lat": 21.023388064295368, 
+      "lng": 105.8039601233299,
+      "ggmaps": "https://maps.app.goo.gl/dBeYcN7zPfMauE4P8",
+      "name": "Nem nướng Nha Trang Anh Tư Béo 🍡",
+      "detail": [
+        {
+          "date": "13:54 - 15:10 27/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
   ]
