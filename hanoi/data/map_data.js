@@ -955,6 +955,28 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.029427692213556, 
+      "lng": 105.85381335657503,
+      "ggmaps": "https://maps.app.goo.gl/erqg2JjQnXEaQXvD6",
+      "name": "Cộng đồng ca hát Duca Phố Đi Bộ - 69 Đinh Tiên Hoàng 🎸",
+      "detail": [
+        {
+          "date": "22:50 26/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        },
+
+        {
+          "date": "22:10 - 23:50 19/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
 
     {
       "lat": 21.017123684824142, 
@@ -971,4 +993,19 @@ var map_data =
       ]
     },
     
+
+    {
+      "lat": 21.02631422241574, 
+      "lng": 105.8515133470009,
+      "ggmaps": "https://maps.app.goo.gl/QLnXMBipdrWgnzct7",
+      "name": "Commissariat de Police 🏛️",
+      "detail": [
+        {
+          "date": "00:23 27/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
   ]
