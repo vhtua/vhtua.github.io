@@ -1025,5 +1025,20 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.018402283361194, 
+      "lng": 105.83347442257556,
+      "ggmaps": "https://maps.app.goo.gl/Y9k7NpMKNAAwNG4y5",
+      "name": "Cafe Cào Cào ☕",
+      "detail": [
+        {
+          "date": "16:44 - 19:46 27/04/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
 
   ]
