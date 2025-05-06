@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffeafc;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff0f8;
+    border: 2px solid #ffb3d9;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .lyrics-box {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .lyrics {
+    flex: 1;
+    background-color: #ffe0f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px #ffc0cb;
+  }
+  
+  .lyrics h2 {
+    margin-top: 0;
+    color: #d147a3;
+  }
+  
+  .audio-player {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffd6eb;
+    padding: 10px;
+  }
+  

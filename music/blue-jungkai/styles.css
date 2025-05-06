@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: #e0f7ff; /* light cute blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #f0faff; /* very light blue inside container */
+    border: 2px solid #a0d8ef; /* pastel blue border */
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 900px;
+    width: 90%;
+    box-shadow: 0 8px 20px rgba(135, 206, 250, 0.4); /* soft blue shadow */
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.0em;
+    color: #00bfff; /* deep cute sky blue */
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1.0em;
+    margin-bottom: 30px;
+    /* justify-content: left; */
+    text-align: left;
+  }
+  
+  .lyrics-box {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .lyrics {
+    flex: 1;
+    background-color: #d6f5ff; /* light blue for lyrics box */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px #b3ecff;
+  }
+  
+  .lyrics h2 {
+    margin-top: 0;
+    color: #3399ff; /* strong but soft blue */
+  }
+  
+  .audio-player {
+    width: 90%;
+    border-radius: 10px;
+    background-color: #cceeff; /* light blue around audio controls */
+    padding: 10px;
+    /* margin: 10px; */
+  }
+  
