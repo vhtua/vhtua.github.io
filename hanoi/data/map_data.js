@@ -1051,7 +1051,7 @@ var map_data =
           "date": "09:34 - 09:59 30/04/2025",
           "img": "",
           "video": "",
-          "desc": ""
+          "desc": "Mình, con bé, Trang bé và Thắng sau khi đi 1 đoạn khá dài trên đường về quê thì chúng mình quyết định dừng lại ở đây để ăn cho ấm cái bụng. Chúng mình cùng chung gọi phở tái bò, trong lúc chờ thì mình có đi xin nước vối để uống. Công nhận cái nước vối của quán còn đặc sắc hơn cả bát phở bò. Mùi thơm cùng vị ngọt của cam thảo hòa quyện với hương vị lá vối tạo nên một thức uống quá là đớ. Ăn xong thì chúng mình lên đường tra maps về nhà, đi lòng vòng mãi tí thì ra đường đê để đi về. May mà con bé có chú ý lại maps và sau đó thì chúng mình tiếp tục con đường về quê nghỉ lễ."
         }
       ]
     },
