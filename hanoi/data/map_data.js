@@ -1066,7 +1066,7 @@ var map_data =
           "date": "18:09 04/05/2025",
           "img": "img/20250504-sunset.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Mình đang chở con bé trên đường lên HN thì thấy trời đẹp quá nên mình bảo con bé chụp lại. Đây chính là khung cảnh bầu trời bình yên sau khi chúng mình vừa vượt qua được cơn mưa giông cực kì to khoảng 1 tiếng trước. Thực sự là các cụ đã gánh chúng con rất nhiều."
         }
       ]
     },
