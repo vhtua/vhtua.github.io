@@ -1056,6 +1056,19 @@ var map_data =
     },
 
 
-
+    {
+      "lat": 20.895885238920815, 
+      "lng": 105.85540915328406,
+      "ggmaps": "https://maps.app.goo.gl/A9qWbdt17PwmBGdVA",
+      "name": "Hoàng hôn tại Duyên Thái - Thường Tín ☀️",
+      "detail": [
+        {
+          "date": "18:09 04/05/2025",
+          "img": "img/20250504-sunset.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
 
   ]
