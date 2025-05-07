@@ -970,8 +970,8 @@ var map_data =
         {
           "date": "22:10 - 23:50 19/04/2025",
           "img": "",
-          "video": "",
-          "desc": ""
+          "video": "video/20250419-duca.mp4",
+          "desc": "Sau khi nghe nhạc và hát theo đoàn sinh viên \"không được bình thường lắm\" thì chúng mình dường như được rửa tai và thoải mái hơn khi đi tới chỗ đoàn ca hát Duca này. 2 đứa bày giấy ngồi dưới gốc cây và nghêu ngao hát theo. Nhóm Duca thì có người đàn, người trống, người hát. Không khí xung quanh cũng rất náo nhiệt khi mọi người cùng ngồi túm lại và thả hồn hát theo. Mình đúng bữa đau họng nhưng cũng triến lắm, hét khản cả cô luon cơ mà. Con bé cũng cố rướn hát theo. Chúng mình chìm sâu ở đây gần 2 tiếng cho tới lúc đứng lên chuẩn bị đi về vẫn còn muốn hát. Sau đó thì có 1 bạn bị đau lưng cấp do thần kinh, bạn ấy kêu con bé giúp vì con bé đứng ngay cạnh. Con bé cũng hoảng liền gọi mình. Hai đứa mình nhanh chóng, đứa thì xin nước của nhóm Duca để pha thuốc, đứa thì xoa lưng cho bạn kia. Thấy bệnh này có vẻ căng lắm nhưng mà trộm vía thì sau đó bạn này lại tươi cười bình phục, chúng mình cũng hú hồn 1 phen. Sau đó 2 đứa cũng bắt đầu đi về."
         }
       ]
     },
