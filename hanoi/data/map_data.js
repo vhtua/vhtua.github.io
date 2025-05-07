@@ -216,9 +216,8 @@ var map_data =
         {
           "date": "19:15 - 21:36 09/01/2025",
           "img": "img/20250109-xienban.jpg",
-          "desc": ""
+          "desc": "Hoa có bảo là Hiền giới thiệu cho con bé chỗ này xiên bẩn ăn ngon lắm, có nhân và chất lượng hơn quán xiên bẩn không nhân chúng mình từng ăn. Thế là con bé rủ mình cùng tới ăn ở đây. Chúng mình tới đây thưởng thức và quả đúng như lời con bé nói, xiên ở đây chất lượng thậc. Trong lúc ăn thì như mọi khi là chúng mình bắt đầu lói phét. Từ những chuyện như là Mai Anh đăng story gây hiểu lầm là có bầu cho đến những chuyện liên quan đến công việc. Sau đó con bé có khoe với mình về chuyến đi du lịch Hà Giang của con bé, về những lúc lội đèo, lên núi, đẩy thuyền, ăn lẩu rất vui. Lói xong con bé có tặng mình túi quà bánh kẹo con bé có mua khi đi Hà Giang. Ui chào, nhìn rất là ngon, mình cảm ơn con bé rất nhiều và chúng mình cứ thế lói phét cho tới khi đến giờ về."
         }
-        
       ]
     },
 
