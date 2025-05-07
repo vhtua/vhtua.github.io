@@ -1,0 +1,2 @@
+var isEffectOn = true;
+

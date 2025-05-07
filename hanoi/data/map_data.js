@@ -1033,7 +1033,7 @@ var map_data =
       "detail": [
         {
           "date": "16:44 - 19:46 27/04/2025",
-          "img": "",
+          "img": "img/20250427-nph.jpg",
           "video": "",
           "desc": ""
         }

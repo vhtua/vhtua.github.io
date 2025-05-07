@@ -86,4 +86,14 @@ var updates_logs =
                     <li>Fix window box overlapped issues.</li>
                 </ul>`
     },
+
+    {
+        date: "07/05/2025",
+        info:   `<ul>
+                    <li>Add more place pins.</li>
+                    <li>Update some place descriptions.</li>
+                    <li>Dynamic URL for retrieving places in a time interval.</li>
+                    <li>Add falling leaves effects.</li>
+                </ul>`
+    },
 ] 
