@@ -1020,7 +1020,7 @@ var map_data =
           "date": "13:54 - 15:10 27/04/2025",
           "img": "",
           "video": "",
-          "desc": ""
+          "desc": "Mình, con bé và Hương tới đây để cùng bàn về plan chụp ảnh 30/04 hôm nay. Chúng mình vừa ăn nem nướng vừa bàn bạc rất ác triến. Có rất nhiều địa điểm mà con bé đề xuất nhưng có một địa điểm có vẻ con bé thích hơn cả. Mặc dù mãi mới tìm được bức ảnh của một chị chụp rất đẹp trên instagram nhưng chúng mình lại không có địa điểm cụ thể. Sau đó cả 3 đứa vắt não ra tìm. Đến đoạn bất lực thì Hương đề xuất là hỏi Trang bé vì Trang bé là trùm của những cái này. Sau khi xem xét rất lâu thì cuối cùng chúng mình cũng nhấc moong lên di chuyển tới những địa điểm chụp ảnh."
         }
       ]
     },
