@@ -85,6 +85,7 @@ function applyDateFilter() {
 
     const fromDate = new Date(fromDateInput);
     const toDate = new Date(toDateInput);
+    fromDate.setHours(0, 0, 0, 0); // Start of the day
     toDate.setHours(23, 59, 59, 999); // Include the full day
 
     const filteredData = [];
@@ -92,6 +93,14 @@ function applyDateFilter() {
     map_data.forEach(location => {
         const matchingDetails = location.detail.filter(detail => {
             const d = parseDate(detail.date);
+
+            // --> debug part to realize that the starting date start from 7AM
+            // console.log("Parsed Date marker ===>");
+            // console.log(detail.date);
+            // console.log(d);
+            // console.log(fromDate + " ===== " + toDate);
+            // console.log(d && d >= fromDate && d <= toDate);
+
             return d && d >= fromDate && d <= toDate;
         });
         // console.log("====== marker"); ===> Debug
