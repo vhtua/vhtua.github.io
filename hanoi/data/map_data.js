@@ -1035,7 +1035,7 @@ var map_data =
           "date": "16:44 - 19:46 27/04/2025",
           "img": "img/20250427-nph.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Sau khi bất lực tìm nơi chụp ảnh đẹp ở HN thì mình, con bé và Hương có tới quán cafe này để mong có những tấm hình đẹp. Hương thì chăm chú gọi 1 bức hình nhỏ để tô màu trong quán. Trong lúc đó thì 2 đứa mình đi xung quanh chụp choẹt các thứ. Mãi mới tìm được chỗ có view đẹp, mình phải làm đủ trò để con bé cười toe toét thì ảnh mới đẹp. Công nhận là giờ mình cũng đã cứng tay hơn một chút ròi, chụp ảnh không bị xáu nữa. Bằng chứng là con bé trông cũng có vẻ hài lòng ấy chứ, hihi."
         }
       ]
     },
