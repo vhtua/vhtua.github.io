@@ -469,7 +469,7 @@ var map_data =
         {
           "date": "20:07 - 23:39 22/03/2025",
           "img": "",
-          "desc": ""
+          "desc": "Hôm nay 2 đứa tới để học thì ít mà để chơi với lói phét thì nhiều. Con bé đang buần về vụ không được review lương nên cũng có tâm sự đôi chút. Ngoài ra thì công ty của con bé cũng rất là hài hước, con bé cũng kể về chuyện nhân viên xuất sắc. Mình chỉ biếc cười bò. Lói phét thì cũng tranh thủ phải làm tí bim bim snack hê hê."
         },
         {
           "date": "21:56 - 0:00 14/02/2025",
@@ -778,7 +778,7 @@ var map_data =
           "date": "17:44 22/03/2025",
           "img": "img/20250322-congviencaugiay.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Không biếc là nay con bé nổi hứng muốn chụp ảnh hay sao ý mà bảo mình là khi con bé tan làm muốn cùng đi tới luôn Công Viên Cầu Giấy để chụp hình. Khổ thân con bé, thứ 7 mà vẫn phải đi làm mệt. Mình thì sáng mới đi đám cưới đồng nghiệp ở công ty và hiện tại ở nhà nên mình cũng đồng ý đi. Ra đến nơi thì chúng mình đi quanh công viên. Đây là lần đầu mình tới đây mà hơi xui cái là họ đang sửa chữa đúng cái nơi trung tâm của công viên. Thành ra là có ít góc chụp đẹp. Con bé dẫn mình đi tiếp, vừa đi vừa chụp hình, khẳng định rằng mình chụp rất gà, con bé mới là thợ chụp đẹp. Vâng, thì ai biếc đâu, chụp xịn mà vẫn phải nhờ đứa chụp gà chỉnh thông số cho hee. Chúng mình cũng được chiêm ngưỡng hoàng hôn ở đây, cơ mà cũng không được trọn vẹn lắm do hạn chế của thiết bị và không gian. Nhưng mà cũng rất vui, hihi, sau lày có máy ảnh xịn có chắc là còn đi loanh quanh và cãi nhau hài hước thế này nữa hay không. Sau đó trời tối rất nhanh nên 2 đứa lại bắt đầu chuyên mục đau đầu thường niên - tìm chỗ đi ăn tối..."
         }
       ]
     },
