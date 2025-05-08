@@ -917,7 +917,7 @@ var map_data =
           "date": "19:30 19/04/2025",
           "img": "",
           "video": "",
-          "desc": ""
+          "desc": "2 đứa mình mới chạy qua đây để ngắm thoi chứ chưa có chụp hình gì tại đây cả. Nghe lói đây là nơi các bạn trẻ sống ảo nhiều lắm. Nao có cơ hội thì chúng mình sẽ quay lại chụp, hihi."
         }
       ]
     },
