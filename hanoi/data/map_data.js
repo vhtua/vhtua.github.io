@@ -459,7 +459,7 @@ var map_data =
         {
           "date": "21:25 - 22:34 04/04/2025",
           "img": "",
-          "desc": ""
+          "desc": "Theo dự kiến là nay nếu được về sớm từ MBBank thì mình đã cùng mọi người về quê ròi nhưng do deadline dí quá nên là lịch đã bị dời sang sáng mai. Còn tối nay thì chúng toi hẹn ở circle K đánh chén chơi gêm. 2 con người ác độc làm mấy ván Liên Quân chơi cùng Thắng mà để bạn call ới ới 1 mình không ai phản hồi. Sau thì chúng mình mới ăn và chơi được có tí thì đã bị nhân viên bảo đến giờ đóng cửa. 2 đứa lững thững đi zề và mình cũng hơi sầu vì nay chơi được có tí xíu."
         },
         {
           "date": "19:47 - 21:33 29/03/2025",
