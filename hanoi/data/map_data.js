@@ -963,8 +963,8 @@ var map_data =
         {
           "date": "22:50 26/04/2025",
           "img": "",
-          "video": "",
-          "desc": ""
+          "video": "video/20250426-duca.mp4",
+          "desc": "Đây là lần thứ 2 chúng mình tới đây. Mặc dù đã đem theo máy ảnh nhưng dường như cảm xúc khi nghe nhạc không còn được như lần đầu nựa. Theo như mình thấy thì có lẽ là do một phần hôm nay 2 đứa cũng hơi vội và gặp nhiều chuyện quá, phần khác là vì khán giả hôm nay hát không hay và nhiệt như bữa trước hay sao ý. Thành ra mình và con bé cũng chỉ ngồi lại nghe một lúc và đứng dậy đi."
         },
 
         {
