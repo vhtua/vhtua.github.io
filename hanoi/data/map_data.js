@@ -210,7 +210,7 @@ var map_data =
         {
           "date": "21:30 14/03/2025",
           "img": "img/20250314-xienban.jpg",
-          "desc": ""
+          "desc": "Đây là lần thứ 2 chúng mình ăn xiên bẩn tại quán. Bên ngoài đã đầy chỗ nên 2 đứa vào trong ngồi. Con bé lấy đồ chiên còn mình thì lấy nước, tương và đậu. Bữa này đã có kinh nghiệm từ lần trước nên chúng mình lấy đồ từ từ ăn cho no hê hê. Trong lúc ăn con bé có trải lòng về chỗ làm không được như kì vọng và chị lead cũng như chị đồng nghiệp khiến con bé không được thoải mái. Mình cũng đã biết và cũng cố gắng động viên. Mong là sau này con bé sẽ có chỗ làm mới giúp bản thân phất triển hết thế mạnh và được đi đúng con đường sự nghiệp. Xong cái mẹt đầu tiên thì con bé lấy mẹt xiên bẩn thứ 2. Lúc này là bắt đầu thấy mùi không ăn hết ròi đó, đứa nào cũng no căng cả bụng. Thế là vâng, vẫn như mọi khi, đoán xem còn ai vào đây phải ăn hết đống còn lại đấy ạ."
         },
 
         {
