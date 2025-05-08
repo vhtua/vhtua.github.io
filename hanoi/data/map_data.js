@@ -870,7 +870,7 @@ var map_data =
           "date": "11:41 - 12:12 19/04/2025",
           "img": "",
           "video": "",
-          "desc": ""
+          "desc": "Với ấn tượng không đẹp lắm liên quan đến món ăn bún cá từ những người anh em đồng hương thì mình cũng khá e dè khi con bé nói rằng bọn mình nên dừng ở đây để ăn trước khi đi học hành nghiêm túc. Trời thì lóng mà chúng mình cũng lắm trò để bày lắm cơ. Cũng may là quán cho bát bún cá có cũng nhiều cá. Quả này mà 3 con cá nữa chắc không dám nhận đồng hương quá. Con bé gọi phần có cả ốc, mình cũng dặn con bé là ốc nó sẽ không được sạch lắm, nên hạn chế ăn. Thấy cũng nghe lời lắm, gạt ra luôn không ăn cơ mà. Ngoan, lần sau nói nghe thế có phải tốt không 🐥. Ăn xong thì chúng mình xách mông đứng dậy và đi dưới cái lóng hơn 35 độ kết hợp với đặc sẳn tắc đường chỉ để đến không gian tập trung học tập..."
         }
       ]
     },
