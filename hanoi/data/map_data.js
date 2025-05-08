@@ -884,9 +884,9 @@ var map_data =
       "detail": [
         {
           "date": "12:35 - 17:57 19/04/2025",
-          "img": "",
+          "img": "img/20250419-ulacafe.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Sau khi vượt qua những cơn tắc đường và cái nắng nóng hơn 35 độ, cuối cùng thì hai đứa cũng đã tới được đây để bắt đầu công cuộc học tập của con bé. Đến nơi mình mới biếc là hôm nay con bé mặc bộ váy mới, hihi, trông đẹp á, cơ mà hơi tiếc là mình không có chụp lại (Cơ mà sau này mình đã chụp được ròi hehe) Chúng mình gọi lước và lên tầng 2 để bắt đầu học hành. Trước khi học thì cũng hơi lười, con bé lôi máy ảnh ra chụp choẹt xung quanh, mình cũng thế. Sau đó con bé còn báo làm đổ 1 chút nước, cũng may là sau đấy đều ổn cả. Công nhận ngày hôm ấy cũng hóa quỷ thậc sự, chúng mình nghiêm túc học tập thật bà con ơi. Học ác luon cơ mà, con bé cũng tiếp thu tốt nữa nên là mọi việc đều rất ổn áp. Sau khi học hành lăng suất thì chúng mình cũng tới lúc tạm biệt quán và con bé có đề xuất tới Phố đi bộ cho vui, thế là 2 đứa tiếp tục hành trình."
         }
       ]
     },
