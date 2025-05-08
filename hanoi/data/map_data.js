@@ -793,7 +793,7 @@ var map_data =
           "date": "21:06 23/03/2025",
           "img": "",
           "video": "video/20250323-leductho.mp4",
-          "desc": ""
+          "desc": "Ơi hời, sau khi đi siêu thị Thành Đô mua đồ xong thì chúng mình tới đây để đánh chén quả xoài thơm ngon cùng với bịch snack tuyệt vời mà con bé mua. 2 đứa vừa ăn vừa lướt tóp tóp xem hài lộn duột. Đánh chén xong thì con bé chỉ về hướng khu vui chơi trước mặt. Thế là chúng mình lao vào nghịch như trẻ con vậy, nào là tập dưỡng sinh, nín xà đơn, cưỡi xe rồi còn cầu trượt nữa chớ. Tiếc là cái xích đu bị hỏng, không là chúng toi không tha cho ló đâu."
         }
       ]
     },
