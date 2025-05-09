@@ -650,7 +650,7 @@ var map_data =
         {
           "date": "23:01 28/02/2025",
           "img": "",
-          "desc": ""
+          "desc": "Cuối cùng thì 2 đứa cũng về tới nơi. Mình xuống xe vì bố mình lên đón, con bé thì quay xe và đi về. Ai chà, cảm giác lần đầu đi quãng đường dài từ HN về quê cũng vui phếc. Thật sự là cũng rất trộm vía khi thời tiết ủng hộ và đường về cũng thông thoáng, hihi."
         }
       ]
     },
