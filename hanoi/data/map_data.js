@@ -567,7 +567,7 @@ var map_data =
         {
           "date": "19:03 25/02/2025",
           "img": "",
-          "desc": ""
+          "desc": "Tối hôm nay mình đã quyết tâm mua máy ảnh và có nhắn tin với con bé. Nào ngờ con bé còn quyết tâm ác hơn cả mình, bảo mình đợi ở chỗ làm ròi con bé qua và đi mua luôn trong tối nay. Hời ơi, ác triến thật. Trong buổi tối tắc đường và có cơ mưa rào nhẹ, có 2 đứa nhóc đang hừng hực đi mua máy ảnh. Vừa đi 2 đứa vừa lói phét về nhiều chuyện tại công ty."
         }
       ]
     },
