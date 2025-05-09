@@ -559,8 +559,8 @@ var map_data =
       "detail": [
         {
           "date": "14:42 23/02/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250223-xiennuong.jpg",
+          "desc": "Nay chúng mình hẹn đi ăn xiên bẩn nhưng mà lạ lắm. 2 đứa hí hửng đi tới quán xiên bẩn ngon 49k có nhân mà không thấy mở cửa. Thế là mặt 2 báo thủ ỉu xìu cùng lên tiktok tìm thông tin các quán khác. Tìm xong một số quán, khi chúng mình tới được nơi thì nếu quán đó không đóng cửa, dẹp tiệm thì cũng ở chỗ hẻo lánh không ai tới ăn. Quá là buồn cười và bất lực thì mình có quay xe lại tìm được quán này trên tiktok, mặc dù hơi xa 1 chút nhưng mà uy tín do mình check kĩ. Tới nơi thì mặc dù không phải tập trung bán xiên bẩn nhưng mà chúng mình đã được thưởng thức bánh mì cùng đồ chiên nướng rất là ngon luôn, hihi. Sau đó thì 2 đứa no căng cả bụng phải ngồi tựa vào tường để thở luon cơ mà."
         }
       ]
     },
