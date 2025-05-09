@@ -617,7 +617,7 @@ var map_data =
         {
           "date": "18:40 28/02/2025",
           "img": "",
-          "desc": ""
+          "desc": "Tối nay mình và con bé hẹn gặp nhau ở đây rồi đi xe về quê. Mình cũng đã xin sếp tan làm về sớm ròi qua đây. Uầy đường HN nhất là tối thứ 6 tắc kinh khủng luôn. Mình đi Grab tầm 25-30 phút mới tới nơi. Con bé thì đã đứng đợi sẵn, thấy trong cốp xe cũng lắm hàng khủng mang về quê đếi. Sau đó mình chở con bé và hai đứa băng băng về quê. Tối hôm đấy trời trộm vía thoáng mát rất oke."
         }
       ]
     },
