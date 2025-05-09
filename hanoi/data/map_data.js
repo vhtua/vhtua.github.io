@@ -694,7 +694,7 @@ var map_data =
         {
           "date": "21:06 18/03/2025",
           "img": "img/20250318-congvien.jpg",
-          "desc": ""
+          "desc": "Nay chúng mình ra công viên đúng phong thái của 2 con ngựa, không nói trước mà 2 đứa đều cùng có 1 túi bóng snack rồi nước uống. Mình đợi con bé họp với cô tại công ty ròi sau đó 2 đứa cùng xem và học Linux. Quá trình học hành này cũng không nghiêm túc cho lắm 🐥 Cũng gọi là xem đc 1-2 cái video bài giảng ròi sau đó ngáp dài cả mỏ. Cơ mà nay thì con bé cũng được học thêm 1 chút kiến thức hữu ích và mình thấy con bé áp dụng cũng khá nhanh. Manifest cực mạnh. Sau đó chúng mình vẫn như thường khi là lói phét 1 chút ròi mới đi về."
         },
         {
           "date": "22:48 14/03/2025",
