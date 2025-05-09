@@ -635,8 +635,8 @@ var map_data =
         },
         {
           "date": "19:41 28/02/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250228-bunbo.jpg",
+          "desc": "Chúng mình cũng đều vừa đi làm về và lên đường về quên luôn nên bụng đều đói meo. Con bé có bảo mình dừng lại ở quán quen này của con bé. Vào đây thì chúng mình gọi 2 phần bún bò. Uầy quán ở ngoại thành Hà Nội vừa rẻ lại vừa ngon nữa chớ. Nay mình cũng được thấy con bé dùng chiếc cặp tóc mình tặng cho để buộc tóc ăn cho thoải mái. Xời nhìn hợp phếc, hê hê. Trong lúc ăn thì mình cũng tranh thủ xem ké review phim của con bé. Ơi hời, nghe cũng cuốn cuốn."
         }
       ]
     },
