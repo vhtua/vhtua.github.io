@@ -580,8 +580,8 @@ var map_data =
       "detail": [
         {
           "date": "19:20 25/02/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250225-machn.jpg",
+          "desc": "Chúng mình đến nơi và bắt đầu vào trong store máy ảnh. Mình có nói chuyện với chị chủ và đợi chị ấy mang máy ảnh xuống để test. Đồng thời mình cũng thử nhiều thể loại lens khác nhau để tìm được loại phù hợp nhất. Con bé nay lạ lắm, cứ ngại ngại kiểu gì ý, mình bảo là dùng thử máy ảnh đi cứ không chịu. Đến khi mình hơi bắt ép một chút mới dám cầm lên để nhìn ống ngắm và chụp. Con bé bảo máy nặng thậc và không có quen tay lắm. Đúng là như thía, trước giờ con bé quen cầm máy ảnh digital compact nên máy loại DLSR này sẽ hoàn toàn nặng hơn. (Ấy thế mà sau này toàn đòi làm thợ ròi toàn giành máy ảnh không cho mình chụp cơ mà =))), náo lắm nha). Chị chủ cũng bảo là sau này sẽ quen tay, các bạn nữa thường thì sẽ thích hợp với loại digital mirrorless hơn vì nó nhỏ gọn và hiện đại. Cơ mà 2 con đỗ nghèo khỉ chưa có xèng để mua loại đó. Tương lại mình sẽ mua nó khi cả 2 đã đủ kiến thức và vững tay. Cứ đợi đó nha 🐥 Cuối cùng chúng mình cũng đã ưng ý và chốt được Cannon EOS 60D cùng lens Tamron f2.8mm 17-50mm VC. Từ chiếc máy ảnh này, chúng mình sau đó cũng đã học được rất nhiều thứ."
         }
       ]
     },
