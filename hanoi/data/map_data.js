@@ -631,7 +631,7 @@ var map_data =
         {
           "date": "09:31 - 10:14 05/04/2025",
           "img": "",
-          "desc": ""
+          "desc": "Lần này 2 đứa về quê cùng Thắng và chúng mình tiếp tục vào quán ăn để lấy sức đi về. Thực ra là do không để ý nên cảm đám đã đi qua quán 1 đoạn. May là có web map này hihi, mình đã bảo con bé mở web này lên và tìm lại được địa chỉ chính xác của quán. Vào trong quán, do lâu lắm ròi mình không gặp Thắng nên có nói trêu trêu bạn xí. Còn con bé nay tập trung ăn nên lói hơi ít."
         },
         {
           "date": "19:41 28/02/2025",
