@@ -680,7 +680,7 @@ var map_data =
         {
           "date": "15:40 02/03/2025",
           "img": "",
-          "desc": ""
+          "desc": "Cơ bản là chúng mình đi qua đây và mình thấy kiến trúc chùa cũng như cái tên của chùa oách xà lách vô cùng nên mình mới lưu lại thui chứ cũm không có gì, hihi 🐥"
         }
       ]
     },
