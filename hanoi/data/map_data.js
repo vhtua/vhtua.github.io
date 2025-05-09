@@ -595,8 +595,8 @@ var map_data =
       "detail": [
         {
           "date": "21:09 25/02/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250225-quanchichip.jpg",
+          "desc": "Tậu được máy ảnh xong thì 2 đứa quay về. Trên đường đi về, con bé có rủ mình đi vào quán ruột nem nướng của con bé thời Đại học. Thế là chúng mình tới đây. Đúng là như con bé giới thiệu, đồ cuốn và nước chấm ở đây khá là ngon. Mình cũng không ngần ngại lôi máy ảnh ra test chụp ảnh sem sao, hihi."
         }
       ]
     },
