@@ -938,9 +938,9 @@ var map_data =
       "detail": [
         {
           "date": "19:40 19/04/2025",
-          "img": "",
+          "img": "img/20250419-kemtrangtien.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Đang đi chơi thì trời đổ mưa nhỏ, đi 1 đoạn mình có thấy chỗ bán kem Tràng Tiền, quá toẹt vời. Thế là mình nhất quyết bảo con bé phải ăn kem Tràng Tiền. Mình đã từng được anh rể mua cho ăn rồi và thực sự nó rấc ngon. Mình xếp hàng trước quán và con bé thì đứng đợi đối diện với rạp kịch công nhân trước mặt. Mình mua cho con bé 1 que Tràng Tiền sô cô la đậu phộng, còn mình thì tiếc là đang đau họng nên không có dám ăn kem, tiếc hùi hụi. Sau đó thì 2 đứa đứng trước quán và nhìn sang đối diện xem kịch tiện thể luôn, quá oách xà lách."
         }
       ]
     },
