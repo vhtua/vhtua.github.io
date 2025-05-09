@@ -21,10 +21,17 @@ var map_data =
       "type": "home",
       "detail": [
         {
+          "date": "19:32 23/02/2025",
+          "img": "img/20250223-58tranbinh.jpg",
+          "desc": "Con bé cũng với bạn con bé đi mua hoa, trong lúc đó con bé cũng tranh thủ mua cây và nói mình ở nhà để con bé qua cho. Đến tầm 19h20 mình xuống nhận túi cây con bé tặng. 2 đứa chào nhau và mình lên phòng bắt đầu ngắm nghía. Đây là cây Cẩm Nhung, theo như mình đọc tờ giấy hướng dẫn thì cây cần có ánh sáng 8 tiếng 1 ngày và 1 tuần chỉ cần tưỡi đậm nước 2-3 lần. Cả cái chậu câu cùng cái lá của cây trông cũng nhỏ nhắn và đáng yêu. Nhưng vì đây là lần đầu chăm sóc cây nên mình cũng rất lo, mong là bạn Cẩm Nhung này trộm vía khỏe mạnh nhaa."
+        },
+
+        {
           "date": "17:50 22/02/2025",
           "img": "img/20250222-58tranbinh.jpg",
           "desc": "Nay mình có hẹn con bé qua lấy tinh chất giảm thâm mà mình đã săn hộ đơn shopee cho. Đồng thời mình cũng gói luôn hộp quà tặng con bé full combo kẹp tóc mà mình có tìm hiểu được. Thấy ăn uống tội quá, với lại thấy bảo bị loot mất cái kẹp tóc. Tính ra sau này mình thấy mấy cái dây, vòng kẹp tóc mình mua con bé dùng hợp phết chứ đùa. Xời quá là tuyệt hihi."
         },
+
         {
           "date": "22:00 10/12/2024",
           "img": "img/20241210-comngon.jpg",
