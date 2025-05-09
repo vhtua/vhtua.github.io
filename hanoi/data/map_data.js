@@ -699,7 +699,7 @@ var map_data =
         {
           "date": "22:48 14/03/2025",
           "img": "img/20250314-congvienmaidich.jpg",
-          "desc": ""
+          "desc": "Con bé nay có đề xuất cả 2 ra đây để cùng học hành. Đây là lần đầu mình tới công viên này, xung quanh cũng có nhiều bạn trẻ tới đây. Chúng mình kiếm được cái ghế đá rồi đặt mông ngồi xuống. Công nhận là ở đây tối gió mát cơ mà cũng hơi nhiều muỗi, con bé lại còn đi dép nên bị tụi nó đốt cho gãi cong cả tay lêng. Trông tội thực sự. Sau đó thì con bé bắt đầu mở máy tính và code ra, mình có phân tích những dòng code cho con bé hiểu. Thấy cũng gật gù mà không biết tiếp thu ổn không, mình cũng nghịch mấy đoạn code của công ty con bé rồi tấu hề cho con bé cười ằng ặc. Lói phét, phân tích một hồi lâu thì trời cũng đã khá muộn ròi nên là chúng mình đứng dậy ròi đi zề."
         }
       ]
     },
