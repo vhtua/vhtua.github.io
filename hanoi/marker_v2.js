@@ -184,7 +184,7 @@ function countMarkersInView() {
         }
     });
 
-    document.getElementById('markerCountButton').innerText = `📍 Places in View: ${count}`;
+    document.getElementById('markerCountButton').innerText = `📍${count} Places`;
 }
 
 // Hook into map events
