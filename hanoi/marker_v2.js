@@ -1,10 +1,19 @@
 //==================== Global variables ===================// 
 // map_data
 // updates_log
+let filteredData = map_data;
 
 
 //==================== Map functions ======================//
-var map = L.map('map').setView([21.0285, 105.8544], 9);
+var map = L.map('map', {
+    zoomControl: false
+}).setView([21.0285, 105.8544], 9);
+
+// Change position for zoom control
+L.control.zoom({
+    position: 'bottomright'
+}).addTo(map);
+
 
 // Add OpenStreetMap tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -64,6 +73,32 @@ if (getUrlParam("dateFrom") != null && getUrlParam("dateTo") != null) {
     createMarkers(map_data);
 }
 
+// Search matching location name or location desc
+function searchMarker(text) {
+    const filteredDescData = [];
+
+    filteredData.forEach(location => {
+        const location_name = location.name;
+        const matchingDetails = location.detail.filter(detail => {
+            const desc = detail.desc;
+            return desc.toLowerCase().includes(text.toLowerCase()) || location_name.toLowerCase().includes(text.toLowerCase());
+        });
+
+        if (matchingDetails.length > 0) {
+            filteredDescData.push({
+                ...location,
+                detail: matchingDetails
+            });
+        }
+    });
+
+    
+
+    createMarkers(filteredDescData);
+}
+
+// searchMarker("police");
+
 
 function applyDateFilter() {
     const fromDateInput = document.getElementById('dateFrom').value;
@@ -88,7 +123,7 @@ function applyDateFilter() {
     fromDate.setHours(0, 0, 0, 0); // Start of the day
     toDate.setHours(23, 59, 59, 999); // Include the full day
 
-    const filteredData = [];
+    filteredData = [];
 
     map_data.forEach(location => {
         const matchingDetails = location.detail.filter(detail => {
@@ -115,6 +150,10 @@ function applyDateFilter() {
     });
 
     createMarkers(filteredData);
+
+    // Reset search box query
+    document.getElementById('search-box').value = '';
+
     document.getElementById('filtered-date-result').innerHTML = `<p style="color: green; font-size: 14px;">Successfully applied filter</p>`;
 }
 

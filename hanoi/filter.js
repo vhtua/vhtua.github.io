@@ -19,6 +19,9 @@ document.getElementById('resetFilter').addEventListener('click', () => {
     createMarkers(map_data);
     // Re-render all paths
     createPaths(path_data);
+
+    // Reset search box query
+    document.getElementById('search-box').value = '';
     
     setTimeout(countMarkersInView, 100); // small delay to allow marker rendering
 });
@@ -43,6 +46,9 @@ document.getElementById('resetFilterHead').addEventListener('click', () => {
     createMarkers(map_data);
     // Re-render all paths
     createPaths(path_data);
+    
+    // Reset search box query
+    document.getElementById('search-box').value = '';
     
     setTimeout(countMarkersInView, 100); // small delay to allow marker rendering
 });

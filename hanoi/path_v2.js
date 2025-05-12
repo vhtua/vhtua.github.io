@@ -1,3 +1,6 @@
+// ======== Path variables
+let filteredPathData = path_data;
+
 // ====== Add paths to the map
 // var polyline = L.polyline(sample_path, {color: 'red', stroke: true, weight: 5}).addTo(map).bindPopup("This is a path");
 // polyline.on('mouseover',function(ev) {
@@ -60,6 +63,35 @@ if (getUrlParam("dateFrom") != null && getUrlParam("dateTo") != null) {
     createPaths(path_data);
 }
 
+
+
+// search path
+// Search matching location name or location desc
+function searchPath(text) {
+    const filteredPathDescData = [];
+
+    filteredPathData.forEach(path => {
+        const path_name = path.name;
+        const matchingDetails = path.detail.filter(detail => {
+            const path_desc = detail.desc;
+            return path_desc.toLowerCase().includes(text.toLowerCase()) || path_name.toLowerCase().includes(text.toLowerCase());
+        });
+        // console.log(matchingDetails);
+        
+        if (matchingDetails.length > 0) {
+            filteredPathDescData.push({
+                ...path,
+                detail: matchingDetails
+            })
+        } 
+    });
+
+    createPaths(filteredPathDescData);
+}
+
+// searchPath("về");
+
+
 function applyDateFilterPaths() {
     // console.log("Update Paths");
     const fromDateInput = document.getElementById('dateFrom').value;
@@ -78,7 +110,7 @@ function applyDateFilterPaths() {
     const toDate = new Date(toDateInput);
     toDate.setHours(23, 59, 59, 999); // Include the full day
 
-    const filteredPathData = [];
+    filteredPathData = [];
 
     path_data.forEach(path => {
         const matchingDetails = path.detail.filter(detail => {
@@ -95,6 +127,9 @@ function applyDateFilterPaths() {
         } 
     });
     createPaths(filteredPathData);
+    
+    // Reset search box query
+    document.getElementById('search-box').value = '';
 
     document.getElementById('filtered-date-result').innerHTML = `<p style="color: green; font-size: 14px;">Successfully applied filter</p>`;
 }

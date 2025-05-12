@@ -6,10 +6,13 @@
     <title>Nơi chúng ta đặt chân tới</title>
     <link rel="icon" type="image/x-icon" href="img/destination.ico">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Internal CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/leaves.css">
     <link rel="stylesheet" href="css/rain.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/search_box.css">
     <link rel="stylesheet" href="css/updates_log.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/lyrics.css">
@@ -52,22 +55,34 @@
     </div>
     <div class="filter-heading"><p id="filtered-date-heading" style="text-align: center;"></p></div>
 
+    <!-- Tools -->
     <button class="navButton" id="resetFilterHead" title="Reset the current date filter"> <img src="img/sys/filter.png" alt="" style=" height: 20px;"> Reset</button>
+
     <a href="https://www.facebook.com/tuananh020402/" target="_blank" title="About the author of this app"><button class="navButton" id="" > <img src="img/sys/ink-pen.png" alt="" style=" height: 20px;">  Author</button></a>
     
 
     <div id="lyrics"></div>
     <!-- <button class="button-89" role="button">Button 89</button> -->
     <!-- <div id="marker-count" style="text-align: center; font-weight: bold; margin: 10px;">📍 Markers in View: 0</div> -->
-    
-    
 
     
     <!-- Main map -->
     <div id="map">
         <button id="markerCountButton" class="marker-count-box" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">📍 Places in view: 0</button>
+
+        <form class="search-form">
+            <div class="search-container">
+                <input id="search-box" placeholder="Search for places...">
+                <!-- <button class="fa fa-search" id="search-btn"></button> -->
+                <button type="submit" class="search-button" id="SearchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+
         <button id="menu" class="menu" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">&#9776; Menu</button>
-        <button id="updatesLogButton" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Updates Log</button>
+
+        <button id="updatesLogButton" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">📑Updates</button>
     </div>
 
 
@@ -155,6 +170,7 @@
     <script src="menu.js"></script>
     <script src="log.js"></script>
     <script src="filter.js"></script>
+    <script src="search.js"></script>
 
     <!-- Import effect controllers -->
     <script src="effect_controller.js"></script>

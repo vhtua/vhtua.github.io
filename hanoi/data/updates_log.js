@@ -96,4 +96,14 @@ var updates_logs =
                     <li>Add falling leaves effects.</li>
                 </ul>`
     },
+
+        {
+        date: "12/05/2025",
+        info:   `<ul>
+                    <li>Introduce v2.1.0</li>
+                    <li>Update web app GUI.</li>
+                    <li>Add search box.</li>
+                    <li>Fix minor bugs.</li>
+                </ul>`
+    },
 ] 
