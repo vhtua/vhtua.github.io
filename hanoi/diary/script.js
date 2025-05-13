@@ -71,7 +71,7 @@ function render(filteredPosts) {
     const item = document.createElement("div");
     item.className = "timeline-item";
     const dateOnly = post.date.match(/\d{2}\/\d{2}\/\d{4}/)?.[0] || post.date;
-    item.innerHTML = `${dateOnly} <br> ${post.locationName}`;
+    item.innerHTML = `<b>${dateOnly}</b> <br> ${post.locationName}`;
     item.onclick = () => {
       document.getElementById(post.id).scrollIntoView({ behavior: "smooth" });
     };
