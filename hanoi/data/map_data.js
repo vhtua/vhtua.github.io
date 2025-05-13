@@ -160,7 +160,7 @@ var map_data =
       "name": "Vinacomin Tower 🏬",
       "detail": [
         {
-          "date": "12/2024",
+          "date": "06/01/2025",
           "img": "img/2024122x-vinacomin.jpg",
           "desc": "Đây là tòa nhà văn phòng mới của công ty mình. Những ngày đầu mình giúp các anh chị dọn dẹp chuyển đồ từ văn phòng cũ khá là vất vả. Ngoài ra mình còn phải ở lại tập văn nghệ nữa. Nên là có những hôm hơn 22h mới về tới nhà, mệt như con cá đuối luon. Nhưng mà công ty mình cũng vô tình rất gần với công ty con bé, khá là ảo ma uchiha. Thế là có những buổi con bé ở dưới sảnh công ty đợi mình, đơn giản là hẹn chở mình về hoặc là cuối tuần thì sẽ đi tráy phố chút ròi lói phét. Những lúc như thế vui thật. Dù cho có lạc đường, xi nhan trái rẽ phải hay là đi ngược chiều thì vẫn sẽ là những kỉ niệm quý giá và hài hước."
         }

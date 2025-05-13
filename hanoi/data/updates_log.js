@@ -97,13 +97,20 @@ var updates_logs =
                 </ul>`
     },
 
-        {
+    {
         date: "12/05/2025",
         info:   `<ul>
                     <li>Introduce v2.1.0</li>
                     <li>Update web app GUI.</li>
                     <li>Add search box.</li>
                     <li>Fix minor bugs.</li>
+                </ul>`
+    },
+
+    {
+        date: "13/05/2025",
+        info:   `<ul>
+                    <li>Introduce Diary feature.</li>
                 </ul>`
     },
 ] 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hành trình của tụi mình</title>
+  <link rel="icon" type="image/x-icon" href="../img/destination.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+          font-family: 'Nunito', sans-serif;
+        }
+      </style>
+
+  <div class="layout">    
+    <div>
+        <button id="menu-toggle">📅</button>
+    </div>
+    <aside id="timeline">
+      <h2>🕒 Timeline</h2>
+      <div id="timeline-list"></div>
+    </aside>
+    <main>
+
+        <h1 class="app-title">🌸 Our Journey Diary 🌸</h1>
+      <div id="search-box">
+        <input type="text" id="searchInput" placeholder="🔍 Search place or description..." />
+      </div>
+      <div id="posts"></div>
+    </main>
+  </div>
+  <script src="../data/map_data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
