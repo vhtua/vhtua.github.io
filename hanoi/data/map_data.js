@@ -1084,4 +1084,19 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.036822615108424, 
+      "lng": 105.7867259646987,
+      "ggmaps": "https://maps.app.goo.gl/xQf7gTyWfftwwFr1A",
+      "name": "Beta Cinemas Xuân Thuỷ 🎥",
+      "detail": [
+        {
+          "date": "14:24 11/05/2025",
+          "img": "img/20250511-betaxuanthuy.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+    
   ]
