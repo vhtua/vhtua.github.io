@@ -2,6 +2,8 @@ const container = document.getElementById("posts");
 const timelineContainer = document.getElementById("timeline-list");
 const searchInput = document.getElementById("searchInput");
 
+let eventCount = 0;
+
 // Flatten posts with parent info
 const flatPosts = [];
 map_data.forEach(location => {
@@ -50,6 +52,8 @@ function render(filteredPosts) {
   timelineContainer.innerHTML = "";
 
   filteredPosts.forEach(post => {
+    // Count the number of posts/events
+    eventCount = eventCount + 1;
     // Posts
     const div = document.createElement("div");
     div.className = "post";
@@ -115,3 +119,11 @@ window.onscroll = function () {
 document.getElementById("backToTop").onclick = function () {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+
+// Update number of events
+function showEventCount() {
+  const eventCountContainer = document.getElementById('event-count');
+  eventCountContainer.innerText = `Number of events: ${eventCount}`;
+}
+
+showEventCount();
