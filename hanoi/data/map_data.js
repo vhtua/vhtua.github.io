@@ -1098,5 +1098,21 @@ var map_data =
         }
       ]
     },
+
+
+    {
+      "lat": 21.069084275604528, 
+      "lng": 105.81968977222526,
+      "ggmaps": "https://maps.app.goo.gl/9iDuNq7zQ9LYY5Xp6",
+      "name": "Hồ Tây - Đầm Sen 🪷",
+      "detail": [
+        {
+          "date": "19:18 11/05/2025",
+          "img": "img/20250511-nvthdob.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
     
   ]
