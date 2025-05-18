@@ -820,7 +820,7 @@ var map_data =
       "detail": [
         {
           "date": "12:11 29/03/2025",
-          "img": "img/202520329-nemnuong.jpg",
+          "img": "img/20250329-nemnuong.jpg",
           "desc": "Trong tour du lịch đi làm bánh sinh nhật sớm cho mình thì đây là địa điểm đầu tiên tụi mình plan tới để ăn uống tiếp sức. Nem nướng của quán khá là ngon, nước chấm thì okie hơn chỗ nào đó. Con bé ăn có tầm 5 cuốn ròi sau đó mình phải cố gắng ăn hết. Láo vô cùng!!!"
         }
       ]
@@ -1052,6 +1052,21 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.041573428174477, 
+      "lng": 105.76525000126666,
+      "ggmaps": "https://maps.app.goo.gl/KXUySFSTC1oW8e8j6",
+      "name": "Số 4 Ngõ 304/23 Hồ Tùng Mậu 🏠",
+      "type": "home",
+      "detail": [
+        {
+          "date": "16:44 - 19:46 27/04/2025",
+          "img": "img/20250427-cc4ngo304.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
 
     {
       "lat": 20.429973688566953, 
@@ -1109,6 +1124,21 @@ var map_data =
         {
           "date": "19:18 11/05/2025",
           "img": "img/20250511-nvthdob.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.045956481650215, 
+      "lng": 105.76536280214206,
+      "ggmaps": "https://maps.app.goo.gl/Wi6o4EYhJByWzYzT9",
+      "name": "Nhà trọ cho thuê - Phú Diễn 🏠",
+      "detail": [
+        {
+          "date": "19:20 16/05/2025",
+          "img": "img/20250516-nhatrophudien.jpg",
           "video": "",
           "desc": ""
         }
