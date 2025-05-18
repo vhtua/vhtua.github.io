@@ -1159,5 +1159,21 @@ var map_data =
         }
       ]
     },
+
+
+    {
+      "lat": 21.046983864213665, 
+      "lng": 105.7633138405707,
+      "ggmaps": "https://maps.app.goo.gl/ckNHFLt3cwJjqWmD9",
+      "name": "Circle K 174 Phú Diễn 🥪",
+      "detail": [
+        {
+          "date": "16:03 17/05/2025",
+          "img": "img/20250517-circlek174phudien.jpg",
+          "video": "",
+          "desc": ""
+        }
+      ]
+    },
     
   ]
