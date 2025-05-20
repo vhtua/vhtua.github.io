@@ -71,7 +71,7 @@ function render(filteredPosts) {
     const descDiv = post.desc ? `<div class="desc">${post.desc}</div>` : "";
 
     div.innerHTML = `
-      <div class="post-header">
+    <div class="post-header">
       <h2><span class="cute-icon">📍</span>${post.locationName}</h2>
       <div class="date">🕒 ${post.date}</div>
     </div>
