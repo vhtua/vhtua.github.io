@@ -58,16 +58,28 @@ function render(filteredPosts) {
     const div = document.createElement("div");
     div.className = "post";
     div.id = post.id;
+
+    // Handle media Div
+    const media = post.img
+      ? `<img src="../${post.img}" alt="Image">`
+      : post.video
+      ? `<video src="../${post.video}" controls></video>`
+      : "";
+    const mediaDiv = media ? `<div class="media">${media}</div>` : "";
+
+    // Handle desc div
+    const descDiv = post.desc ? `<div class="desc">${post.desc}</div>` : "";
+
     div.innerHTML = `
+      <div class="post-header">
       <h2><span class="cute-icon">📍</span>${post.locationName}</h2>
       <div class="date">🕒 ${post.date}</div>
-      ${post.img ? `<img src="../${post.img}" alt="Image">` : ""}
-        ${post.video ? `<video class="modal-video" width="100%" controls>
-            <source src="../${post.video}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>`: ""}
-      <div class="desc">${post.desc}</div>
-      <a href="${post.ggmaps}" target="_blank">📌 View on Google Maps</a>
+    </div>
+    <div class="post-content">
+      ${mediaDiv}
+      ${descDiv}
+    </div>
+    <a href="${post.ggmaps}" target="_blank">📌 View on Google Maps</a>
     `;
     container.appendChild(div);
 
