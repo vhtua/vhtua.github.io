@@ -1093,7 +1093,7 @@ var map_data =
           "date": "18:09 04/05/2025",
           "img": "img/20250504-sunset.jpg",
           "video": "",
-          "desc": "Mình đang chở con bé trên đường lên HN thì thấy trời đẹp quá nên mình bảo con bé chụp lại. Đây chính là khung cảnh bầu trời bình yên sau khi chúng mình vừa vượt qua được cơn mưa giông cực kì to khoảng 1 tiếng trước. Thực sự là các cụ đã gánh chúng con rất nhiều."
+          "desc": "Mình đang chở con bé trên đường lên HN thì thấy trời đẹp quá nên mình bảo con bé chụp lại. Đây chính là khung cảnh bầu trời bình yên sau khi chúng mình vừa vượt qua được cơn mưa kgiông cực kì to hoảng 1 tiếng trước. Thực sự là các cụ đã gánh chúng con rất nhiều."
         }
       ]
     },
@@ -1108,7 +1108,7 @@ var map_data =
           "date": "14:24 11/05/2025",
           "img": "img/20250511-betaxuanthuy.jpg",
           "video": "",
-          "desc": ""
+          "desc": "BUỔI ĐI CHƠI ĐÓI NHẤT TRONG ĐỜI! Vâng, là đói đúng nghĩa đen ý. Hôm nay là Chủ Nhật, như thường lệ không có lịch gì và mình đang nằm ngủ lướng như các buổi Chủ Nhật khác. Tầm 11h mình được tiếng chuông điện thoại thân thương đánh thức với lời rủ của Hiền đi xem phim cùng Hiền và báo con. Mình cũng đồng ý và sau đó đi ngủ tiếp 🐥. Định là tầm 14h dậy ăn uống thì ai ngờ đúng lúc 13h50 2 đứa gọi cho mình bảo còn 30 phút nữa là vào rạp xem phim. Ơi hời đã được ăn gì đâu, đóiii quáa mama ơiii. Thế là mình phải nhấc moong dậy thật nhanh rồi thay quần áo các thứ để đi xem với cái bụng rỗng và lời đảm bảo từ con bé là yên tâm có bim bim ăn ko đói đc đâu. Mình đến nơi thì cũng đã muộn 10 phút. 3 đứa cong chân chạy vào rạp và đi rất loằng ngoằng để đến được chỗ ngồi. Sau khi xem được mấy phút đầu phim, vì có yếu tố kinh dị nên chúng mình đã đổi chỗ ngồi. Và vâng, có thể hình dung được đội hình xem phim hôm đó rất ác triến. Tính từ hàng ghế ngoài vào thì chúng ta có gì nhỉ? Mình - với cái bụng đói meo và cái mắt hơi díu díu, ban đầu có gật gù do mới ngủ dậy. Con bé - cứ tầm 5-10 phút là lấy áo che mặt, hú hét vì quá sợ hãi, đôi khi còn quay sang 2 bên. Hiền - cố tỏ ra mình ổn nhưng cũng sợ 1 9 10 như con bé, đến đoạn ma dọa cái là nhắm hết mắt vào. Nghe có hài hước không cơ chứ. 🐥"
         }
       ]
     },
