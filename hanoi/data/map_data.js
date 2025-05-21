@@ -1021,6 +1021,21 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.041573428174477, 
+      "lng": 105.76525000126666,
+      "ggmaps": "https://maps.app.goo.gl/KXUySFSTC1oW8e8j6",
+      "name": "Số 4 Ngõ 304/23 Hồ Tùng Mậu 🏠",
+      "type": "home",
+      "detail": [
+        {
+          "date": "00:59 27/04/2025",
+          "img": "img/20250427-cc4ngo304.jpg",
+          "video": "",
+          "desc": "Đi chơi Phố đi bộ chụp ảnh cho đã đời đến lúc máy ảnh hết pin thì 2 đứa mới về. Ôi chời, hôm nay đã đi vào kỉ lục của bản thân mình. Chưa bao giờ mình về nhà muộn tới 1h như thế nài luôn mà. Trên đoạn đường đi về con bé còn trêu quả khá ác bảo rằng mẹ mình nhắn tin sao giờ chưa về 🐥 Nói thậc chứ lúc đó cũng hơi rén, được lắm báo con nhé. Sau đó khi chở con bé về nhà thì mình có thấy được tấm biển cho thuê phòng trọ này. Vì đang trong giai đoạn tìm trọ nên mình có thêm khả năng phát hiện các biển cho thuê phòng trọ khá nhanh. Không chần chừ, mình liền chụp lại để sau này có gì thì liên hệ. Cuối cùng thì mình tạm biệt con bé và phi xe về nhà."
+        }
+      ]
+    },
 
     {
       "lat": 21.023388064295368, 
@@ -1048,22 +1063,6 @@ var map_data =
           "img": "img/20250427-nph.jpg",
           "video": "",
           "desc": "Sau khi bất lực tìm nơi chụp ảnh đẹp ở HN thì mình, con bé và Hương có tới quán cafe này để mong có những tấm hình đẹp. Hương thì chăm chú gọi 1 bức hình nhỏ để tô màu trong quán. Trong lúc đó thì 2 đứa mình đi xung quanh chụp choẹt các thứ. Mãi mới tìm được chỗ có view đẹp, mình phải làm đủ trò để con bé cười toe toét thì ảnh mới đẹp. Công nhận là giờ mình cũng đã cứng tay hơn một chút ròi, chụp ảnh không bị xáu nữa. Bằng chứng là con bé trông cũng có vẻ hài lòng ấy chứ, hihi."
-        }
-      ]
-    },
-
-    {
-      "lat": 21.041573428174477, 
-      "lng": 105.76525000126666,
-      "ggmaps": "https://maps.app.goo.gl/KXUySFSTC1oW8e8j6",
-      "name": "Số 4 Ngõ 304/23 Hồ Tùng Mậu 🏠",
-      "type": "home",
-      "detail": [
-        {
-          "date": "16:44 - 19:46 27/04/2025",
-          "img": "img/20250427-cc4ngo304.jpg",
-          "video": "",
-          "desc": ""
         }
       ]
     },
