@@ -1146,7 +1146,7 @@ var map_data =
           "date": "19:18 11/05/2025",
           "img": "img/20250511-nvthdob.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Sau màn mua bánh kem loằng ngoằng thì chúng mình cùng đi tới đây để tổ chức sinh nhật cho Hiền. Có vẻ 3 đứa đã quên điều gì đó rất nghiêm trọng cơ mà giờ vẫn chưa nghĩ ra. Chúng mình dừng bên đường có chiếc ghế đá và view nhìn ra hồ sen, khá là oách. Cả đám để bánh kem lên ghế đá rồi bắt đầu cắm nến. Hiền bắt đầu thổi nến và ước các kiểu đà điểu. Con bé bắt đầu gợi ý lấy áo mưa để trải ngồi cho tiện. Có đứa dám đề xuất thì có đứa dám làm. Cả lũ ngồi lướt ticktok vô tree, lói phét 1 chút. Ròi sau đó là màn biết chúng mình đã quên gì luôn. Mình gọi cho Hương xem bánh kem và sinh nhật của Hiền. Hương nghe máy ròi tắt ngay sau đó, quay đi để lại sự dỗi cho mấy đứa không mời bạn đến dự. Thực ra thì mọi việc cũng là những suy nghĩ chớp nhoáng của tụi mình chứ tụi mình cũng không có ý đó. Chỉ là Hương dễ dỗi thoi, sau đó cũng khổ con bé mấy ngày liền bị bạn cho ăn bơ."
         }
       ]
     },
