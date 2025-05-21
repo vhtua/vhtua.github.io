@@ -1168,7 +1168,7 @@ var map_data =
           "date": "19:20 16/05/2025",
           "img": "img/20250516-nhatrophudien.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Mình và con bé có hẹn cùng nhau giúp mình đi xem trọ xung quanh khu này. Đây là chỗ đầu tiên trong công cuộc tìm trọ mà chúng mình tìm thấy. Cả 2 đứa đều thấy ổn, khi gọi điện cho anh chủ trọ thì anh hẹn sang hôm sau anh mới có mặt để dẫn mình xem phòng được."
         }
       ]
     },
