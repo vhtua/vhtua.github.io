@@ -3,8 +3,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f9f9f9;
   background-image: url("img/cat-journey-bgr.jpg");
-  background-size: contain;
-  background-repeat: repeat-y;
 }
 
 .layout {
@@ -56,6 +54,8 @@ body {
 main {
   flex: 1;
   padding: 1rem;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 #search-box {
