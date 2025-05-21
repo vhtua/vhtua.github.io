@@ -1158,6 +1158,13 @@ var map_data =
       "name": "Nhà trọ cho thuê - Phú Diễn 🏠",
       "detail": [
         {
+          "date": "15:24 17/05/2025",
+          "img": "img/20250517-nhatrophudien.jpg",
+          "video": "",
+          "desc": ""
+        },
+
+        {
           "date": "19:20 16/05/2025",
           "img": "img/20250516-nhatrophudien.jpg",
           "video": "",
