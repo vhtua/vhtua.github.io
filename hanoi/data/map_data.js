@@ -822,7 +822,13 @@ var map_data =
           "date": "12:11 29/03/2025",
           "img": "img/20250329-nemnuong.jpg",
           "desc": "Trong tour du lịch đi làm bánh sinh nhật sớm cho mình thì đây là địa điểm đầu tiên tụi mình plan tới để ăn uống tiếp sức. Nem nướng của quán khá là ngon, nước chấm thì okie hơn chỗ nào đó. Con bé ăn có tầm 5 cuốn ròi sau đó mình phải cố gắng ăn hết. Láo vô cùng!!!"
-        }
+        },
+
+        {
+          "date": "17:35 11/05/2025",
+          "img": "",
+          "desc": "Xem phim xong thì 3 đứa dắt nhau về. Mọi việc vẫn chưa xong đâu he. Con bé bắt đầu nghĩ nên tổ chức mua bánh kem chúc mừng sinh nhật Hiền luôn. Hiền thì bảo gấp quá chưa kịp trang điểm tóc tai gì cả. Sau khi 2 đứa dành ra hơn 20 phút thuyết trình với nhau giữa đường thì cuối cùng cả 2 cũng đã đưa ra được quyết định. Về phía báo con, con bé quyết định mọi người sẽ cùng đi ăn trước, quan trọng là mình đang sắp chet doi nên con bé chắc cũng muốn cíu mình lắm ròi. Sau đó theo plan sẽ mua bánh kem cho Hiền và đi tổ chức sinh nhật. Chúng mình vào quán và ơn zời, cuối cùng mình cũng đã được ăn. Đã là gần 21 tiếng kể từ lần ăn no gần nhất của mình, và ui dòi oi, cuộc sống đây rùiiii. 3 đứa vừa ăn vừa lói phét được tầm 15 phút thì Hiền phát hiện ra quên không tham gia học online và làm bài tập 💀. Gì mà bài tập toàn tiếng Hàn đọc chả hiểu giề. Mình và con bé cũng cố gắng tra cứu ChatGPT giải bài tập hộ bạn nhưng mà sau đó cũng lười, để bạn tự lo. 2 đứa sau đó bỏ bạn ròi tốc biến vào các quán bên cạnh xem bánh kem."
+        },
       ]
     },
 
@@ -1109,6 +1115,22 @@ var map_data =
           "img": "img/20250511-betaxuanthuy.jpg",
           "video": "",
           "desc": "BUỔI ĐI CHƠI ĐÓI NHẤT TRONG ĐỜI! Vâng, là đói đúng nghĩa đen ý. Hôm nay là Chủ Nhật, như thường lệ không có lịch gì và mình đang nằm ngủ lướng như các buổi Chủ Nhật khác. Tầm 11h mình được tiếng chuông điện thoại thân thương đánh thức với lời rủ của Hiền đi xem phim cùng Hiền và báo con. Mình cũng đồng ý và sau đó đi ngủ tiếp 🐥. Định là tầm 14h dậy ăn uống thì ai ngờ đúng lúc 13h50 2 đứa gọi cho mình bảo còn 30 phút nữa là vào rạp xem phim. Ơi hời đã được ăn gì đâu, đóiii quáa mama ơiii. Thế là mình phải nhấc moong dậy thật nhanh rồi thay quần áo các thứ để đi xem với cái bụng rỗng và lời đảm bảo từ con bé là yên tâm có bim bim ăn ko đói đc đâu. Mình đến nơi thì cũng đã muộn 10 phút. 3 đứa cong chân chạy vào rạp và đi rất loằng ngoằng để đến được chỗ ngồi. Sau khi xem được mấy phút đầu phim, vì có yếu tố kinh dị nên chúng mình đã đổi chỗ ngồi. Và vâng, có thể hình dung được đội hình xem phim hôm đó rất ác triến. Tính từ hàng ghế ngoài vào thì chúng ta có gì nhỉ? Mình - với cái bụng đói meo và cái mắt hơi díu díu, ban đầu có gật gù do mới ngủ dậy. Con bé - cứ tầm 5-10 phút là lấy áo che mặt, hú hét vì quá sợ hãi, đôi khi còn quay sang 2 bên. Hiền - cố tỏ ra mình ổn nhưng cũng sợ 1 9 10 như con bé, đến đoạn ma dọa cái là nhắm hết mắt vào. Nghe có hài hước không cơ chứ. 🐥"
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.03599185596986, 
+      "lng": 105.77609922725676,
+      "ggmaps": "https://maps.app.goo.gl/R748VFZU1HYKABgr6",
+      "name": "Tiệm Bánh Sinh Nhật Ngõ 75 Hồ Tùng Mậu 🎂",
+      "detail": [
+        {
+          "date": "18:25 11/05/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
         }
       ]
     },
