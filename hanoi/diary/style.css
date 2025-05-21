@@ -55,8 +55,8 @@ main {
   flex: 1;
   padding: 1rem;
   background-image: url("img/cat-journey-bgr.jpg");
-  background-size: contain;
-  background-repeat: repeat-y;
+  background-size: 800px auto;
+  background-repeat: repeat;
 }
 
 #search-box {
