@@ -1199,7 +1199,7 @@ var map_data =
           "date": "16:03 17/05/2025",
           "img": "img/20250517-circlek174phudien.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Theo plan là chúng mình sẽ đi chơi cho vui nhưng hôm nay có vẻ thời tiết không ủng hộ cho lắm. Đã 4 giờ chiều, trời bắt đầu đổ mưa to dần. Như đã hứa từ buổi hôm trước, nay mình đem dưa hấu đến cho cả 2 đứa cùng ăn. Ròi chúng mình mua cơm cuộn, cơm nắm ăn để có sức đi chơi. Thế mà trời lại mưa. Cũng tiếc he, nay mình thấy con bé có chuẩn bị kĩ. Báo con nay mặc váy trông cũng đáng eo đó, khác với thường ngày là màu sáng hoặc xám thì hôm nay là bộ tối hẳn. Còn quả tóc thì con bé bảo chưa đủ xoăn vì hơi gấp chưa kịp làm xong. Đúng vậy thậc, mình thấy có tí xoăn nhưng cũng không đáng kể lắm. Sau đó thì hai đứa ngồi lói phét. Ăn xong thì chúng mình nhấc mông ra khỏi đây, mình chở con bé về nhà trên đoạn đường vừa tắc vừa mưa to dần. Con bé có vẻ cũng khá là cay cú vì nay muốn đi chơi ròi trả mình mấy que kem nhưng do trời mưa nên coi như plan này sẽ bị hoãn. Và thực sự có lẽ phải đợi hơi lâu nữa con bé mới đãi mình kem được vì hẳn 5 tuần sắp tới báo con phải làm bù hết các thứ 7. Nghe thoi đã thấy khổ thân, mệt nhức cả người. Cố gắng lên nhee!"
         }
       ]
     },
