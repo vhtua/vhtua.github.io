@@ -1124,13 +1124,13 @@ var map_data =
       "lat": 21.03599185596986, 
       "lng": 105.77609922725676,
       "ggmaps": "https://maps.app.goo.gl/R748VFZU1HYKABgr6",
-      "name": "Tiệm Bánh Sinh Nhật Ngõ 75 Hồ Tùng Mậu 🎂",
+      "name": "Tiệm Bánh Kem Ngõ 75 Hồ Tùng Mậu 🎂",
       "detail": [
         {
           "date": "18:25 11/05/2025",
           "img": "",
           "video": "",
-          "desc": ""
+          "desc": "Quán bên cạnh không có nhiều mẫu mới lạ nên 2 đứa qua quán bánh kem của anh chủ này. Mình và con bé sau khi nhìn ngó xung quanh cũng loại trừ được 3 cái bánh, nhưng mà để chắc chắn thì vẫn xem xét chứ chưa quyết dịnh vội. Sau tầm 8 phút thì Hiền có đi từ quán nem nướng chạy ra vào xem cùng chúng mình. Thấy bảo chatGPT đã giúp bạn được 7 điểm bài kiểm tra, thoi thì vậy là khá oke ròi đó chứ, cơ mà Hiền có vẻ vẫn khá kay cú. Chúng mình để cho Hiền quyết định chọn bánh kem. Hiền cũng suy nghĩ nhưng sau khi được con bé dẫn dắt hơi ác thì Hiền cũng chọn chiếc bánh kem trắng có cái nơ hồng buộc quanh, bên trên cắm chi chít bánh oreo ròi mấy miếng trái cây (dưa, nho, ...) Giờ đến công đoạn viết chữ lên bánh, cần phải tìm được 1 dòng chữ chúc mừng sinh nhật thật ý nghĩa. Ban đầu mình đi tìm mấy câu chúc thọ trên mạng thấy cũng chưa phá cách lắm. Nhưng với bản năng của 1 báo con, con bé mớm cho mình dòng chữ \"Lời chúc sinh nhật hay và ý nghĩa\". Đúng tuyệt đỉnh nhân gian. Mình vào nhờ anh chủ quán viết hộ dòng chữ mà cười lộn duột: <br>- Anh viết hộ em dòng chữ này lên bánh với ạ. <br>- Ừ em đọc đi, anh viết đây. <br>- <strong>Lời chúc sinh nhật hay và ý nghĩa</strong> anh ạ. <br> - Ừ em cứ đọc đi, anh xong hết rồi. <br> - Dạ vâng anh, nhưng mà là <strong>lời chúc sinh nhật hay và ý nghĩa</strong> ấy anh... <br>- Là lời chúc gì em nhỉ? Em đọc rồi anh viết cho. <br>- Ý em là viết dòng chữ <strong>lời chúc sinh nhật hay và ý nghĩa</strong> ấy anh ạ... <br>- À......"
         }
       ]
     },
