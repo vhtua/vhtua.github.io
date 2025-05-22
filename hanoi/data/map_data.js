@@ -1183,7 +1183,7 @@ var map_data =
           "date": "20:04 16/05/2025",
           "img": "img/20250516-nemnuonglinhthien.jpg",
           "video": "",
-          "desc": ""
+          "desc": "Đi xung quanh và lấy số của các khu vực cho thuê trọ gần đó thì chúng mình vào đây ăn lấy sức để đi tiếp. Đến nơi thì mình và con bé trong khi đợi món ra vẫn phải tranh thủ lói phét. Hôm nay mình chúc mừng con bé được nhận thành tích nhân viên xuất sắc tháng ở công ty. Nhìn mặt báo con cũng vẻ tự hào, ngửa lên tận trời cơ mà, còn cười ngoác không ngậm được miệng. Sau đấy 2 đứa nói về những câu chuyện tại công ty và cười ằng ặc. Ròi con bé lôi điện thoại ra và nói về vấn đề Hương đang dỗi Hiền và con bé. Khổ thân, mấy đứa dỗi nhau lâu thật đấy, chắc con bé cũng đã hiểu được phần nào nỗi khổ của đám con zai nếu mà người eo dỗi vô lí 1 phần ròi đó. Đánh chén xong thì 2 đứa bắt đầu hành trình đi tìm chỗ trọ mới cho mình."
         }
       ]
     },
