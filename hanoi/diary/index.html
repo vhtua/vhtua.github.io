@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hành trình của tụi mình</title>
   <link rel="icon" type="image/x-icon" href="img/diary-flip.ico">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/tooltip.css" />
+  <link rel="stylesheet" href="css/map_toggle.css" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,14 +18,25 @@
       </style>
 
   <div class="layout">    
-    <div>
+    <!-- <div>
         <button id="menu-toggle">📅</button>
+    </div> -->
+
+    <div class="tooltip-container">
+      <button id="menu-toggle">📅</button>
+      <span class="tooltip-text">Timeline</span>
     </div>
+
+    <div class="tooltip-container">
+      <button id="map-toggle">🌏</button>
+      <span class="tooltip-text">Timeline</span>
+    </div>
+
     <aside id="timeline">
       <h2>🕒 Timeline</h2>
       <h4 id="event-count">Number of events: ...</h4>
       <div id="timeline-list"></div>
-      <h5>Lastest Update: 14:02 22/05/2025</h5>
+      <h5>Lastest Update: 15:33 22/05/2025</h5>
     </aside>
     <main>
 

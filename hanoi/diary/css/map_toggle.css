@@ -1,0 +1,16 @@
+#map-toggle {
+  /* display: none; */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+
+  display: block;
+  position: fixed;
+  top: 0.1rem;
+  right: 1rem;
+  z-index: 1100;
+}

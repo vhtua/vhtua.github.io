@@ -26,6 +26,16 @@ body {
   height: 96vh;
   overflow-y: auto;
   transition: transform 0.3s ease-in-out;
+
+  /* Feature development for desktop UI v3 */
+  /* position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 96vh;
+  z-index: 1000;
+  transform: translateX(0%);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); */
 }
 
 #timeline h2 {
@@ -54,9 +64,11 @@ body {
 main {
   flex: 1;
   padding: 1rem;
-  background-image: url("img/cat-journey-bgr.jpg");
+  background-image: url("../img/cat-journey-bgr.jpg");
   background-size: 800px auto;
-  background-repeat: repeat;
+  background-size: contain;
+  background-repeat: repeat-y;
+  /* background-repeat: repeat; */
 }
 
 #search-box {
@@ -201,7 +213,19 @@ main {
   margin: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
+
+    /* Feature development for desktop UI v3 */
+  /* display: block;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1100; */
 }
+
+/*  */
+/* #timeline.open {
+  transform: translateX(-100%);
+} */
 
 @media (max-width: 768px) {
   .layout {
@@ -226,7 +250,7 @@ main {
   #menu-toggle {
     display: block;
     position: fixed;
-    top: 1rem;
+    top: 3rem;
     right: 1rem;
     z-index: 1100;
   }
@@ -241,6 +265,6 @@ main {
 
   .media,
   .desc {
-    max-width: 100%;
+    max-width: 80%;
   }
 }

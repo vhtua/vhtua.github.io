@@ -106,12 +106,6 @@ searchInput.addEventListener("input", () => {
 });
 
 
-document.getElementById("menu-toggle").addEventListener("click", () => {
-    document.getElementById("timeline").classList.toggle("open");
-  });
-  
-
-
 // Initial render
 render(flatPosts);
 
@@ -139,3 +133,15 @@ function showEventCount() {
 }
 
 showEventCount();
+
+// Open menu timeline
+document.getElementById("menu-toggle").addEventListener("click", () => {
+    document.getElementById("timeline").classList.toggle("open");
+  });
+
+
+// Open map app
+document.getElementById("map-toggle").addEventListener("click", () => {
+    const url = "../";
+    window.open(url, '_blank').focus();
+  });
