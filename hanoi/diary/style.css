@@ -86,10 +86,9 @@ main {
 
 /* 🐱 Cute post layout */
 .post {
-  opacity: 0.8;
   margin: 0 auto;
   max-width: 800px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white background */
   padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -97,6 +96,7 @@ main {
   transition: transform 0.2s ease;
   scroll-margin-top: 2rem;
 }
+
 
 .post:hover {
   transform: translateY(-3px);
