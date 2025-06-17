@@ -1209,34 +1209,13 @@ var map_data =
       "lat": 21.04174055619157, 
       "lng": 105.76729839851485,
       "ggmaps": "https://maps.app.goo.gl/BSyamFcfZL8GfWXE9",
-      "name": "Hàng Ghế Goldmark City Hồ Tùng Mậu 🪑",
+      "name": "Hàng Ghế Goldmark City Hồ Tùng Mậu 🪑🪑",
       "detail": [
         {
           "date": "21:28 24/05/2025",
           "img": "img/20250524-goldmarkhtm_park.jpg",
           "video": "",
           "desc": ""
-        }
-      ]
-    },
-
-
-    {
-      "lat": 21.041564005992957, 
-      "lng": 105.76662796514115,
-      "ggmaps": "https://maps.app.goo.gl/5X8avNczLReJrhHLA",
-      "name": "Hàng ghế gần sân tennis Goldmark City 🎾",
-      "detail": [
-        {
-          "date": "21:00 16/06/2025",
-          "img": "img/20250614-nphhoacaitoc.jpg",
-          "video": "",
-          "desc": "Một buổi tối có gió thổi rất mát và cục nợ có tóc tết 2 bên khá là xinh. Trên đường đi tới đây thì con bé có tiện tay hái hoa, và hoa đó con bé có tra được tên là \"Sử Quân Tử\" (Mình đang update típ...)",
-          "media": [
-            "img/20250614-nphcamhoa.jpg",
-            "img/20250614-echxanh.jpg",
-            "video/20250614-nphcamhoa.mp4"
-          ],
         }
       ]
     },

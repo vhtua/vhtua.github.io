@@ -137,6 +137,7 @@ main {
 /* Content split into media + desc */
 .post-content {
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -227,7 +228,7 @@ main {
   transform: translateX(-100%);
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 1131px) {
   .layout {
     flex-direction: column;
   }

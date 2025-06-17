@@ -1,0 +1,106 @@
+.media-viewer {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  cursor: grab;
+  overflow-x: hidden;
+}
+
+.media-viewer,
+.media-viewer * {
+  user-select: none;
+  -webkit-user-drag: none; /* for Safari */
+  -webkit-user-select: none; /* for Safari */
+}
+
+
+.media-viewer.dragging {
+  cursor: grabbing;
+}
+
+.media-item {
+  flex: 0 0 auto;
+  max-width: 300px;
+  max-height: 400px;
+  position: relative;
+}
+
+.media-item img,
+.media-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Modal styles remain the same */
+#imageModal {
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  text-align: center;
+}
+
+#modalImage {
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 4rem;
+  border-radius: 12px;
+}
+
+#closeModal {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+}
+
+#modalDownload {
+  width: 40px;
+  display: block;
+  /* margin-top: 1rem; */
+  margin:10px auto;
+  padding: 10px 18px;
+  background: #ffecf2;
+  border-radius: 8px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* .controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.nav-button {
+  background-color: #ffd4ec;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #ffc1e3;
+}
+
+.indicator {
+  font-weight: bold;
+  font-size: 1rem;
+} */

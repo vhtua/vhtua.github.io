@@ -113,4 +113,12 @@ var updates_logs =
                     <li>Introduce Diary feature.</li>
                 </ul>`
     },
+
+    {
+        date: "17/06/2025",
+        info:   `<ul>
+                    <li>Introduce Diary v2.0.0</li>
+                    <li>Update map data struture to v3 with multiple media.</li>
+                </ul>`
+    },
 ] 

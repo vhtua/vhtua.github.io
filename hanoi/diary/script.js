@@ -59,17 +59,48 @@ function render(filteredPosts) {
     div.className = "post";
     div.id = post.id;
 
-    // Handle media Div
+    console.log(post);
+
+    const media_list = [];
+    // Handle, pre-process media Div
+    // Retrieve the first main media
     const media = post.img
-      ? `<img src="../${post.img}" alt="Image">`
+      ? `<div class="media-item"><img src="../${post.img}" alt="Image"></div>`
       : post.video
-      ? `<video src="../${post.video}" controls></video>`
+      ? `<div class="media-item"><video src="../${post.video}" controls></video></div>`
       : "";
-    const mediaDiv = media ? `<div class="media">${media}</div>` : "";
+    media_list.push(media)
+
+    // Fetch and push the media into the media
+    if (post.media)
+      post.media.forEach(each_media => {
+        const media = each_media.endsWith("mp4")
+        ? `<div class="media-item"><video src="../${each_media}" controls></video></div>`
+        : each_media
+        ? `<div class="media-item"><img src="../${each_media}" alt="Image"></div>`
+        : "";
+        media_list.push(media)
+      });
+
+    console.log(media_list);
+    const mediaDiv = media 
+      ? `<div class="media-viewer">
+          ${media_list.join("")}
+           
+          <!---<div class="controls">
+            <button class="nav-button" id="prevBtn">&#8592;</button>
+            <span class="indicator" id="mediaIndicator">1/${media_list.length}</span>
+            <button class="nav-button" id="nextBtn">&#8594;</button>
+          </div>--->
+      
+        </div>` 
+      : "";
+
 
     // Handle desc div
     const descDiv = post.desc ? `<div class="desc">${post.desc}</div>` : "";
 
+    // create media div
     div.innerHTML = `
     <div class="post-header">
       <h2><span class="cute-icon">📍</span>${post.locationName}</h2>

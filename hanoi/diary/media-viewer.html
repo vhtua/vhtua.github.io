@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cute Media Viewer</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fefefe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .media-viewer {
+      width: 400px;
+      height: 300px;
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      position: relative;
+      user-select: none;
+    }
+
+    .media-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      transition: transform 0.3s ease;
+      cursor: grab;
+    }
+
+    .media-item {
+      min-width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+    }
+
+    .media-item img, .media-item video {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 12px;
+    }
+
+    .controls {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .nav-button {
+      background-color: #ff90b3;
+      border: none;
+      color: white;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      transition: background-color 0.2s;
+    }
+
+    .nav-button:hover {
+      background-color: #ff6494;
+    }
+
+    .indicator {
+      font-size: 14px;
+      color: #555;
+    }
+
+
+    /* Modal viewer */
+  #imageModal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+  }
+
+  #imageModal img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  }
+
+  #closeModal {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  #closeModal:hover {
+    color: #ff90b3;
+  }
+
+
+  </style>
+</head>
+<body>
+  <div class="media-viewer">
+    <div class="media-container" id="mediaContainer">
+      <div class="media-item"><img style="width: 50%;" src="../img/20250209-nph.jpg" /></div>
+      <div class="media-item"><video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video></div>
+      <div class="media-item"><img src="https://via.placeholder.com/400x300?text=Image+3" /></div>
+      <div class="media-item"><video src="https://www.w3schools.com/html/movie.mp4" controls></video></div>
+      <div class="media-item"><img src="https://via.placeholder.com/400x300?text=Image+5" /></div>
+    </div>
+    <div class="controls">
+      <button class="nav-button" id="prevBtn">&#8592;</button>
+      <span class="indicator" id="mediaIndicator">1/5</span>
+      <button class="nav-button" id="nextBtn">&#8594;</button>
+    </div>
+  </div>
+
+  <!-- Modal for viewing images -->
+<div id="imageModal" style="display:none;">
+  <span id="closeModal">&times;</span>
+  <img id="modalImage" />
+</div>
+
+
+<script>
+  const mediaContainer = document.getElementById('mediaContainer');
+  const indicator = document.getElementById('mediaIndicator');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const mediaItems = document.querySelectorAll('.media-item');
+
+  let currentIndex = 0;
+  let isDragging = false;
+  let startX = 0;
+
+  function stopAllVideos() {
+    const videos = mediaContainer.querySelectorAll('video');
+    videos.forEach(video => {
+      video.pause();
+      video.currentTime = 0; // Optional: reset to beginning
+    });
+  }
+
+  const updateMedia = () => {
+    stopAllVideos();
+    mediaContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+    indicator.textContent = `${currentIndex + 1}/${mediaItems.length}`;
+  };
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateMedia();
+    }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < mediaItems.length - 1) {
+      currentIndex++;
+      updateMedia();
+    }
+  });
+
+  mediaContainer.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.pageX;
+    mediaContainer.style.cursor = 'grabbing';
+  });
+
+  mediaContainer.addEventListener('mouseup', (e) => {
+    if (!isDragging) return;
+    const delta = e.pageX - startX;
+    if (delta > 50 && currentIndex > 0) currentIndex--;
+    else if (delta < -50 && currentIndex < mediaItems.length - 1) currentIndex++;
+    updateMedia();
+    isDragging = false;
+    mediaContainer.style.cursor = 'grab';
+  });
+
+  mediaContainer.addEventListener('mouseleave', () => {
+    isDragging = false;
+    mediaContainer.style.cursor = 'grab';
+  });
+
+  mediaContainer.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+  });
+
+  updateMedia(); // Initial update
+
+
+
+
+
+  // Modal logic =================================
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImage');
+const closeModal = document.getElementById('closeModal');
+
+// Show modal when an image is clicked
+document.querySelectorAll('.media-item img').forEach(img => {
+  img.addEventListener('click', () => {
+    modal.style.display = 'block';
+    modalImg.src = img.src;
+  });
+});
+
+// Close modal when the close button is clicked
+closeModal.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+// Close modal when clicking outside the image
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+});
+
+</script>
+
+</body>
+</html>
