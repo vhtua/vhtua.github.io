@@ -107,8 +107,8 @@ function render(filteredPosts) {
       <div class="date">🕒 ${post.date}</div>
     </div>
     <div class="post-content">
+      ${descDiv}  
       ${mediaDiv}
-      ${descDiv}
     </div>
     <a href="${post.ggmaps}" target="_blank">📌 View on Google Maps</a>
     `;

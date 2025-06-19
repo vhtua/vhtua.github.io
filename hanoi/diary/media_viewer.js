@@ -15,15 +15,15 @@ document.addEventListener("DOMContentLoaded", () => {
       viewer.addEventListener("mousedown", (e) => {
         isDragging = true;
         dragDistance = 0;
-        startX = e.pageX - viewer.offsetLeft;
+        startX = e.pageX;
         scrollLeft = viewer.scrollLeft;
         viewer.classList.add("dragging");
       });
 
       viewer.addEventListener("mousemove", (e) => {
         if (!isDragging) return;
-        const x = e.pageX - viewer.offsetLeft;
-        const walk = (x - startX) * 1.2;
+        const x = e.pageX;
+        const walk = (x - startX) * 1; // Adjust multiplier for feel
         viewer.scrollLeft = scrollLeft - walk;
         dragDistance += Math.abs(walk);
       });
@@ -42,17 +42,18 @@ document.addEventListener("DOMContentLoaded", () => {
       viewer.addEventListener("touchstart", (e) => {
         isDragging = true;
         dragDistance = 0;
-        startX = e.touches[0].pageX - viewer.offsetLeft;
+        startX = e.touches[0].pageX;
         scrollLeft = viewer.scrollLeft;
       }, { passive: true });
 
       viewer.addEventListener("touchmove", (e) => {
         if (!isDragging) return;
-        const x = e.touches[0].pageX - viewer.offsetLeft;
-        const walk = (x - startX) * 1.2;
+        const x = e.touches[0].pageX;
+        const walk = (x - startX) * 1; // Same here, real-time scroll
         viewer.scrollLeft = scrollLeft - walk;
         dragDistance += Math.abs(walk);
-      }, { passive: true });
+        e.preventDefault(); // Prevent native scrolling
+      }, { passive: false });
 
       viewer.addEventListener("touchend", () => {
         isDragging = false;
@@ -65,20 +66,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if (img) {
         img.setAttribute("draggable", "false");
 
-        img.addEventListener("dragstart", (e) => {
-          e.preventDefault();
-        });
-
-        img.addEventListener("mousedown", () => {
-          dragDistance = 0;
-        });
-
-        img.addEventListener("touchstart", () => {
-          dragDistance = 0;
-        });
+        img.addEventListener("dragstart", e => e.preventDefault());
+        img.addEventListener("mousedown", () => { dragDistance = 0; });
+        img.addEventListener("touchstart", () => { dragDistance = 0; });
 
         img.addEventListener("click", () => {
-          if (dragDistance > 5) return; // it's a drag, skip modal
+          if (dragDistance > 5) return;
 
           const modal = document.getElementById("imageModal");
           const modalImg = document.getElementById("modalImage");
@@ -103,18 +96,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Modal close logic =================================
+  // Modal logic
   const modal = document.getElementById('imageModal');
-  const imgModal = document.getElementById('imageModal');
   const closeModal = document.getElementById('closeModal');
 
   closeModal.addEventListener("click", () => {
-    imgModal.style.display = "none";
+    modal.style.display = "none";
   });
 
-  modal.addEventListener('click', (e) => {
+  modal.addEventListener("click", (e) => {
     if (e.target === modal) {
-      modal.style.display = 'none';
+      modal.style.display = "none";
     }
   });
 });

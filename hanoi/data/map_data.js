@@ -74,7 +74,11 @@ var map_data =
         {
           "date": "18:19 14/12/2024",
           "img": "img/20241214-nph.JPG",
-          "desc": "Hà Nội trong cái lạnh của mùa đông, các hàng quán phố Hàng Mã bán đồ trang trí Giáng Sinh đầy đủ sắc vàng, xanh, đỏ..., tất cả tạo nên một không khí thật ấm cúng. Đây là lần đầu mình biết đi chơi Giáng Sinh là như thế nào, chúng mình sẽ đi qua từng quán, chụp ảnh, ngắm đồ (cũm muốn mua 1 số thứ lắm cơ mà sợ mắc), rùi tất nhiên là sẽ lói phét và lạc đường một chút. Nghe hơi ngốc nhưng mà vui lémm. Hãy luôn cười thật nhèo nhéee."
+          "desc": "Hà Nội trong cái lạnh của mùa đông, các hàng quán phố Hàng Mã bán đồ trang trí Giáng Sinh đầy đủ sắc vàng, xanh, đỏ..., tất cả tạo nên một không khí thật ấm cúng. Đây là lần đầu mình biết đi chơi Giáng Sinh là như thế nào, chúng mình sẽ đi qua từng quán, chụp ảnh, ngắm đồ (cũm muốn mua 1 số thứ lắm cơ mà sợ mắc), rùi tất nhiên là sẽ lói phét và lạc đường một chút. Nghe hơi ngốc nhưng mà vui lémm. Hãy luôn cười thật nhèo nhéee.",
+          "media": [
+            "img/20241214-noelthings1.jpg",
+            "img/20241214-gaubong.jpg",
+          ],
         }
       ]
     },
@@ -136,6 +140,11 @@ var map_data =
       "ggmaps": "https://maps.app.goo.gl/Y4g4CGywQTTfq4DY8?g_st=ac",
       "name": "Siêu thị Thành Đô 🛒",
       "detail": [
+        {
+          "date": "18:15 24/05/2025",
+          "img": "",
+          "desc": ""
+        },
         {
           "date": "18:15 - 19:05 13/04/2025",
           "img": "",
@@ -1212,10 +1221,21 @@ var map_data =
       "name": "Hàng Ghế Goldmark City Hồ Tùng Mậu 🪑",
       "detail": [
         {
+          "date": "13:56 25/05/2025",
+          "img": "",
+          "video": "",
+          "desc": "",
+          "media": [
+          ]
+        },
+        {
           "date": "21:28 24/05/2025",
           "img": "img/20250524-goldmarkhtm_park.jpg",
           "video": "",
-          "desc": ""
+          "desc": "",
+          "media": [
+            "img/20250524-lacluoc.jpg"
+          ]
         }
       ]
     },
@@ -1234,9 +1254,57 @@ var map_data =
           "desc": "Một buổi tối có gió thổi rất mát và cục nợ có tóc tết 2 bên khá là xinh. Trên đường đi tới đây thì con bé có tiện tay hái hoa, và hoa đó con bé có tra được tên là \"Sử Quân Tử\" (Mình đang update típ...)",
           "media": [
             "img/20250614-nphcamhoa.jpg",
+            "video/20250614-nphcamhoa.mp4",
             "img/20250614-echxanh.jpg",
-            "video/20250614-nphcamhoa.mp4"
           ],
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.041492962166437, 
+      "lng": 105.76504333488792,
+      "ggmaps": "https://maps.app.goo.gl/CbQJQkbpoCZGc3PN9",
+      "name": "5/23/304 Hồ Tùng Mậu 🏠",
+      "type": "home",
+      "detail": [
+        {
+          "date": "21:50 27/05/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+
+    {
+      "lat": 21.045430310106166, 
+      "lng": 105.76741264373265,
+      "ggmaps": "https://maps.app.goo.gl/LyhkLSNBsjpKBgqKA",
+      "name": "Phở bò & cơm rang bò Đ. Hoàng Công Chất 🐃",
+      "type": "home",
+      "detail": [
+        {
+          "date": "20:33 28/05/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+       {
+      "lat": 21.042543181129158, 
+      "lng": 105.76683554865727,
+      "ggmaps": "https://maps.app.goo.gl/NQm5nWxGWFxyK1WVA",
+      "name": "Sân vui chơi Tòa S4 Goldmark City 🌃",
+      "detail": [
+        {
+          "date": "21:16 28/05/2025",
+          "img": "",
+          "desc": ""
         }
       ]
     },
