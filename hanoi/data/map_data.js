@@ -1408,6 +1408,11 @@ var map_data =
       "name": "Samy Mì Cay 172 Phú Diễn 🍜",
       "detail": [
         {
+          "date": "21:10 20/06/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
           "date": "18:12 08/06/2025",
           "img": "",
           "desc": ""
@@ -1451,6 +1456,20 @@ var map_data =
       "detail": [
         {
           "date": "20:07-20:49 14/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.018005089486312, 
+      "lng": 105.7944882820287,
+      "ggmaps": "https://maps.app.goo.gl/4Z71WwB7BEuobBkr8",
+      "name": "Cây Cảnh Totoro Garden 🪴",
+      "detail": [
+        {
+          "date": "20:04 20/06/2025",
           "img": "",
           "desc": ""
         }
