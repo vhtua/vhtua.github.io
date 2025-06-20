@@ -195,25 +195,7 @@ var map_data =
         }
       ]
     },
-    {
-      "lat": 21.041459562173223,
-      "lng": 105.76519133595134,
-      "ggmaps": "https://maps.app.goo.gl/3WFDpJjD41ojaAVn9",
-      "name": "Nhà 5B ngách 23/304 Hồ Tùng Mậu 🏠",
-      "type": "home",
-      "detail": [
-        {
-          "date": "07:25 30/05/2025",
-          "img": "",
-          "desc": ""
-        },
-        {
-          "date": "12:50 17/12/2024",
-          "img": "",
-          "desc": "Mình tới đây với nhiệm vụ là giữ hộp quà Giáng Sinh to tổ chảng và ngồi sau xe của con bé để đi đến công ty. Đúng thiệc là nhân viên chơi trội, hộp quà to thì thôi rồi, ai mà nhận được chắc cũng hài hước phải biếc."
-        }
-      ]
-    },
+
     {
       "lat": 21.031280246338017,
       "lng": 105.7827901918205,
@@ -1068,17 +1050,21 @@ var map_data =
     },
 
     {
-      "lat": 21.041573428174477, 
-      "lng": 105.76525000126666,
+      "lat": 21.041637757108745, 
+      "lng": 105.76509343327601,
       "ggmaps": "https://maps.app.goo.gl/KXUySFSTC1oW8e8j6",
-      "name": "Số 4 Ngõ 304/23 Hồ Tùng Mậu 🏠",
+      "name": "Số 5B Ngõ 23/304 Hồ Tùng Mậu 🏠",
       "type": "home",
       "detail": [
         {
-          "date": "00:59 27/04/2025",
-          "img": "img/20250427-cc4ngo304.jpg",
-          "video": "",
-          "desc": "Đi chơi Phố đi bộ chụp ảnh cho đã đời đến lúc máy ảnh hết pin thì 2 đứa mới về. Ôi chời, hôm nay đã đi vào kỉ lục của bản thân mình. Chưa bao giờ mình về nhà muộn tới 1h như thế nài luôn mà. Trên đoạn đường đi về con bé còn trêu quả khá ác bảo rằng mẹ mình nhắn tin sao giờ chưa về 🐥 Nói thậc chứ lúc đó cũng hơi rén, được lắm báo con nhé. Sau đó khi chở con bé về nhà thì mình có thấy được tấm biển cho thuê phòng trọ này. Vì đang trong giai đoạn tìm trọ nên mình có thêm khả năng phát hiện các biển cho thuê phòng trọ khá nhanh. Không chần chừ, mình liền chụp lại để sau này có gì thì liên hệ. Cuối cùng thì mình tạm biệt con bé và phi xe về nhà."
+          "date": "07:25 30/05/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "12:50 17/12/2024",
+          "img": "",
+          "desc": "Mình tới đây với nhiệm vụ là giữ hộp quà Giáng Sinh to tổ chảng và ngồi sau xe của con bé để đi đến công ty. Đúng thiệc là nhân viên chơi trội, hộp quà to thì thôi rồi, ai mà nhận được chắc cũng hài hước phải biếc."
         }
       ]
     },
@@ -1304,7 +1290,7 @@ var map_data =
       "lat": 21.041492962166437, 
       "lng": 105.76504333488792,
       "ggmaps": "https://maps.app.goo.gl/CbQJQkbpoCZGc3PN9",
-      "name": "5/23/304 Hồ Tùng Mậu 🏠",
+      "name": "Số 5 Ngõ 23/304 Hồ Tùng Mậu 🏠",
       "type": "home",
       "detail": [
         {
@@ -1322,6 +1308,12 @@ var map_data =
           "date": "21:50 27/05/2025",
           "img": "",
           "desc": ""
+        },
+        {
+          "date": "00:59 27/04/2025",
+          "img": "img/20250427-cc4ngo304.jpg",
+          "video": "",
+          "desc": "Đi chơi Phố đi bộ chụp ảnh cho đã đời đến lúc máy ảnh hết pin thì 2 đứa mới về. Ôi chời, hôm nay đã đi vào kỉ lục của bản thân mình. Chưa bao giờ mình về nhà muộn tới 1h như thế nài luôn mà. Trên đoạn đường đi về con bé còn trêu quả khá ác bảo rằng mẹ mình nhắn tin sao giờ chưa về 🐥 Nói thậc chứ lúc đó cũng hơi rén, được lắm báo con nhé. Sau đó khi chở con bé về nhà thì mình có thấy được tấm biển cho thuê phòng trọ này. Vì đang trong giai đoạn tìm trọ nên mình có thêm khả năng phát hiện các biển cho thuê phòng trọ khá nhanh. Không chần chừ, mình liền chụp lại để sau này có gì thì liên hệ. Cuối cùng thì mình tạm biệt con bé và phi xe về nhà."
         }
       ]
     },
