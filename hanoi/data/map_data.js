@@ -1329,11 +1329,10 @@ var map_data =
 
 
     {
-      "lat": 21.045430310106166, 
-      "lng": 105.76741264373265,
-      "ggmaps": "https://maps.app.goo.gl/LyhkLSNBsjpKBgqKA",
-      "name": "Phở bò & cơm rang bò Đ. Hoàng Công Chất 🐃",
-      "type": "home",
+      "lat": 21.045651459240453, 
+      "lng": 105.76760931966567,
+      "ggmaps": "https://maps.app.goo.gl/igAArojv9j3KEjgj8",
+      "name": "Phở Cồ 318 Hoàng Công Chất 🐃",
       "detail": [
         {
           "date": "20:33 28/05/2025",
@@ -1438,6 +1437,33 @@ var map_data =
       ]
     },
 
+    {
+      "lat": 21.04654193710226, 
+      "lng": 105.76371469387942,
+      "ggmaps": "https://maps.app.goo.gl/pMKvGjbcW3QJCF2L6",
+      "name": "Bún Chả 25/172 Phú Diễn 🍜",
+      "detail": [
+        {
+          "date": "12:25-13:08 14/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.045726599040776, 
+      "lng": 105.7676217453547,
+      "ggmaps": "https://maps.app.goo.gl/H27oZctBQk2photKA",
+      "name": "Bún Bò Huế 136 Hồ Tùng Mậu 🐃",
+      "detail": [
+        {
+          "date": "20:07-20:49 14/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
 
 
     
