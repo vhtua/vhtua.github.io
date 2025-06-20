@@ -141,6 +141,16 @@ var map_data =
       "name": "Siêu thị Thành Đô 🛒",
       "detail": [
         {
+          "date": "20:06-21:48 12/06/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "17:21 08/06/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
           "date": "18:15 24/05/2025",
           "img": "",
           "desc": ""
@@ -169,6 +179,16 @@ var map_data =
       "name": "Vinacomin Tower 🏬",
       "detail": [
         {
+          "date": "12:26 06/06/2025",
+          "img": "",
+          "desc": "."
+        },
+        {
+          "date": "12:10 03/06/2025",
+          "img": "",
+          "desc": "."
+        },
+        {
           "date": "06/01/2025",
           "img": "img/2024122x-vinacomin.jpg",
           "desc": "Đây là tòa nhà văn phòng mới của công ty mình. Những ngày đầu mình giúp các anh chị dọn dẹp chuyển đồ từ văn phòng cũ khá là vất vả. Ngoài ra mình còn phải ở lại tập văn nghệ nữa. Nên là có những hôm hơn 22h mới về tới nhà, mệt như con cá đuối luon. Nhưng mà công ty mình cũng vô tình rất gần với công ty con bé, khá là ảo ma uchiha. Thế là có những buổi con bé ở dưới sảnh công ty đợi mình, đơn giản là hẹn chở mình về hoặc là cuối tuần thì sẽ đi tráy phố chút ròi lói phét. Những lúc như thế vui thật. Dù cho có lạc đường, xi nhan trái rẽ phải hay là đi ngược chiều thì vẫn sẽ là những kỉ niệm quý giá và hài hước."
@@ -179,9 +199,14 @@ var map_data =
       "lat": 21.041459562173223,
       "lng": 105.76519133595134,
       "ggmaps": "https://maps.app.goo.gl/3WFDpJjD41ojaAVn9",
-      "name": "304 Hồ Tùng Mậu 🏠",
+      "name": "Nhà 5B ngách 23/304 Hồ Tùng Mậu 🏠",
       "type": "home",
       "detail": [
+        {
+          "date": "07:25 30/05/2025",
+          "img": "",
+          "desc": ""
+        },
         {
           "date": "12:50 17/12/2024",
           "img": "",
@@ -243,6 +268,12 @@ var map_data =
       "ggmaps": "https://maps.app.goo.gl/DUfLgHNFWEmSLpjf9",
       "name": "Quán Bún Đậu Đức Minh 🥗",
       "detail": [
+        {
+          "date": "12:14 19/06/2025",
+          "img": "",
+          "desc": ""
+        },
+
         {
           "date": "12:20 10/05/2025",
           "img": "img/20250510-bundauducminh.jpg",
@@ -1205,6 +1236,13 @@ var map_data =
       "name": "Circle K 174 Phú Diễn 🥪",
       "detail": [
         {
+          "date": "19:10 08/06/2025",
+          "img": "",
+          "video": "",
+          "desc": ""
+        },
+
+        {
           "date": "16:03 17/05/2025",
           "img": "img/20250517-circlek174phudien.jpg",
           "video": "",
@@ -1270,6 +1308,17 @@ var map_data =
       "type": "home",
       "detail": [
         {
+          "date": "21:40 05/06/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "22:05 02/06/2025",
+          "img": "",
+          "desc": ""
+        },
+
+        {
           "date": "21:50 27/05/2025",
           "img": "",
           "desc": ""
@@ -1295,12 +1344,22 @@ var map_data =
     },
 
 
-       {
+    {
       "lat": 21.042543181129158, 
       "lng": 105.76683554865727,
       "ggmaps": "https://maps.app.goo.gl/NQm5nWxGWFxyK1WVA",
-      "name": "Sân vui chơi Tòa S4 Goldmark City 🌃",
+      "name": "Sân vui chơi Tòa S4 Goldmark City 🛝",
       "detail": [
+        {
+          "date": "21:50 19/06/2025",
+          "img": "",
+          "desc": ""
+        },
+        {
+          "date": "21:50-23:20 12/06/2025",
+          "img": "",
+          "desc": ""
+        },
         {
           "date": "21:16 28/05/2025",
           "img": "",
@@ -1308,5 +1367,78 @@ var map_data =
         }
       ]
     },
+
+    {
+      "lat": 21.043147956313017, 
+      "lng": 105.76678025171725,
+      "ggmaps": "https://maps.app.goo.gl/seiY1YbdwDUm1hqk7",
+      "name": "Đường Cầu Diễn Goldmark City 🏢",
+      "detail": [
+        {
+          "date": "22:35 01/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.03650885353594, 
+      "lng": 105.77777883589147,
+      "ggmaps": "https://maps.app.goo.gl/zg4QjaTeSYgFJ6La9",
+      "name": "Sửa Chữa Laptop 24h 31 Hồ Tùng Mậu 💻",
+      "detail": [
+        {
+          "date": "16:40 08/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+        {
+      "lat": 21.036883178967837, 
+      "lng": 105.77950591627798,
+      "ggmaps": "https://maps.app.goo.gl/7d65VVgDWYJhgKE36",
+      "name": "Ngọc Nguyễn Store 6 Hồ Tùng Mậu 💻",
+      "detail": [
+        {
+          "date": "16:46 08/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.046725075409253, 
+      "lng": 105.7638831923163,
+      "ggmaps": "https://maps.app.goo.gl/FWgsqbFRDYdvGJqT7",
+      "name": "Samy Mì Cay 172 Phú Diễn 🍜",
+      "detail": [
+        {
+          "date": "18:12 08/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+    {
+      "lat": 21.04347416909358, 
+      "lng": 105.76596477315256,
+      "ggmaps": "https://maps.app.goo.gl/7pAw8zfi6nLsqkAq8",
+      "name": "Mixue Goldmark City 🍦",
+      "detail": [
+        {
+          "date": "21:00 09/06/2025",
+          "img": "",
+          "desc": ""
+        }
+      ]
+    },
+
+
+
     
   ]
