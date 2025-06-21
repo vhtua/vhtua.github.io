@@ -59,7 +59,7 @@ function render(filteredPosts) {
     div.className = "post";
     div.id = post.id;
 
-    console.log(post);
+    // console.log(post);
 
     const media_list = [];
     // Handle, pre-process media Div
@@ -82,7 +82,7 @@ function render(filteredPosts) {
         media_list.push(media)
       });
 
-    console.log(media_list);
+    // console.log(media_list);
     const mediaDiv = media 
       ? `<div class="media-viewer">
           ${media_list.join("")}
