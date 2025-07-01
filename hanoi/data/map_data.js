@@ -1409,7 +1409,7 @@ var map_data =
       "detail": [
         {
           "date": "21:10 20/06/2025",
-          "img": "",
+          "img": "img/20250620-micay.jpg",
           "desc": ""
         },
         {
@@ -1470,8 +1470,12 @@ var map_data =
       "detail": [
         {
           "date": "20:04 20/06/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250620-totorogarden1.jpg",
+          "desc": "",
+          "media": [
+            "img/20250620-totorogarden2.jpg",
+            "img/20250620-totorogarden3.jpg"
+          ]
         }
       ]
     },
