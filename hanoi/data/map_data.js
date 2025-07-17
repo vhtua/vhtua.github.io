@@ -1272,6 +1272,22 @@ var map_data =
       "name": "Hàng ghế gần sân tennis Goldmark City 🎾",
       "detail": [
         {
+          "date": "21:48 02/07/2025",
+          "img": "",
+          "video": "",
+          "desc": "",
+          "media": [
+          ]
+        },
+        {
+          "date": "22:26 25/06/2025",
+          "img": "",
+          "video": "",
+          "desc": "",
+          "media": [
+          ]
+        },
+        {
           "date": "21:00 16/06/2025",
           "img": "img/20250614-nphhoacaitoc.jpg",
           "video": "",
@@ -1343,13 +1359,16 @@ var map_data =
       "detail": [
         {
           "date": "21:50 19/06/2025",
-          "img": "",
+          "img": "img/20250619-taystickercute.jpg",
           "desc": ""
         },
         {
           "date": "21:50-23:20 12/06/2025",
-          "img": "",
-          "desc": ""
+          "img": "img/20250612-khuthethao.jpg",
+          "desc": "",
+          "media": [
+            "img/20250612-snailjpg.jpg"
+          ]
         },
         {
           "date": "21:16 28/05/2025",
@@ -1414,7 +1433,7 @@ var map_data =
         },
         {
           "date": "18:12 08/06/2025",
-          "img": "",
+          "img": "img/20250608-micay.jpg",
           "desc": ""
         }
       ]
@@ -1481,5 +1500,59 @@ var map_data =
     },
 
 
+    {
+      "lat": 20.937684352345418,
+      "lng": 107.12582953945305,
+      "ggmaps": "https://maps.app.goo.gl/jLqwgry4iBUPjvCu8",
+      "name": "Nhà của Moon (Homestay) 🏠",
+      "detail": [
+        {
+          "date": "00:26 04/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        },
+        {
+          "date": "18:34 04/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
     
+
+    {
+      "lat": 20.946327263557038, 
+      "lng": 107.10307583275427,
+      "ggmaps": "https://maps.app.goo.gl/wrZKhk3usaKno1Ae7",
+      "name": "Wangdaeji Hạ Long- Nhà Hàng Thịt Nướng Hàn Quốc 🥩",
+      "detail": [
+        {
+          "date": "20:43 04/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+    {
+      "lat": 20.93675770646569, 
+      "lng": 107.12895891729494,
+      "ggmaps": "https://maps.app.goo.gl/m73Bwwo5TS3tqenNA",
+      "name": "Bãi tắm Hòn Gai 🏖️",
+      "detail": [
+        {
+          "date": "22:20 04/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
   ]
