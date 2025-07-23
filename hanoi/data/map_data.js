@@ -147,7 +147,7 @@ var map_data =
         },
         {
           "date": "17:21 08/06/2025",
-          "img": "",
+          "img": "img/20250608-sieuthithanhdo.jpg",
           "desc": ""
         },
         {
@@ -180,12 +180,12 @@ var map_data =
       "detail": [
         {
           "date": "12:26 06/06/2025",
-          "img": "",
+          "img": "img/20250606-bestmeal.jpg",
           "desc": "."
         },
         {
           "date": "12:10 03/06/2025",
-          "img": "",
+          "img": "img/20250603-bestmeal.jpg",
           "desc": "."
         },
         {
@@ -1246,7 +1246,7 @@ var map_data =
       "detail": [
         {
           "date": "13:56 25/05/2025",
-          "img": "",
+          "img": "img/20250525-hangghe.jpg",
           "video": "",
           "desc": "",
           "media": [
@@ -1322,7 +1322,7 @@ var map_data =
 
         {
           "date": "21:50 27/05/2025",
-          "img": "",
+          "img": "img/20250527-com.jpg",
           "desc": ""
         },
         {
@@ -1344,7 +1344,7 @@ var map_data =
       "detail": [
         {
           "date": "20:33 28/05/2025",
-          "img": "",
+          "img": "img/20250528-noodles.jpg",
           "desc": ""
         }
       ]
@@ -1360,19 +1360,24 @@ var map_data =
         {
           "date": "21:50 19/06/2025",
           "img": "img/20250619-taystickercute.jpg",
-          "desc": ""
+          "desc": "",
+          "media": [
+            "img/20250619-taystickercute2.jpg",
+            "img/20250619-taystickercute3.jpg"
+          ],
         },
         {
           "date": "21:50-23:20 12/06/2025",
           "img": "img/20250612-khuthethao.jpg",
           "desc": "",
           "media": [
-            "img/20250612-snailjpg.jpg"
+            "img/20250612-snailjpg.jpg",
+            "img/20250612-goldmarkden.jpg",
           ]
         },
         {
           "date": "21:16 28/05/2025",
-          "img": "",
+          "img": "img/20250528-toanha.jpg",
           "desc": ""
         }
       ]
@@ -1386,7 +1391,7 @@ var map_data =
       "detail": [
         {
           "date": "22:35 01/06/2025",
-          "img": "",
+          "img": "img/20250601-hangcay.jpg",
           "desc": ""
         }
       ]
@@ -1400,7 +1405,7 @@ var map_data =
       "detail": [
         {
           "date": "16:40 08/06/2025",
-          "img": "",
+          "img": "img/20250608-fixlap24h.jpg",
           "desc": ""
         }
       ]
@@ -1414,7 +1419,7 @@ var map_data =
       "detail": [
         {
           "date": "16:46 08/06/2025",
-          "img": "",
+          "img": "img/20250608-6htm.jpg",
           "desc": ""
         }
       ]
@@ -1508,7 +1513,7 @@ var map_data =
       "detail": [
         {
           "date": "00:26 06/07/2025",
-          "img": "",
+          "img": "img/20250706-lqmb.jpg",
           "desc": "",
           "media": [
           ]
@@ -1532,7 +1537,7 @@ var map_data =
       "detail": [
         {
           "date": "20:43 04/07/2025",
-          "img": "",
+          "img": "img/20250704-wangdaeji.jpg",
           "desc": "",
           "media": [
           ]
