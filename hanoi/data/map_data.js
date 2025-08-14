@@ -141,6 +141,12 @@ var map_data =
       "name": "Siêu thị Thành Đô 🛒",
       "detail": [
         {
+          "date": "17:28 27/07/2025",
+          "img": "",
+          "desc": ""  
+        },
+
+        {
           "date": "20:06-21:48 12/06/2025",
           "img": "",
           "desc": ""
@@ -250,6 +256,12 @@ var map_data =
       "ggmaps": "https://maps.app.goo.gl/DUfLgHNFWEmSLpjf9",
       "name": "Quán Bún Đậu Đức Minh 🥗",
       "detail": [
+        {
+          "date": "12:04 19/07/2025",
+          "img": "img/20250719-bundau.jpg",
+          "desc": ""
+        },
+
         {
           "date": "12:14 19/06/2025",
           "img": "",
@@ -1257,6 +1269,15 @@ var map_data =
       "name": "Hàng Ghế Goldmark City Hồ Tùng Mậu 🪑",
       "detail": [
         {
+          "date": "19:40 19/07/2025",
+          "img": "img/20250719-chethach.jpg",
+          "video": "",
+          "desc": "",
+          "media": [
+          ]
+        },
+
+        {
           "date": "13:56 25/05/2025",
           "img": "img/20250525-hangghe.jpg",
           "video": "",
@@ -1369,6 +1390,14 @@ var map_data =
       "ggmaps": "https://maps.app.goo.gl/NQm5nWxGWFxyK1WVA",
       "name": "Sân vui chơi Tòa S4 Goldmark City 🛝",
       "detail": [
+        {
+          "date": "20:43 - 23:59 19/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        },
+
         {
           "date": "23:18 18/07/2025",
           "img": "img/20250718-goldmark.jpg",
@@ -1614,4 +1643,87 @@ var map_data =
         }
       ]
     },
+
+    {
+      "lat": 21.00205740270864, 
+      "lng": 105.84309795739006,
+      "ggmaps": "https://maps.app.goo.gl/zf448jsZpHThKbfd7",
+      "name": "Linh Kiện Máy Tính 220 P. Lê Thanh Nghị 💻",
+      "detail": [
+        {
+          "date": "13:39 19/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+    {
+      "lat": 21.001673365795227, 
+      "lng": 105.8465438417883,
+      "ggmaps": "https://maps.app.goo.gl/hcYB5pzs1GFYd6eu7",
+      "name": "Circle K 37 Lê Thanh Nghị 🥪",
+      "detail": [
+        {
+          "date": "13:46 - 16:21 19/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.007714103444158, 
+      "lng": 105.84466102877313,
+      "ggmaps": "https://maps.app.goo.gl/TMbfjoDBDbuKCZbv7",
+      "name": "Nơi chúng mình tránh gió bão 🌀",
+      "detail": [
+        {
+          "date": "16:27 - 16:55 19/07/2025",
+          "img": "img/20250719-tranhbao.jpg",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.04241461288134, 
+      "lng": 105.76541670682963,
+      "ggmaps": "https://maps.app.goo.gl/weQ2CJQ7nPyjea7z5",
+      "name": "Selina Coffee ☕",
+      "detail": [
+        {
+          "date": "19:10 22/07/2025",
+          "img": "img/20250722-selinacoffee.jpg",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+    {
+      "lat": 21.041817024690495, 
+      "lng": 105.76679015718766,
+      "ggmaps": "https://maps.app.goo.gl/Z31R8r9a8SHnZd5J9",
+      "name": "Easy Mart Hồ Tùng Mậu 🏪",
+      "detail": [
+        {
+          "date": "21:32 29/07/2025",
+          "img": "img/20250729-easymart.jpg",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
   ]
