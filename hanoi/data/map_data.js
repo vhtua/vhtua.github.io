@@ -629,6 +629,11 @@ var map_data =
       "name": "Quán chị Chíp 🥗",
       "detail": [
         {
+          "date": "20:34 15/07/2025",
+          "img": "img/20250715-nemnuong.jpg",
+          "desc": ""
+        },
+        {
           "date": "21:09 25/02/2025",
           "img": "img/20250225-quanchichip.jpg",
           "desc": "Tậu được máy ảnh xong thì 2 đứa quay về. Trên đường đi về, con bé có rủ mình đi vào quán ruột nem nướng của con bé thời Đại học. Thế là chúng mình tới đây. Đúng là như con bé giới thiệu, đồ cuốn và nước chấm ở đây khá là ngon. Mình cũng không ngần ngại lôi máy ảnh ra test chụp ảnh sem sao, hihi."
@@ -1222,6 +1227,13 @@ var map_data =
       "name": "Circle K 174 Phú Diễn 🥪",
       "detail": [
         {
+          "date": "21:11 14/07/2025",
+          "img": "img/20250714-circlek174.jpg",
+          "video": "",
+          "desc": ""
+        },
+
+        {
           "date": "19:10 08/06/2025",
           "img": "",
           "video": "",
@@ -1273,7 +1285,7 @@ var map_data =
       "detail": [
         {
           "date": "21:48 02/07/2025",
-          "img": "",
+          "img": "img/20250702-tranhdinhda.jpg",
           "video": "",
           "desc": "",
           "media": [
@@ -1281,7 +1293,7 @@ var map_data =
         },
         {
           "date": "22:26 25/06/2025",
-          "img": "",
+          "img": "img/20250625-hangghesantennis.jpg",
           "video": "",
           "desc": "",
           "media": [
@@ -1357,6 +1369,14 @@ var map_data =
       "ggmaps": "https://maps.app.goo.gl/NQm5nWxGWFxyK1WVA",
       "name": "Sân vui chơi Tòa S4 Goldmark City 🛝",
       "detail": [
+        {
+          "date": "23:18 18/07/2025",
+          "img": "img/20250718-goldmark.jpg",
+          "desc": "",
+          "media": [
+            "img/20250718-chiakhoavhta.jpg"
+          ],
+        },
         {
           "date": "21:50 19/06/2025",
           "img": "img/20250619-taystickercute.jpg",
@@ -1553,6 +1573,40 @@ var map_data =
       "detail": [
         {
           "date": "22:20 04/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+
+        {
+      "lat": 21.040815391734295, 
+      "lng": 105.76501917501581,
+      "ggmaps": "https://maps.app.goo.gl/1kzBSfr53MND1oVz9",
+      "name": "Ngõ 304 Hồ Tùng Mậu 🌲",
+      "detail": [
+        {
+          "date": "23:58 13/07/2025",
+          "img": "",
+          "desc": "",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "lat": 21.036070963184233, 
+      "lng": 105.78234956934064,
+      "ggmaps": "https://maps.app.goo.gl/HmN3itsf6Zv5LQ6M7",
+      "name": "CGV Indochina Plaza Hà Nội 🎥",
+      "detail": [
+        {
+          "date": "21:00 15/07/2025",
           "img": "",
           "desc": "",
           "media": [
