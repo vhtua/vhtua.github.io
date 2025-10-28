@@ -1751,4 +1751,21 @@ var map_data =
       ]
     },
 
+
+    {
+      "lat": 21.07596653624036, 
+      "lng": 105.81273769106733,
+      "ggmaps": "https://maps.app.goo.gl/P8pkPTtFfb1Bjsyn7",
+      "name": "Lotte Tây Hồ 🏬",
+      "detail": [
+        {
+          "date": "21:36 26/10/2025",
+          "img": "img/20251026-usatlottewestlake.jpg",
+          "desc": "Tụi mình vào đây với lí do mình muốn mua áo khoác và đi chơi. Tới nơi thì chọn áo khoác hơn tiếng đồng hồ đi đi đi lại thấy thương con bé thậc chớ. Mình còn hơi mệc nói gì báo con bảo quay hết cả đầu. Cứ loanh quanh Uniqlo với Muji mà mặt hàng áo khoác cũng không có đa dạng. Uniqlo có mỗi 2-3 mẫu mà toàn hết hàng đúng size mình cần hoặc là màu không hợp. Sang Muji thì mấy anh này vui tính có tí áo khoác mà gần 2 củ, tinh xảo đã đành, đây có họa tiết gì đâu mà đòi 2 củ, quá ngáo giá luon. Chọn mệc xong thì 2 đứa đi loanh quanh qua các tầng thăm thú nghịch ngợm.",
+          "media": [
+          ]
+        }
+      ]
+    },
+
   ]
