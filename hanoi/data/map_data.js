@@ -1734,4 +1734,21 @@ var map_data =
       ]
     },
 
+
+     {
+      "lat": 21.02913736134812, 
+      "lng": 105.81634093439307,
+      "ggmaps": "https://maps.app.goo.gl/QZ6MbsXiJeeQ2dWT8",
+      "name": "Ăn No Mặc Ấm Shop 🧸",
+      "detail": [
+        {
+          "date": "15:44 26/10/2025",
+          "img": "img/20251026-annomacam.jpg",
+          "desc": "Nay trời đẹp, vừa có nắng vừa có gió mát. Con bé và mình ra ngoài đi chơi cho vui. Bướng share cho mình chỗ này qua tiktok. Chúng mình đi theo google maps và sau 1 lúc qua đi lại thì có 1 cô chỉ tay là cứ đi thẳng đi mặc dù tụi mình chưa có nói gì. Mình nhìn về hướng cô chỉ tay và đi thẳng thì đúng là đến shop thiệc. Ra là cô cũng quen, gặp mấy đôi trẻ kiểu mặc quần áo với váy đi vào khu này thì chăc chắn là tới shop này rùi 🐥 Sau 1 hồi đi qua đi lại lựa đồ để mua thì con bé bảo sẽ tặng mình cái lót ly gốm. Trông cũng dễ thương đấy. Rùi mình tìm được 2 cái móc khóa bảo mỗi đứa lấy 1 cái.",
+          "media": [
+          ]
+        }
+      ]
+    },
+
   ]
