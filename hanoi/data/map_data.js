@@ -1768,4 +1768,24 @@ var map_data =
       ]
     },
 
+
+    {
+      "lat": 21.07115663618455, 
+      "lng": 105.77041712231386,
+      "ggmaps": "https://maps.app.goo.gl/NdLUmkW2mREANGZ57",
+      "name": "Vườn ở trong nhà 🍵",
+      "detail": [
+        {
+          "date": "16:51 - 18:34 26/10/2025",
+          "img": "img/20251026-nphcute.jpg",
+          "desc": "Con bé mãi mới tìm được địa điểm này tới tiếp để chơi. Mình đã chuẩn bị sẵn máy ảnh mang theo từ trước. Lâu lắm ròi mình mới đi chụp ảnh cho báo con. Ban đầu còn ngại ngại nhưng trời gần tối dần rùi thì chúng mình cũng khẩn trương. Uống nước là phụ nhưng chụp ảnh là chính. Lần này hiếm hoi là có 1 số ảnh của thợ chụp nữa nhé.",
+          "media": [
+            "img/20251026-nphbamdt.jpg",
+            "img/20251026-usinfrontofmirror.jpg"
+          ]
+        }
+      ]
+    },
+
+
   ]
