@@ -1305,6 +1305,14 @@ var map_data =
       "name": "Hàng ghế gần sân tennis Goldmark City 🎾",
       "detail": [
         {
+          "date": "23:25 27/10/2025",
+          "img": "img/20251027-nphduimat.jpg",
+          "video": "",
+          "desc": "Trông thương chưa kìa. Mắt kém rùi mà còn cố xem running man phải dụi mắt mấy lần. Đã vậy tối ngoài trời còn lạnh nữa. Biết thế nên là mình thủ sẵn cái áo khoác tỉ năm này của mình cho con bé mặc. Nom cũm dễ thương nhở. Không biếc là sắp tới chúng mình có ra ngoài nhiều để lói phét nữa không vì trời dần lạnh rùi.",
+          "media": [
+          ]
+        },
+        {
           "date": "21:48 02/07/2025",
           "img": "img/20250702-tranhdinhda.jpg",
           "video": "",
