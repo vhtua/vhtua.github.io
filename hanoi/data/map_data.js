@@ -1366,6 +1366,11 @@ var map_data =
       "type": "home",
       "detail": [
         {
+          "date": "16:37 21/09/2025",
+          "img": "img/20250921-charmhoamocdt.jpg",
+          "desc": "Nay mình nhận được hàng charm hoa để thay cho cái mình đã làm vỡ trên móc điện thoại của con bé. Hì hì mãi mới nhận được hàng. Cơ mà hơi cay tí là size mình đặt nhỏ hơn với size gốc. Aisss thui không sao nhỉ."
+        },
+        {
           "date": "21:40 05/06/2025",
           "img": "",
           "desc": ""
