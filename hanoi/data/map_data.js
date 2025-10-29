@@ -1279,7 +1279,7 @@ var map_data =
           "date": "19:40 19/07/2025",
           "img": "img/20250719-chethach.jpg",
           "video": "",
-          "desc": "",
+          "desc": "Công nhận con bé cũng có tay nghê nấu ăn đấy nhở. Thảo nào lúc nào cũng gáy ai lấy được là phúc 7 đời 🐥 Nay được chiêu đãi mĩ vị nhân gian - chè thạch nước sữa dừa hay sao ý. Chè không bị ngọt hay nhạt, cân bằng giỏi đấy chớ. Song đang ăn mình có thấy mấy cái vết xám xám trên thạch thì mình trêu con bé là dao cắt thạch bị gỉ à =)))) Báo con giãy đành đạch cau mặt nhìn dỗi ác. Vì quá nhèo không ăn hết được nên con bé bắt mình mang về tự ăn tiếp. Okie nhé cẻm ơng nhìu lắm.",
           "media": [
           ]
         },
