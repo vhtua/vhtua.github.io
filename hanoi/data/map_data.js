@@ -1750,7 +1750,40 @@ var map_data =
     },
 
 
-     {
+    {
+      "lat": 20.391103862508757, 
+      "lng": 106.50771276162611,
+      "ggmaps": "https://maps.app.goo.gl/AVtAPqxDaFkowoyJ9",
+      "name": "Bệnh viện Đa khoa huyện Tiền Hải 🏥",
+      "detail": [
+        {
+          "date": "15:09 04/10/2025",
+          "img": "img/20251004-nphteethcheckup.jpg",
+          "desc": "Nay mình dẫn con bé đi kiểm tra răng tiếp. Tại bữa trước con bé có nói là sau khi trám các răng sâu thì ăn vẫn còn nhức. Thế là ở đây chúng mình phải đi chụp X-Quang răng xem sao. Sau khi có ảnh cho bác sĩ đọc, con bé nhận được tin là 1 cái răng khôn bị sâu. Thảo nào khổ thân ăn uống toàn nhức. 2 đứa quyết định giữ kết quả để con bé đến chỗ uy tín nhổ răng khôn sau.",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+    {
+      "lat": 20.444316497386914, 
+      "lng": 106.34708849944371,
+      "ggmaps": "https://maps.app.goo.gl/eFx8Y1xPC1SGxABx6",
+      "name": "Kính Thuốc Thế Hiển 😎",
+      "detail": [
+        {
+          "date": "16:15 04/10/2025",
+          "img": "img/20251004-dichoitrungthu.jpg",
+          "desc": "Vâng người đi làm ròi đi chơi trung thu là đi thay kính như này nè. Mình chở con bé đi lên tỉnh đi thay kính bằng xe máy của mẹ. Trên đường đi con bé cứ trêu mình là mẹ gọi về đưa xe cho mẹ, có cay không cơ chứ. Trời hôm ấy đẹp thật, có gió man mác, trời xanh mây trắng.",
+          "media": [
+          ]
+        }
+      ]
+    },
+
+
+    {
       "lat": 21.02913736134812, 
       "lng": 105.81634093439307,
       "ggmaps": "https://maps.app.goo.gl/QZ6MbsXiJeeQ2dWT8",
