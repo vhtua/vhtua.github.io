@@ -1186,6 +1186,13 @@ var map_data =
       "name": "Hồ Tây - Đầm Sen 🪷",
       "detail": [
         {
+          "date": "23:47 03/10/2025",
+          "img": "img/20251003-hotay.jpg",
+          "desc": "Hai cái chậu cây cũng dễ thương đấy nhở",
+          "media": []
+        },
+
+        {
           "date": "19:18 11/05/2025",
           "img": "img/20250511-nvthdob.jpg",
           "video": "",
@@ -1316,7 +1323,7 @@ var map_data =
           "date": "19:19 24/09/2025",
           "img": "img/20250924_pebblekeys2.jpg",
           "video": "",
-          "desc": "",
+          "desc": "Mình tặng cho con bé cái bàn phím. Mang đi mà dùng cho gọn nhẹ. Khổ cứ mang cái bàn phím cơ của mình lên công ty vẹo cả vai bướng con.",
           "media": [
           ]
         },
@@ -1685,7 +1692,7 @@ var map_data =
         {
           "date": "13:46 - 16:21 19/07/2025",
           "img": "",
-          "desc": "",
+          "desc": "Nay con bé có bộ váy trắng xinh cực. Sau khi đi khắp nơi và gửi máy tính đi khám thì chúng mình vào đây ngồi đợi kết quả.",
           "media": [
           ]
         }
@@ -1702,7 +1709,7 @@ var map_data =
         {
           "date": "16:27 - 16:55 19/07/2025",
           "img": "img/20250719-tranhbao.jpg",
-          "desc": "",
+          "desc": "Được hôm con bé mặc váy xinh ơi là xinh mà trời gió bão đùng đùng. Trời ạ mình đi ngoài đường mà gió cứ thổi vù vù ròi sau đó mưa rất là to. Để an toàn thì mình đã kiếm được nơi này để tránh mưa gió bão. Đến nơi khi mình lấy mũ bảo hiểm ra hộ bướng con thì kính con bé bị rơi xuống dưới làn nước mưa ngập. Hoảng quá con bé mếu mếu bảo phải lấy lại được kính 2 củ huhu. Mình thấy z liền trấn an bằng cách nói yên tâm mình có kính backup (mặc dù có cùng độ cận đâu) 🐥 và vừa cố gắng mò tay xuống làn nước mưa trên đường tìm. Các cụ gánh ác pha đấy, mình thật sự mò được cái kính ròi bỏ xe trên vỉa hè vào tránh gió bão cùng con bé ở nhà 1 anh này (quán photocopy thì phải). Thương thật á, hết hơi con bé mặc váy trắng dễ thương cực, mà người ướt từ đầu tới chân. Cả 2 đứa mượn ghế anh ấy ngồi và bình tĩnh lại. Gió bão hôm ấy to lắm, cứ mưa to ròi lại gió rú. Tưởng chừng ngồi mãi không về được nhà cơ. Sau cùng các cụ lại gánh, gió mưa ngớt chút là mình xách tay con bé đi về. Trên đường đi về toàn cành cây đổ rạp, 2 đứa cứ vừa đi vừa cười hớ hớ trông ngớ thật sự 🐥",
           "media": [
           ]
         }
