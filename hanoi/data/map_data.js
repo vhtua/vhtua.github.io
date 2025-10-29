@@ -209,6 +209,15 @@ var map_data =
       "name": "Công ty CP Công nghệ và Truyền thông Dagoras 🏬",
       "detail": [
         {
+          "date": "08:47 29/10/2025",
+          "img": "img/20251029-foodfornph.jpg",
+          "desc": "Nay con bé đi làm mà quên không mang đồ ăn sáng. Sáng đến nơi ròi mà mọi người đã mua hết đồ ăn từ trước thì bướng con có vẻ buần lắm. Nhắn với mình là muốn xuống mua đồ ăn sáng mà lười, có người đi cùng thì sẽ tốt hơn. Mình bảo là sẽ mua đồ ăn rùi gửi dưới bảo vệ cho xuống lấy, sáng uống mỗi sữa sao có sức làm. Đúng hem. Con bé bảo thui không cần rồi còn bảo là sắp họp rùi. Mình phi xe đi mua bánh mì với snack rong biển gói vào túi bỏng đỏ rùi tới chỗ công ty con bé. Đến nơi mình dừng xe rùi vào gửi bảo vệ.\n <br> - \"Con gửi đồ nhờ ăn bạn Hoa để quên rồi tí bạn ấy xuống lấy được không ạ.\" <br> - \"Hoa nào ấy nhỉ?\" - bác bảo vệ thắc mắc cau cả mắt zô <br> - \"Dạ bạn Nguyễn Phương Hoa ở công ty Dagoras ấy bác...\" <br> - \"À ui giời con bé đấy tao suốt ngày gặp luon, thế cháu có chắc là bạn nó không??\" <br> - \"Dạ vâng đúng ạ...\" <br> - \"Khà khà à thế cơ à, ừ để đây đi\" <br> - \"Vâng ạ, con cảm ơn bác nhiều ạ! Con chào bác ạaaa\"", 
+          "media": [
+            "img/20251029-foodnphatguard.jpg"
+          ]
+        },
+
+        {
           "date": "13:04 17/12/2024",
           "img": "",
           "desc": "Và cuối cùng thì chúng mình cũng thành công tới công ty nơi con bé làm. Cái hộp quà Giáng Sinh mình ôm đằng sau phải 1 lần nữa mình nói là to tổ chảng thậc. Trên đường đi đến công ty không một lúc nào là mình không trêu con bé về cái hộp quà chất chơi người dơi này. Đến nơi thì mình đứng dưới chỗ sân của tòa nhà, giữ hộp quà và đợi con bé đi cất xe máy xuống hầm. Có mấy anh chị đi qua nhìn mình cũng hài hước ghê gớm lắm. Sau đó mình trao trả món quà bự chảng này lại cho Hoa, con bé cảm ơn gấc nhiều, ròi mình bắt Be đi về. Hôm đó mình mới biết là 2 công ty gần sát nhau đến thế. (Spoil là sau này đi onsite thì lại xa tít rùi, quá là sầu)."
