@@ -460,6 +460,13 @@ var map_data =
       "name": "Discovery Shopping Center Cầu Giấy 🏬",
       "detail": [
         {
+          "date": "21:23 19/09/2025",
+          "img": "img/20250919-bhdcinema.jpg",
+          "desc": "Nay mình dẫn con bé đi xem phim Tử chiến trên không. 2 đứa nay là buổi đầu đến rạp sớm trước giờ chiếu phim. Trước khi chiếu phim thì rạp có gửi bức thư động viên tới mọi người rất là dễ thương. Sau đó thì chúng mình vừa ăn bỏng uống lước vừa tập trung xem phim. Khá khen cho nền điện ảnh Việt Nam những năm gần đây. Màu phim khá đẹp, nội dung có tính mạch lạc, các cảnh hành động được đầu tư. Nhưng vẫn còn một số điểm cần cải thiện như 1 số phân đoạn quá dài gây ra thừa. Cứ đến những phân cảnh đấm nhau tùm lum con bé đều sợ nhắm cả mắt zô, trông cười lắm.",
+          "media": []
+        },
+
+        {
           "date": "17:50 09/02/2025",
           "img": "img/20250209-movieticket.jpg",
           "desc": "Sau khi thất bại trong việc ra ngoài mua snack, bỏng ngô và đồ uống để xem phim thì 2 đứa ngậm ngùi quay lại đây và lên tầng của rạp BHD để xem phim. Nhìn con bé đúng tội, Hương và Hiền quay ra trách mà nó chỉ biết im lặng. Đối với mình thì chuyện này đâu có quá quắt gì đâu mà đến mức mấy đứa lại phải gắt với nhau như thế. Đúng là các bạn nữ thậc khó hiểu. Mình để các bạn vào trong ròi và sau đó bảo con bé là mua luôn đồ ăn trực tiếp từ rạp cho đỡ. Ban đầu con bé cũng không có đồng ý đâu, tại đồ ở đây nó đắt. Nhưng về sau thì cũng xuôi theo. Mình vào xếp hàng ở dãy dài đợi mua bỏng ngô và lước rùi sau 10 phút nhận được cái tin là mình đã xếp sai hàng. Quá nản khi nhìn cái hàng xếp đúng còn dài gấp đôi hàng hiện tại nên con bé đã kéo mình vào xem phim luôn cho lành, khỏi ăn uống. Quá là huhu. Sau đó thì tụi mình vào ngồi trong rạp xem bộ phim kinh dị Đèn Âm Hồn. Theo đánh giá của mình thì phim không có yếu tố gây sợ gì cả, chủ yếu là có nhiều cảnh jump scare thui. Cơ mà quay sang thì thấy con bé nó sợ trùm hết cả cái áo vào nhìn rất hài hước. Lâu lâu mình còn gạt cái áo của con bé ra trêu là có sợ gì đâu, cứ mở mắt ra xem đi. Bên ghế phía ngoài có Hương với Hiền nãy thì căng lắm mà giờ co dúm vào ôm nhau nữa chứ. Một khung cảnh xem phim khá là hài hước. Ra khỏi rạp thì mấy đứa đánh giá phim có cốt truyện không được ổn áp và mình thấy đúng là thế thiệc. Nhưng dù sao đây cũng là 1 kỉ niệm đáng nhớ khi mà chúng ta cùng ngồi lại và cùng nhau xem phim nhỉ."
@@ -1331,7 +1338,7 @@ var map_data =
           "date": "21:48 02/07/2025",
           "img": "img/20250702-tranhdinhda.jpg",
           "video": "",
-          "desc": "",
+          "desc": "Đúng là 2 con ngựa. Nhận được hàng đặt tranh đính đá của con bé, chúng mình rủ nhau ra hàng ghế này cong lưng đính đá gần 2 tiếng ạ. Ui chài ơi.",
           "media": [
           ]
         },
@@ -1339,7 +1346,7 @@ var map_data =
           "date": "22:26 25/06/2025",
           "img": "img/20250625-hangghesantennis.jpg",
           "video": "",
-          "desc": "",
+          "desc": "Hôm nay 2 đứa rủ cùng nhau đi bộ ròi ngồi lại xuống đây tâm sự và lói phét.",
           "media": [
           ]
         },
@@ -1373,7 +1380,7 @@ var map_data =
         {
           "date": "21:40 05/06/2025",
           "img": "",
-          "desc": ""
+          "desc": "Con bé bảo mình xuống nhà, con bé có nấu đồ ăn rùi đưa cho mình. Hì hì vui thật á."
         },
         {
           "date": "22:05 02/06/2025",
