@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Barron's Unit 1 — Natural World Vocab Games</title>
+<style>
+:root{
+  --bg:#f8fbff; --ink:#182033; --muted:#68748a; --card:#ffffff; --line:#e8edf6;
+  --pink:#ff7eb6; --peach:#ffb387; --violet:#9b87f5; --blue:#72c7ff; --green:#65d6ad; --yellow:#ffd166;
+  --dark:#0d0d34; --dark-card:#2f3d61; --dark-line:#6e7a99; --good:#11a66a; --bad:#e95f76;
+  --shadow:0 20px 60px rgba(21,31,62,.12); --radius:28px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:
+ radial-gradient(circle at 8% 2%,#ffe2f0 0 18%,transparent 35%),
+ radial-gradient(circle at 92% 0,#dff5ff 0 17%,transparent 34%),
+ linear-gradient(135deg,#fff8fc,#eef8ff 45%,#f7fff9);min-height:100vh;overflow-x:hidden}
+button,input,select{font:inherit}
+button{touch-action:manipulation}
+.container{width:min(1180px,100%);margin:auto;padding:18px}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch;margin-top:10px}
+.hero-main,.hero-side,.panel{background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.9);box-shadow:var(--shadow);backdrop-filter:blur(18px);border-radius:36px}
+.hero-main{padding:26px;position:relative;overflow:hidden}
+.hero-main::after{content:"";position:absolute;right:-64px;bottom:-80px;width:220px;height:220px;background:linear-gradient(135deg,#ffd16666,#ff7eb655);border-radius:50%}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid #ffd8ea;background:#fff4fa;color:#9a2f64;font-weight:900;border-radius:999px;padding:8px 12px;font-size:13px}
+h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spacing:-2px;position:relative;z-index:1}
+.gradient{background:linear-gradient(90deg,var(--pink),var(--violet),var(--blue),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}
+.subtitle{position:relative;z-index:1;color:var(--muted);line-height:1.65;font-size:16px;max-width:760px;margin:0}
+.hero-side{padding:22px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(160deg,#fff,#f4fbff)}
+.mascot{font-size:68px;line-height:1;margin-bottom:8px}.mini-title{font-weight:1000;font-size:22px;line-height:1.15}.mini-copy{color:var(--muted);line-height:1.55;font-size:14px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.pill{display:inline-flex;align-items:center;gap:6px;background:white;border:1px solid #eef2f8;border-radius:999px;padding:8px 11px;font-weight:850;font-size:12px;color:#4d5d76}
+.navbar{position:sticky;top:0;z-index:10;padding:10px 0;background:linear-gradient(180deg,rgba(248,251,255,.97),rgba(248,251,255,.75));backdrop-filter:blur(16px)}
+.nav-inner{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.tabs{display:flex;gap:9px;overflow:auto;padding:3px;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+.tab{border:0;border-radius:999px;background:#fff;color:#526177;padding:11px 14px;box-shadow:0 8px 24px rgba(22,31,62,.08);font-weight:950;white-space:nowrap;cursor:pointer;transition:.18s}
+.tab.active{background:linear-gradient(135deg,var(--pink),var(--violet));color:white}.tab:hover{transform:translateY(-2px)}
+.actions{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}
+.btn{border:0;border-radius:18px;background:white;color:#26344f;padding:12px 15px;font-weight:950;box-shadow:0 9px 24px rgba(22,31,62,.1);cursor:pointer;transition:.18s;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.btn:hover{transform:translateY(-2px)}.btn.primary{background:linear-gradient(135deg,var(--pink),var(--peach));color:white}.btn.green{background:linear-gradient(135deg,var(--green),var(--blue));color:white}.btn.ghost{background:#fff7fb;color:#ad3b71;border:1px solid #ffd4e8}.btn.dark{background:#202a4a;color:white}
+.panel{padding:20px;margin:16px 0;border-radius:32px}.hidden{display:none!important}
+.section-title{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}.section-title h2{margin:0;font-size:clamp(24px,3vw,34px);letter-spacing:-.5px}.hint{color:var(--muted);line-height:1.55;font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{background:linear-gradient(160deg,#fff,#f8fbff);border:1px solid #fff;border-radius:24px;padding:16px}.num{font-size:32px;font-weight:1000;letter-spacing:-1px}.label{color:var(--muted);font-size:13px;font-weight:850}
+.study-shell{display:grid;grid-template-columns:330px 1fr;gap:16px;align-items:start}
+.word-rail{background:#fff;border:1px solid #fff;border-radius:30px;padding:14px;box-shadow:0 12px 38px rgba(22,31,62,.08);position:sticky;top:88px;max-height:calc(100vh - 112px);overflow:auto}
+.rail-search{width:100%;border:2px solid #edf2f8;border-radius:18px;padding:12px 14px;font-weight:850;outline:none;margin-bottom:10px}
+.topic-chip{display:block;width:100%;text-align:left;background:#f8fbff;border:1px solid #edf2f8;color:#526177;padding:10px 12px;margin:7px 0;border-radius:16px;font-weight:950;cursor:pointer}.topic-chip.active{background:#1f2a4c;color:white}
+.rail-word{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;border:0;background:#fff;border-radius:16px;padding:10px 11px;margin:5px 0;text-align:left;cursor:pointer;color:#27344e;font-weight:900}
+.rail-word:hover,.rail-word.active{background:#fff2f8}.rail-word small{color:#7d8799;font-weight:800}.check{color:var(--good)}
+.dictionary-card{background:#fff;border:1px solid #fff;border-radius:34px;padding:24px;box-shadow:0 14px 44px rgba(22,31,62,.09);min-height:560px;position:relative;overflow:hidden}
+.dictionary-card::before{content:"";position:absolute;right:-90px;top:-90px;width:230px;height:230px;border-radius:999px;background:linear-gradient(135deg,#e2f6ff,#ffe0ef);opacity:.9}
+.card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;position:relative;z-index:1}
+.topic-label{display:inline-flex;gap:7px;align-items:center;border-radius:999px;background:#f8fbff;border:1px solid #edf2f8;padding:8px 11px;color:#526177;font-weight:900;font-size:13px}
+.word-title{font-size:clamp(40px,7vw,76px);font-weight:1000;letter-spacing:-2px;text-transform:uppercase;margin:18px 0 6px;line-height:.95;position:relative;z-index:1}
+.word-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:relative;z-index:1}.pos{background:#ece8ff;color:#6651d7;border-radius:999px;padding:5px 10px;font-weight:1000;font-size:12px}.ipa-pill{background:#f5f7fb;border:1px solid #e8edf6;border-radius:999px;padding:7px 10px;color:#526177;font-weight:850;font-size:13px}
+.sound-row{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0;position:relative;z-index:1}.sound-btn{border:0;border-radius:16px;padding:11px 12px;background:#edf6ff;color:#23496b;font-weight:950;cursor:pointer;display:inline-flex;gap:7px;align-items:center}.sound-btn.us{background:#fff3ea;color:#70421f}.star{border:0;border-radius:16px;background:#fff7d8;color:#9d6b00;padding:10px 12px;font-size:18px;cursor:pointer;box-shadow:0 6px 18px rgba(22,31,62,.09)}
+.meaning{font-size:clamp(24px,4vw,34px);font-weight:1000;color:#267759;margin:18px 0 12px;position:relative;z-index:1}
+.def-box{background:#f8fbff;border:1px solid #edf2f8;border-radius:24px;padding:16px;margin:10px 0;position:relative;z-index:1}.def-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#77839a;font-weight:1000;margin-bottom:7px}.def-text{font-size:18px;line-height:1.5;color:#26344e}.example{font-style:italic;color:#3d4b62;line-height:1.55}.gap{letter-spacing:.03em;color:#55647b}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;position:relative;z-index:1}.info-card{border:1px solid #edf2f8;border-radius:22px;background:white;padding:14px}.info-card ul{margin:7px 0 0;padding-left:18px;color:#425068;line-height:1.55}.family{color:#425068;line-height:1.55;margin-top:6px}
+.card-controls{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:16px;position:relative;z-index:1}.mini-progress{display:flex;gap:7px;align-items:center;flex:1;min-width:210px}.seg{height:12px;flex:1;background:#d7dfec;border-radius:999px;overflow:hidden}.seg.done{background:linear-gradient(90deg,var(--green),var(--blue))}.counter{font-weight:1000;color:#526177;margin-left:6px}
+.flash-wrap{display:grid;grid-template-columns:1fr 320px;gap:16px}.flash-scene{perspective:1200px;min-height:430px}.flashcard{height:100%;min-height:430px;position:relative;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.75,.25,1);cursor:pointer}.flashcard.flipped{transform:rotateY(180deg)}.face{position:absolute;inset:0;backface-visibility:hidden;border-radius:34px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;border:1px solid #fff;box-shadow:0 14px 44px rgba(22,31,62,.08)}.front{background:linear-gradient(145deg,#fff7fb,#f1fbff)}.back{background:linear-gradient(145deg,#f2fff7,#fff9e6);transform:rotateY(180deg)}.bigword{font-size:clamp(44px,8vw,78px);font-weight:1000;letter-spacing:-2px;line-height:.95}.bigvi{font-size:clamp(28px,5vw,42px);font-weight:1000;color:#267759;line-height:1.1}.side{background:white;border:1px solid #fff;border-radius:30px;padding:16px;box-shadow:0 14px 44px rgba(22,31,62,.08)}.side-row{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed #e6edf6;padding:10px 0;color:#526177}.side-row b{color:#26344e}
+.quiz-panel{background:var(--dark);color:white;border-color:#1c1d55;box-shadow:0 22px 70px rgba(13,13,52,.25)}.learn-progress{display:flex;align-items:center;gap:8px;margin-bottom:24px}.round-step{width:36px;height:36px;border-radius:999px;background:#0daa69;color:white;display:grid;place-items:center;font-weight:1000;flex:0 0 auto}.bar-step{height:16px;border-radius:999px;background:#677494;flex:1}.bar-step.done{background:#36d399}.quiz-card{background:var(--dark-card);border:1px solid #4d5979;border-radius:30px;padding:26px;min-height:440px}.quiz-def{font-size:clamp(22px,4vw,32px);line-height:1.35;margin:36px 0 26px}.quiz-sub{font-weight:950;font-size:13px;color:#d6dcff;margin-bottom:8px}.options{display:grid;grid-template-columns:1fr 1fr;gap:12px}.option{border:2px solid #697694;background:#334263;color:white;border-radius:16px;padding:16px;text-align:left;font-weight:900;cursor:pointer;display:flex;gap:14px;align-items:center}.option:hover{background:#3b4a70}.option.correct{background:#e9fff6;color:#08784b;border-color:#63d9ac}.option.wrong{background:#fff0f3;color:#9b2440;border-color:#ff9aae}.opt-num{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;background:rgba(255,255,255,.1);font-size:13px}.feedback{min-height:28px;font-weight:1000;margin-top:14px}.feedback.good{color:#7ee7bd}.feedback.bad{color:#ff9aae}
+.match-board{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.match-card{min-height:96px;border:0;border-radius:20px;background:#fff;padding:12px;font-weight:950;box-shadow:0 8px 22px rgba(22,31,62,.10);cursor:pointer;transition:.18s;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.25}.match-card:hover{transform:translateY(-2px)}.match-card.selected{outline:4px solid var(--yellow);background:#fffaf0}.match-card.matched{background:#ecfff7;color:#24825c;opacity:.72;transform:scale(.98);cursor:default}
+.spell-wrap{display:grid;grid-template-columns:1fr 320px;gap:16px}.spell-box{background:linear-gradient(155deg,#fff,#f7fffc);border-radius:28px;padding:22px;border:1px solid #fff;box-shadow:0 14px 44px rgba(22,31,62,.08)}.spell-prompt{font-size:clamp(26px,4vw,38px);font-weight:1000;color:#267759;margin:12px 0}.input-row{display:flex;gap:10px;margin-top:16px}.answer-input{flex:1;border:2px solid #e6eef5;background:#fff;border-radius:18px;padding:14px 15px;font-size:18px;font-weight:850;outline:none}.answer-input:focus{border-color:#9edcfb;box-shadow:0 0 0 5px #dff5ff}
+.list-controls{display:grid;grid-template-columns:1fr 220px;gap:10px;margin-bottom:14px}.search,.select{border:2px solid #edf2f7;background:white;border-radius:18px;padding:13px 14px;font-weight:850;outline:none}.word-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.vocab-card{background:#fff;border:1px solid #fff;border-radius:24px;padding:16px;box-shadow:0 8px 24px rgba(22,31,62,.08);position:relative;overflow:hidden}.vocab-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.vocab-word{font-size:24px;font-weight:1000}.vocab-vi{color:#267759;font-weight:950;margin:8px 0}.vocab-def{color:#526177;line-height:1.45;font-size:14px}.badge{display:inline-flex;align-items:center;gap:6px;background:#f8fbff;border-radius:999px;padding:6px 9px;color:#6d7b88;font-size:12px;font-weight:900;margin-top:10px}
+.toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);opacity:0;background:#263238;color:white;border-radius:999px;padding:12px 16px;font-weight:950;box-shadow:0 10px 30px rgba(0,0,0,.2);transition:.25s;z-index:50;max-width:calc(100vw - 32px);text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.confetti{position:fixed;top:-20px;font-size:18px;pointer-events:none;animation:fall 1.2s ease-in forwards;z-index:55}@keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:0}}
+.footer{color:#71809a;font-size:13px;line-height:1.55;padding-bottom:28px}.source-box{background:#ffffffb8;border:1px solid white;border-radius:22px;padding:14px 16px;box-shadow:0 8px 22px rgba(22,31,62,.08)}.source-box a{color:#4169c6;font-weight:850}
+@media (max-width: 920px){.container{padding:12px}.hero{grid-template-columns:1fr}.hero-main,.hero-side{border-radius:28px;padding:20px}.nav-inner{display:block}.actions{display:grid;grid-template-columns:1fr 1fr;margin-top:8px}.study-shell,.flash-wrap,.spell-wrap{grid-template-columns:1fr}.word-rail{position:relative;top:auto;max-height:310px;order:2}.dictionary-card{min-height:auto}.stats{grid-template-columns:repeat(2,1fr)}.info-grid,.options,.word-grid,.list-controls{grid-template-columns:1fr}.match-board{grid-template-columns:repeat(2,1fr)}.flash-scene,.flashcard{min-height:390px}}
+@media (max-width: 560px){.container{padding:10px}h1{letter-spacing:-1.4px}.panel{padding:14px;border-radius:26px}.section-title{display:block}.tabs{padding-bottom:8px}.tab{padding:10px 12px;font-size:14px}.actions{grid-template-columns:1fr}.btn{width:100%;padding:12px}.dictionary-card{padding:18px;border-radius:28px}.card-head{align-items:center}.word-title{font-size:42px;letter-spacing:-1px}.meaning{font-size:25px}.def-text{font-size:16px}.sound-row{display:grid;grid-template-columns:1fr 1fr}.sound-btn{justify-content:center}.card-controls{display:grid;grid-template-columns:1fr}.mini-progress{min-width:0}.quiz-card{padding:18px;min-height:400px}.learn-progress{gap:5px}.round-step{width:32px;height:32px}.bar-step{height:12px}.match-card{min-height:86px;font-size:14px}.input-row{flex-direction:column}.word-grid{gap:10px}.vocab-word{font-size:22px}}
+</style>
+</head>
+<body>
+<header class="container hero">
+  <section class="hero-main">
+    <span class="eyebrow">🌿 Barron's Essential Words · Unit 1</span>
+    <h1><span class="gradient">The Natural World</span><br>Vocab Playground</h1>
+    <p class="subtitle">A mobile-friendly flashcard + game app for 60 Barron Unit 1 words. Each word has UK/US IPA, accent buttons, Vietnamese meaning, a gap-fill example, collocations, word family, and a tiny IELTS note.</p>
+    <div class="pills"><span class="pill">🌳 Logging</span><span class="pill">🪽 Bird Migration</span><span class="pill">🌵 Desert Plants</span><span class="pill">🔊 UK/US sound</span><span class="pill">💾 Auto-save</span></div>
+  </section>
+  <aside class="hero-side">
+    <div><div class="mascot">🧺📚✨</div><div class="mini-title">Tiny forest fairy mode, but make it IELTS.</div><p class="mini-copy">Start with Learn, star hard words, mark mastered words, then bully your brain gently with games.</p></div>
+    <button class="btn primary" onclick="showView('learn')">Start learning</button>
+  </aside>
+</header>
+<nav class="navbar">
+  <div class="container nav-inner">
+    <div class="tabs" id="tabs">
+      <button class="tab active" data-view="learn">📖 Learn</button>
+      <button class="tab" data-view="flashcards">🃏 Flashcards</button>
+      <button class="tab" data-view="quiz">🧠 Quiz</button>
+      <button class="tab" data-view="match">🧩 Match</button>
+      <button class="tab" data-view="spell">✍️ Spell</button>
+      <button class="tab" data-view="wordbook">🔎 Wordbook</button>
+    </div>
+    <div class="actions"><button class="btn ghost" id="shuffleAll">Shuffle</button><button class="btn" id="resetProgress">Reset</button></div>
+  </div>
+</nav>
+<main class="container">
+  <section class="panel" id="dashboardPanel">
+    <div class="section-title"><h2>Today’s tiny mission 🌱</h2><span class="hint">Learn one card, listen UK/US, then play a quick round.</span></div>
+    <div class="stats"><div class="stat"><div class="num" id="statTotal">60</div><div class="label">Total words</div></div><div class="stat"><div class="num" id="statKnown">0</div><div class="label">Mastered</div></div><div class="stat"><div class="num" id="statFav">0</div><div class="label">Starred</div></div><div class="stat"><div class="num" id="statQuiz">0%</div><div class="label">Best quiz</div></div></div>
+  </section>
+
+  <section class="panel view" id="learn">
+    <div class="section-title"><h2>Learn all words</h2><span class="hint">Like your screenshot: word → IPA → accent sounds → definition → gap example → Vietnamese meaning.</span></div>
+    <div class="study-shell">
+      <aside class="word-rail">
+        <input id="railSearch" class="rail-search" placeholder="Search word / meaning..." />
+        <div id="topicChips"></div>
+        <div id="railWords"></div>
+      </aside>
+      <article class="dictionary-card" id="learnCard"></article>
+    </div>
+  </section>
+
+  <section class="panel view hidden" id="flashcards">
+    <div class="section-title"><h2>Flashcards</h2><span class="hint">Tap the card to flip. Use the sound buttons before flipping for listening practice.</span></div>
+    <div class="flash-wrap">
+      <div class="flash-scene"><div class="flashcard" id="flashcard"><div class="face front" id="frontFace"></div><div class="face back" id="backFace"></div></div></div>
+      <aside class="side"><div class="side-row"><span>Current</span><b id="flashCount">1 / 60</b></div><div class="side-row"><span>Topic</span><b id="flashTopic">—</b></div><div class="side-row"><span>Status</span><b id="flashStatus">Learning</b></div><div class="sound-row"><button class="sound-btn" id="flashUK">🔊 UK</button><button class="sound-btn us" id="flashUS">🔊 US</button></div><div class="card-controls"><button class="btn" id="prevCard">← Prev</button><button class="btn green" id="markKnown">Mastered</button><button class="btn" id="nextCard">Next →</button></div></aside>
+    </div>
+  </section>
+
+  <section class="panel view quiz-panel hidden" id="quiz">
+    <div class="learn-progress" id="quizProgress"></div>
+    <div class="quiz-card"><div class="quiz-sub">Definition 🔊 <button class="sound-btn" id="quizSound" style="padding:7px 10px">play word</button></div><div class="quiz-def" id="quizQuestion">Loading...</div><div class="quiz-sub">Choose an answer</div><div class="options" id="options"></div><div class="feedback" id="feedback"></div><div style="display:flex;justify-content:flex-end;margin-top:12px"><button class="btn dark" id="dontKnow">Don't know?</button></div></div>
+  </section>
+
+  <section class="panel view hidden" id="match">
+    <div class="section-title"><h2>Matching game</h2><span class="hint" id="pairsLeft">Pairs left 6</span></div>
+    <div class="pills" style="margin-bottom:12px"><span class="pill" id="moveCount">Moves 0</span><button class="btn ghost" id="newMatch">New board</button></div><div class="match-board" id="matchBoard"></div>
+  </section>
+
+  <section class="panel view hidden" id="spell">
+    <div class="section-title"><h2>Spelling practice</h2><span class="hint">Read the Vietnamese + definition, then type the English word.</span></div>
+    <div class="spell-wrap"><div class="spell-box"><span class="topic-label" id="spellTopic">Topic</span><div class="spell-prompt" id="spellPrompt">...</div><div class="def-box"><div class="def-label">Definition</div><div class="def-text" id="spellDef">...</div></div><div class="input-row"><input class="answer-input" id="spellInput" placeholder="Type the word..." autocomplete="off"><button class="btn green" id="checkSpell">Check</button></div><div class="feedback" id="spellFeedback"></div></div><aside class="side"><h3 style="margin-top:0">Need a hint?</h3><p class="hint" id="spellHint">Tap hint to reveal first and last letters.</p><button class="btn" id="showHint">Show hint</button><button class="btn ghost" id="skipSpell" style="margin-top:10px">Skip</button></aside></div>
+  </section>
+
+  <section class="panel view hidden" id="wordbook">
+    <div class="section-title"><h2>Wordbook</h2><span class="hint">Search and review every word with compact details.</span></div>
+    <div class="list-controls"><input id="searchInput" class="search" placeholder="Search words, Vietnamese, definitions..."><select id="topicFilter" class="select"><option value="all">All topics</option></select></div><div class="word-grid" id="wordGrid"></div>
+  </section>
+</main>
+<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons first try Oxford Learner’s Dictionaries-style audio URLs when online; if the browser blocks or cannot find the file, they fall back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
+<div class="toast" id="toast"></div>
+<script>
+const WORDS = [
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "aquatic",
+    "pos": "adj.",
+    "ipa": "/əˈkwætɪk/",
+    "vi": "sống dưới nước; thuộc về nước",
+    "definition": "living, growing, or happening in water",
+    "example": "Mangrove forests protect many aquatic species.",
+    "ipaUK": "/əˈkwætɪk/",
+    "ipaUS": "/əˈkwɑːtɪk/",
+    "collocations": [
+      "aquatic life",
+      "aquatic plants",
+      "aquatic ecosystem"
+    ],
+    "wordFamily": "aqua (water) → aquatic, aquatics",
+    "synonyms": [
+      "water-related",
+      "marine (near meaning)"
+    ],
+    "studyNote": "Nhớ “aqua” = nước, nên aquatic thường đi với life/plants/ecosystem.",
+    "ukVariant": "",
+    "gapExample": "Mangrove forests protect many ............... species.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/aquatic",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/aquatic"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "array",
+    "pos": "n.",
+    "ipa": "/əˈreɪ/",
+    "vi": "một loạt; một tập hợp lớn",
+    "definition": "a large collection or impressive group of things",
+    "example": "A forest contains an array of plants, insects, and animals.",
+    "ipaUK": "/əˈreɪ/",
+    "ipaUS": "/əˈreɪ/",
+    "collocations": [
+      "an array of options",
+      "a vast array",
+      "an impressive array"
+    ],
+    "wordFamily": "array (n/v) → arrange is a different word family",
+    "synonyms": [
+      "collection",
+      "range"
+    ],
+    "studyNote": "Dùng khi muốn nói “rất nhiều thứ được bày ra/hiện ra” một cách học thuật hơn “many”.",
+    "ukVariant": "",
+    "gapExample": "A forest contains an ............... of plants, insects, and animals.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/array",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/array"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "defense",
+    "pos": "n.",
+    "ipa": "/dɪˈfens/",
+    "vi": "sự bảo vệ; tuyến phòng vệ",
+    "definition": "protection against attack, danger, damage, or loss",
+    "example": "Trees form a natural defense against soil erosion.",
+    "ipaUK": "/dɪˈfens/",
+    "ipaUS": "/dɪˈfens/",
+    "collocations": [
+      "natural defense",
+      "in defense of",
+      "defense against"
+    ],
+    "wordFamily": "defense/defence (n), defend (v), defensive (adj), defender (n)",
+    "synonyms": [
+      "protection",
+      "guard"
+    ],
+    "studyNote": "Mỹ viết defense, Anh viết defence. IELTS chấp nhận cả hai nếu nhất quán.",
+    "ukVariant": "defence",
+    "gapExample": "Trees form a natural ............... against soil erosion.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/defense",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/defense"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "deforestation",
+    "pos": "n.",
+    "ipa": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+    "vi": "nạn phá rừng; việc chặt phá rừng",
+    "definition": "the large-scale removal of trees from forests",
+    "example": "Deforestation can destroy habitats and change rainfall patterns.",
+    "ipaUK": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+    "ipaUS": "/ˌdiːˌfɔːrɪˈsteɪʃn/",
+    "collocations": [
+      "rapid deforestation",
+      "illegal deforestation",
+      "deforestation rate"
+    ],
+    "wordFamily": "forest (n), deforest (v), deforestation (n), reforestation (n)",
+    "synonyms": [
+      "forest clearing",
+      "tree removal"
+    ],
+    "studyNote": "Từ rất hay gặp trong IELTS Writing chủ đề environment.",
+    "ukVariant": "",
+    "gapExample": "............... can destroy habitats and change rainfall patterns.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/deforestation",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/deforestation"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "environment",
+    "pos": "n.",
+    "ipa": "/ɪnˈvaɪrənmənt/",
+    "vi": "môi trường",
+    "definition": "the natural world and the conditions in which people, animals, and plants live",
+    "example": "Pollution damages the environment and human health.",
+    "ipaUK": "/ɪnˈvaɪrənmənt/",
+    "ipaUS": "/ɪnˈvaɪrənmənt/",
+    "collocations": [
+      "protect the environment",
+      "natural environment",
+      "hostile environment"
+    ],
+    "wordFamily": "environment (n), environmental (adj), environmentally (adv)",
+    "synonyms": [
+      "surroundings",
+      "natural world"
+    ],
+    "studyNote": "Có thể là môi trường tự nhiên hoặc điều kiện xung quanh.",
+    "ukVariant": "",
+    "gapExample": "Pollution damages the ............... and human health.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/environment",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/environment"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "erosion",
+    "pos": "n.",
+    "ipa": "/ɪˈrəʊʒn/",
+    "vi": "sự xói mòn",
+    "definition": "the process by which soil, rock, or land is gradually worn away",
+    "example": "Tree roots help reduce erosion after heavy rain.",
+    "ipaUK": "/ɪˈrəʊʒn/",
+    "ipaUS": "/ɪˈroʊʒn/",
+    "collocations": [
+      "soil erosion",
+      "coastal erosion",
+      "prevent erosion"
+    ],
+    "wordFamily": "erode (v), erosion (n), erosive (adj)",
+    "synonyms": [
+      "wearing away",
+      "loss of soil"
+    ],
+    "studyNote": "Thường nói về đất/bờ biển bị mưa, gió, sóng làm mòn.",
+    "ukVariant": "",
+    "gapExample": "Tree roots help reduce ............... after heavy rain.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/erosion",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/erosion"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "extend",
+    "pos": "v.",
+    "ipa": "/ɪkˈstend/",
+    "vi": "mở rộng; kéo dài; trải ra",
+    "definition": "to reach farther in distance, time, size, or influence",
+    "example": "The rainforest extends across several countries.",
+    "ipaUK": "/ɪkˈstend/",
+    "ipaUS": "/ɪkˈstend/",
+    "collocations": [
+      "extend across",
+      "extend beyond",
+      "extend the range"
+    ],
+    "wordFamily": "extend (v), extension (n), extensive (adj), extent (n)",
+    "synonyms": [
+      "expand",
+      "stretch"
+    ],
+    "studyNote": "Nghĩa rộng: kéo dài thời gian, mở rộng diện tích, vươn tới phạm vi mới.",
+    "ukVariant": "",
+    "gapExample": "The rainforest ...............s across several countries.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/extend",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/extend"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "fell",
+    "pos": "v.",
+    "ipa": "/fel/",
+    "vi": "chặt hạ cây",
+    "definition": "to cut down a tree",
+    "example": "Logging companies fell trees for timber and paper.",
+    "ipaUK": "/fel/",
+    "ipaUS": "/fel/",
+    "collocations": [
+      "fell trees",
+      "fell timber",
+      "newly felled trees"
+    ],
+    "wordFamily": "fell (v), felled (adj), felling (n)",
+    "synonyms": [
+      "cut down",
+      "chop down"
+    ],
+    "studyNote": "Lưu ý: fell còn là quá khứ của fall, nhưng trong bài này là động từ “chặt hạ cây”.",
+    "ukVariant": "",
+    "gapExample": "Logging companies ............... trees for timber and paper.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/fell",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/fell"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "habitat",
+    "pos": "n.",
+    "ipa": "/ˈhæbɪtæt/",
+    "vi": "môi trường sống",
+    "definition": "the natural place where a plant or animal lives",
+    "example": "Wetlands are an important habitat for birds.",
+    "ipaUK": "/ˈhæbɪtæt/",
+    "ipaUS": "/ˈhæbɪtæt/",
+    "collocations": [
+      "natural habitat",
+      "destroy a habitat",
+      "wildlife habitat"
+    ],
+    "wordFamily": "habitat (n), habitation (n), inhabit (v)",
+    "synonyms": [
+      "home",
+      "natural environment"
+    ],
+    "studyNote": "Không chỉ “nhà”, mà là toàn bộ môi trường sống tự nhiên của loài.",
+    "ukVariant": "",
+    "gapExample": "Wetlands are an important ............... for birds.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/habitat",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/habitat"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "impact",
+    "pos": "n.",
+    "ipa": "/ˈɪmpækt/",
+    "vi": "tác động; ảnh hưởng mạnh",
+    "definition": "a strong effect or influence",
+    "example": "Logging has a serious impact on biodiversity.",
+    "ipaUK": "/ˈɪmpækt/",
+    "ipaUS": "/ˈɪmpækt/",
+    "collocations": [
+      "environmental impact",
+      "major impact",
+      "have an impact on"
+    ],
+    "wordFamily": "impact (n/v), impactful (adj)",
+    "synonyms": [
+      "effect",
+      "influence"
+    ],
+    "studyNote": "Academic word cực phổ biến: have an impact on something.",
+    "ukVariant": "",
+    "gapExample": "Logging has a serious ............... on biodiversity.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/impact",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/impact"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "inhibit",
+    "pos": "v.",
+    "ipa": "/ɪnˈhɪbɪt/",
+    "vi": "ức chế; ngăn cản; làm chậm",
+    "definition": "to slow down, limit, or prevent an action or process",
+    "example": "Shade from trees can inhibit the growth of algae.",
+    "ipaUK": "/ɪnˈhɪbɪt/",
+    "ipaUS": "/ɪnˈhɪbɪt/",
+    "collocations": [
+      "inhibit growth",
+      "inhibit evaporation",
+      "inhibit development"
+    ],
+    "wordFamily": "inhibit (v), inhibition (n), inhibitor (n)",
+    "synonyms": [
+      "restrain",
+      "prevent"
+    ],
+    "studyNote": "Trang trọng hơn “stop”; thường là làm chậm/ngăn quá trình.",
+    "ukVariant": "",
+    "gapExample": "Shade from trees can ............... the growth of algae.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/inhibit",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/inhibit"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "intercept",
+    "pos": "v.",
+    "ipa": "/ˌɪntəˈsept/",
+    "vi": "chặn; hứng; bắt lấy giữa đường",
+    "definition": "to stop or catch something while it is moving from one place to another",
+    "example": "Leaves intercept heavy rainfall before it hits the soil.",
+    "ipaUK": "/ˌɪntəˈsept/",
+    "ipaUS": "/ˌɪntərˈsept/",
+    "collocations": [
+      "intercept rainfall",
+      "intercept signals",
+      "intercept water"
+    ],
+    "wordFamily": "intercept (v), interception (n), interceptor (n)",
+    "synonyms": [
+      "block",
+      "catch"
+    ],
+    "studyNote": "Hình dung “chặn giữa đường” trước khi thứ gì đó tới đích.",
+    "ukVariant": "",
+    "gapExample": "Leaves ............... heavy rainfall before it hits the soil.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/intercept",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/intercept"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "logging",
+    "pos": "n.",
+    "ipa": "/ˈlɒɡɪŋ/",
+    "vi": "việc khai thác gỗ",
+    "definition": "the cutting down of trees for commercial use",
+    "example": "Uncontrolled logging can damage rivers and forests.",
+    "ipaUK": "/ˈlɒɡɪŋ/",
+    "ipaUS": "/ˈlɔːɡɪŋ/",
+    "collocations": [
+      "commercial logging",
+      "illegal logging",
+      "logging company"
+    ],
+    "wordFamily": "log (n/v), logging (n), logger (n)",
+    "synonyms": [
+      "timber cutting",
+      "wood harvesting"
+    ],
+    "studyNote": "Logging là hoạt động khai thác gỗ, không phải “đăng nhập” trong IT context.",
+    "ukVariant": "",
+    "gapExample": "Uncontrolled ............... can damage rivers and forests.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/logging",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/logging"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "myriad",
+    "pos": "adj./n.",
+    "ipa": "/ˈmɪriəd/",
+    "vi": "vô số; rất nhiều",
+    "definition": "very many; a countless number",
+    "example": "A healthy forest supports myriad forms of life.",
+    "ipaUK": "/ˈmɪriəd/",
+    "ipaUS": "/ˈmɪriəd/",
+    "collocations": [
+      "myriad problems",
+      "a myriad of species",
+      "myriad reasons"
+    ],
+    "wordFamily": "myriad (adj/n)",
+    "synonyms": [
+      "countless",
+      "numerous"
+    ],
+    "studyNote": "Có thể dùng như adjective: myriad problems, hoặc noun: a myriad of problems.",
+    "ukVariant": "",
+    "gapExample": "A healthy forest supports ............... forms of life.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/myriad",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/myriad"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "nutrient",
+    "pos": "n.",
+    "ipa": "/ˈnjuːtriənt/",
+    "vi": "chất dinh dưỡng",
+    "definition": "a substance that helps plants, animals, or people live and grow",
+    "example": "Rich soil provides nutrients for young trees.",
+    "ipaUK": "/ˈnjuːtriənt/",
+    "ipaUS": "/ˈnuːtriənt/",
+    "collocations": [
+      "essential nutrient",
+      "soil nutrients",
+      "nutrient-rich"
+    ],
+    "wordFamily": "nutrient (n), nutritious (adj), nutrition (n)",
+    "synonyms": [
+      "nourishment",
+      "food substance"
+    ],
+    "studyNote": "Chất mà cơ thể/cây cối cần để sống và phát triển.",
+    "ukVariant": "",
+    "gapExample": "Rich soil provides ...............s for young trees.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/nutrient",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/nutrient"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "pollution",
+    "pos": "n.",
+    "ipa": "/pəˈluːʃn/",
+    "vi": "sự ô nhiễm",
+    "definition": "damage to air, water, or land caused by harmful substances",
+    "example": "Industrial pollution can harm aquatic habitats.",
+    "ipaUK": "/pəˈluːʃn/",
+    "ipaUS": "/pəˈluːʃn/",
+    "collocations": [
+      "air pollution",
+      "water pollution",
+      "reduce pollution"
+    ],
+    "wordFamily": "pollute (v), pollution (n), pollutant (n), polluted (adj)",
+    "synonyms": [
+      "contamination",
+      "environmental damage"
+    ],
+    "studyNote": "Đi với air/water/noise/soil pollution.",
+    "ukVariant": "",
+    "gapExample": "Industrial ............... can harm aquatic habitats.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/pollution",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/pollution"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "stabilize",
+    "pos": "v.",
+    "ipa": "/ˈsteɪbəlaɪz/",
+    "vi": "làm ổn định; giữ vững",
+    "definition": "to make something steady, balanced, or less likely to change suddenly",
+    "example": "Vegetation helps stabilize sand dunes.",
+    "ipaUK": "/ˈsteɪbəlaɪz/",
+    "ipaUS": "/ˈsteɪbəlaɪz/",
+    "collocations": [
+      "stabilize soil",
+      "stabilize prices",
+      "stabilize dunes"
+    ],
+    "wordFamily": "stabilize/stabilise (v), stable (adj), stability (n)",
+    "synonyms": [
+      "steady",
+      "secure"
+    ],
+    "studyNote": "Mỹ viết stabilize, Anh thường viết stabilise.",
+    "ukVariant": "stabilise",
+    "gapExample": "Vegetation helps ............... sand dunes.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/stabilize",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/stabilize"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "terrestrial",
+    "pos": "adj.",
+    "ipa": "/təˈrestriəl/",
+    "vi": "trên cạn; thuộc về đất liền",
+    "definition": "living on land rather than in water",
+    "example": "Terrestrial animals lose shelter when forests disappear.",
+    "ipaUK": "/təˈrestriəl/",
+    "ipaUS": "/təˈrestriəl/",
+    "collocations": [
+      "terrestrial animals",
+      "terrestrial ecosystem",
+      "terrestrial habitat"
+    ],
+    "wordFamily": "terra (earth) → terrestrial, extraterrestrial",
+    "synonyms": [
+      "land-based",
+      "earthbound"
+    ],
+    "studyNote": "Đối lập với aquatic: trên cạn vs dưới nước.",
+    "ukVariant": "",
+    "gapExample": "............... animals lose shelter when forests disappear.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/terrestrial",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/terrestrial"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "vanish",
+    "pos": "v.",
+    "ipa": "/ˈvænɪʃ/",
+    "vi": "biến mất",
+    "definition": "to disappear suddenly or completely",
+    "example": "Some species may vanish when their habitat is destroyed.",
+    "ipaUK": "/ˈvænɪʃ/",
+    "ipaUS": "/ˈvænɪʃ/",
+    "collocations": [
+      "vanish completely",
+      "vanish from sight",
+      "vanishing species"
+    ],
+    "wordFamily": "vanish (v), vanishing (adj), disappearance (similar idea)",
+    "synonyms": [
+      "disappear",
+      "fade away"
+    ],
+    "studyNote": "Mạnh hơn disappear một chút: biến mất hẳn/đột ngột.",
+    "ukVariant": "",
+    "gapExample": "Some species may ............... when their habitat is destroyed.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/vanish",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/vanish"
+  },
+  {
+    "topic": "Environmental Impacts of Logging",
+    "emoji": "🌳",
+    "word": "vegetation",
+    "pos": "n.",
+    "ipa": "/ˌvedʒəˈteɪʃn/",
+    "vi": "thảm thực vật; cây cối",
+    "definition": "plants in general, especially those growing in a particular area",
+    "example": "Dense vegetation protects the soil from wind.",
+    "ipaUK": "/ˌvedʒəˈteɪʃn/",
+    "ipaUS": "/ˌvedʒəˈteɪʃn/",
+    "collocations": [
+      "dense vegetation",
+      "sparse vegetation",
+      "native vegetation"
+    ],
+    "wordFamily": "vegetation (n), vegetate (v), vegetative (adj)",
+    "synonyms": [
+      "plant life",
+      "flora"
+    ],
+    "studyNote": "Danh từ không đếm được khi nói chung về cây cối/thảm thực vật.",
+    "ukVariant": "",
+    "gapExample": "Dense ............... protects the soil from wind.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/vegetation",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/vegetation"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "aspect",
+    "pos": "n.",
+    "ipa": "/ˈæspekt/",
+    "vi": "khía cạnh; mặt của vấn đề",
+    "definition": "one part, side, or feature of a situation, idea, or problem",
+    "example": "Navigation is one fascinating aspect of bird migration.",
+    "ipaUK": "/ˈæspekt/",
+    "ipaUS": "/ˈæspekt/",
+    "collocations": [
+      "important aspect",
+      "positive aspect",
+      "every aspect"
+    ],
+    "wordFamily": "aspect (n); often used for “one side/part” of a topic",
+    "synonyms": [
+      "feature",
+      "side"
+    ],
+    "studyNote": "Rất hữu ích khi phân tích: one important aspect of the issue is...",
+    "ukVariant": "",
+    "gapExample": "Navigation is one fascinating ............... of bird migration.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/aspect",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/aspect"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "breed",
+    "pos": "v./n.",
+    "ipa": "/briːd/",
+    "vi": "sinh sản; gây giống; giống loài",
+    "definition": "to produce young animals or plants; to reproduce",
+    "example": "Many birds migrate north to breed in summer.",
+    "ipaUK": "/briːd/",
+    "ipaUS": "/briːd/",
+    "collocations": [
+      "breed in spring",
+      "breeding season",
+      "breed successfully"
+    ],
+    "wordFamily": "breed (v/n), breeding (n/adj), breeder (n)",
+    "synonyms": [
+      "reproduce",
+      "raise"
+    ],
+    "studyNote": "Trong tự nhiên học, breed thường là sinh sản trong mùa sinh sản.",
+    "ukVariant": "",
+    "gapExample": "Many birds migrate north to ............... in summer.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/breed",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/breed"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "diurnal",
+    "pos": "adj.",
+    "ipa": "/daɪˈɜːnl/",
+    "vi": "hoạt động ban ngày",
+    "definition": "active during the day",
+    "example": "Diurnal birds often use the sun for navigation.",
+    "ipaUK": "/daɪˈɜːnl/",
+    "ipaUS": "/daɪˈɜːrnl/",
+    "collocations": [
+      "diurnal animals",
+      "diurnal migration",
+      "diurnal pattern"
+    ],
+    "wordFamily": "diurnal (adj); opposite: nocturnal",
+    "synonyms": [
+      "daytime",
+      "daily"
+    ],
+    "studyNote": "Đối lập với nocturnal. Diurnal = ban ngày.",
+    "ukVariant": "",
+    "gapExample": "............... birds often use the sun for navigation.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/diurnal",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/diurnal"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "endure",
+    "pos": "v.",
+    "ipa": "/ɪnˈdjʊə(r)/",
+    "vi": "chịu đựng; bền bỉ vượt qua",
+    "definition": "to continue through difficult or painful conditions",
+    "example": "Some birds endure freezing winds during migration.",
+    "ipaUK": "/ɪnˈdjʊə(r)/",
+    "ipaUS": "/ɪnˈdʊr/",
+    "collocations": [
+      "endure hardship",
+      "endure cold",
+      "endure a journey"
+    ],
+    "wordFamily": "endure (v), endurance (n), enduring (adj)",
+    "synonyms": [
+      "withstand",
+      "bear"
+    ],
+    "studyNote": "Nhấn vào khả năng chịu đựng khó khăn trong thời gian dài.",
+    "ukVariant": "",
+    "gapExample": "Some birds ............... freezing winds during migration.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/endure",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/endure"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "evolve",
+    "pos": "v.",
+    "ipa": "/ɪˈvɒlv/",
+    "vi": "tiến hóa; phát triển dần",
+    "definition": "to develop gradually over time",
+    "example": "Birds evolved strategies to survive long journeys.",
+    "ipaUK": "/ɪˈvɒlv/",
+    "ipaUS": "/ɪˈvɑːlv/",
+    "collocations": [
+      "evolve over time",
+      "evolve from",
+      "evolve strategies"
+    ],
+    "wordFamily": "evolve (v), evolution (n), evolutionary (adj)",
+    "synonyms": [
+      "develop",
+      "change gradually"
+    ],
+    "studyNote": "Dùng cho thay đổi/tái phát triển dần qua thời gian dài.",
+    "ukVariant": "",
+    "gapExample": "Birds ...............d strategies to survive long journeys.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/evolve",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/evolve"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "fascinate",
+    "pos": "v.",
+    "ipa": "/ˈfæsɪneɪt/",
+    "vi": "làm say mê; thu hút mạnh",
+    "definition": "to interest someone very much",
+    "example": "The mystery of migration continues to fascinate scientists.",
+    "ipaUK": "/ˈfæsɪneɪt/",
+    "ipaUS": "/ˈfæsəneɪt/",
+    "collocations": [
+      "fascinate scientists",
+      "be fascinated by",
+      "fascinating mystery"
+    ],
+    "wordFamily": "fascinate (v), fascination (n), fascinating (adj), fascinated (adj)",
+    "synonyms": [
+      "captivate",
+      "interest greatly"
+    ],
+    "studyNote": "fascinated mô tả người; fascinating mô tả sự vật.",
+    "ukVariant": "",
+    "gapExample": "The mystery of migration continues to ............... scientists.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/fascinate",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/fascinate"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "feat",
+    "pos": "n.",
+    "ipa": "/fiːt/",
+    "vi": "kỳ tích; thành tựu khó",
+    "definition": "an impressive or difficult achievement",
+    "example": "Flying across an ocean is an amazing feat for a small bird.",
+    "ipaUK": "/fiːt/",
+    "ipaUS": "/fiːt/",
+    "collocations": [
+      "remarkable feat",
+      "feat of endurance",
+      "achieve a feat"
+    ],
+    "wordFamily": "feat (n); often paired with “of endurance/engineering”",
+    "synonyms": [
+      "achievement",
+      "accomplishment"
+    ],
+    "studyNote": "Một thành tựu khó, đáng nể, không phải việc bình thường.",
+    "ukVariant": "",
+    "gapExample": "Flying across an ocean is an amazing ............... for a small bird.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/feat",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/feat"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "fuel",
+    "pos": "v./n.",
+    "ipa": "/ˈfjuːəl/",
+    "vi": "cung cấp năng lượng; nhiên liệu",
+    "definition": "to provide energy for something or make it continue",
+    "example": "Fat stored in the body fuels a bird's long flight.",
+    "ipaUK": "/ˈfjuːəl/",
+    "ipaUS": "/ˈfjuːəl/",
+    "collocations": [
+      "fuel a journey",
+      "fuel consumption",
+      "store fuel"
+    ],
+    "wordFamily": "fuel (n/v), refuel (v), fuel-efficient (adj)",
+    "synonyms": [
+      "power",
+      "energize"
+    ],
+    "studyNote": "Vừa là nhiên liệu, vừa là động từ “cung cấp năng lượng/thúc đẩy”.",
+    "ukVariant": "",
+    "gapExample": "Fat stored in the body ...............s a bird's long flight.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/fuel",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/fuel"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "hemisphere",
+    "pos": "n.",
+    "ipa": "/ˈhemɪsfɪə(r)/",
+    "vi": "bán cầu",
+    "definition": "one half of the Earth or a sphere",
+    "example": "Some birds travel from one hemisphere to another.",
+    "ipaUK": "/ˈhemɪsfɪə(r)/",
+    "ipaUS": "/ˈhemɪsfɪr/",
+    "collocations": [
+      "northern hemisphere",
+      "southern hemisphere",
+      "western hemisphere"
+    ],
+    "wordFamily": "hemi- (half) + sphere → hemisphere",
+    "synonyms": [
+      "half of Earth",
+      "half-sphere"
+    ],
+    "studyNote": "hemi = một nửa; northern/southern hemisphere rất hay gặp.",
+    "ukVariant": "",
+    "gapExample": "Some birds travel from one ............... to another.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/hemisphere",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/hemisphere"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "imperative",
+    "pos": "n./adj.",
+    "ipa": "/ɪmˈperətɪv/",
+    "vi": "điều cấp thiết; rất cần thiết",
+    "definition": "something extremely important and needing immediate attention",
+    "example": "Finding food is a biological imperative for animals.",
+    "ipaUK": "/ɪmˈperətɪv/",
+    "ipaUS": "/ɪmˈperətɪv/",
+    "collocations": [
+      "biological imperative",
+      "moral imperative",
+      "it is imperative to"
+    ],
+    "wordFamily": "imperative (adj/n); usually formal/academic",
+    "synonyms": [
+      "essential",
+      "urgent"
+    ],
+    "studyNote": "Từ formal, dùng tốt trong Writing: It is imperative that...",
+    "ukVariant": "",
+    "gapExample": "Finding food is a biological ............... for animals.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/imperative",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/imperative"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "inhabit",
+    "pos": "v.",
+    "ipa": "/ɪnˈhæbɪt/",
+    "vi": "sống ở; cư trú tại",
+    "definition": "to live in a particular place",
+    "example": "Many seabirds inhabit coastal regions.",
+    "ipaUK": "/ɪnˈhæbɪt/",
+    "ipaUS": "/ɪnˈhæbɪt/",
+    "collocations": [
+      "inhabit a region",
+      "inhabit forests",
+      "widely inhabited"
+    ],
+    "wordFamily": "inhabit (v), inhabitant (n), inhabited (adj), habitat (n)",
+    "synonyms": [
+      "live in",
+      "occupy"
+    ],
+    "studyNote": "Trang trọng hơn live in.",
+    "ukVariant": "",
+    "gapExample": "Many seabirds ............... coastal regions.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/inhabit",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/inhabit"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "migration",
+    "pos": "n.",
+    "ipa": "/maɪˈɡreɪʃn/",
+    "vi": "sự di cư; di trú theo mùa",
+    "definition": "movement from one place to another, often seasonally",
+    "example": "Bird migration usually happens in spring and autumn.",
+    "ipaUK": "/maɪˈɡreɪʃn/",
+    "ipaUS": "/maɪˈɡreɪʃn/",
+    "collocations": [
+      "seasonal migration",
+      "bird migration",
+      "migration route"
+    ],
+    "wordFamily": "migrate (v), migration (n), migratory (adj), migrant (n)",
+    "synonyms": [
+      "seasonal movement",
+      "relocation"
+    ],
+    "studyNote": "Không chỉ người, động vật cũng có migration theo mùa.",
+    "ukVariant": "",
+    "gapExample": "Bird ............... usually happens in spring and autumn.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/migration",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/migration"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "navigation",
+    "pos": "n.",
+    "ipa": "/ˌnævɪˈɡeɪʃn/",
+    "vi": "sự định hướng; tìm đường",
+    "definition": "the process of finding the way from one place to another",
+    "example": "Stars and coastlines can help birds with navigation.",
+    "ipaUK": "/ˌnævɪˈɡeɪʃn/",
+    "ipaUS": "/ˌnævɪˈɡeɪʃn/",
+    "collocations": [
+      "navigation system",
+      "celestial navigation",
+      "aid navigation"
+    ],
+    "wordFamily": "navigate (v), navigation (n), navigator (n)",
+    "synonyms": [
+      "wayfinding",
+      "direction-finding"
+    ],
+    "studyNote": "Liên quan đến tìm đường/định hướng.",
+    "ukVariant": "",
+    "gapExample": "Stars and coastlines can help birds with ................",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/navigation",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/navigation"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "nocturnal",
+    "pos": "adj.",
+    "ipa": "/nɒkˈtɜːnl/",
+    "vi": "hoạt động ban đêm",
+    "definition": "active at night",
+    "example": "Nocturnal migrants may use the stars as cues.",
+    "ipaUK": "/nɒkˈtɜːnl/",
+    "ipaUS": "/nɑːkˈtɜːrnl/",
+    "collocations": [
+      "nocturnal birds",
+      "nocturnal habit",
+      "nocturnal migration"
+    ],
+    "wordFamily": "nocturnal (adj); noct- means “night”",
+    "synonyms": [
+      "night-active",
+      "night-time"
+    ],
+    "studyNote": "Nocturnal animals hoạt động ban đêm.",
+    "ukVariant": "",
+    "gapExample": "............... migrants may use the stars as cues.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/nocturnal",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/nocturnal"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "observer",
+    "pos": "n.",
+    "ipa": "/əbˈzɜːvə(r)/",
+    "vi": "người quan sát",
+    "definition": "a person who watches or studies something carefully",
+    "example": "An observer recorded the birds' flight path.",
+    "ipaUK": "/əbˈzɜːvə(r)/",
+    "ipaUS": "/əbˈzɜːrvər/",
+    "collocations": [
+      "careful observer",
+      "outside observer",
+      "bird observer"
+    ],
+    "wordFamily": "observe (v), observer (n), observation (n), observable (adj)",
+    "synonyms": [
+      "watcher",
+      "researcher"
+    ],
+    "studyNote": "Người quan sát, nghiên cứu hoặc ghi nhận hiện tượng.",
+    "ukVariant": "",
+    "gapExample": "An ............... recorded the birds' flight path.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/observer",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/observer"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "obscure",
+    "pos": "v./adj.",
+    "ipa": "/əbˈskjʊə(r)/",
+    "vi": "che khuất; làm khó thấy; khó hiểu",
+    "definition": "to hide something, make it difficult to see, or make it unclear",
+    "example": "Clouds can obscure the stars used for navigation.",
+    "ipaUK": "/əbˈskjʊə(r)/",
+    "ipaUS": "/əbˈskjʊr/",
+    "collocations": [
+      "obscure the view",
+      "obscure details",
+      "obscure meaning"
+    ],
+    "wordFamily": "obscure (v/adj), obscurity (n)",
+    "synonyms": [
+      "hide",
+      "make unclear"
+    ],
+    "studyNote": "Có thể là “che khuất” hoặc “khó hiểu/ít người biết”.",
+    "ukVariant": "",
+    "gapExample": "Clouds can ............... the stars used for navigation.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/obscure",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/obscure"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "optimal",
+    "pos": "adj.",
+    "ipa": "/ˈɒptɪməl/",
+    "vi": "tối ưu; tốt nhất",
+    "definition": "best or most suitable for a purpose",
+    "example": "Birds search for optimal places to nest.",
+    "ipaUK": "/ˈɒptɪməl/",
+    "ipaUS": "/ˈɑːptɪməl/",
+    "collocations": [
+      "optimal conditions",
+      "optimal route",
+      "optimal temperature"
+    ],
+    "wordFamily": "optimal (adj), optimize/optimise (v), optimum (n/adj)",
+    "synonyms": [
+      "best",
+      "ideal"
+    ],
+    "studyNote": "Tương đương “best possible” trong một điều kiện cụ thể.",
+    "ukVariant": "",
+    "gapExample": "Birds search for ............... places to nest.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/optimal",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/optimal"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "species",
+    "pos": "n.",
+    "ipa": "/ˈspiːʃiːz/",
+    "vi": "loài",
+    "definition": "a group of living things that share common features and can reproduce",
+    "example": "Different species use different migration routes.",
+    "ipaUK": "/ˈspiːʃiːz/",
+    "ipaUS": "/ˈspiːʃiːz/",
+    "collocations": [
+      "endangered species",
+      "bird species",
+      "native species"
+    ],
+    "wordFamily": "species (singular/plural same form)",
+    "synonyms": [
+      "kind",
+      "type of organism"
+    ],
+    "studyNote": "Species dùng giống nhau cho số ít và số nhiều.",
+    "ukVariant": "",
+    "gapExample": "Different ............... use different migration routes.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/species",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/species"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "stray",
+    "pos": "v.",
+    "ipa": "/streɪ/",
+    "vi": "đi lạc; lệch khỏi đường đúng",
+    "definition": "to move away from the correct route or group",
+    "example": "Young birds may stray from the flock during storms.",
+    "ipaUK": "/streɪ/",
+    "ipaUS": "/streɪ/",
+    "collocations": [
+      "stray from the route",
+      "stray into",
+      "stray animal"
+    ],
+    "wordFamily": "stray (v/adj/n), straying (n)",
+    "synonyms": [
+      "wander",
+      "deviate"
+    ],
+    "studyNote": "Đi chệch khỏi tuyến đường/nhóm/ý chính.",
+    "ukVariant": "",
+    "gapExample": "Young birds may ............... from the flock during storms.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/stray",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/stray"
+  },
+  {
+    "topic": "Bird Migration",
+    "emoji": "🪽",
+    "word": "windswept",
+    "pos": "adj.",
+    "ipa": "/ˈwɪndswept/",
+    "vi": "lộng gió; bị gió quét mạnh",
+    "definition": "exposed to strong winds",
+    "example": "The birds nested on windswept cliffs.",
+    "ipaUK": "/ˈwɪndswept/",
+    "ipaUS": "/ˈwɪndswept/",
+    "collocations": [
+      "windswept cliffs",
+      "windswept island",
+      "windswept coast"
+    ],
+    "wordFamily": "wind (n) + swept (past participle) → windswept",
+    "synonyms": [
+      "windy",
+      "exposed"
+    ],
+    "studyNote": "Miêu tả nơi trống trải bị gió thổi mạnh thường xuyên.",
+    "ukVariant": "",
+    "gapExample": "The birds nested on ............... cliffs.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/windswept",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/windswept"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "accumulate",
+    "pos": "v.",
+    "ipa": "/əˈkjuːmjəleɪt/",
+    "vi": "tích tụ; gom lại dần",
+    "definition": "to gradually collect or increase over time",
+    "example": "Salt can accumulate on the leaves of desert plants.",
+    "ipaUK": "/əˈkjuːmjəleɪt/",
+    "ipaUS": "/əˈkjuːmjəleɪt/",
+    "collocations": [
+      "accumulate salt",
+      "accumulate evidence",
+      "accumulate over time"
+    ],
+    "wordFamily": "accumulate (v), accumulation (n), cumulative (adj)",
+    "synonyms": [
+      "collect",
+      "build up"
+    ],
+    "studyNote": "Tăng dần, tích tụ qua thời gian.",
+    "ukVariant": "",
+    "gapExample": "Salt can ............... on the leaves of desert plants.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/accumulate",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/accumulate"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "adapt",
+    "pos": "v.",
+    "ipa": "/əˈdæpt/",
+    "vi": "thích nghi; điều chỉnh cho phù hợp",
+    "definition": "to change in order to fit a new situation or environment",
+    "example": "Plants adapt to dry deserts by developing deep roots.",
+    "ipaUK": "/əˈdæpt/",
+    "ipaUS": "/əˈdæpt/",
+    "collocations": [
+      "adapt to drought",
+      "adapt quickly",
+      "adapt a strategy"
+    ],
+    "wordFamily": "adapt (v), adaptation (n), adaptable (adj)",
+    "synonyms": [
+      "adjust",
+      "modify"
+    ],
+    "studyNote": "Adapt to + môi trường/điều kiện mới.",
+    "ukVariant": "",
+    "gapExample": "Plants ............... to dry deserts by developing deep roots.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/adapt",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/adapt"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "determine",
+    "pos": "v.",
+    "ipa": "/dɪˈtɜːmɪn/",
+    "vi": "xác định; quyết định",
+    "definition": "to find out, control, or decide something",
+    "example": "The plant can determine when to close its pores.",
+    "ipaUK": "/dɪˈtɜːmɪn/",
+    "ipaUS": "/dɪˈtɜːrmɪn/",
+    "collocations": [
+      "determine whether",
+      "determine the cause",
+      "determine when"
+    ],
+    "wordFamily": "determine (v), determination (n), determined (adj)",
+    "synonyms": [
+      "decide",
+      "find out"
+    ],
+    "studyNote": "Có thể là xác định thông tin hoặc quyết định kết quả.",
+    "ukVariant": "",
+    "gapExample": "The plant can ............... when to close its pores.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/determine",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/determine"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "dilute",
+    "pos": "v.",
+    "ipa": "/daɪˈluːt/",
+    "vi": "pha loãng; làm yếu đi",
+    "definition": "to make a liquid or substance weaker by mixing it with water or another substance",
+    "example": "Some plants dilute toxic salt inside their cells.",
+    "ipaUK": "/daɪˈluːt/",
+    "ipaUS": "/daɪˈluːt/",
+    "collocations": [
+      "dilute salt",
+      "dilute a solution",
+      "dilute the effect"
+    ],
+    "wordFamily": "dilute (v/adj), dilution (n)",
+    "synonyms": [
+      "weaken",
+      "thin"
+    ],
+    "studyNote": "Pha loãng chất lỏng, hoặc làm yếu tác động/lập luận.",
+    "ukVariant": "",
+    "gapExample": "Some plants ............... toxic salt inside their cells.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/dilute",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/dilute"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "diverse",
+    "pos": "adj.",
+    "ipa": "/daɪˈvɜːs/",
+    "vi": "đa dạng; nhiều loại khác nhau",
+    "definition": "varied; made up of many different kinds",
+    "example": "The desert fringe supports diverse plant forms.",
+    "ipaUK": "/daɪˈvɜːs/",
+    "ipaUS": "/daɪˈvɜːrs/",
+    "collocations": [
+      "diverse species",
+      "diverse forms",
+      "culturally diverse"
+    ],
+    "wordFamily": "diverse (adj), diversity (n), diversify (v)",
+    "synonyms": [
+      "varied",
+      "different"
+    ],
+    "studyNote": "Academic way to say “many different types”.",
+    "ukVariant": "",
+    "gapExample": "The desert fringe supports ............... plant forms.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/diverse",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/diverse"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "evaporation",
+    "pos": "n.",
+    "ipa": "/ɪˌvæpəˈreɪʃn/",
+    "vi": "sự bay hơi",
+    "definition": "the process in which liquid changes into gas or vapor",
+    "example": "Plants close tiny pores to reduce evaporation.",
+    "ipaUK": "/ɪˌvæpəˈreɪʃn/",
+    "ipaUS": "/ɪˌvæpəˈreɪʃn/",
+    "collocations": [
+      "reduce evaporation",
+      "evaporation rate",
+      "water evaporation"
+    ],
+    "wordFamily": "evaporate (v), evaporation (n), evaporative (adj)",
+    "synonyms": [
+      "vaporization",
+      "water loss"
+    ],
+    "studyNote": "Quá trình nước chuyển thành hơi.",
+    "ukVariant": "",
+    "gapExample": "Plants close tiny pores to reduce ................",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/evaporation",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/evaporation"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "extreme",
+    "pos": "adj./n.",
+    "ipa": "/ɪkˈstriːm/",
+    "vi": "khắc nghiệt; cực đoan; mức cực hạn",
+    "definition": "very severe, intense, or far from ordinary",
+    "example": "The Taklimakan Desert is an extreme environment.",
+    "ipaUK": "/ɪkˈstriːm/",
+    "ipaUS": "/ɪkˈstriːm/",
+    "collocations": [
+      "extreme conditions",
+      "extreme heat",
+      "extreme environment"
+    ],
+    "wordFamily": "extreme (adj/n), extremely (adv), extremity (n)",
+    "synonyms": [
+      "severe",
+      "intense"
+    ],
+    "studyNote": "Dùng cho điều kiện rất khắc nghiệt: heat/cold/weather.",
+    "ukVariant": "",
+    "gapExample": "The Taklimakan Desert is an ............... environment.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/extreme",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/extreme"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "fringe",
+    "pos": "n.",
+    "ipa": "/frɪndʒ/",
+    "vi": "rìa; mép; vùng ven",
+    "definition": "the outer edge of an area or group",
+    "example": "Some plants grow on the fringe of the desert.",
+    "ipaUK": "/frɪndʒ/",
+    "ipaUS": "/frɪndʒ/",
+    "collocations": [
+      "desert fringe",
+      "on the fringe of",
+      "urban fringe"
+    ],
+    "wordFamily": "fringe (n/adj), fringe area/group",
+    "synonyms": [
+      "edge",
+      "margin"
+    ],
+    "studyNote": "Vùng rìa/mép của một khu vực.",
+    "ukVariant": "",
+    "gapExample": "Some plants grow on the ............... of the desert.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/fringe",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/fringe"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "mechanism",
+    "pos": "n.",
+    "ipa": "/ˈmekənɪzəm/",
+    "vi": "cơ chế; cách thức hoạt động/ứng phó",
+    "definition": "a process or system that makes something happen or helps something work",
+    "example": "Deep roots are a survival mechanism for desert plants.",
+    "ipaUK": "/ˈmekənɪzəm/",
+    "ipaUS": "/ˈmekənɪzəm/",
+    "collocations": [
+      "coping mechanism",
+      "defense mechanism",
+      "survival mechanism"
+    ],
+    "wordFamily": "mechanism (n), mechanical (adj), mechanically (adv)",
+    "synonyms": [
+      "process",
+      "system"
+    ],
+    "studyNote": "Cơ chế/cách một hệ thống hoạt động để đạt mục tiêu.",
+    "ukVariant": "",
+    "gapExample": "Deep roots are a survival ............... for desert plants.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/mechanism",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/mechanism"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "minimize",
+    "pos": "v.",
+    "ipa": "/ˈmɪnɪmaɪz/",
+    "vi": "giảm thiểu đến mức thấp nhất",
+    "definition": "to reduce something as much as possible",
+    "example": "Leaves can close pores to minimize water loss.",
+    "ipaUK": "/ˈmɪnɪmaɪz/",
+    "ipaUS": "/ˈmɪnɪmaɪz/",
+    "collocations": [
+      "minimize loss",
+      "minimize risk",
+      "minimize damage"
+    ],
+    "wordFamily": "minimize/minimise (v), minimum (n/adj), minimal (adj)",
+    "synonyms": [
+      "reduce",
+      "lessen"
+    ],
+    "studyNote": "Mỹ viết minimize, Anh thường viết minimise.",
+    "ukVariant": "minimise",
+    "gapExample": "Leaves can close pores to ............... water loss.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/minimize",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/minimize"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "moisture",
+    "pos": "n.",
+    "ipa": "/ˈmɔɪstʃə(r)/",
+    "vi": "độ ẩm; hơi nước; lượng nước nhỏ",
+    "definition": "a small amount of water in air, soil, or a substance",
+    "example": "Desert plants must conserve moisture.",
+    "ipaUK": "/ˈmɔɪstʃə(r)/",
+    "ipaUS": "/ˈmɔɪstʃər/",
+    "collocations": [
+      "retain moisture",
+      "soil moisture",
+      "moisture loss"
+    ],
+    "wordFamily": "moist (adj), moisture (n), moisturize/moisturise (v)",
+    "synonyms": [
+      "dampness",
+      "water content"
+    ],
+    "studyNote": "Lượng nước nhỏ trong đất/không khí/vật liệu.",
+    "ukVariant": "",
+    "gapExample": "Desert plants must conserve ................",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/moisture",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/moisture"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "occupy",
+    "pos": "v.",
+    "ipa": "/ˈɒkjupaɪ/",
+    "vi": "chiếm; cư ngụ; ở tại",
+    "definition": "to take up space or live in a place",
+    "example": "Sparse vegetation occupies the edge of the oasis.",
+    "ipaUK": "/ˈɒkjupaɪ/",
+    "ipaUS": "/ˈɑːkjupaɪ/",
+    "collocations": [
+      "occupy an area",
+      "occupy space",
+      "currently occupied"
+    ],
+    "wordFamily": "occupy (v), occupation (n), occupied (adj)",
+    "synonyms": [
+      "take up",
+      "inhabit"
+    ],
+    "studyNote": "Chiếm không gian/diện tích, hoặc cư ngụ.",
+    "ukVariant": "",
+    "gapExample": "Sparse vegetation ...............ies the edge of the oasis.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/occupy",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/occupy"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "prolific",
+    "pos": "adj.",
+    "ipa": "/prəˈlɪfɪk/",
+    "vi": "sinh sôi nhiều; tạo ra nhiều; năng suất cao",
+    "definition": "producing many results, plants, works, or young",
+    "example": "Some desert shrubs are surprisingly prolific after rain.",
+    "ipaUK": "/prəˈlɪfɪk/",
+    "ipaUS": "/prəˈlɪfɪk/",
+    "collocations": [
+      "prolific vegetation",
+      "prolific writer",
+      "prolific growth"
+    ],
+    "wordFamily": "prolific (adj), prolifically (adv)",
+    "synonyms": [
+      "productive",
+      "abundant"
+    ],
+    "studyNote": "Tạo ra/sinh sản rất nhiều; dùng cho cây, tác giả, nghệ sĩ.",
+    "ukVariant": "",
+    "gapExample": "Some desert shrubs are surprisingly ............... after rain.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/prolific",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/prolific"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "resilient",
+    "pos": "adj.",
+    "ipa": "/rɪˈzɪliənt/",
+    "vi": "kiên cường; chịu đựng/phục hồi tốt",
+    "definition": "able to recover quickly or survive difficult conditions",
+    "example": "Resilient plants can survive heat, salt, and drought.",
+    "ipaUK": "/rɪˈzɪliənt/",
+    "ipaUS": "/rɪˈzɪliənt/",
+    "collocations": [
+      "resilient plants",
+      "resilient economy",
+      "highly resilient"
+    ],
+    "wordFamily": "resilient (adj), resilience (n)",
+    "synonyms": [
+      "tough",
+      "hardy"
+    ],
+    "studyNote": "Khả năng chịu đựng và phục hồi sau khó khăn.",
+    "ukVariant": "",
+    "gapExample": "............... plants can survive heat, salt, and drought.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/resilient",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/resilient"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "sparse",
+    "pos": "adj.",
+    "ipa": "/spɑːs/",
+    "vi": "thưa thớt; ít ỏi",
+    "definition": "small in amount or number; not dense",
+    "example": "Sparse rainfall makes desert survival difficult.",
+    "ipaUK": "/spɑːs/",
+    "ipaUS": "/spɑːrs/",
+    "collocations": [
+      "sparse rainfall",
+      "sparse population",
+      "sparse vegetation"
+    ],
+    "wordFamily": "sparse (adj), sparsely (adv), sparsity (n)",
+    "synonyms": [
+      "scant",
+      "thin"
+    ],
+    "studyNote": "Ít và thưa, trái với dense.",
+    "ukVariant": "",
+    "gapExample": "............... rainfall makes desert survival difficult.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/sparse",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/sparse"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "stressor",
+    "pos": "n.",
+    "ipa": "/ˈstresə(r)/",
+    "vi": "tác nhân gây áp lực/căng thẳng",
+    "definition": "something that creates pressure or difficult conditions",
+    "example": "Salt, heat, and drought are environmental stressors.",
+    "ipaUK": "/ˈstresə(r)/",
+    "ipaUS": "/ˈstresər/",
+    "collocations": [
+      "environmental stressor",
+      "major stressor",
+      "physical stressor"
+    ],
+    "wordFamily": "stress (n/v), stressor (n), stressful (adj)",
+    "synonyms": [
+      "pressure",
+      "stress factor"
+    ],
+    "studyNote": "Tác nhân tạo áp lực lên sinh vật/hệ thống.",
+    "ukVariant": "",
+    "gapExample": "Salt, heat, and drought are environmental ...............s.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/stressor",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/stressor"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "swing",
+    "pos": "n./v.",
+    "ipa": "/swɪŋ/",
+    "vi": "sự dao động; thay đổi lớn; đung đưa",
+    "definition": "a large change from one level, state, or direction to another",
+    "example": "Daily temperature swings can be extreme in deserts.",
+    "ipaUK": "/swɪŋ/",
+    "ipaUS": "/swɪŋ/",
+    "collocations": [
+      "temperature swing",
+      "mood swing",
+      "swing sharply"
+    ],
+    "wordFamily": "swing (n/v), swinging (adj)",
+    "synonyms": [
+      "fluctuation",
+      "shift"
+    ],
+    "studyNote": "Sự dao động lớn giữa hai mức/trạng thái.",
+    "ukVariant": "",
+    "gapExample": "Daily temperature ...............s can be extreme in deserts.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/swing",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/swing"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "thrive",
+    "pos": "v.",
+    "ipa": "/θraɪv/",
+    "vi": "phát triển mạnh; sống tốt",
+    "definition": "to grow or do very well",
+    "example": "Some plants thrive despite the harsh desert climate.",
+    "ipaUK": "/θraɪv/",
+    "ipaUS": "/θraɪv/",
+    "collocations": [
+      "thrive in deserts",
+      "thrive under pressure",
+      "thrive on change"
+    ],
+    "wordFamily": "thrive (v), thriving (adj)",
+    "synonyms": [
+      "flourish",
+      "prosper"
+    ],
+    "studyNote": "Không chỉ sống sót, mà còn phát triển tốt.",
+    "ukVariant": "",
+    "gapExample": "Some plants ............... despite the harsh desert climate.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/thrive",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/thrive"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "transitional",
+    "pos": "adj.",
+    "ipa": "/trænˈzɪʃənəl/",
+    "vi": "mang tính chuyển tiếp; trung gian",
+    "definition": "relating to change from one state, place, or type to another",
+    "example": "Transitional areas between desert and oasis support plant life.",
+    "ipaUK": "/trænˈzɪʃənəl/",
+    "ipaUS": "/trænˈzɪʃənəl/",
+    "collocations": [
+      "transitional area",
+      "transitional phase",
+      "transitional period"
+    ],
+    "wordFamily": "transition (n/v), transitional (adj)",
+    "synonyms": [
+      "intermediate",
+      "changing"
+    ],
+    "studyNote": "Giai đoạn/khu vực chuyển tiếp giữa hai trạng thái.",
+    "ukVariant": "",
+    "gapExample": "............... areas between desert and oasis support plant life.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/transitional",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/transitional"
+  },
+  {
+    "topic": "Plant Life in the Taklimakan Desert",
+    "emoji": "🌵",
+    "word": "violent",
+    "pos": "adj.",
+    "ipa": "/ˈvaɪələnt/",
+    "vi": "dữ dội; mãnh liệt; có sức phá hoại",
+    "definition": "very strong, sudden, and destructive",
+    "example": "Violent sandstorms can bury young plants.",
+    "ipaUK": "/ˈvaɪələnt/",
+    "ipaUS": "/ˈvaɪələnt/",
+    "collocations": [
+      "violent storm",
+      "violent sandstorm",
+      "violent change"
+    ],
+    "wordFamily": "violent (adj), violence (n), violently (adv)",
+    "synonyms": [
+      "fierce",
+      "forceful"
+    ],
+    "studyNote": "Dữ dội, mạnh và có khả năng phá hoại.",
+    "ukVariant": "",
+    "gapExample": "............... sandstorms can bury young plants.",
+    "oxfordUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/violent",
+    "cambridgeUrl": "https://dictionary.cambridge.org/dictionary/english/violent"
+  }
+];
+const LS_KEY = 'barron-unit1-natural-world-progress-v2';
+let state = JSON.parse(localStorage.getItem(LS_KEY) || '{"known":[],"fav":[],"bestQuiz":0,"streak":0}');
+let deck = [...WORDS], current = 0, selectedTopic = 'all';
+let quizDeck = [], quizIndex = 0, quizScore = 0, quizCurrent = null;
+let selectedMatch = [], moves = 0, spellWord = null;
+const $ = id => document.getElementById(id);
+const save = () => localStorage.setItem(LS_KEY, JSON.stringify(state));
+const shuffle = arr => arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+const normalize = s => (s||'').trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z]/g,'');
+const knownSet = () => new Set(state.known || []); const favSet = () => new Set(state.fav || []);
+function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1700); }
+function confetti(){ ['🌸','✨','🌿','💫','🪽','🌟','🍃'].forEach((c,i)=>{ const el=document.createElement('div'); el.className='confetti'; el.textContent=c; el.style.left=(10+Math.random()*80)+'vw'; el.style.animationDelay=(i*.055)+'s'; document.body.appendChild(el); setTimeout(()=>el.remove(),1400); }); }
+function oxfordStem(raw){ const clean=(raw||'').toLowerCase().replace(/[^a-z]/g,''); return {clean, l:clean[0], p3:clean.slice(0,3), p5:clean.slice(0,5)}; }
+function oxfordUrlFor(raw, accent, n=1){ const s=oxfordStem(raw); const folder=accent==='uk'?'uk_pron':'us_pron'; const suffix=accent==='uk'?'gb':'us'; return `https://www.oxfordlearnersdictionaries.com/media/english/${folder}/${s.l}/${s.p3}/${s.p5}/${s.clean}__${suffix}_${n}.mp3`; }
+async function tryAudio(url){ return new Promise((resolve,reject)=>{ const a=new Audio(); a.preload='auto'; const fail=()=>reject(new Error('audio failed')); a.onerror=fail; a.oncanplaythrough=()=>{ a.play().then(resolve).catch(reject); }; a.src=url; setTimeout(()=>reject(new Error('audio timeout')),3500); }); }
+function browserTTS(word, accent){ if(!('speechSynthesis' in window)){ toast('No browser voice available.'); return; } const u=new SpeechSynthesisUtterance(word); u.lang=accent==='uk'?'en-GB':'en-US'; u.rate=.86; const voices=speechSynthesis.getVoices(); const preferred=voices.find(v=>v.lang===u.lang) || voices.find(v=>v.lang?.startsWith(accent==='uk'?'en-GB':'en-US')) || voices.find(v=>v.lang?.startsWith('en')); if(preferred) u.voice=preferred; speechSynthesis.cancel(); speechSynthesis.speak(u); }
+async function playWord(wordObj, accent='uk'){ const raw = (accent==='uk' && wordObj.ukVariant) ? wordObj.ukVariant : wordObj.word; const candidates=[oxfordUrlFor(raw,accent,1), oxfordUrlFor(raw,accent,2), oxfordUrlFor(wordObj.word,accent,1), oxfordUrlFor(wordObj.word,accent,2)]; for(const u of [...new Set(candidates)]){ try{ await tryAudio(u); return; }catch(e){} } browserTTS(wordObj.word, accent); toast(`Using browser ${accent.toUpperCase()} voice fallback`); }
+function openDict(wordObj, source){ window.open(source==='cambridge'?wordObj.cambridgeUrl:wordObj.oxfordUrl, '_blank', 'noopener'); }
+function updateStats(){ $('statTotal').textContent=WORDS.length; $('statKnown').textContent=knownSet().size; $('statFav').textContent=favSet().size; $('statQuiz').textContent=(state.bestQuiz||0)+'%'; }
+function progressSegments(index,total){ const chunk=Math.max(1, Math.ceil(total/6)); let html='<div class="round-step">'+(index+1)+'</div>'; for(let i=0;i<6;i++) html += `<div class="bar-step ${index >= i*chunk ? 'done':''}"></div>`; html += `<span class="counter">${index+1}/${total}</span>`; return html; }
+function showView(id){ document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden')); $(id).classList.remove('hidden'); document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===id)); if(id==='quiz') startQuiz(false); if(id==='match') startMatch(); if(id==='spell') nextSpell(); if(id==='wordbook') renderWordbook(); if(id==='flashcards') renderFlash(); if(id==='learn') renderLearnCard(); window.scrollTo({top:0,behavior:'smooth'}); }
+window.showView = showView;
+function toggleKnown(word){ const s=knownSet(); s.has(word)?s.delete(word):s.add(word); state.known=[...s]; save(); updateStats(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); }
+function toggleFav(word){ const s=favSet(); s.has(word)?s.delete(word):s.add(word); state.fav=[...s]; save(); updateStats(); renderLearnCard(); renderRails(); renderWordbook(); }
+function renderTopicFilters(){ const topics=[...new Set(WORDS.map(w=>w.topic))]; $('topicChips').innerHTML = `<button class="topic-chip ${selectedTopic==='all'?'active':''}" onclick="setTopic('all')">🌈 All topics</button>` + topics.map(t=>`<button class="topic-chip ${selectedTopic===t?'active':''}" onclick="setTopic('${t.replace(/'/g,"\'")}')">${WORDS.find(w=>w.topic===t).emoji} ${t}</button>`).join(''); $('topicFilter').innerHTML='<option value="all">All topics</option>'+topics.map(t=>`<option value="${t}">${t}</option>`).join(''); }
+window.setTopic = function(t){ selectedTopic=t; current=0; renderTopicFilters(); renderRails(); renderLearnCard(); }
+function filteredWords(){ const q=($('railSearch')?.value||'').toLowerCase(); return WORDS.filter(w=>(selectedTopic==='all'||w.topic===selectedTopic) && [w.word,w.vi,w.definition,w.example,w.studyNote].join(' ').toLowerCase().includes(q)); }
+function renderRails(){ const list=filteredWords(); const known=knownSet(); const fav=favSet(); if(current>=list.length) current=0; $('railWords').innerHTML=list.map((w,i)=>`<button class="rail-word ${i===current?'active':''}" onclick="selectLearn(${i})"><span>${known.has(w.word)?'✅ ':''}${fav.has(w.word)?'⭐ ':''}${w.word}<br><small>${w.pos} · ${w.vi}</small></span><span>${w.emoji}</span></button>`).join('') || '<p class="hint">No words found.</p>'; }
+window.selectLearn = function(i){ current=i; renderRails(); renderLearnCard(); }
+function getCurrentLearnWord(){ const list=filteredWords(); return list[current] || WORDS[0]; }
+function renderLearnCard(){ const w=getCurrentLearnWord(); const globalIndex=WORDS.findIndex(x=>x.word===w.word); const known=knownSet().has(w.word), fav=favSet().has(w.word); $('learnCard').innerHTML = `
+  <div class="card-head"><span class="topic-label">${w.emoji} ${w.topic}</span><button class="star" onclick="toggleFav('${w.word}')">${fav?'★':'☆'}</button></div>
+  <div class="word-title">${w.word}</div>
+  <div class="word-meta"><span class="pos">${w.pos}</span><span class="ipa-pill">UK ${w.ipaUK}</span><span class="ipa-pill">US ${w.ipaUS}</span></div>
+  <div class="sound-row"><button class="sound-btn" onclick='playWord(WORDS[${globalIndex}],"uk")'>🔊 UK accent</button><button class="sound-btn us" onclick='playWord(WORDS[${globalIndex}],"us")'>🔊 US accent</button><button class="sound-btn" onclick='openDict(WORDS[${globalIndex}],"oxford")'>Oxford ↗</button><button class="sound-btn us" onclick='openDict(WORDS[${globalIndex}],"cambridge")'>Cambridge ↗</button></div>
+  <div class="def-box"><div class="def-label">Definition</div><div class="def-text">${w.definition}</div></div>
+  <div class="def-box"><div class="def-label">Example</div><div class="example">${w.example}</div></div>
+  <div class="def-box"><div class="def-label">Fill the blank</div><div class="example gap">${w.gapExample}</div></div>
+  <div class="meaning">${w.vi}</div>
+  <div class="info-grid"><div class="info-card"><div class="def-label">Useful chunks</div><ul>${w.collocations.map(c=>`<li>${c}</li>`).join('')}</ul></div><div class="info-card"><div class="def-label">Word family</div><div class="family">${w.wordFamily}</div></div><div class="info-card"><div class="def-label">Near meanings</div><ul>${w.synonyms.map(c=>`<li>${c}</li>`).join('')}</ul></div><div class="info-card"><div class="def-label">IELTS note</div><div class="family">${w.studyNote}</div></div></div>
+  <div class="card-controls"><div class="mini-progress">${progressSegments(globalIndex,WORDS.length)}</div><button class="btn" onclick="prevLearn()">← Prev</button><button class="btn green" onclick="toggleKnown('${w.word}')">${known?'Unmaster':'Mastered'}</button><button class="btn" onclick="nextLearn()">Next →</button></div>`; }
+window.prevLearn = function(){ const list=filteredWords(); current=(current-1+list.length)%list.length; renderRails(); renderLearnCard(); }
+window.nextLearn = function(){ const list=filteredWords(); current=(current+1)%list.length; renderRails(); renderLearnCard(); }
+function renderFlash(){ const w=deck[current%deck.length]; $('frontFace').innerHTML=`<div><span class="topic-label">${w.emoji} ${w.topic}</span><div class="bigword">${w.word}</div><div class="word-meta"><span class="pos">${w.pos}</span><span class="ipa-pill">UK ${w.ipaUK}</span><span class="ipa-pill">US ${w.ipaUS}</span></div></div><div><div class="sound-row"><button class="sound-btn" onclick="event.stopPropagation(); playWord(deck[current],'uk')">🔊 UK</button><button class="sound-btn us" onclick="event.stopPropagation(); playWord(deck[current],'us')">🔊 US</button></div><p class="hint">Tap to flip</p></div>`; $('backFace').innerHTML=`<div><span class="topic-label">${w.emoji} Meaning</span><div class="bigvi">${w.vi}</div><div class="def-box"><div class="def-label">Definition</div><div class="def-text">${w.definition}</div></div></div><div class="example">${w.example}</div>`; $('flashCount').textContent=(current+1)+' / '+deck.length; $('flashTopic').textContent=w.topic.replace('Environmental Impacts of ',''); $('flashStatus').textContent=knownSet().has(w.word)?'Mastered':'Learning'; $('flashcard').classList.remove('flipped'); }
+function startQuiz(force=true){ if(force || quizDeck.length===0 || quizIndex>=quizDeck.length){ quizDeck=shuffle(WORDS).slice(0,12); quizIndex=0; quizScore=0; } renderQuiz(); }
+function renderQuiz(){ quizCurrent=quizDeck[quizIndex]; $('quizProgress').innerHTML=progressSegments(quizIndex,quizDeck.length); $('quizQuestion').textContent=quizCurrent.definition; const wrong=shuffle(WORDS.filter(x=>x.word!==quizCurrent.word)).slice(0,3).map(x=>x.word); const opts=shuffle([quizCurrent.word,...wrong]); $('options').innerHTML=opts.map((o,i)=>`<button class="option"><span class="opt-num">${i+1}</span><span>${o}</span></button>`).join(''); $('feedback').textContent=''; document.querySelectorAll('.option').forEach(btn=>btn.onclick=()=>chooseQuiz(btn)); }
+function chooseQuiz(btn){ const answer=btn.querySelector('span:last-child').textContent; const ok=answer===quizCurrent.word; document.querySelectorAll('.option').forEach(b=>{ b.disabled=true; if(b.querySelector('span:last-child').textContent===quizCurrent.word)b.classList.add('correct'); }); if(!ok) btn.classList.add('wrong'); if(ok){ quizScore++; state.streak=(state.streak||0)+1; $('feedback').textContent='Correct! Tiny brain confetti ✨'; $('feedback').className='feedback good'; } else { state.streak=0; $('feedback').textContent=`Not quite — it was “${quizCurrent.word}”.`; $('feedback').className='feedback bad'; } setTimeout(()=>{ quizIndex++; if(quizIndex>=quizDeck.length){ const pct=Math.round(quizScore/quizDeck.length*100); state.bestQuiz=Math.max(state.bestQuiz||0,pct); save(); updateStats(); toast(`Quiz done: ${pct}%`); confetti(); startQuiz(true); } else renderQuiz(); },1150); }
+function startMatch(){ const items=shuffle(WORDS).slice(0,6); const cards=shuffle([...items.map(w=>({type:'word',key:w.word,text:w.word})),...items.map(w=>({type:'vi',key:w.word,text:w.vi}))]); selectedMatch=[]; moves=0; $('moveCount').textContent='Moves 0'; $('pairsLeft').textContent='Pairs left 6'; $('matchBoard').innerHTML=cards.map(c=>`<button class="match-card" data-key="${c.key}" data-type="${c.type}">${c.text}</button>`).join(''); document.querySelectorAll('.match-card').forEach(c=>c.onclick=()=>pickMatch(c)); }
+function pickMatch(card){ if(card.classList.contains('matched')||card.classList.contains('selected'))return; card.classList.add('selected'); selectedMatch.push(card); if(selectedMatch.length===2){ moves++; $('moveCount').textContent='Moves '+moves; const [a,b]=selectedMatch; const ok=a.dataset.key===b.dataset.key && a.dataset.type!==b.dataset.type; if(ok){ setTimeout(()=>{a.classList.add('matched'); b.classList.add('matched'); a.classList.remove('selected'); b.classList.remove('selected'); selectedMatch=[]; const left=document.querySelectorAll('.match-card:not(.matched)').length/2; $('pairsLeft').textContent='Pairs left '+left; if(left===0){toast(`Matched in ${moves} moves!`);confetti();} },220); } else { setTimeout(()=>{a.classList.remove('selected'); b.classList.remove('selected'); selectedMatch=[];},650); } } }
+function nextSpell(){ spellWord=shuffle(WORDS)[0]; $('spellTopic').textContent=spellWord.emoji+' '+spellWord.topic; $('spellPrompt').textContent=spellWord.vi; $('spellDef').textContent=spellWord.definition; $('spellInput').value=''; $('spellFeedback').textContent=''; $('spellHint').textContent='Tap hint to reveal first and last letters.'; }
+function checkSpell(){ const val=normalize($('spellInput').value); const ans=normalize(spellWord.word); if(val===ans){ $('spellFeedback').textContent='Correct — spelling goblin defeated.'; $('spellFeedback').className='feedback good'; toggleKnown(spellWord.word); setTimeout(nextSpell,900); } else { $('spellFeedback').textContent='Almost. Try again or use the hint.'; $('spellFeedback').className='feedback bad'; } }
+function renderWordbook(){ const q=($('searchInput').value||'').toLowerCase(); const topic=$('topicFilter').value||'all'; const known=knownSet(), fav=favSet(); const rows=WORDS.filter(w=>(topic==='all'||w.topic===topic) && [w.word,w.vi,w.definition,w.example,w.studyNote,w.collocations.join(' ')].join(' ').toLowerCase().includes(q)); $('wordGrid').innerHTML=rows.map(w=>{ const idx=WORDS.findIndex(x=>x.word===w.word); return `<article class="vocab-card"><div class="vocab-top"><div><div class="vocab-word">${fav.has(w.word)?'⭐ ':''}${w.word}</div><span class="badge">${w.pos} · UK ${w.ipaUK}</span></div><button class="star" onclick="toggleFav('${w.word}')">${fav.has(w.word)?'★':'☆'}</button></div><div class="vocab-vi">${w.vi}</div><div class="vocab-def">${w.definition}</div><div class="sound-row"><button class="sound-btn" onclick='playWord(WORDS[${idx}],"uk")'>UK</button><button class="sound-btn us" onclick='playWord(WORDS[${idx}],"us")'>US</button></div><span class="badge">${known.has(w.word)?'✅ Mastered':'Learning'}</span></article>`; }).join('') || '<p class="hint">No words found.</p>'; }
+$('tabs').addEventListener('click',e=>{ const b=e.target.closest('.tab'); if(b) showView(b.dataset.view); });
+$('railSearch').addEventListener('input',()=>{current=0;renderRails();renderLearnCard();});
+$('shuffleAll').onclick=()=>{ deck=shuffle(deck); current=0; renderFlash(); toast('Deck shuffled'); };
+$('resetProgress').onclick=()=>{ if(confirm('Reset mastered/starred words and quiz score?')){ state={known:[],fav:[],bestQuiz:0,streak:0}; save(); updateStats(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); toast('Progress reset'); } };
+$('flashcard').onclick=()=>$('flashcard').classList.toggle('flipped'); $('prevCard').onclick=()=>{current=(current-1+deck.length)%deck.length;renderFlash();}; $('nextCard').onclick=()=>{current=(current+1)%deck.length;renderFlash();}; $('markKnown').onclick=()=>toggleKnown(deck[current].word); $('flashUK').onclick=()=>playWord(deck[current],'uk'); $('flashUS').onclick=()=>playWord(deck[current],'us');
+$('quizSound').onclick=()=>quizCurrent&&playWord(quizCurrent,'uk'); $('dontKnow').onclick=()=>{ $('feedback').textContent=`Answer: ${quizCurrent.word} — ${quizCurrent.vi}`; $('feedback').className='feedback bad'; setTimeout(()=>{quizIndex++; if(quizIndex>=quizDeck.length) startQuiz(true); else renderQuiz();},1200); };
+$('newMatch').onclick=startMatch; $('checkSpell').onclick=checkSpell; $('spellInput').addEventListener('keydown',e=>{if(e.key==='Enter')checkSpell();}); $('showHint').onclick=()=>{ const w=spellWord.word; $('spellHint').textContent=w.split('').map((ch,i)=>i===0||i===w.length-1?ch:'·').join(' '); }; $('skipSpell').onclick=nextSpell;
+$('searchInput').addEventListener('input',renderWordbook); $('topicFilter').addEventListener('change',renderWordbook);
+if('speechSynthesis' in window) speechSynthesis.onvoiceschanged=()=>speechSynthesis.getVoices();
+renderTopicFilters(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); updateStats();
+</script>
+</body>
+</html>
