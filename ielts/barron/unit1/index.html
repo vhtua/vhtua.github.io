@@ -165,7 +165,7 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
     <div class="list-controls"><input id="searchInput" class="search" placeholder="Search words, Vietnamese, definitions..."><select id="topicFilter" class="select"><option value="all">All topics</option></select></div><div class="word-grid" id="wordGrid"></div>
   </section>
 </main>
-<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons first try Oxford Learner’s Dictionaries-style audio URLs when online, with cached playback to prevent clipped first syllables; if the browser blocks or cannot find the file, they fall back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
+<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons use the v3 behavior: cached Oxford Learner’s Dictionaries-style audio URLs with a one-time muted primer per word before audible playback; if blocked or unavailable, it falls back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
 <div class="toast" id="toast"></div>
 <script>
 const WORDS = [
@@ -1806,7 +1806,13 @@ const knownSet = () => new Set(state.known || []); const favSet = () => new Set(
 function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1700); }
 function confetti(){ ['🌸','✨','🌿','💫','🪽','🌟','🍃'].forEach((c,i)=>{ const el=document.createElement('div'); el.className='confetti'; el.textContent=c; el.style.left=(10+Math.random()*80)+'vw'; el.style.animationDelay=(i*.055)+'s'; document.body.appendChild(el); setTimeout(()=>el.remove(),1400); }); }
 function oxfordStem(raw){ const clean=(raw||'').toLowerCase().replace(/[^a-z]/g,''); return {clean, l:clean[0]||'a', p3:clean.slice(0,3), p5:clean.slice(0,5)}; }
-function oxfordUrlFor(raw, accent, n=1){ const s=oxfordStem(raw); const folder=accent==='uk'?'uk_pron':'us_pron'; const suffix=accent==='uk'?'gb':'us'; return `https://www.oxfordlearnersdictionaries.com/media/english/${folder}/${s.l}/${s.p3}/${s.p5}/${s.clean}__${suffix}_${n}.mp3`; }
+function oxfordUrlFor(rawWord, accent='uk', variant=1){
+  const stem = oxfordStem(rawWord);
+  if(!stem.clean) return '';
+  const folder = accent === 'us' ? 'us_pron' : 'uk_pron';
+  const tag = accent === 'us' ? 'us' : 'gb';
+  return `https://www.oxfordlearnersdictionaries.com/media/english/${folder}/${stem.l}/${stem.p3}/${stem.p5}/${stem.clean}__${tag}_${variant}.mp3`;
+}
 
 /*
   Pronunciation engine v3
@@ -1825,7 +1831,6 @@ let activePronunciation = null;
 let activeAudioToken = 0;
 let audioSystemPrimed = false;
 let voicesReadyPromise = null;
-let sharedAudioContext = null;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 function primeAudioSystem(){
@@ -1834,35 +1839,17 @@ function primeAudioSystem(){
   try{
     const AudioCtx = window.AudioContext || window.webkitAudioContext;
     if(AudioCtx){
-      sharedAudioContext = sharedAudioContext || new AudioCtx();
-      if(sharedAudioContext.state === 'suspended') sharedAudioContext.resume().catch(()=>{});
+      const ctx = new AudioCtx();
+      if(ctx.state === 'suspended') ctx.resume().catch(()=>{});
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      gain.gain.value = 0.00001;
+      osc.connect(gain).connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.045);
     }
   }catch(e){}
   try{ if('speechSynthesis' in window) speechSynthesis.getVoices(); }catch(e){}
-}
-
-async function warmSpeakerOutput(){
-  // Important: do NOT play the word itself as a primer. Some devices clip the
-  // first audible media playback, so we warm the output with a near-silent tone
-  // first, then start the real word from time 0. This avoids “aquatic” -> “quatic”.
-  primeAudioSystem();
-  try{
-    const AudioCtx = window.AudioContext || window.webkitAudioContext;
-    sharedAudioContext = sharedAudioContext || (AudioCtx ? new AudioCtx() : null);
-    if(sharedAudioContext){
-      if(sharedAudioContext.state === 'suspended') await sharedAudioContext.resume().catch(()=>{});
-      const osc = sharedAudioContext.createOscillator();
-      const gain = sharedAudioContext.createGain();
-      osc.frequency.value = 220;
-      gain.gain.value = 0.00003;
-      osc.connect(gain).connect(sharedAudioContext.destination);
-      osc.start();
-      osc.stop(sharedAudioContext.currentTime + 0.24);
-      await sleep(260);
-      return;
-    }
-  }catch(e){}
-  await sleep(260);
 }
 
 function getPronunciationCandidates(wordObj, accent='uk'){
@@ -1892,7 +1879,7 @@ function getCachedAudio(url){
     };
     const ready = () => {
       if(settled) return;
-      if(audio.readyState >= 3){
+      if(audio.readyState >= 2){
         settled = true;
         cleanup();
         resolve(audio);
@@ -1911,8 +1898,8 @@ function getCachedAudio(url){
     audio.addEventListener('error', fail);
     setTimeout(()=>{
       if(settled) return;
-      if(audio.readyState >= 3) ready(); else fail();
-    }, 6500);
+      if(audio.readyState >= 2) ready(); else fail();
+    }, 4500);
   });
   try{ audio.load(); }catch(e){}
   AUDIO_CACHE.set(url, record);
@@ -1942,16 +1929,33 @@ async function tryAudio(url, token){
   }
   activePronunciation = audio;
 
-  await warmSpeakerOutput();
+  // One-time muted primer prevents clipped first syllables on cold audio devices.
+  if(!record.primed){
+    try{
+      audio.pause();
+      audio.muted = true;
+      audio.currentTime = 0;
+      await audio.play();
+      await sleep(170);
+      audio.pause();
+      audio.currentTime = 0;
+      audio.muted = false;
+      record.primed = true;
+      await sleep(70);
+    }catch(e){
+      audio.muted = false;
+      record.primed = true;
+    }
+  }
+
   if(token !== activeAudioToken) throw new Error('superseded');
   audio.pause();
   try{ audio.currentTime = 0; }catch(e){}
   audio.muted = false;
-  audio.volume = 1;
-  await sleep(45);
-  if(token !== activeAudioToken) throw new Error('superseded');
+  await sleep(35);
   await audio.play();
 }
+
 function ensureVoices(){
   if(!('speechSynthesis' in window)) return Promise.resolve([]);
   const existing = speechSynthesis.getVoices();
@@ -1969,9 +1973,7 @@ async function browserTTS(word, accent, token){
   if(!('speechSynthesis' in window)){ toast('No browser voice available.'); return; }
   const voices = await ensureVoices();
   if(token !== activeAudioToken) return;
-  await warmSpeakerOutput();
-  if(token !== activeAudioToken) return;
-  const u = new SpeechSynthesisUtterance(word);
+  const u = new SpeechSynthesisUtterance(' ' + word); // leading space avoids clipped first phoneme in some TTS engines
   u.lang = accent==='uk' ? 'en-GB' : 'en-US';
   u.rate = .82;
   u.pitch = 1;
@@ -1992,7 +1994,12 @@ async function playWord(wordObj, accent='uk'){
   const token = ++activeAudioToken;
   primeAudioSystem();
   if('speechSynthesis' in window) speechSynthesis.cancel();
-  const candidates = getPronunciationCandidates(wordObj, accent);
+  let candidates = [];
+  try{
+    candidates = getPronunciationCandidates(wordObj, accent).filter(Boolean);
+  }catch(e){
+    candidates = [];
+  }
   for(const url of candidates){
     try{
       await tryAudio(url, token);
