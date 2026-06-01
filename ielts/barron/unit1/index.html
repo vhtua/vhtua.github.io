@@ -61,14 +61,17 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
 .card-controls{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:16px;position:relative;z-index:1}.mini-progress{display:flex;gap:7px;align-items:center;flex:1;min-width:210px}.seg{height:12px;flex:1;background:#d7dfec;border-radius:999px;overflow:hidden}.seg.done{background:linear-gradient(90deg,var(--green),var(--blue))}.counter{font-weight:1000;color:#526177;margin-left:6px}
 .flash-wrap{display:grid;grid-template-columns:1fr 320px;gap:16px}.flash-scene{perspective:1200px;min-height:430px}.flashcard{height:100%;min-height:430px;position:relative;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.2,.75,.25,1);cursor:pointer}.flashcard.flipped{transform:rotateY(180deg)}.face{position:absolute;inset:0;backface-visibility:hidden;border-radius:34px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;border:1px solid #fff;box-shadow:0 14px 44px rgba(22,31,62,.08)}.front{background:linear-gradient(145deg,#fff7fb,#f1fbff)}.back{background:linear-gradient(145deg,#f2fff7,#fff9e6);transform:rotateY(180deg)}.bigword{font-size:clamp(44px,8vw,78px);font-weight:1000;letter-spacing:-2px;line-height:.95}.bigvi{font-size:clamp(28px,5vw,42px);font-weight:1000;color:#267759;line-height:1.1}.side{background:white;border:1px solid #fff;border-radius:30px;padding:16px;box-shadow:0 14px 44px rgba(22,31,62,.08)}.side-row{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed #e6edf6;padding:10px 0;color:#526177}.side-row b{color:#26344e}
 .quiz-panel{background:var(--dark);color:white;border-color:#1c1d55;box-shadow:0 22px 70px rgba(13,13,52,.25)}.learn-progress{display:flex;align-items:center;gap:8px;margin-bottom:24px}.round-step{width:36px;height:36px;border-radius:999px;background:#0daa69;color:white;display:grid;place-items:center;font-weight:1000;flex:0 0 auto}.bar-step{height:16px;border-radius:999px;background:#677494;flex:1}.bar-step.done{background:#36d399}.quiz-card{background:var(--dark-card);border:1px solid #4d5979;border-radius:30px;padding:26px;min-height:440px}.quiz-def{font-size:clamp(22px,4vw,32px);line-height:1.35;margin:36px 0 26px}.quiz-sub{font-weight:950;font-size:13px;color:#d6dcff;margin-bottom:8px}.options{display:grid;grid-template-columns:1fr 1fr;gap:12px}.option{border:2px solid #697694;background:#334263;color:white;border-radius:16px;padding:16px;text-align:left;font-weight:900;cursor:pointer;display:flex;gap:14px;align-items:center}.option:hover{background:#3b4a70}.option.correct{background:#e9fff6;color:#08784b;border-color:#63d9ac}.option.wrong{background:#fff0f3;color:#9b2440;border-color:#ff9aae}.opt-num{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;background:rgba(255,255,255,.1);font-size:13px}.feedback{min-height:28px;font-weight:1000;margin-top:14px}.feedback.good{color:#7ee7bd}.feedback.bad{color:#ff9aae}
-.match-board{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.match-card{min-height:96px;border:0;border-radius:20px;background:#fff;padding:12px;font-weight:950;box-shadow:0 8px 22px rgba(22,31,62,.10);cursor:pointer;transition:.18s;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.25}.match-card:hover{transform:translateY(-2px)}.match-card.selected{outline:4px solid var(--yellow);background:#fffaf0}.match-card.matched{background:#ecfff7;color:#24825c;opacity:.72;transform:scale(.98);cursor:default}
+.match-board{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.match-toolbar{align-items:center}.timer-pill{background:#eef7ff;color:#285778}.quiz-gap-box{background:#253354;border-color:#536280;color:white}.quiz-gap-box .example{color:#eef3ff;font-size:18px}.match-finish{background:linear-gradient(135deg,#fff5fb,#effcff);border:2px solid #fff;border-radius:26px;padding:18px;margin:12px 0;box-shadow:0 14px 38px rgba(22,31,62,.10)}.match-finish h3{margin:0 0 8px;font-size:28px}.match-finish p{margin:0 0 14px;color:#526177;font-weight:850}.match-finish-actions{display:flex;gap:10px;flex-wrap:wrap}.match-card.word-card{background:#f4fbff;color:#244766}.match-card{min-height:96px;border:0;border-radius:20px;background:#fff;padding:12px;font-weight:950;box-shadow:0 8px 22px rgba(22,31,62,.10);cursor:pointer;transition:.18s;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.25}.match-card:hover{transform:translateY(-2px)}.match-card.selected{outline:4px solid var(--yellow);background:#fffaf0}.match-card.matched{background:#ecfff7;color:#24825c;opacity:.72;transform:scale(.98);cursor:default}
 .spell-wrap{display:grid;grid-template-columns:1fr 320px;gap:16px}.spell-box{background:linear-gradient(155deg,#fff,#f7fffc);border-radius:28px;padding:22px;border:1px solid #fff;box-shadow:0 14px 44px rgba(22,31,62,.08)}.spell-prompt{font-size:clamp(26px,4vw,38px);font-weight:1000;color:#267759;margin:12px 0}.input-row{display:flex;gap:10px;margin-top:16px}.answer-input{flex:1;border:2px solid #e6eef5;background:#fff;border-radius:18px;padding:14px 15px;font-size:18px;font-weight:850;outline:none}.answer-input:focus{border-color:#9edcfb;box-shadow:0 0 0 5px #dff5ff}
 .list-controls{display:grid;grid-template-columns:1fr 220px;gap:10px;margin-bottom:14px}.search,.select{border:2px solid #edf2f7;background:white;border-radius:18px;padding:13px 14px;font-weight:850;outline:none}.word-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.vocab-card{background:#fff;border:1px solid #fff;border-radius:24px;padding:16px;box-shadow:0 8px 24px rgba(22,31,62,.08);position:relative;overflow:hidden}.vocab-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}.vocab-word{font-size:24px;font-weight:1000}.vocab-vi{color:#267759;font-weight:950;margin:8px 0}.vocab-def{color:#526177;line-height:1.45;font-size:14px}.badge{display:inline-flex;align-items:center;gap:6px;background:#f8fbff;border-radius:999px;padding:6px 9px;color:#6d7b88;font-size:12px;font-weight:900;margin-top:10px}
 .toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);opacity:0;background:#263238;color:white;border-radius:999px;padding:12px 16px;font-weight:950;box-shadow:0 10px 30px rgba(0,0,0,.2);transition:.25s;z-index:50;max-width:calc(100vw - 32px);text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .confetti{position:fixed;top:-20px;font-size:18px;pointer-events:none;animation:fall 1.2s ease-in forwards;z-index:55}@keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:0}}
 .footer{color:#71809a;font-size:13px;line-height:1.55;padding-bottom:28px}.source-box{background:#ffffffb8;border:1px solid white;border-radius:22px;padding:14px 16px;box-shadow:0 8px 22px rgba(22,31,62,.08)}.source-box a{color:#4169c6;font-weight:850}
+
+.settings-box{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 16px}.setting-toggle{border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.08);border-radius:18px;padding:12px 14px;color:inherit;display:flex;align-items:center;gap:10px;font-weight:900}.setting-toggle input{width:18px;height:18px;accent-color:#36d399}.setting-toggle small{display:block;font-weight:750;opacity:.72;margin-top:3px}.quiz-actions{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin-top:12px}.quiz-next.hidden{display:none}.sound-status{font-weight:950;color:#cfd7ff}.match-settings{margin-bottom:12px;grid-template-columns:repeat(2,minmax(0,1fr))}.preparing-sound{opacity:.72;pointer-events:none}
+
 @media (max-width: 920px){.container{padding:12px}.hero{grid-template-columns:1fr}.hero-main,.hero-side{border-radius:28px;padding:20px}.nav-inner{display:block}.actions{display:grid;grid-template-columns:1fr 1fr;margin-top:8px}.study-shell,.flash-wrap,.spell-wrap{grid-template-columns:1fr}.word-rail{position:relative;top:auto;max-height:310px;order:2}.dictionary-card{min-height:auto}.stats{grid-template-columns:repeat(2,1fr)}.info-grid,.options,.word-grid,.list-controls{grid-template-columns:1fr}.match-board{grid-template-columns:repeat(2,1fr)}.flash-scene,.flashcard{min-height:390px}}
-@media (max-width: 560px){.container{padding:10px}h1{letter-spacing:-1.4px}.panel{padding:14px;border-radius:26px}.section-title{display:block}.tabs{padding-bottom:8px}.tab{padding:10px 12px;font-size:14px}.actions{grid-template-columns:1fr}.btn{width:100%;padding:12px}.dictionary-card{padding:18px;border-radius:28px}.card-head{align-items:center}.word-title{font-size:42px;letter-spacing:-1px}.meaning{font-size:25px}.def-text{font-size:16px}.sound-row{display:grid;grid-template-columns:1fr 1fr}.sound-btn{justify-content:center}.card-controls{display:grid;grid-template-columns:1fr}.mini-progress{min-width:0}.quiz-card{padding:18px;min-height:400px}.learn-progress{gap:5px}.round-step{width:32px;height:32px}.bar-step{height:12px}.match-card{min-height:86px;font-size:14px}.input-row{flex-direction:column}.word-grid{gap:10px}.vocab-word{font-size:22px}}
+@media (max-width: 560px){.settings-box,.match-settings{grid-template-columns:1fr}.container{padding:10px}h1{letter-spacing:-1.4px}.panel{padding:14px;border-radius:26px}.section-title{display:block}.tabs{padding-bottom:8px}.tab{padding:10px 12px;font-size:14px}.actions{grid-template-columns:1fr}.btn{width:100%;padding:12px}.dictionary-card{padding:18px;border-radius:28px}.card-head{align-items:center}.word-title{font-size:42px;letter-spacing:-1px}.meaning{font-size:25px}.def-text{font-size:16px}.sound-row{display:grid;grid-template-columns:1fr 1fr}.sound-btn{justify-content:center}.card-controls{display:grid;grid-template-columns:1fr}.mini-progress{min-width:0}.quiz-card{padding:18px;min-height:400px}.learn-progress{gap:5px}.round-step{width:32px;height:32px}.bar-step{height:12px}.match-card{min-height:86px;font-size:14px}.input-row{flex-direction:column}.word-grid{gap:10px}.vocab-word{font-size:22px}}
 </style>
 </head>
 <body>
@@ -124,18 +127,37 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
   </section>
 
   <section class="panel view quiz-panel hidden" id="quiz">
+    <div class="settings-box">
+      <label class="setting-toggle"><input type="checkbox" id="quizSoundSetting"><span>Quiz answer sound<small>Default off, so answers stay quiet.</small></span></label>
+      <label class="setting-toggle"><input type="checkbox" id="quizAutoNextSetting"><span>Auto next question<small>Default off. Use Next manually.</small></span></label>
+      <span class="setting-toggle sound-status" id="quizSettingStatus">Sound off · Manual next</span>
+    </div>
     <div class="learn-progress" id="quizProgress"></div>
-    <div class="quiz-card"><div class="quiz-sub">Definition 🔊 <button class="sound-btn" id="quizSound" style="padding:7px 10px">play word</button></div><div class="quiz-def" id="quizQuestion">Loading...</div><div class="quiz-sub">Choose an answer</div><div class="options" id="options"></div><div class="feedback" id="feedback"></div><div style="display:flex;justify-content:flex-end;margin-top:12px"><button class="btn dark" id="dontKnow">Don't know?</button></div></div>
+    <div class="quiz-card">
+      <div class="quiz-sub">Definition</div>
+      <div class="quiz-def" id="quizQuestion">Loading...</div>
+      <div class="def-box quiz-gap-box"><div class="def-label">Fill in the blank</div><div class="example gap" id="quizGap">...</div></div>
+      <div class="quiz-sub" id="quizInstruction">Choose an answer</div>
+      <div class="options" id="options"></div>
+      <div class="feedback" id="feedback"></div>
+      <div class="quiz-actions"><button class="btn dark" id="dontKnow">Don't know?</button><button class="btn green quiz-next hidden" id="nextQuiz">Next →</button></div>
+    </div>
   </section>
 
   <section class="panel view hidden" id="match">
-    <div class="section-title"><h2>Matching game</h2><span class="hint" id="pairsLeft">Pairs left 6</span></div>
-    <div class="pills" style="margin-bottom:12px"><span class="pill" id="moveCount">Moves 0</span><button class="btn ghost" id="newMatch">New board</button></div><div class="match-board" id="matchBoard"></div>
+    <div class="section-title"><h2>Matching game</h2><span class="hint" id="pairsLeft">Pairs left 10</span></div>
+    <div class="settings-box match-settings">
+      <label class="setting-toggle"><input type="checkbox" id="matchSoundSetting"><span>Match word sound<small>Default off. Turn on to hear English cards.</small></span></label>
+      <span class="setting-toggle sound-status" id="matchSettingStatus">English-card sound off</span>
+    </div>
+    <div class="pills match-toolbar" style="margin-bottom:12px"><span class="pill" id="moveCount">Moves 0</span><span class="pill timer-pill" id="matchTimer">Time 00:00</span><button class="btn ghost" id="newMatch">New board</button></div>
+    <div class="match-finish hidden" id="matchFinish"><h3>🎉 Congratulations!</h3><p id="matchFinishText">You matched everything.</p><div class="match-finish-actions"><button class="btn green" id="matchAgain">Continue playing</button><button class="btn" onclick="showView('learn')">Review words</button></div></div>
+    <div class="match-board" id="matchBoard"></div>
   </section>
 
   <section class="panel view hidden" id="spell">
     <div class="section-title"><h2>Spelling practice</h2><span class="hint">Read the Vietnamese + definition, then type the English word.</span></div>
-    <div class="spell-wrap"><div class="spell-box"><span class="topic-label" id="spellTopic">Topic</span><div class="spell-prompt" id="spellPrompt">...</div><div class="def-box"><div class="def-label">Definition</div><div class="def-text" id="spellDef">...</div></div><div class="input-row"><input class="answer-input" id="spellInput" placeholder="Type the word..." autocomplete="off"><button class="btn green" id="checkSpell">Check</button></div><div class="feedback" id="spellFeedback"></div></div><aside class="side"><h3 style="margin-top:0">Need a hint?</h3><p class="hint" id="spellHint">Tap hint to reveal first and last letters.</p><button class="btn" id="showHint">Show hint</button><button class="btn ghost" id="skipSpell" style="margin-top:10px">Skip</button></aside></div>
+    <div class="spell-wrap"><div class="spell-box"><span class="topic-label" id="spellTopic">Topic</span><div class="spell-prompt" id="spellPrompt">...</div><div class="def-box"><div class="def-label">Definition</div><div class="def-text" id="spellDef">...</div></div><div class="def-box"><div class="def-label">Fill in the blank</div><div class="example gap" id="spellGap">...</div></div><div class="input-row"><input class="answer-input" id="spellInput" placeholder="Type the word..." autocomplete="off"><button class="btn green" id="checkSpell">Check</button></div><div class="feedback" id="spellFeedback"></div></div><aside class="side"><h3 style="margin-top:0">Need a hint?</h3><p class="hint" id="spellHint">Tap hint to reveal first and last letters.</p><button class="btn" id="showHint">Show hint</button><button class="btn ghost" id="skipSpell" style="margin-top:10px">Skip</button></aside></div>
   </section>
 
   <section class="panel view hidden" id="wordbook">
@@ -143,7 +165,7 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
     <div class="list-controls"><input id="searchInput" class="search" placeholder="Search words, Vietnamese, definitions..."><select id="topicFilter" class="select"><option value="all">All topics</option></select></div><div class="word-grid" id="wordGrid"></div>
   </section>
 </main>
-<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons first try Oxford Learner’s Dictionaries-style audio URLs when online; if the browser blocks or cannot find the file, they fall back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
+<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons first try Oxford Learner’s Dictionaries-style audio URLs when online, with cached playback to prevent clipped first syllables; if the browser blocks or cannot find the file, they fall back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
 <div class="toast" id="toast"></div>
 <script>
 const WORDS = [
@@ -1769,10 +1791,13 @@ const WORDS = [
   }
 ];
 const LS_KEY = 'barron-unit1-natural-world-progress-v2';
+const DEFAULT_SETTINGS = { quizOptionSound:false, matchWordSound:false, quizAutoNext:false };
 let state = JSON.parse(localStorage.getItem(LS_KEY) || '{"known":[],"fav":[],"bestQuiz":0,"streak":0}');
+state.settings = {...DEFAULT_SETTINGS, ...(state.settings || {})};
 let deck = [...WORDS], current = 0, selectedTopic = 'all';
-let quizDeck = [], quizIndex = 0, quizScore = 0, quizCurrent = null;
-let selectedMatch = [], moves = 0, spellWord = null;
+let quizDeck = [], quizIndex = 0, quizScore = 0, quizCurrent = null, quizAnswered = false;
+let selectedMatch = [], moves = 0, spellWord = null, matchStartTime = null, matchTimerId = null;
+const matchPairCount = 10;
 const $ = id => document.getElementById(id);
 const save = () => localStorage.setItem(LS_KEY, JSON.stringify(state));
 const shuffle = arr => arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
@@ -1780,15 +1805,240 @@ const normalize = s => (s||'').trim().toLowerCase().normalize('NFD').replace(/[�
 const knownSet = () => new Set(state.known || []); const favSet = () => new Set(state.fav || []);
 function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1700); }
 function confetti(){ ['🌸','✨','🌿','💫','🪽','🌟','🍃'].forEach((c,i)=>{ const el=document.createElement('div'); el.className='confetti'; el.textContent=c; el.style.left=(10+Math.random()*80)+'vw'; el.style.animationDelay=(i*.055)+'s'; document.body.appendChild(el); setTimeout(()=>el.remove(),1400); }); }
-function oxfordStem(raw){ const clean=(raw||'').toLowerCase().replace(/[^a-z]/g,''); return {clean, l:clean[0], p3:clean.slice(0,3), p5:clean.slice(0,5)}; }
+function oxfordStem(raw){ const clean=(raw||'').toLowerCase().replace(/[^a-z]/g,''); return {clean, l:clean[0]||'a', p3:clean.slice(0,3), p5:clean.slice(0,5)}; }
 function oxfordUrlFor(raw, accent, n=1){ const s=oxfordStem(raw); const folder=accent==='uk'?'uk_pron':'us_pron'; const suffix=accent==='uk'?'gb':'us'; return `https://www.oxfordlearnersdictionaries.com/media/english/${folder}/${s.l}/${s.p3}/${s.p5}/${s.clean}__${suffix}_${n}.mp3`; }
-async function tryAudio(url){ return new Promise((resolve,reject)=>{ const a=new Audio(); a.preload='auto'; const fail=()=>reject(new Error('audio failed')); a.onerror=fail; a.oncanplaythrough=()=>{ a.play().then(resolve).catch(reject); }; a.src=url; setTimeout(()=>reject(new Error('audio timeout')),3500); }); }
-function browserTTS(word, accent){ if(!('speechSynthesis' in window)){ toast('No browser voice available.'); return; } const u=new SpeechSynthesisUtterance(word); u.lang=accent==='uk'?'en-GB':'en-US'; u.rate=.86; const voices=speechSynthesis.getVoices(); const preferred=voices.find(v=>v.lang===u.lang) || voices.find(v=>v.lang?.startsWith(accent==='uk'?'en-GB':'en-US')) || voices.find(v=>v.lang?.startsWith('en')); if(preferred) u.voice=preferred; speechSynthesis.cancel(); speechSynthesis.speak(u); }
-async function playWord(wordObj, accent='uk'){ const raw = (accent==='uk' && wordObj.ukVariant) ? wordObj.ukVariant : wordObj.word; const candidates=[oxfordUrlFor(raw,accent,1), oxfordUrlFor(raw,accent,2), oxfordUrlFor(wordObj.word,accent,1), oxfordUrlFor(wordObj.word,accent,2)]; for(const u of [...new Set(candidates)]){ try{ await tryAudio(u); return; }catch(e){} } browserTTS(wordObj.word, accent); toast(`Using browser ${accent.toUpperCase()} voice fallback`); }
+
+/*
+  Pronunciation engine v3
+  -----------------------
+  The earlier version started playback as soon as the remote MP3 fired canplaythrough.
+  On some browsers / Bluetooth / mobile audio stacks, the first cold playback can lose
+  the first tiny vowel sound, so “aquatic” may sound like “quatic” on the first click.
+  This engine fixes that by:
+  1) caching the MP3 element after it loads,
+  2) doing one muted primer play per MP3 before the first audible play,
+  3) restarting at currentTime = 0 after a tiny delay,
+  4) using a safer SpeechSynthesis fallback with voice loading.
+*/
+const AUDIO_CACHE = new Map();
+let activePronunciation = null;
+let activeAudioToken = 0;
+let audioSystemPrimed = false;
+let voicesReadyPromise = null;
+let sharedAudioContext = null;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+function primeAudioSystem(){
+  if(audioSystemPrimed) return;
+  audioSystemPrimed = true;
+  try{
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if(AudioCtx){
+      sharedAudioContext = sharedAudioContext || new AudioCtx();
+      if(sharedAudioContext.state === 'suspended') sharedAudioContext.resume().catch(()=>{});
+    }
+  }catch(e){}
+  try{ if('speechSynthesis' in window) speechSynthesis.getVoices(); }catch(e){}
+}
+
+async function warmSpeakerOutput(){
+  // Important: do NOT play the word itself as a primer. Some devices clip the
+  // first audible media playback, so we warm the output with a near-silent tone
+  // first, then start the real word from time 0. This avoids “aquatic” -> “quatic”.
+  primeAudioSystem();
+  try{
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    sharedAudioContext = sharedAudioContext || (AudioCtx ? new AudioCtx() : null);
+    if(sharedAudioContext){
+      if(sharedAudioContext.state === 'suspended') await sharedAudioContext.resume().catch(()=>{});
+      const osc = sharedAudioContext.createOscillator();
+      const gain = sharedAudioContext.createGain();
+      osc.frequency.value = 220;
+      gain.gain.value = 0.00003;
+      osc.connect(gain).connect(sharedAudioContext.destination);
+      osc.start();
+      osc.stop(sharedAudioContext.currentTime + 0.24);
+      await sleep(260);
+      return;
+    }
+  }catch(e){}
+  await sleep(260);
+}
+
+function getPronunciationCandidates(wordObj, accent='uk'){
+  const raw = (accent==='uk' && wordObj.ukVariant) ? wordObj.ukVariant : wordObj.word;
+  return [...new Set([
+    oxfordUrlFor(raw, accent, 1),
+    oxfordUrlFor(raw, accent, 2),
+    oxfordUrlFor(wordObj.word, accent, 1),
+    oxfordUrlFor(wordObj.word, accent, 2)
+  ])];
+}
+
+function getCachedAudio(url){
+  if(AUDIO_CACHE.has(url)) return AUDIO_CACHE.get(url);
+  const audio = new Audio();
+  audio.preload = 'auto';
+  audio.playsInline = true;
+  audio.src = url;
+  const record = { audio, primed:false, failed:false, ready:null };
+  record.ready = new Promise((resolve, reject)=>{
+    let settled = false;
+    const cleanup = () => {
+      audio.removeEventListener('canplaythrough', ready);
+      audio.removeEventListener('canplay', ready);
+      audio.removeEventListener('loadeddata', ready);
+      audio.removeEventListener('error', fail);
+    };
+    const ready = () => {
+      if(settled) return;
+      if(audio.readyState >= 3){
+        settled = true;
+        cleanup();
+        resolve(audio);
+      }
+    };
+    const fail = () => {
+      if(settled) return;
+      settled = true;
+      record.failed = true;
+      cleanup();
+      reject(new Error('audio failed'));
+    };
+    audio.addEventListener('canplaythrough', ready);
+    audio.addEventListener('canplay', ready);
+    audio.addEventListener('loadeddata', ready);
+    audio.addEventListener('error', fail);
+    setTimeout(()=>{
+      if(settled) return;
+      if(audio.readyState >= 3) ready(); else fail();
+    }, 6500);
+  });
+  try{ audio.load(); }catch(e){}
+  AUDIO_CACHE.set(url, record);
+  return record;
+}
+
+function preloadWordAudio(wordObj, accents=['uk','us']){
+  if(!wordObj) return;
+  accents.forEach(accent => {
+    getPronunciationCandidates(wordObj, accent).slice(0, 2).forEach(url => {
+      try{ getCachedAudio(url); }catch(e){}
+    });
+  });
+}
+
+function preloadWordsAudio(words, accents=['uk']){
+  (words || []).slice(0, 14).forEach(w => preloadWordAudio(w, accents));
+}
+
+async function tryAudio(url, token){
+  const record = getCachedAudio(url);
+  const audio = await record.ready;
+  if(token !== activeAudioToken) throw new Error('superseded');
+
+  if(activePronunciation && activePronunciation !== audio){
+    try{ activePronunciation.pause(); activePronunciation.currentTime = 0; }catch(e){}
+  }
+  activePronunciation = audio;
+
+  await warmSpeakerOutput();
+  if(token !== activeAudioToken) throw new Error('superseded');
+  audio.pause();
+  try{ audio.currentTime = 0; }catch(e){}
+  audio.muted = false;
+  audio.volume = 1;
+  await sleep(45);
+  if(token !== activeAudioToken) throw new Error('superseded');
+  await audio.play();
+}
+function ensureVoices(){
+  if(!('speechSynthesis' in window)) return Promise.resolve([]);
+  const existing = speechSynthesis.getVoices();
+  if(existing.length) return Promise.resolve(existing);
+  if(voicesReadyPromise) return voicesReadyPromise;
+  voicesReadyPromise = new Promise(resolve => {
+    const done = () => resolve(speechSynthesis.getVoices());
+    speechSynthesis.onvoiceschanged = done;
+    setTimeout(done, 900);
+  });
+  return voicesReadyPromise;
+}
+
+async function browserTTS(word, accent, token){
+  if(!('speechSynthesis' in window)){ toast('No browser voice available.'); return; }
+  const voices = await ensureVoices();
+  if(token !== activeAudioToken) return;
+  await warmSpeakerOutput();
+  if(token !== activeAudioToken) return;
+  const u = new SpeechSynthesisUtterance(word);
+  u.lang = accent==='uk' ? 'en-GB' : 'en-US';
+  u.rate = .82;
+  u.pitch = 1;
+  const langPrefix = accent==='uk' ? 'en-GB' : 'en-US';
+  const preferred = voices.find(v => v.lang === langPrefix && /Google|Microsoft|Natural|Daniel|Samantha|Kate|Arthur|Zira/i.test(v.name))
+    || voices.find(v => v.lang === langPrefix)
+    || voices.find(v => v.lang?.startsWith(langPrefix))
+    || voices.find(v => v.lang?.startsWith('en'));
+  if(preferred) u.voice = preferred;
+  try{ speechSynthesis.cancel(); }catch(e){}
+  await sleep(90);
+  if(token !== activeAudioToken) return;
+  speechSynthesis.speak(u);
+}
+
+async function playWord(wordObj, accent='uk'){
+  if(!wordObj) return;
+  const token = ++activeAudioToken;
+  primeAudioSystem();
+  if('speechSynthesis' in window) speechSynthesis.cancel();
+  const candidates = getPronunciationCandidates(wordObj, accent);
+  for(const url of candidates){
+    try{
+      await tryAudio(url, token);
+      return;
+    }catch(e){}
+  }
+  await browserTTS(wordObj.word, accent, token);
+  toast(`Using browser ${accent.toUpperCase()} voice fallback`);
+}
+
+async function playWordFromButton(btn, wordObj, accent='uk'){
+  if(!wordObj) return;
+  const original = btn ? btn.textContent : '';
+  try{
+    if(btn){ btn.classList.add('preparing-sound'); btn.textContent = 'Preparing…'; }
+    await playWord(wordObj, accent);
+  }finally{
+    if(btn){ setTimeout(()=>{ btn.classList.remove('preparing-sound'); btn.textContent = original; }, 120); }
+  }
+}
 function openDict(wordObj, source){ window.open(source==='cambridge'?wordObj.cambridgeUrl:wordObj.oxfordUrl, '_blank', 'noopener'); }
 function updateStats(){ $('statTotal').textContent=WORDS.length; $('statKnown').textContent=knownSet().size; $('statFav').textContent=favSet().size; $('statQuiz').textContent=(state.bestQuiz||0)+'%'; }
+
+function updateSettingsUI(){
+  if(!state.settings) state.settings = {...DEFAULT_SETTINGS};
+  const qs=$('quizSoundSetting'), qa=$('quizAutoNextSetting'), ms=$('matchSoundSetting');
+  if(qs) qs.checked = !!state.settings.quizOptionSound;
+  if(qa) qa.checked = !!state.settings.quizAutoNext;
+  if(ms) ms.checked = !!state.settings.matchWordSound;
+  if($('quizSettingStatus')) $('quizSettingStatus').textContent = `${state.settings.quizOptionSound?'Sound on':'Sound off'} · ${state.settings.quizAutoNext?'Auto next':'Manual next'}`;
+  if($('quizInstruction')) $('quizInstruction').textContent = state.settings.quizOptionSound ? 'Choose an answer — sound is on for selected options' : 'Choose an answer';
+  if($('matchSettingStatus')) $('matchSettingStatus').textContent = state.settings.matchWordSound ? 'English-card sound on' : 'English-card sound off';
+}
+function bindSettings(){
+  const qs=$('quizSoundSetting'), qa=$('quizAutoNextSetting'), ms=$('matchSoundSetting');
+  if(qs) qs.onchange=()=>{ state.settings.quizOptionSound=qs.checked; save(); updateSettingsUI(); };
+  if(qa) qa.onchange=()=>{ state.settings.quizAutoNext=qa.checked; save(); updateSettingsUI(); if(quizAnswered && qa.checked) setTimeout(nextQuizQuestion, 500); };
+  if(ms) ms.onchange=()=>{ state.settings.matchWordSound=ms.checked; save(); updateSettingsUI(); };
+}
+
 function progressSegments(index,total){ const chunk=Math.max(1, Math.ceil(total/6)); let html='<div class="round-step">'+(index+1)+'</div>'; for(let i=0;i<6;i++) html += `<div class="bar-step ${index >= i*chunk ? 'done':''}"></div>`; html += `<span class="counter">${index+1}/${total}</span>`; return html; }
-function showView(id){ document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden')); $(id).classList.remove('hidden'); document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===id)); if(id==='quiz') startQuiz(false); if(id==='match') startMatch(); if(id==='spell') nextSpell(); if(id==='wordbook') renderWordbook(); if(id==='flashcards') renderFlash(); if(id==='learn') renderLearnCard(); window.scrollTo({top:0,behavior:'smooth'}); }
+function formatTime(seconds){ const m=String(Math.floor(seconds/60)).padStart(2,'0'); const s=String(seconds%60).padStart(2,'0'); return `${m}:${s}`; }
+function updateMatchTimer(){ if(!matchStartTime || !$('matchTimer')) return; const elapsed=Math.floor((Date.now()-matchStartTime)/1000); $('matchTimer').textContent='Time '+formatTime(elapsed); }
+function stopMatchTimer(){ if(matchTimerId){ clearInterval(matchTimerId); matchTimerId=null; } }
+function startMatchTimer(){ stopMatchTimer(); matchStartTime=Date.now(); updateMatchTimer(); matchTimerId=setInterval(updateMatchTimer,1000); }
+function showView(id){ document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden')); $(id).classList.remove('hidden'); document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===id)); if(id!=='match') stopMatchTimer(); if(id==='quiz') startQuiz(false); if(id==='match') startMatch(); if(id==='spell') nextSpell(); if(id==='wordbook') renderWordbook(); if(id==='flashcards') renderFlash(); if(id==='learn') renderLearnCard(); window.scrollTo({top:0,behavior:'smooth'}); }
 window.showView = showView;
 function toggleKnown(word){ const s=knownSet(); s.has(word)?s.delete(word):s.add(word); state.known=[...s]; save(); updateStats(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); }
 function toggleFav(word){ const s=favSet(); s.has(word)?s.delete(word):s.add(word); state.fav=[...s]; save(); updateStats(); renderLearnCard(); renderRails(); renderWordbook(); }
@@ -1802,31 +2052,93 @@ function renderLearnCard(){ const w=getCurrentLearnWord(); const globalIndex=WOR
   <div class="card-head"><span class="topic-label">${w.emoji} ${w.topic}</span><button class="star" onclick="toggleFav('${w.word}')">${fav?'★':'☆'}</button></div>
   <div class="word-title">${w.word}</div>
   <div class="word-meta"><span class="pos">${w.pos}</span><span class="ipa-pill">UK ${w.ipaUK}</span><span class="ipa-pill">US ${w.ipaUS}</span></div>
-  <div class="sound-row"><button class="sound-btn" onclick='playWord(WORDS[${globalIndex}],"uk")'>🔊 UK accent</button><button class="sound-btn us" onclick='playWord(WORDS[${globalIndex}],"us")'>🔊 US accent</button><button class="sound-btn" onclick='openDict(WORDS[${globalIndex}],"oxford")'>Oxford ↗</button><button class="sound-btn us" onclick='openDict(WORDS[${globalIndex}],"cambridge")'>Cambridge ↗</button></div>
+  <div class="sound-row"><button class="sound-btn" onclick='playWordFromButton(this, WORDS[${globalIndex}],"uk")'>🔊 UK accent</button><button class="sound-btn us" onclick='playWordFromButton(this, WORDS[${globalIndex}],"us")'>🔊 US accent</button><button class="sound-btn" onclick='openDict(WORDS[${globalIndex}],"oxford")'>Oxford ↗</button><button class="sound-btn us" onclick='openDict(WORDS[${globalIndex}],"cambridge")'>Cambridge ↗</button></div>
   <div class="def-box"><div class="def-label">Definition</div><div class="def-text">${w.definition}</div></div>
   <div class="def-box"><div class="def-label">Example</div><div class="example">${w.example}</div></div>
   <div class="def-box"><div class="def-label">Fill the blank</div><div class="example gap">${w.gapExample}</div></div>
   <div class="meaning">${w.vi}</div>
   <div class="info-grid"><div class="info-card"><div class="def-label">Useful chunks</div><ul>${w.collocations.map(c=>`<li>${c}</li>`).join('')}</ul></div><div class="info-card"><div class="def-label">Word family</div><div class="family">${w.wordFamily}</div></div><div class="info-card"><div class="def-label">Near meanings</div><ul>${w.synonyms.map(c=>`<li>${c}</li>`).join('')}</ul></div><div class="info-card"><div class="def-label">IELTS note</div><div class="family">${w.studyNote}</div></div></div>
-  <div class="card-controls"><div class="mini-progress">${progressSegments(globalIndex,WORDS.length)}</div><button class="btn" onclick="prevLearn()">← Prev</button><button class="btn green" onclick="toggleKnown('${w.word}')">${known?'Unmaster':'Mastered'}</button><button class="btn" onclick="nextLearn()">Next →</button></div>`; }
+  <div class="card-controls"><div class="mini-progress">${progressSegments(globalIndex,WORDS.length)}</div><button class="btn" onclick="prevLearn()">← Prev</button><button class="btn green" onclick="toggleKnown('${w.word}')">${known?'Unmaster':'Mastered'}</button><button class="btn" onclick="nextLearn()">Next →</button></div>`; setTimeout(()=>preloadWordAudio(w,['uk','us']), 60); }
 window.prevLearn = function(){ const list=filteredWords(); current=(current-1+list.length)%list.length; renderRails(); renderLearnCard(); }
 window.nextLearn = function(){ const list=filteredWords(); current=(current+1)%list.length; renderRails(); renderLearnCard(); }
-function renderFlash(){ const w=deck[current%deck.length]; $('frontFace').innerHTML=`<div><span class="topic-label">${w.emoji} ${w.topic}</span><div class="bigword">${w.word}</div><div class="word-meta"><span class="pos">${w.pos}</span><span class="ipa-pill">UK ${w.ipaUK}</span><span class="ipa-pill">US ${w.ipaUS}</span></div></div><div><div class="sound-row"><button class="sound-btn" onclick="event.stopPropagation(); playWord(deck[current],'uk')">🔊 UK</button><button class="sound-btn us" onclick="event.stopPropagation(); playWord(deck[current],'us')">🔊 US</button></div><p class="hint">Tap to flip</p></div>`; $('backFace').innerHTML=`<div><span class="topic-label">${w.emoji} Meaning</span><div class="bigvi">${w.vi}</div><div class="def-box"><div class="def-label">Definition</div><div class="def-text">${w.definition}</div></div></div><div class="example">${w.example}</div>`; $('flashCount').textContent=(current+1)+' / '+deck.length; $('flashTopic').textContent=w.topic.replace('Environmental Impacts of ',''); $('flashStatus').textContent=knownSet().has(w.word)?'Mastered':'Learning'; $('flashcard').classList.remove('flipped'); }
-function startQuiz(force=true){ if(force || quizDeck.length===0 || quizIndex>=quizDeck.length){ quizDeck=shuffle(WORDS).slice(0,12); quizIndex=0; quizScore=0; } renderQuiz(); }
-function renderQuiz(){ quizCurrent=quizDeck[quizIndex]; $('quizProgress').innerHTML=progressSegments(quizIndex,quizDeck.length); $('quizQuestion').textContent=quizCurrent.definition; const wrong=shuffle(WORDS.filter(x=>x.word!==quizCurrent.word)).slice(0,3).map(x=>x.word); const opts=shuffle([quizCurrent.word,...wrong]); $('options').innerHTML=opts.map((o,i)=>`<button class="option"><span class="opt-num">${i+1}</span><span>${o}</span></button>`).join(''); $('feedback').textContent=''; document.querySelectorAll('.option').forEach(btn=>btn.onclick=()=>chooseQuiz(btn)); }
-function chooseQuiz(btn){ const answer=btn.querySelector('span:last-child').textContent; const ok=answer===quizCurrent.word; document.querySelectorAll('.option').forEach(b=>{ b.disabled=true; if(b.querySelector('span:last-child').textContent===quizCurrent.word)b.classList.add('correct'); }); if(!ok) btn.classList.add('wrong'); if(ok){ quizScore++; state.streak=(state.streak||0)+1; $('feedback').textContent='Correct! Tiny brain confetti ✨'; $('feedback').className='feedback good'; } else { state.streak=0; $('feedback').textContent=`Not quite — it was “${quizCurrent.word}”.`; $('feedback').className='feedback bad'; } setTimeout(()=>{ quizIndex++; if(quizIndex>=quizDeck.length){ const pct=Math.round(quizScore/quizDeck.length*100); state.bestQuiz=Math.max(state.bestQuiz||0,pct); save(); updateStats(); toast(`Quiz done: ${pct}%`); confetti(); startQuiz(true); } else renderQuiz(); },1150); }
-function startMatch(){ const items=shuffle(WORDS).slice(0,6); const cards=shuffle([...items.map(w=>({type:'word',key:w.word,text:w.word})),...items.map(w=>({type:'vi',key:w.word,text:w.vi}))]); selectedMatch=[]; moves=0; $('moveCount').textContent='Moves 0'; $('pairsLeft').textContent='Pairs left 6'; $('matchBoard').innerHTML=cards.map(c=>`<button class="match-card" data-key="${c.key}" data-type="${c.type}">${c.text}</button>`).join(''); document.querySelectorAll('.match-card').forEach(c=>c.onclick=()=>pickMatch(c)); }
-function pickMatch(card){ if(card.classList.contains('matched')||card.classList.contains('selected'))return; card.classList.add('selected'); selectedMatch.push(card); if(selectedMatch.length===2){ moves++; $('moveCount').textContent='Moves '+moves; const [a,b]=selectedMatch; const ok=a.dataset.key===b.dataset.key && a.dataset.type!==b.dataset.type; if(ok){ setTimeout(()=>{a.classList.add('matched'); b.classList.add('matched'); a.classList.remove('selected'); b.classList.remove('selected'); selectedMatch=[]; const left=document.querySelectorAll('.match-card:not(.matched)').length/2; $('pairsLeft').textContent='Pairs left '+left; if(left===0){toast(`Matched in ${moves} moves!`);confetti();} },220); } else { setTimeout(()=>{a.classList.remove('selected'); b.classList.remove('selected'); selectedMatch=[];},650); } } }
-function nextSpell(){ spellWord=shuffle(WORDS)[0]; $('spellTopic').textContent=spellWord.emoji+' '+spellWord.topic; $('spellPrompt').textContent=spellWord.vi; $('spellDef').textContent=spellWord.definition; $('spellInput').value=''; $('spellFeedback').textContent=''; $('spellHint').textContent='Tap hint to reveal first and last letters.'; }
+function renderFlash(){ const w=deck[current%deck.length]; $('frontFace').innerHTML=`<div><span class="topic-label">${w.emoji} ${w.topic}</span><div class="bigword">${w.word}</div><div class="word-meta"><span class="pos">${w.pos}</span><span class="ipa-pill">UK ${w.ipaUK}</span><span class="ipa-pill">US ${w.ipaUS}</span></div></div><div><div class="sound-row"><button class="sound-btn" onclick="event.stopPropagation(); playWordFromButton(this, deck[current],'uk')">🔊 UK</button><button class="sound-btn us" onclick="event.stopPropagation(); playWordFromButton(this, deck[current],'us')">🔊 US</button></div><p class="hint">Tap to flip</p></div>`; $('backFace').innerHTML=`<div><span class="topic-label">${w.emoji} Meaning</span><div class="bigvi">${w.vi}</div><div class="def-box"><div class="def-label">Definition</div><div class="def-text">${w.definition}</div></div></div><div class="example">${w.example}</div>`; $('flashCount').textContent=(current+1)+' / '+deck.length; $('flashTopic').textContent=w.topic.replace('Environmental Impacts of ',''); $('flashStatus').textContent=knownSet().has(w.word)?'Mastered':'Learning'; $('flashcard').classList.remove('flipped'); setTimeout(()=>preloadWordAudio(w,['uk','us']), 60); }
+function startQuiz(force=true){
+  if(force || quizDeck.length===0 || quizIndex>=quizDeck.length){ quizDeck=shuffle(WORDS).slice(0,12); quizIndex=0; quizScore=0; }
+  renderQuiz();
+}
+function renderQuiz(){
+  quizAnswered=false;
+  quizCurrent=quizDeck[quizIndex];
+  updateSettingsUI();
+  $('quizProgress').innerHTML=progressSegments(quizIndex,quizDeck.length);
+  $('quizQuestion').textContent=quizCurrent.definition;
+  $('quizGap').textContent=quizCurrent.gapExample || quizCurrent.example;
+  const wrong=shuffle(WORDS.filter(x=>x.word!==quizCurrent.word)).slice(0,3).map(x=>x.word);
+  const opts=shuffle([quizCurrent.word,...wrong]);
+  $('options').innerHTML=opts.map((o,i)=>`<button class="option" data-word="${o}"><span class="opt-num">${i+1}</span><span>${o}</span></button>`).join('');
+  $('feedback').textContent=''; $('feedback').className='feedback';
+  $('nextQuiz').classList.add('hidden'); $('dontKnow').disabled=false;
+  preloadWordsAudio(opts.map(o=>WORDS.find(w=>w.word===o)).filter(Boolean), ['uk']);
+  document.querySelectorAll('.option').forEach(btn=>btn.onclick=()=>chooseQuiz(btn));
+}
+function finishQuizRound(){
+  const pct=Math.round(quizScore/quizDeck.length*100);
+  state.bestQuiz=Math.max(state.bestQuiz||0,pct);
+  save(); updateStats(); toast(`Quiz done: ${pct}%`); confetti(); startQuiz(true);
+}
+function nextQuizQuestion(){
+  if(!quizAnswered) return;
+  quizIndex++;
+  if(quizIndex>=quizDeck.length) finishQuizRound(); else renderQuiz();
+}
+function chooseQuiz(btn){
+  if(quizAnswered) return;
+  quizAnswered=true;
+  const answer=btn.dataset.word || btn.querySelector('span:last-child').textContent;
+  const chosen=WORDS.find(w=>w.word===answer);
+  if(state.settings.quizOptionSound && chosen) playWord(chosen,'uk');
+  const ok=answer===quizCurrent.word;
+  document.querySelectorAll('.option').forEach(b=>{ b.disabled=true; if((b.dataset.word || b.querySelector('span:last-child').textContent)===quizCurrent.word)b.classList.add('correct'); });
+  if(!ok) btn.classList.add('wrong');
+  if(ok){ quizScore++; state.streak=(state.streak||0)+1; $('feedback').textContent='Correct! Tiny brain confetti ✨'; $('feedback').className='feedback good'; }
+  else { state.streak=0; $('feedback').textContent=`Not quite — it was “${quizCurrent.word}”.`; $('feedback').className='feedback bad'; }
+  save();
+  if(state.settings.quizAutoNext) setTimeout(nextQuizQuestion, 1200); else $('nextQuiz').classList.remove('hidden');
+}
+function startMatch(){
+  updateSettingsUI();
+  const items=shuffle(WORDS).slice(0,matchPairCount);
+  const cards=shuffle([...items.map(w=>({type:'word',key:w.word,text:w.word})),...items.map(w=>({type:'vi',key:w.word,text:w.vi}))]);
+  selectedMatch=[]; moves=0;
+  $('moveCount').textContent='Moves 0'; $('pairsLeft').textContent='Pairs left '+matchPairCount; $('matchTimer').textContent='Time 00:00'; $('matchFinish').classList.add('hidden');
+  $('matchBoard').innerHTML=cards.map(c=>`<button class="match-card ${c.type==='word'?'word-card':''}" data-key="${c.key}" data-type="${c.type}">${c.type==='word'?(state.settings.matchWordSound?'🔊 ':'') : ''}${c.text}</button>`).join('');
+  preloadWordsAudio(items, ['uk']);
+  document.querySelectorAll('.match-card').forEach(c=>c.onclick=()=>pickMatch(c));
+  startMatchTimer();
+}
+function pickMatch(card){
+  if(card.classList.contains('matched')||card.classList.contains('selected'))return;
+  const wordObj=WORDS.find(w=>w.word===card.dataset.key);
+  if(state.settings.matchWordSound && card.dataset.type==='word' && wordObj) playWord(wordObj,'uk');
+  card.classList.add('selected'); selectedMatch.push(card);
+  if(selectedMatch.length===2){
+    moves++; $('moveCount').textContent='Moves '+moves;
+    const [a,b]=selectedMatch;
+    const ok=a.dataset.key===b.dataset.key && a.dataset.type!==b.dataset.type;
+    if(ok){ setTimeout(()=>{a.classList.add('matched'); b.classList.add('matched'); a.classList.remove('selected'); b.classList.remove('selected'); selectedMatch=[]; const left=document.querySelectorAll('.match-card:not(.matched)').length/2; $('pairsLeft').textContent='Pairs left '+left; if(left===0){ const elapsed=Math.floor((Date.now()-matchStartTime)/1000); stopMatchTimer(); $('matchTimer').textContent='Time '+formatTime(elapsed); $('matchFinishText').textContent=`Finished in ${formatTime(elapsed)} with ${moves} moves. Want another tiny brain workout?`; $('matchFinish').classList.remove('hidden'); toast(`Matched ${matchPairCount} pairs in ${formatTime(elapsed)}!`); confetti(); } },220); }
+    else { setTimeout(()=>{a.classList.remove('selected'); b.classList.remove('selected'); selectedMatch=[];},650); }
+  }
+}
+function nextSpell(){ spellWord=shuffle(WORDS)[0]; $('spellTopic').textContent=spellWord.emoji+' '+spellWord.topic; $('spellPrompt').textContent=spellWord.vi; $('spellDef').textContent=spellWord.definition; $('spellGap').textContent=spellWord.gapExample || spellWord.example; $('spellInput').value=''; $('spellFeedback').textContent=''; $('spellHint').textContent='Tap hint to reveal first and last letters.'; }
 function checkSpell(){ const val=normalize($('spellInput').value); const ans=normalize(spellWord.word); if(val===ans){ $('spellFeedback').textContent='Correct — spelling goblin defeated.'; $('spellFeedback').className='feedback good'; toggleKnown(spellWord.word); setTimeout(nextSpell,900); } else { $('spellFeedback').textContent='Almost. Try again or use the hint.'; $('spellFeedback').className='feedback bad'; } }
-function renderWordbook(){ const q=($('searchInput').value||'').toLowerCase(); const topic=$('topicFilter').value||'all'; const known=knownSet(), fav=favSet(); const rows=WORDS.filter(w=>(topic==='all'||w.topic===topic) && [w.word,w.vi,w.definition,w.example,w.studyNote,w.collocations.join(' ')].join(' ').toLowerCase().includes(q)); $('wordGrid').innerHTML=rows.map(w=>{ const idx=WORDS.findIndex(x=>x.word===w.word); return `<article class="vocab-card"><div class="vocab-top"><div><div class="vocab-word">${fav.has(w.word)?'⭐ ':''}${w.word}</div><span class="badge">${w.pos} · UK ${w.ipaUK}</span></div><button class="star" onclick="toggleFav('${w.word}')">${fav.has(w.word)?'★':'☆'}</button></div><div class="vocab-vi">${w.vi}</div><div class="vocab-def">${w.definition}</div><div class="sound-row"><button class="sound-btn" onclick='playWord(WORDS[${idx}],"uk")'>UK</button><button class="sound-btn us" onclick='playWord(WORDS[${idx}],"us")'>US</button></div><span class="badge">${known.has(w.word)?'✅ Mastered':'Learning'}</span></article>`; }).join('') || '<p class="hint">No words found.</p>'; }
+function renderWordbook(){ const q=($('searchInput').value||'').toLowerCase(); const topic=$('topicFilter').value||'all'; const known=knownSet(), fav=favSet(); const rows=WORDS.filter(w=>(topic==='all'||w.topic===topic) && [w.word,w.vi,w.definition,w.example,w.studyNote,w.collocations.join(' ')].join(' ').toLowerCase().includes(q)); $('wordGrid').innerHTML=rows.map(w=>{ const idx=WORDS.findIndex(x=>x.word===w.word); return `<article class="vocab-card"><div class="vocab-top"><div><div class="vocab-word">${fav.has(w.word)?'⭐ ':''}${w.word}</div><span class="badge">${w.pos} · UK ${w.ipaUK}</span></div><button class="star" onclick="toggleFav('${w.word}')">${fav.has(w.word)?'★':'☆'}</button></div><div class="vocab-vi">${w.vi}</div><div class="vocab-def">${w.definition}</div><div class="sound-row"><button class="sound-btn" onclick='playWordFromButton(this, WORDS[${idx}],"uk")'>UK</button><button class="sound-btn us" onclick='playWordFromButton(this, WORDS[${idx}],"us")'>US</button></div><span class="badge">${known.has(w.word)?'✅ Mastered':'Learning'}</span></article>`; }).join('') || '<p class="hint">No words found.</p>'; }
 $('tabs').addEventListener('click',e=>{ const b=e.target.closest('.tab'); if(b) showView(b.dataset.view); });
 $('railSearch').addEventListener('input',()=>{current=0;renderRails();renderLearnCard();});
 $('shuffleAll').onclick=()=>{ deck=shuffle(deck); current=0; renderFlash(); toast('Deck shuffled'); };
-$('resetProgress').onclick=()=>{ if(confirm('Reset mastered/starred words and quiz score?')){ state={known:[],fav:[],bestQuiz:0,streak:0}; save(); updateStats(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); toast('Progress reset'); } };
-$('flashcard').onclick=()=>$('flashcard').classList.toggle('flipped'); $('prevCard').onclick=()=>{current=(current-1+deck.length)%deck.length;renderFlash();}; $('nextCard').onclick=()=>{current=(current+1)%deck.length;renderFlash();}; $('markKnown').onclick=()=>toggleKnown(deck[current].word); $('flashUK').onclick=()=>playWord(deck[current],'uk'); $('flashUS').onclick=()=>playWord(deck[current],'us');
-$('quizSound').onclick=()=>quizCurrent&&playWord(quizCurrent,'uk'); $('dontKnow').onclick=()=>{ $('feedback').textContent=`Answer: ${quizCurrent.word} — ${quizCurrent.vi}`; $('feedback').className='feedback bad'; setTimeout(()=>{quizIndex++; if(quizIndex>=quizDeck.length) startQuiz(true); else renderQuiz();},1200); };
-$('newMatch').onclick=startMatch; $('checkSpell').onclick=checkSpell; $('spellInput').addEventListener('keydown',e=>{if(e.key==='Enter')checkSpell();}); $('showHint').onclick=()=>{ const w=spellWord.word; $('spellHint').textContent=w.split('').map((ch,i)=>i===0||i===w.length-1?ch:'·').join(' '); }; $('skipSpell').onclick=nextSpell;
+$('resetProgress').onclick=()=>{ if(confirm('Reset mastered/starred words and quiz score?')){ state={known:[],fav:[],bestQuiz:0,streak:0,settings:{...DEFAULT_SETTINGS}}; save(); updateStats(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); toast('Progress reset'); } };
+$('flashcard').onclick=()=>$('flashcard').classList.toggle('flipped'); $('prevCard').onclick=()=>{current=(current-1+deck.length)%deck.length;renderFlash();}; $('nextCard').onclick=()=>{current=(current+1)%deck.length;renderFlash();}; $('markKnown').onclick=()=>toggleKnown(deck[current].word); $('flashUK').onclick=()=>playWordFromButton($('flashUK'), deck[current],'uk'); $('flashUS').onclick=()=>playWordFromButton($('flashUS'), deck[current],'us');
+$('dontKnow').onclick=()=>{ if(quizAnswered) return; quizAnswered=true; $('feedback').textContent=`Answer: ${quizCurrent.word} — ${quizCurrent.vi}`; $('feedback').className='feedback bad'; document.querySelectorAll('.option').forEach(b=>{ b.disabled=true; if((b.dataset.word || b.querySelector('span:last-child').textContent)===quizCurrent.word)b.classList.add('correct'); }); $('dontKnow').disabled=true; if(state.settings.quizAutoNext) setTimeout(nextQuizQuestion, 1000); else $('nextQuiz').classList.remove('hidden'); }; $('nextQuiz').onclick=nextQuizQuestion;
+$('newMatch').onclick=startMatch; $('matchAgain').onclick=startMatch; $('checkSpell').onclick=checkSpell; $('spellInput').addEventListener('keydown',e=>{if(e.key==='Enter')checkSpell();}); $('showHint').onclick=()=>{ const w=spellWord.word; $('spellHint').textContent=w.split('').map((ch,i)=>i===0||i===w.length-1?ch:'·').join(' '); }; $('skipSpell').onclick=nextSpell;
 $('searchInput').addEventListener('input',renderWordbook); $('topicFilter').addEventListener('change',renderWordbook);
 if('speechSynthesis' in window) speechSynthesis.onvoiceschanged=()=>speechSynthesis.getVoices();
 renderTopicFilters(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); updateStats();
