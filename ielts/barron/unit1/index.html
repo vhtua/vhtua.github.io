@@ -72,6 +72,238 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
 
 @media (max-width: 920px){.container{padding:12px}.hero{grid-template-columns:1fr}.hero-main,.hero-side{border-radius:28px;padding:20px}.nav-inner{display:block}.actions{display:grid;grid-template-columns:1fr 1fr;margin-top:8px}.study-shell,.flash-wrap,.spell-wrap{grid-template-columns:1fr}.word-rail{position:relative;top:auto;max-height:310px;order:2}.dictionary-card{min-height:auto}.stats{grid-template-columns:repeat(2,1fr)}.info-grid,.options,.word-grid,.list-controls{grid-template-columns:1fr}.match-board{grid-template-columns:repeat(2,1fr)}.flash-scene,.flashcard{min-height:390px}}
 @media (max-width: 560px){.settings-box,.match-settings{grid-template-columns:1fr}.container{padding:10px}h1{letter-spacing:-1.4px}.panel{padding:14px;border-radius:26px}.section-title{display:block}.tabs{padding-bottom:8px}.tab{padding:10px 12px;font-size:14px}.actions{grid-template-columns:1fr}.btn{width:100%;padding:12px}.dictionary-card{padding:18px;border-radius:28px}.card-head{align-items:center}.word-title{font-size:42px;letter-spacing:-1px}.meaning{font-size:25px}.def-text{font-size:16px}.sound-row{display:grid;grid-template-columns:1fr 1fr}.sound-btn{justify-content:center}.card-controls{display:grid;grid-template-columns:1fr}.mini-progress{min-width:0}.quiz-card{padding:18px;min-height:400px}.learn-progress{gap:5px}.round-step{width:32px;height:32px}.bar-step{height:12px}.match-card{min-height:86px;font-size:14px}.input-row{flex-direction:column}.word-grid{gap:10px}.vocab-word{font-size:22px}}
+
+
+/* =========================
+   v9 serious mobile repair
+   Goals: stable, compact, no overlapping sticky blocks, less scrolling.
+   ========================= */
+@media (max-width: 720px){
+  :root{ --shadow:0 10px 28px rgba(21,31,62,.10); --radius:20px; }
+  html, body{ max-width:100%; overflow-x:hidden; }
+  body{ padding-bottom:calc(78px + env(safe-area-inset-bottom)); background:linear-gradient(160deg,#fff8fc 0%,#eef8ff 52%,#f6fff9 100%); }
+  .container{ width:100%; padding:10px; }
+
+  /* compact hero */
+  .hero{ display:block; margin-top:0; }
+  .hero-main{ padding:15px; border-radius:22px; }
+  .hero-main::after{ width:130px; height:130px; right:-54px; bottom:-58px; }
+  .hero-side{ display:none; }
+  .eyebrow{ font-size:11px; padding:6px 9px; }
+  h1{ font-size:32px; line-height:1; margin:10px 0 8px; letter-spacing:-1.2px; }
+  .subtitle{ font-size:13px; line-height:1.42; max-height:56px; overflow:hidden; }
+  .pills{ flex-wrap:nowrap; overflow-x:auto; gap:6px; margin-top:10px; padding-bottom:2px; scrollbar-width:none; }
+  .pills::-webkit-scrollbar{ display:none; }
+  .pill{ flex:0 0 auto; font-size:11px; padding:7px 9px; }
+
+  /* bottom tab bar. Only one fixed area; no inner sticky controls. */
+  .navbar{ position:fixed; left:0; right:0; bottom:0; top:auto; z-index:1000; padding:6px 6px calc(6px + env(safe-area-inset-bottom)); background:rgba(255,255,255,.94); border-top:1px solid #e7eef8; box-shadow:0 -10px 28px rgba(22,31,62,.14); backdrop-filter:blur(18px); }
+  .nav-inner{ display:block; padding:0; }
+  .tabs{ display:grid; grid-template-columns:repeat(6,1fr); gap:4px; padding:0; overflow:visible; }
+  .tab{ min-width:0; width:100%; padding:8px 2px; font-size:10.5px; line-height:1.05; border-radius:15px; box-shadow:none; border:1px solid #edf2f8; white-space:normal; }
+  .tab:hover{ transform:none; }
+  .actions{ display:none!important; }
+
+  .panel{ margin:10px 0; padding:12px; border-radius:22px; }
+  #dashboardPanel{ display:none; }
+  .section-title{ display:block; margin-bottom:10px; }
+  .section-title h2{ font-size:22px; line-height:1.1; }
+  .section-title .hint{ display:block; margin-top:5px; font-size:12px; line-height:1.35; }
+  .btn{ min-height:40px; padding:10px 11px; border-radius:14px; font-size:13px; box-shadow:0 6px 15px rgba(22,31,62,.09); }
+
+  /* Learn: selector stays small and scrolls inside itself, then card content. */
+  .study-shell{ display:flex; flex-direction:column; gap:10px; }
+  .word-rail{ order:-1; position:relative; top:auto; max-height:none; overflow:visible; padding:10px; border-radius:18px; box-shadow:0 8px 20px rgba(22,31,62,.08); }
+  .rail-search{ height:40px; padding:9px 11px; margin-bottom:8px; border-radius:13px; font-size:14px; }
+  #topicChips{ display:flex; gap:6px; overflow-x:auto; padding-bottom:6px; scrollbar-width:none; }
+  #topicChips::-webkit-scrollbar{ display:none; }
+  .topic-chip{ width:auto; flex:0 0 auto; display:inline-flex; align-items:center; margin:0; padding:8px 10px; border-radius:999px; font-size:11.5px; white-space:nowrap; }
+  #railWords{ max-height:148px; overflow-y:auto; padding-right:2px; display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  .rail-word{ margin:0; min-height:54px; padding:8px 9px; border-radius:13px; line-height:1.12; align-items:flex-start; }
+  .rail-word small{ display:block; margin-top:3px; font-size:10.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100%; }
+  .rail-word > span:last-child{ display:none; }
+
+  .dictionary-card{ min-height:auto; padding:15px; border-radius:22px; }
+  .dictionary-card::before{ width:130px; height:130px; right:-54px; top:-54px; }
+  .card-head{ align-items:flex-start; gap:8px; }
+  .topic-label{ max-width:calc(100% - 48px); font-size:11px; line-height:1.25; padding:6px 9px; }
+  .star{ width:38px; height:38px; padding:0; border-radius:13px; }
+  .word-title{ font-size:36px; line-height:1; letter-spacing:-.9px; margin:12px 0 7px; word-break:break-word; }
+  .word-meta{ gap:5px; }
+  .pos,.ipa-pill{ font-size:11px; padding:5px 7px; }
+  .sound-row{ display:grid; grid-template-columns:1fr 1fr; gap:7px; margin:10px 0; }
+  .sound-btn{ width:100%; justify-content:center; min-height:40px; padding:9px 7px; border-radius:13px; font-size:12.5px; }
+  .def-box{ padding:11px; margin:8px 0; border-radius:16px; }
+  .def-label{ font-size:10px; margin-bottom:5px; letter-spacing:.06em; }
+  .def-text{ font-size:15px; line-height:1.42; }
+  .example{ font-size:14px; line-height:1.42; }
+  .meaning{ font-size:22px; line-height:1.14; margin:11px 0 9px; }
+  .info-grid{ display:grid; grid-template-columns:1fr; gap:8px; margin-top:8px; }
+  .info-card{ padding:11px; border-radius:16px; }
+  .info-card ul{ margin:4px 0 0; padding-left:17px; line-height:1.38; font-size:13px; }
+  .family{ font-size:13px; line-height:1.38; }
+  .card-controls{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:7px; margin-top:10px; }
+  .card-controls .mini-progress{ grid-column:1 / -1; min-width:0; }
+  .mini-progress{ gap:4px; }
+  .seg,.bar-step{ height:9px; }
+  .counter{ font-size:12px; margin-left:2px; }
+
+  /* Flashcards */
+  .flash-wrap{ display:flex; flex-direction:column; gap:10px; }
+  .flash-wrap .side{ order:-1; padding:10px; border-radius:18px; }
+  .side-row{ padding:7px 0; font-size:12px; }
+  .flash-wrap .side .sound-row{ margin:9px 0; }
+  .flash-wrap .side .card-controls{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:7px; margin-top:8px; }
+  .flash-scene,.flashcard{ min-height:330px!important; }
+  .face{ padding:17px; border-radius:22px; }
+  .bigword{ font-size:42px; letter-spacing:-1px; }
+  .bigvi{ font-size:26px; }
+
+  /* Quiz */
+  .quiz-panel{ padding:12px; }
+  .settings-box,.match-settings{ grid-template-columns:1fr; gap:8px; margin-bottom:10px; }
+  .setting-toggle{ padding:9px 10px; border-radius:15px; font-size:13px; }
+  .setting-toggle small{ font-size:11px; margin-top:2px; }
+  .learn-progress{ margin-bottom:10px; gap:5px; }
+  .round-step{ width:30px; height:30px; font-size:12px; }
+  .quiz-card{ min-height:auto; padding:14px; border-radius:20px; }
+  .quiz-def{ font-size:20px; line-height:1.28; margin:12px 0 10px; }
+  .quiz-gap-box .example{ font-size:14px; }
+  .options{ grid-template-columns:1fr 1fr; gap:8px; }
+  .option{ min-height:54px; padding:10px 9px; border-radius:13px; font-size:13px; gap:7px; }
+  .opt-num{ width:22px; height:22px; font-size:11px; flex:0 0 auto; }
+  .feedback{ min-height:22px; margin-top:9px; font-size:13px; }
+  .quiz-actions{ display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px; }
+  .quiz-actions .btn{ width:100%; }
+  .quiz-actions .quiz-next.hidden{ display:none!important; }
+
+  /* Match */
+  .match-toolbar{ display:grid; grid-template-columns:1fr 1fr auto; gap:6px; align-items:center; margin-top:8px!important; margin-bottom:10px!important; }
+  .match-toolbar .pill{ margin:0; justify-content:center; font-size:11px; padding:7px 6px; }
+  .match-toolbar .btn{ width:auto; min-width:82px; padding:8px; font-size:12px; }
+  .match-board{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; }
+  .match-card{ min-height:64px; padding:7px; border-radius:14px; font-size:11.5px; line-height:1.18; }
+  .match-card:hover{ transform:none; }
+  .match-card.selected{ outline:3px solid var(--yellow); }
+  .match-finish{ padding:13px; border-radius:18px; }
+  .match-finish h3{ font-size:22px; }
+  .match-finish p{ font-size:13px; }
+  .match-finish-actions{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+
+  /* Spell */
+  .spell-wrap{ display:flex; flex-direction:column; gap:10px; }
+  .spell-box{ padding:14px; border-radius:20px; }
+  .spell-prompt{ font-size:23px; line-height:1.16; margin:10px 0; }
+  .input-row{ display:grid; grid-template-columns:1fr auto; gap:8px; margin-top:10px; }
+  .answer-input{ min-width:0; padding:11px 12px; border-radius:13px; font-size:16px; }
+  .input-row .btn{ width:auto; min-width:82px; }
+  .spell-wrap .side{ padding:12px; border-radius:18px; }
+  .spell-wrap .side h3{ margin:0 0 6px!important; font-size:16px; }
+  .spell-wrap .side .btn{ width:auto; margin-right:6px; margin-top:6px!important; }
+
+  /* Wordbook */
+  .list-controls{ grid-template-columns:1fr; gap:8px; margin-bottom:10px; }
+  .search,.select{ height:42px; padding:10px 12px; border-radius:13px; font-size:14px; }
+  .word-grid{ grid-template-columns:1fr; gap:9px; }
+  .vocab-card{ padding:12px; border-radius:18px; }
+  .vocab-word{ font-size:21px; }
+  .vocab-vi{ margin:5px 0; font-size:14px; }
+  .vocab-def{ font-size:13px; line-height:1.36; }
+  .badge{ font-size:10px; padding:5px 7px; }
+  .vocab-card .sound-row{ margin:8px 0 4px; }
+  .footer{ padding-bottom:calc(90px + env(safe-area-inset-bottom)); font-size:11.5px; }
+  .source-box{ border-radius:16px; padding:11px; }
+  .toast{ bottom:calc(88px + env(safe-area-inset-bottom)); border-radius:18px; }
+}
+
+@media (max-width: 370px){
+  .tab{ font-size:9.7px; padding:7px 1px; border-radius:13px; }
+  .word-title{ font-size:32px; }
+  #railWords{ grid-template-columns:1fr; max-height:132px; }
+  .options{ grid-template-columns:1fr; }
+  .match-board{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .flash-scene,.flashcard{ min-height:300px!important; }
+}
+
+
+
+/* === v10 mobile overflow repair: word rail must never push the viewport wider === */
+.container,.panel,.view,.study-shell,.word-rail,.dictionary-card{min-width:0;max-width:100%;}
+
+@media (max-width: 640px){
+  html,body{width:100%;max-width:100%;overflow-x:hidden;}
+  .container{width:100%;max-width:100vw;padding-left:10px;padding-right:10px;overflow-x:hidden;}
+  .panel{width:100%;max-width:100%;overflow-x:hidden;}
+  .study-shell{width:100%;max-width:100%;min-width:0;overflow-x:hidden;}
+
+  .word-rail{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    overflow:hidden;
+    contain:layout paint;
+  }
+
+  .rail-search{
+    width:100%;
+    min-width:0;
+    max-width:100%;
+  }
+
+  #topicChips{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;
+    scrollbar-width:none;
+    mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 28px),transparent 100%);
+    -webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 28px),transparent 100%);
+  }
+  #topicChips::-webkit-scrollbar{display:none;}
+  #topicChips .topic-chip{
+    flex:0 0 auto;
+    max-width:82vw;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
+  #railWords{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    overflow-x:hidden;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  }
+  .rail-word{
+    width:100%;
+    min-width:0;
+    max-width:100%;
+    overflow:hidden;
+  }
+  .rail-word > span:first-child{
+    min-width:0;
+    max-width:100%;
+    overflow:hidden;
+  }
+  .rail-word small,
+  .rail-word br + small{
+    min-width:0;
+    max-width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+}
+
+@media (max-width: 370px){
+  #railWords{grid-template-columns:minmax(0,1fr);}
+}
+
 </style>
 </head>
 <body>
@@ -79,7 +311,7 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
   <section class="hero-main">
     <span class="eyebrow">🌿 Barron's Essential Words · Unit 1</span>
     <h1><span class="gradient">The Natural World</span><br>Vocab Playground</h1>
-    <p class="subtitle">A mobile-friendly flashcard + game app for 60 Barron Unit 1 words. Each word has UK/US IPA, accent buttons, Vietnamese meaning, a gap-fill example, collocations, word family, and a tiny IELTS note.</p>
+    <p class="subtitle">A repaired responsive flashcard + game app for 60 Barron Unit 1 words. Each word has UK/US IPA, accent buttons, Vietnamese meaning, a gap-fill example, collocations, word family, and a tiny IELTS note.</p>
     <div class="pills"><span class="pill">🌳 Logging</span><span class="pill">🪽 Bird Migration</span><span class="pill">🌵 Desert Plants</span><span class="pill">🔊 UK/US sound</span><span class="pill">💾 Auto-save</span></div>
   </section>
   <aside class="hero-side">
@@ -165,7 +397,7 @@ h1{font-size:clamp(34px,6vw,68px);line-height:.95;margin:16px 0 12px;letter-spac
     <div class="list-controls"><input id="searchInput" class="search" placeholder="Search words, Vietnamese, definitions..."><select id="topicFilter" class="select"><option value="all">All topics</option></select></div><div class="word-grid" id="wordGrid"></div>
   </section>
 </main>
-<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons use the v3 behavior: cached Oxford Learner’s Dictionaries-style audio URLs with a one-time muted primer per word before audible playback; if blocked or unavailable, it falls back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
+<footer class="container footer"><div class="source-box"><b>Notes:</b> Definitions, Vietnamese meanings, examples, collocations, and notes are rewritten for study use. UK/US pronunciation buttons use the v3 behavior: cached Oxford Learner’s Dictionaries-style audio URLs with a one-time muted primer per word before audible playback; if blocked or unavailable, it falls back to built-in English UK/US speech voices. Dictionary buttons open Oxford/Cambridge pages for checking. v9 repairs the mobile layout with stable bottom navigation, compact cards, non-overlapping controls, and a scrollable word selector. Word list is based on Barron's Essential Words for IELTS Unit 1 public previews.</div></footer>
 <div class="toast" id="toast"></div>
 <script>
 const WORDS = [
@@ -2045,7 +2277,8 @@ function formatTime(seconds){ const m=String(Math.floor(seconds/60)).padStart(2,
 function updateMatchTimer(){ if(!matchStartTime || !$('matchTimer')) return; const elapsed=Math.floor((Date.now()-matchStartTime)/1000); $('matchTimer').textContent='Time '+formatTime(elapsed); }
 function stopMatchTimer(){ if(matchTimerId){ clearInterval(matchTimerId); matchTimerId=null; } }
 function startMatchTimer(){ stopMatchTimer(); matchStartTime=Date.now(); updateMatchTimer(); matchTimerId=setInterval(updateMatchTimer,1000); }
-function showView(id){ document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden')); $(id).classList.remove('hidden'); document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===id)); if(id!=='match') stopMatchTimer(); if(id==='quiz') startQuiz(false); if(id==='match') startMatch(); if(id==='spell') nextSpell(); if(id==='wordbook') renderWordbook(); if(id==='flashcards') renderFlash(); if(id==='learn') renderLearnCard(); window.scrollTo({top:0,behavior:'smooth'}); }
+function scrollToPanel(id){ const el=$(id); if(!el) return; const mobile=window.matchMedia('(max-width:720px)').matches; const top=el.getBoundingClientRect().top + window.scrollY - (mobile?10:86); window.scrollTo({top:Math.max(0,top),behavior:'smooth'}); }
+function showView(id){ document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden')); $(id).classList.remove('hidden'); document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===id)); if(id!=='match') stopMatchTimer(); if(id==='quiz') startQuiz(false); if(id==='match') startMatch(); if(id==='spell') nextSpell(); if(id==='wordbook') renderWordbook(); if(id==='flashcards') renderFlash(); if(id==='learn') renderLearnCard(); requestAnimationFrame(()=>scrollToPanel(id)); }
 window.showView = showView;
 function toggleKnown(word){ const s=knownSet(); s.has(word)?s.delete(word):s.add(word); state.known=[...s]; save(); updateStats(); renderRails(); renderLearnCard(); renderFlash(); renderWordbook(); }
 function toggleFav(word){ const s=favSet(); s.has(word)?s.delete(word):s.add(word); state.fav=[...s]; save(); updateStats(); renderLearnCard(); renderRails(); renderWordbook(); }
